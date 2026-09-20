@@ -26,6 +26,7 @@
 
 | 버전 | 초보자 안내 | 물리 | 검증 | 공식 매뉴얼 자료 |
 |---|---|---|---|---|
+| `v0.2.0-beta.3` | [처음 시작하기](docs/v0.2.0-beta.3/START_HERE.md) | [물리 모델](docs/v0.2.0-beta.3/DOCUMENTATION/PHYSICS.md) | [검증 보고서](docs/v0.2.0-beta.3/DOCUMENTATION/VERIFICATION.md) | [공식 매뉴얼 색인](docs/v0.2.0-beta.3/DOCUMENTATION/OFFICIAL_MANUAL/INDEX.md) |
 | `v0.2.0-beta.2` | [처음 시작하기](docs/v0.2.0-beta.2/START_HERE.md) | [물리 모델](docs/v0.2.0-beta.2/DOCUMENTATION/PHYSICS.md) | [검증 보고서](docs/v0.2.0-beta.2/DOCUMENTATION/VERIFICATION.md) | [공식 매뉴얼 색인](docs/v0.2.0-beta.2/DOCUMENTATION/OFFICIAL_MANUAL/INDEX.md) |
 | `v0.2.0-beta.1` | [처음 시작하기](docs/v0.2.0-beta.1/START_HERE.md) | [물리 모델](docs/v0.2.0-beta.1/DOCUMENTATION/PHYSICS.md) | [검증 보고서](docs/v0.2.0-beta.1/DOCUMENTATION/VERIFICATION.md) | [공식 매뉴얼 색인](docs/v0.2.0-beta.1/DOCUMENTATION/OFFICIAL_MANUAL/INDEX.md) |
 

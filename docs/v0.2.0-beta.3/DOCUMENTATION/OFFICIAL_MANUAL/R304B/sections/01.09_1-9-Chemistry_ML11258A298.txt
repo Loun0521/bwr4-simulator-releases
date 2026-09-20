@@ -1,0 +1,1614 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+1.9 Chemistry  —  0518 - R304B - GE BWR_4 Technology - 1.9 Chemistry.
+ADAMS ML11258A298   문서일자 2011-09-23   41 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A298.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 1.9 
+ 
+
+Chemistry 
+ 
+
+
+
+
+
+ 
+Rev 01/10 1.9-i USNRC HRTD 
+
+TABLE OF CONTENTS 
+
+1.9 CHEMISTRY ............................................................................................................ 1 
+
+1.9.1 The BWR Cycle .................................................................................................. 1 
+1.9.1.1 Control of Water Quality .............................................................................. 2 
+1.9.1.2 Control Parameters ..................................................................................... 2 
+1.9.1.3 System Chemistry Levels ............................................................................ 3 
+1.9.1.4 Plant Chemical Systems .............................................................................. 5 
+1.9.1.5 Deep Bed Demineralizers ............................................................................ 6 
+1.9.1.6 Powered Resin Filter Demineralizers .......................................................... 6 
+
+1.9.2 BWR Radiochemistry ......................................................................................... 8 
+1.9.2.1 Coolant Radiochemistry .............................................................................. 8 
+1.9.2.2 Activation Products of Water ....................................................................... 8 
+1.9.2.3 Activated Corrosion Products ...................................................................... 9 
+1.9.2.4 Fission Products .......................................................................................... 9 
+
+1.9.3 Fuel Warranty Fuel Operating Limits ................................................................ 12 
+
+1.9.4 Additional Chemistry Processes ........................................................................ 13 
+1.9.4.1 Hydrogen Water Chemistry [Hydrogen (H2)/ Oxygen(O2) Addition] ........... 13 
+1.9.4.2 Zinc Injection ............................................................................................. 13 
+1.9.4.3 Noble Metals (Platinum and Rhodium) Application ................................... 14 
+
+1.9.5 Summary .......................................................................................................... 14 
+ 
+ 
+
+LIST OF TABLES 
+ 
+1.9-1 BWR Water Chemistry (Normal Operations) ...................................................... 15 
+1.9-2 Resin Selectivity ................................................................................................. 17 
+1.9-3 Activated Corrosion Products ............................................................................. 19 
+1.9-4 Fission Gases ..................................................................................................... 21 
+1.9-5 Fission Gas Daughter Particles .......................................................................... 23 
+1.9-6 Soluble and Insoluble Fission Products .............................................................. 25 
+  
+
+
+
+ 
+Rev 01/10 1.9-ii USNRC HRTD 
+
+LIST OF FIGURES 
+ 
+1.9-1 BWR Water Cycle 
+1.9-2 Conductivity and pH of Aqueous Solution at 25ºC 
+1.9-3 Conductivity Versus Chloride Content 
+1.9-4 IGSCC relationship to Chlorides and Oxygen 
+1.9-5 Deep Bed Demineralizer 
+1.9-6 Filter Demineralizer Precoated Element 
+1.9-7 Percent Leakage Versus Fraction of Bed Capacity Used 
+1.9-8 Fission Yield Versus Fission Product Mass Number for Uranium-235 
+1.9-9 Recoil - Type Equation 
+1.9-10 Equilibrium - Type Release from Pinhole Defect 
+1.9-11 Diffusion - Type Release 
+ 
+
+
+
+ 
+Rev 01/10 1.9-1 USNRC HRTD 
+
+1.9 CHEMISTRY 
+ 
+Objectives: 
+ 
+1. State the reasons for maintaining chemistry control 
+
+ 
+2. Recognize the purpose, function and operation of the following major components 
+
+that assist in chemistry control: 
+a. Reactor Water Cleanup system filters 
+b. Feedwater filter demineralizers 
+c. Feedwater deep bed demineralizers 
+
+ 
+3. Recognize the three ways for fission gases to be released from fuel rods and the 
+
+indications they provide on the condition of the fuel. 
+a. Recoil 
+b. Equilibrium 
+c. Diffusion 
+
+ 
+4. Recognize the purpose and function of the following chemistry processes: 
+
+a. Hydrogen injection 
+b. Oxygen Injection 
+c. Zinc injection 
+d. Noble metals injection 
+
+ 
+Introduction 
+ 
+Chemistry in a nuclear power plant involves two separate but related processes: 
+• water chemistry  
+• radiochemistry 
+ 
+The first part of this section deals with water quality within the plant and the means used 
+to maintain water purity.  Water purification is done by conventional ion exchange and 
+filtration processes.  These maintain the required purity of the coolant and assist in the 
+control of radioactivity in the plant.  Chemical parameters discussed include 
+conductivity, chlorides, and silica as well as water quality limits for various process 
+streams impacting reactor chemistry.   
+ 
+1.9.1 The BWR Cycle 
+ 
+A Boiling Water Reactor (BWR) (Figure 1.9-1) is a closed cycle that uses very high 
+purity water in all parts of the system.  Water quality in one part of the cycle can affect 
+the quality of the water in other parts.  Pure, low conductivity water with very low 
+chloride levels is the most important chemical criterion for the reactor water. 
+ 
+Condensed steam is collected in the hotwell which is located below the cooling tubes of 
+the condenser.  Tube leaks in the condenser can result in circulating water entering the 
+
+
+
+ 
+Rev 01/10 1.9-2 USNRC HRTD 
+
+hotwell and introducing impurities.  If the circulating water is seawater, the 
+consequences of very small tube leaks can be quite significant.   
+ 
+The hotwell water is de-aerated to reduce the content of oxygen dissolved in the water.  
+It then passes through condensate demineralizers in order to obtain the purest possible 
+quality feedwater.  The condensate demineralizers remove insoluble corrosion products 
+by filtration, and dissolved ionic materials (i.e., metals and salts) by ion exchange.  They 
+afford some protection from small condenser tube leaks as they have a limited capacity 
+to remove impurities. 
+ 
+The feedwater passes through the feedwater heaters and enters the reactor at about 
+420ºF.  There is very low carryover (<0.1% with the steam).  The water in the reactor 
+therefore will concentrate the soluble and insoluble materials that enter via the 
+feedwater system.  The Reactor Water Cleanup System (Section 2.8) removes soluble 
+corrosion and fission products from the reactor water.  This system has only a limited 
+ability to remove insoluble corrosion products.  This makes extremely pure feedwater a 
+necessity for BWR chemistry control. 
+ 
+1.9.1.1 Control of Water Quality 
+ 
+The primary reasons for controlling plant water quality is: 
+• to control the corrosion of materials used in the plant 
+• to minimize the levels of radioactive nuclides in the coolant 
+ 
+The primary system is built of corrosion resistant materials, mainly stainless steels.  
+These stainless steels have very low corrosion rates, but they are susceptible to stress 
+corrosion cracking (SCC).  Special limits on chlorides must be strictly adhered to in 
+order to avoid conditions that might lead to stress cracking. 
+ 
+Other parts of the plant use less corrosion resistant materials.  As an example low alloy 
+steels are used in the steam lines, the main turbine, and the condenser.  The corrosion 
+products released from these materials must be removed from the feedwater before it 
+enters the reactor vessel.  These materials, if not removed, could deposit on heat 
+transfer surfaces of the fuel, and foul critical areas.  Removing these materials also 
+minimizes the activated corrosion product (crud) buildup in the primary system areas 
+other than the core.  The emphasis in BWR chemistry is on removing impurities from 
+the water cycle rather than treating impurities already in the system. 
+ 
+1.9.1.2 Control Parameters 
+ 
+The use of a high purity, neutral pH, water environment in BWRs greatly simplifies and 
+facilitates the monitoring of system chemistry.  The primary monitoring parameter is 
+electrical conductivity (specific conductance).  Conductivity measures dissolved ionic 
+species in the water.  Conductivity instrumentation is relatively simple and reliable.  
+Conductivity is defined as the reciprocal of the resistivity.  The units of conductivity are 
+
+
+
+ 
+Rev 01/10 1.9-3 USNRC HRTD 
+
+mho/cm.  Since the conductivity is very low in a BWR, conductivity units of 10-6 of a 
+mho/cm or µmho/cm are used.  BWR water is of very high purity, so the value of 
+conductivity will allow estimation of the values of other chemical parameters.  Thus, 
+conductivity provides a simple cross-check on most chemical test results and 
+instrumentation. 
+ 
+A second important water chemistry monitoring parameter is pH.  pH is mathematically 
+defined as the reciprocal of the logarithm of the hydrogen ion concentration or  
+ 
+
+]log[ +−= HpH . 
+
+ 
+Neutral water has a pH of 7, derived from the physical fact that, at a given temperature, 
+a finite number of water molecules will dissociate into H+ and O H- ions.  The operating 
+limit for the reactor water conductivity is 1 µmho/cm, at which point pH must be within 
+the range of 5.6 to 8.6.  If the conductivity is above the operating range of 0.2 to 0.3 
+µmho/cm, something is wrong:  Either the input is high or the cleanup system is not 
+removing soluble species.  Figure 1.9-2 shows the relationship between conductivity 
+and pH at 25ºC. 
+ 
+There is no possible combination of acids, bases or salts that can achieve a point below 
+the curve, thus the indicated impossible region in Figure 1.9-2. 
+ 
+Chloride concentration is the third important parameter in BWR chemistry.  This is 
+because of the relationship of chloride concentration to stress corrosion cracking in 
+stainless steels.  Conductivity provides some assistance in measuring chloride 
+concentration.  Figure 1.9-3 is a plot of conductivity versus chloride concentration.  For 
+any given low conductivity, the maximum chloride concentration is indicated.   
+ 
+Conductivity, pH, and chloride are the three most important chemical parameters in the 
+chemistry of the BWR.  Some other parameters which are routinely monitored include: 
+• dissolved oxygen in the reactor water 
+• insoluble iron, sometimes referred to as insolubles or turbidity  
+• oxygen in the feedwater system 
+• silica as an early warning of demineralizer breakthrough  
+ 
+1.9.1.3 System Chemistry Levels 
+ 
+This section covers the limits placed on the various parameters which are monitored 
+and controlled in a BWR system.  A general set of chemical levels is shown in Table 
+1.9-1.  Refer also to Figure 1.9-1 during the following discussion. 
+ 
+The reactor vessel is the most important part of the primary system, as it contains the 
+fuel and other critical nuclear components.  Feedwater enters the reactor vessel through 
+a feedwater sparger and is heated to form steam.  Impurities present in the feedwater 
+
+
+
+ 
+Rev 01/10 1.9-4 USNRC HRTD 
+
+remain behind in the reactor water when it turns to steam.  Thus the reactor acts as a 
+concentrator for impurities in the system. 
+ 
+Impurities are removed either by carryover, which is negligible, or by the reactor water 
+cleanup system (RWCU).  The RWCU system flow is 1% of the feedwater flow.  Based 
+only on these flow rates the concentration of impurities in the reactor water will be 
+approximately 100 times the concentration of the same material in the feedwater.  This 
+holds true for a truly soluble material or one that will stay suspended in the reactor 
+coolant. 
+ 
+Corrosion products such as iron do not follow this rule.  They do not stay dissolved or 
+suspended in the reactor water.  They are insoluble and about 90% deposit on surfaces 
+such as pipe walls, the fuel, or other core components.  Only about 10% of the input 
+remains suspended long enough to be removed by the RWCU system.  The importance 
+of this is that the levels of ionic materials can be measured by conductivity (Figure 1.9-
+3).  The input of corrosion product metals to the reactor vessel is measured in the 
+feedwater system. 
+ 
+Oxygen limits in the reactor water do not show the 100% concentration factor for 
+several reasons.  Being a gas, oxygen is continuously leaving the reactor vessel with 
+the steam.  It is then removed from the condenser through the steam jet air ejectors.  
+The increase of oxygen in the reactor water over that in the feedwater is due to the 
+radiolytic decomposition of water in the high flux field of the core.  The high oxygen limit 
+for reactor water in depressurized conditions represents saturated conditions for water 
+in contact with air.  This is true because the reactor vessel head may be removed or the 
+head vents are open to the equipment drain sump. 
+ 
+The reasoning behind the several sets of oxygen limits for reactor water comes from the 
+relationship of chlorides and oxygen to SCC.  The relationship of chloride stress failure 
+as a function of both chloride and oxygen is shown in Figure 1.9-4.  During operation, 
+the oxygen level of the reactor water is about 0.2 to 0.3 ppm.  This provides an 
+acceptable limit for chlorides of 1 ppm for a short period of time.  During startups or low 
+steaming rates the oxygen levels in the reactor water can rise to several ppm.  The 
+chloride limit under these conditions is 200 ppb.  Information on SCC has shown that 
+the minimum short term chloride limit should be 0.5 ppm during operation and 100 ppm 
+during startup 
+ 
+Reactor water limits imposed by fuel warranty and technical specifications are 
+maintained by imposing strict limitations on the impurities in the feedwater.  Therefore, 
+to meet the normal operating limit of 200 ppb for chloride in the reactor, the feedwater 
+must contain 2 ppb or less chlorides 
+ 
+
+
+
+ 
+Rev 01/10 1.9-5 USNRC HRTD 
+
+To achieve the recommended parameter levels in the vessel shown in Table 1.9-1, the 
+nominal limits imposed on feedwater quality are as follows: 
+• Conductivity <0.10 µmho/cm 
+• Metals <15 ppb, no more than 2 ppb Cu 
+• Dissolved O2 >20 to <200 ppb 
+• Chloride > 2 ppb 
+ 
+Because metallic corrosion products are insoluble in the reactor, a strong effort must be 
+made to minimize their inputs.  If an 1100 MWe plant is operated at the corrosion 
+product limit of 15 ppb, feedwater can deposit 1800 lb of corrosion products into the 
+reactor vessel in 1 year.  Once deposited in the reactor vessel, the only removal 
+methods are:  
+• departure when fuel is replaced every 12 to 18 months 
+• chemical decontamination of the primary systems 
+• replacement of internal components or primary piping   
+ 
+1.9.1.4 Plant Chemical Systems 
+ 
+Installed plant chemical systems provide the means of minimizing impurity inputs to the 
+reactor vessel. 
+ 
+The plant components that are responsible for producing high quality feedwater are the 
+condensate demineralizers (polishers).  There are two types of condensate 
+demineralizing systems available:  
+• deep bed systems which use bead type ion exchange resins 
+• powdered resin systems which use pulverized resins precoated onto filter septa. 
+ 
+The condensate demineralizers act as a barrier for the reactor against small condenser 
+tube leakage.  They also minimize the input of metallic material from the feedwater 
+system upstream of the demineralizers. 
+ 
+Ion exchange is the basic chemical operation for removing soluble chemical species in 
+both types of demineralizer units.  The resins (bead or powdered) are composed of 
+reactive sites fixed to a chemical chain structure. 
+ 
+For cation resins, the reactive sites are negatively charged radicals which normally hold 
+H+ ions.  In the ion exchange process, the H+ ions are given up for a positive ion which 
+binds itself tighter to the resin than the H+.  For anion resins, the reactive sites are 
+positively charged radicals which will give up the OH- ion to collect other negative ions.  
+Thus if an ionic solution is allowed to flow through a mixed resin bed, both positive and 
+negative ions in that solution are collected by the resin. 
+ 
+An important principle of ion exchange is that resins exhibit a selective affinity for 
+specific ions in solution.  The relative selectivity for various cations and anions is shown 
+in Table 1.9-2.  The strongly held ions are at the top of each column; the weakly held 
+
+
+
+ 
+Rev 01/10 1.9-6 USNRC HRTD 
+
+ions are at the bottom.  In general, an ion will replace any ion which is below itself in 
+relative affinity.   
+ 
+Fluoride (F) is low on the selectivity listing and leaks through the condensate 
+demineralizer resins of a BWR system more rapidly than other anions.  Chloride (Cl) will 
+replace hydroxyl ions (HCO3), but it is not held as strongly as some of the other anions.  
+If strict chloride control is required, the resin must not be depleted to the point where 
+other ions displace chloride.   
+ 
+1.9.1.5 Deep Bed Demineralizers 
+ 
+Resins are loaded as regenerated mixed resins into spherical or cylindrical tanks (150 
+to 200 ft3 resin per tank).  A typical spherical tank is shown in Figure 1.9-5.  Two factors 
+limit the length of the operating cycle of a deep bed demineralizer: 
+• exhaustion of ion exchange capacity 
+• crud buildup reducing flow through the filter due to the increased pressure drop 
+ 
+In the absence of condenser in-leakage into the feedwater system, the pressure drop is 
+the limiting factor.  This increased pressure drop can be minimized by washing the filter 
+in the opposite direction of the feedwater flow.  This process will remove some of the 
+crud from the filter and lower the filter differential pressure.  This can be done several 
+times before it is necessary to replace the resin in a deep bed demineralizer. 
+ 
+If the limiting factor is the ion exchange capacity of the resin bed there are two options: 
+• a chemical regeneration process 
+• resin disposal 
+ 
+In the chemical regeneration process, the cation resin beads are subjected to a strong 
+acid solution and the anion beads to a strong basic solution.  H+ and OH- ions in the 
+acids and caustics replace the impurity ions at the reactive sites.  This restores the ion 
+exchange capacity of the resin.  It also creates quantities of highly acidic or caustic 
+radioactive waste that must be stored on site.  The majority of sites replace the resin 
+beads when they are depleted.  The depleted resin is then processed as solid radwaste 
+for disposal. 
+ 
+The advantage of a deep bed system is that it has a relatively large ionic removal 
+capacity.  Thus it can remain in service for longer time periods if there are condenser 
+tube leaks.  The system disadvantage is the large volumes of resin beads or 
+acid/caustic solutions that must be disposed of as radioactive wastes. 
+ 
+1.9.1.6 Powered Resin Filter Demineralizers 
+ 
+Another type of condensate demineralizer system is the powdered resin filter 
+demineralizers.  This type of system is also used for the RWCU system filters.  
+
+
+
+ 
+Rev 01/10 1.9-7 USNRC HRTD 
+
+Powdered resin systems basically consist of ground up mixed bed resins which are 
+precoated onto a filter system. 
+ 
+The quantity of resin used in such a system is small compared with that used in a deep 
+bed system.  Powdered resin beds do not afford the reactor the same level of protection 
+as a deep bed demineralizer if there are larger condenser tube leaks.  The powdered 
+resin system does, however, provide suitable protection for small condenser leaks. 
+ 
+One advantage of powdered resin demineralizers is that the finely ground resin 
+constitutes a much better filter than deep bed resin.  Powdered resin also affords a 
+great deal of flexibility in how it is mixed.  It can be mixed with a chemically inert filter 
+medium to improve its mechanical filtering characteristics.  It can also be mixed with 
+variable cation-to-anion ratios in order to selectively remove specific ions. 
+ 
+A typical filter element (Figure 1.9-6) consists of nylon, wound over a stainless steel 
+center element.  Other designs employ fine screen or textured wire wrapped stainless 
+steel septa.  In general each filter unit contains about 300 six foot long septa.   
+ 
+The resin precoat has a maximum thickness of approximately 3/8 inch with thinner 
+layers in some areas.  A deep bed demineralizer system operates at 50 gpm/ft2, 
+whereas a powdered resin unit is designed to operate at about 4 gpm/ft2. 
+ 
+The powdered resin systems have better insoluble removal efficiencies than 
+corresponding deep beds.  Powdered resin systems in many cases remove more than 
+90% of the insoluble material.  However, there are always thin resin layer areas that will 
+experience ionic breakthrough.  As a result, the effluent conductivities of powdered resin 
+demineralizers are not as good as those for deep bed demineralizers. 
+ 
+Representative breakthrough curves for the deep bed and powdered resin systems are 
+shown in Figure 1.9-7.  For the deep bed system, little leakage is expected until a good 
+deal of the available capacity has been exhausted.  For powdered resin, the 
+breakthrough is approximately linear with the percent of resin exhaustion.  This linear 
+breakthrough characteristic is because of areas that have a thin layer of resin.  These 
+thin layer areas on the septa become exhausted relatively early in the filter life span.  
+The initial starting point for powdered resin systems depends upon the evenness of the 
+individual precoat on the septa.  The curves shown in the text are only approximate and 
+will vary for the individual plant. 
+ 
+Operation of a powdered resin system is somewhat simpler than a deep bed system 
+because no resin cleaning or regeneration is required.  Resin precoats are used once 
+and are then disposed of as solid wastes. 
+ 
+ 
+
+
+
+ 
+Rev 01/10 1.9-8 USNRC HRTD 
+
+1.9.2 BWR Radiochemistry 
+ 
+The radiochemistry of the BWR results from the nuclear aspects of the cycle.  It is 
+compatible with the plant water chemistry program.  The plant radiochemistry is most 
+important from the standpoint of understanding radionuclide sources. Understanding the 
+source of the nuclides is important to controlling them to meet the regulatory 
+requirements. 
+ 
+1.9.2.1 Coolant Radiochemistry 
+ 
+There are three classifications of radionuclides associated with the coolant.  These are 
+as follows: 
+• activation products of the water 
+• corrosion products from materials of construction 
+• fission products from the fuel materials 
+ 
+Each of these classifications is discussed separately in the following paragraphs. 
+ 
+1.9.2.2 Activation Products of Water 
+ 
+Activation products are formed when a stable nuclide becomes unstable due to neutron 
+absorption or another nuclear reaction.  Energy (radiation) in the form of alpha rays, 
+gamma rays, x-rays, electrons, or positrons are then emitted from the unstable nuclide. 
+ 
+In the high flux of the reactor core, coolant water molecules are broken down.  A fraction 
+of these component atoms become activated.  The important activation products of 
+water are the nuclides normally considered as gases.  In the reactor, these products are 
+distributed between the gaseous (steam) and liquid phases. 
+ 
+The most common activation products of water are listed as follows: 
+ 
+Nuclide Half-Life Formation Mechanism  
+N-16 7.1 seconds O16(n, p)N16 
+O-19 29 seconds O18(n, γ)O19 
+N-13 10 minutes O16(p, a)N13 
+F-18 110 minutes O18(p, n)F18 
+H-3 (tritium) 12.33 years H2(n, γ)H3 and tertiary fission 
+ 
+The more volatile constituents are carried away with the steam and are removed by the 
+condenser offgas system.  Most of the half-lives of the water activation products are 
+relatively short.  Therefore most of the activity decays away within the reactor coolant 
+system or offgas system before being released from the plant.  The production rate of 
+the activation products of water is nearly proportional to the power level of the plant. 
+ 
+
+
+
+ 
+Rev 01/10 1.9-9 USNRC HRTD 
+
+The quantity of energy associated with a particular mode of disintegration is expressed 
+in MeV or KeV (millions or thousands of electron volts).  For example, the 7.1-second N-
+16 nuclide has a 7 MeV gamma.  This high-energy gamma is responsible for most of 
+the radiation field from the turbine.  It is also the primary source of radiation associated 
+with steam piping.  This is why the turbine and most of the main steam piping are not 
+accessible during plant operation. 
+ 
+1.9.2.3 Activated Corrosion Products 
+ 
+These radionuclides are typically soluble and insoluble materials corroded from the 
+feedwater piping, feedwater heaters, and reactor system components.  These materials 
+are transported into the flux zone where they become activated. 
+ 
+These materials remain in the primary coolant system plated out on various surfaces or 
+they are removed by the RWCU System.  Reactor water leakage and controlled 
+rejections introduce these products to the radwaste system.  In that system they 
+contribute the bulk of long lived radioactive waste.  The products deposited in the 
+primary coolant systems become a major portion of the background radiation in the 
+drywell. 
+ 
+Several of the most commonly activated corrosion products and the production 
+mechanisms are listed in Table 1.9-3.   
+ 
+1.9.2.4 Fission Products 
+ 
+The third important group that contributes to the total plant radioisotope inventory 
+consists of the fission products.  The distribution of specific fission products released 
+from fuel imperfections is used to evaluate the integrity of the fuel. 
+ 
+The relationship between the fission yield and the mass number for the fission products 
+of uranium-235 (U-235) is shown in Figure 1.9-8.  The two peaks represent the most 
+probable products formed by the fission of the U-235 nucleus.  The products that have 
+the higher fission yields are nuclides that are significant to the power plant radiochemist.  
+Several radioactive nuclides of each element exist and the sum of all independent yields 
+totals 200% since each fission produces two nuclides.  The maximum yield in each of 
+the peaks is approximately 6%.  The halogens and noble gases are prominent in both 
+peaks. 
+ 
+The fission products can be subdivided into groups by chemical and physical properties.  
+These groups are as follows: 
+• the iodines 
+• the noble fission gases 
+• the particulates from the fission gases 
+• the soluble and insoluble fission products 
+ 
+
+
+
+ 
+Rev 01/10 1.9-10 USNRC HRTD 
+
+These materials are released through defects in the fuel rod cladding.  Additionally, 
+small amounts of fission products are released from tramp uranium (uranium impurities) 
+in the cladding. 
+ 
+1.9.2.4.1 Iodine 
+ 
+There are five iodine isotopes with half-lives greater than 85 seconds that are 
+detectable.  These isotopes are listed below:  
+ 
+  Chain Fission 
+Nuclide Half-Life Yield (%) 
+I-134 52.3 minutes 7.176 
+I-132 2.28 hours 4.127 
+I-135 6.7 hours 6.386 
+I-133 20.8 hours 6.762 
+I-131 8.06 days 2.774 
+ 
+The production rate (in µCi/s) and the relative distribution of the iodine nuclides help 
+evaluate the integrity of the fuel cladding.  Radioiodines that escape the cladding and 
+enter the coolant are removed by one of three means: 
+• decay in the reactor water 
+• removal in the RWCU System  
+• conveyance with the steam to the hotwell and then removal in the condensate 
+
+demineralizers 
+ 
+1.9.2.4.2 Noble Gases 
+ 
+There are 22 noble gases (xenons and kryptons) resulting from the fission of U-235.  
+Noble gases are prominent in the peak regions of Figure 1.9-8 as relatively high yield 
+fission products.  The half-lives of the 22 noble gas nuclides range from less than 1 
+second to more than 10 years.  Only the six major noble gas nuclides are shown in 
+Table 1.9-4.  These noble gases must be summed for release reporting and are 
+reported as the sum of the six nuclides. 
+ 
+Since atom level quantities are being considered, these fission gases contribute 
+essentially nothing to the volume of the radiolytic gases and air inleakage.  Fission 
+gases have a tendency to spike following large reactor pressure increases or 
+decreases.  The fission gases are used as a basis for the evaluation of fuel integrity.  
+They also must be routinely quantitatively measured in order to ensure that site release 
+limits are being met.  The amount of these gases that are released to the stack depends 
+on the amount of decay before discharge.  Where charcoal systems are employed, of 
+the six nuclides, only xenon-133 (Xe-133) provides a significant contribution.  Krypton-
+85 (Kr-85) which has a 10.76 year half-life is one long lived fission gas that will continue 
+to build up for many years.  However, since most of the Kr-85 remains in the fuel, it will 
+not be released until the fuel is reprocessed. 
+
+
+
+ 
+Rev 01/10 1.9-11 USNRC HRTD 
+
+ 
+1.9.2.4.3 Sources 
+ 
+The three classic modes of defining fission gas release are known as recoil, equilibrium, 
+and diffusion.  Each of these modes is characterized in the sections that follow. 
+ 
+1.9.2.4.4 Recoil 
+ 
+The recoil pattern of fission gas release is typical of tramp uranium plated out on core 
+internals or fuel surfaces.  This type of release is characterized by the release of the 
+fission products to the coolant upon formation.  In other words there is no delay 
+between the fission event and release of the fission product.  Thus, the spectrum of 
+nuclides observed is determined by the fission product yield distribution. 
+ 
+Figure 1.9-9 plots the representative data.  In recoil releases, iodine nuclide data are 
+also used in the evaluation.  Since recoil release results only from UO2 fuel material in 
+direct contact with the coolant, the release is linearly proportional to core power. 
+ 
+1.9.2.4.5 Equilibrium 
+ 
+The fission product release from very small, or pinhole, perforations in the fuel cladding 
+is termed equilibrium release.  In this type of release, there is no direct contact between 
+the coolant and the UO2 fuel material.  The fission product gases are delayed within the 
+fuel material and cladding body until the gases diffuses to the pinhole defect.  Because 
+of this delay after the fission event, the release products show a dominance of longer 
+lived nuclides.  This is due to the decay of the shorter lived ones within the fuel.  The 
+equilibrium release plot (Figure 1.9-10) reveals the following major differences from the 
+recoil pattern: 
+• The slope of the line is approximately one, showing a swing toward the longer lived 
+
+nuclides. 
+• The iodine nuclide plot is considerably below that of the noble gases (10 to 500 
+
+times), but with a similar slope. 
+ 
+This lower iodine line, as compared to the recoil plot, is the result of differences in the 
+reactivity characteristics of the iodines compared to the noble gases.  Some of the 
+iodines leave a pinhole leak as a gas or vapor.  A major portion, however, will remain in 
+the fuel material.   
+ 
+1.9.2.4.6 Diffusion 
+ 
+The pattern between recoil and equilibrium is termed the diffusion type.  It is typical of 
+cladding defects larger than pinholes in which the UO2 in the rods is exposed to the 
+coolant. 
+ 
+
+
+
+ 
+Rev 01/10 1.9-12 USNRC HRTD 
+
+The slope of line for a diffusion mixture is 0.5 (Figure 1.9-11), and the iodines usually 
+match the noble gases.  The release rate per defect of a diffusion type is greater than 
+that with an equilibrium distribution.  The release rate is always exponential with power. 
+ 
+1.9.2.4.7 Fission Gas Daughters 
+ 
+The particulates from the decay of the fission gases are referred to as fission gas 
+particulate daughter products.  Some of the more important particulates and their 
+respective precursor gases are given in Table 1.9-5. 
+ 
+Since the particulates are formed while the gases are in transit, these nuclides are 
+distributed throughout the plant systems.  A filter located in the Offgas System removes 
+most of these particulates before their release to the stack.  The efficiency of this filter is 
+evaluated by measuring the amount of particulate nuclides downstream of the filter. 
+ 
+The nuclide of primary concern in this group is the strontium-90 (Sr-90).  This isotope 
+has a long half-life and its daughter product, yttrium-90 (Y-90) emits a very high energy 
+ß particle. 
+ 
+1.9.2.4.8 Soluble and Insoluble Fission Products 
+ 
+This group of fission product nuclides remains in the primary system as they are not 
+carried away by the steam.  A number of the more important fission product nuclides in 
+this classification are given in Table 1.9-6.  Where two nuclides are shown together, a 
+parent/daughter relationship is indicated.  At equilibrium, both nuclides are always 
+present. 
+ 
+The soluble species are removed in the RWCU filter demineralizers by ion exchange.  A 
+small fraction of the insoluble species is removed via filtration by the RWCU filters 
+demineralizers.  Some of the insoluble species is deposited on primary coolant system 
+surfaces.  These contribute to dose rates in the drywell by being deposited on the 
+reactor recirculation and RWCU piping. 
+ 
+1.9.3 Fuel Warranty Fuel Operating Limits 
+ 
+The fuel warranty operating limits are an integral part of the fuel supply contract with a 
+utility.  This document defines specifc operating limits and other requirements including: 
+• water chemistry 
+• water quality 
+• fuel handling methods 
+ 
+Reactor and feedwater chemistry limits are imposed so that the fuel has a suitable 
+chemical environment.  Plant specific chemistry limits are provided in plant procedures.  
+When an operating value is outside the nominal limits, steps must be taken to correct it 
+as soon as practicable. 
+
+
+
+ 
+Rev 01/10 1.9-13 USNRC HRTD 
+
+ 
+1.9.4 Additional Chemistry Processes 
+ 
+There have been several advances in BWR chemistry control.  These are being 
+implemented either all or in part by numerous plants.  These processes were developed 
+to address either corrosion issues or the deposition of corrosion products on plant 
+equipment.  A short discussion of each is included in this section. 
+ 
+1.9.4.1 Hydrogen Water Chemistry [Hydrogen (H2)/ Oxygen (O2) addition]  
+ 
+H2 and O2 addition are being performed to mitigate the chemical conditions that impact 
+Intergranular stress corrosion cracking (IGSCC) in BWRs.  There are three 
+requirements needed for IGSCC to occur: 
+• a susceptible material (such as some stainless steels) 
+• a tensile stress on the material 
+• a corrosive environment that contains O2 
+ 
+The metals used in plant construction and the operating plant parameters are fixed by 
+plant design.  The O2 content however is controllable as part of plant chemistry.  
+Corrosion rates can be controlled by keeping the O2 levels in the reactor coolant 
+between 20 and 200 parts per billion (ppb). 
+ 
+Injecting H2 gas into the feedwater system promotes the reformation of water molecules 
+from the H2 and O2 gases formed by the radiolitic decomposition of water.  If more water 
+is produced, there is less free O2 and the environment becomes less corrosive. 
+ 
+The excess H2 that was injected into the feedwater system leaves the reactor vessel as 
+steam.  This H2 gas creates higher main steam line radiation levels, increasing dose to 
+workers in parts of the plant.  This extra H2 gas must be neutralized however to prevent 
+high H2 concentrations in the off-gas system.  O2 is injected into the off gas system 
+upstream of the recombiners.  This rebalances the H2 and O2, allowing these gases to 
+be recombined into H2O by the off gas recombiners.   
+ 
+As the O2 content has been reduced in the steam, O2 will have to be added to the 
+condensate system.  Small amounts of O2 are added to the condensate system to 
+maintain it above the 20 ppb limit to minimize corrosion. 
+ 
+1.9.4.2 Zinc Injection 
+ 
+As discussed earlier in the description, activated corrosion products plate out on the 
+primary coolant piping and components.  These activated corrosion products contribute 
+to high radiation levels in the drywell area.  Co-60 with a 5.26 year half life and a high 
+energy gamma is the largest contributor to these radiation levels.  Co-60 comes from 
+the corrosion of certain stainless steels used in plant components.  The Co-60 ions 
+
+
+
+ 
+Rev 01/10 1.9-14 USNRC HRTD 
+
+freed by plant component wear attach themselves to reaction sites on the piping 
+corrosion layer. 
+ 
+Zinc can be injected into the feedwater system to replace the Co-60 ions in the 
+corrosion layer.  The zinc ions that are injected compete with the Co-60 ions for reaction 
+sites on the corrosion layer.  This leaves the Co-60 in solution for longer periods of time 
+as it does not deposit on the corrosion layer.  Having the Co-60 in the coolant for longer 
+time periods increases the likelihood that the RWCU system will remove it.  With less 
+Co-60 in the corrosion layer there are lower radiation levels on the primary coolant 
+piping. 
+ 
+1.9.4.3 Noble Metals (Platinum and Rhodium) Application 
+ 
+The injection of H2 into the feedwater system increases steam line radiation levels.  The 
+lower the H2 injection rates the lower the radiation levels.  Plating the primary system 
+internals with noble metals allows lower H2 injection rates without impacting the 
+corrosion rate. 
+ 
+There are significant dose savings over the course of the operating cycle using the 
+noble metals process.  In addition to those dose savings there are decreases in 
+operating cost due to using less H2 and O2 for injection.   
+ 
+Noble metals is applied in one of two ways.  Traditionally it is applied with the plant hot 
+and shutdown.  This process takes approximately 96 hours of outage time with the 
+related expenses.  This process has been changed to allow application of noble metals 
+with the plant on-line.  To perform this on-line process a monitor must be installed that 
+samples the reactor coolant to determine the level of noble metals.  The flow rate of the 
+noble metals is adjusted to ensure optimum plate out on the primary coolant surfaces. 
+ 
+1.9.5 Summary 
+
+ 
+BWR reactor water is maintained in a high state of purity to: 
+• Limit corrosion of reactor materials 
+• Limit fouling of heat transfer surfaces 
+• Minimize activation of corrosion products 
+• Minimize coolant radionuclide levels 
+ 
+  
+
+
+
+ 
+Rev 01/10 1.9-15 USNRC HRTD 
+
+Table 1.9-1 BWR Water Chemistry 
+(Normal Operation) 
+
+ 
+
+ Iron*  Copper* Chloride*
+  
+
+Oxygen*
+  
+
+(µmho/cm 
+at 250 C) 
+
+ pH at  
+250 C 
+
+Condensate 15 to 30 3 to 5 <20 <20 0.1 7 
+
+Condensate 
+treatment 
+effluent 
+
+5 to 15 <1 0.2 20 to 50 <0.1 7 
+
+Feedwater 5 to 15 <1 0.2 20 to 50 <0.1 7 
+
+Reactor 
+water - 
+Normal 
+Operation 
+
+10 to 50 <20 <20(200)*
+100 to 
+
+300 
+0.2 to 0.5 
+
+(1)* 
+7(5.6-
+8.6)* 
+
+Reactor 
+water - 
+Shutdown 
+
+  <20(100)*  <1 (1)* 7 
+
+Reactor 
+water - 
+Hot standby 
+
+  <20(100)*  <1(1)* 7 
+
+Reactor 
+water - 
+Depress- 
+urized 
+
+  <20(500)* 8,000 <2(10)* 
+6 to 6.5 
+
+(5.3-
+8.6)* 
+
+Steam 
+0 0 0 
+
+10,000 
+to 
+
+30,000 
+0.1  
+
+Control rod 
+drive 
+cooling 
+water** 
+
+50 to 
+500 
+
+ <20 <8,000 1 6 
+
+ 
+ 
+Concentrations, ppb        
+ 
+* Typical Technical Specifications Limits  
+** This water may be close to air-saturated demineralized water in which the 
+
+conductivity and pH are primarily due to absorbed carbon dioxide gas from the air.   
+
+
+
+ 
+Rev 01/10 1.9-16 USNRC HRTD 
+
+  
+
+
+
+ 
+Rev 01/10 1.9-17 USNRC HRTD 
+
+Table 1.9-2 Resin Selectivity 
+ 
+
+Cation Resin Anion Resin 
+ 
+Fe+++ 
+Ba++ 
+Sr++ 
+Ca++ 
+Cu++ 
+Zn++ 
+Ni++ 
+Co++ 
+Fe++ 
+Mg++ 
+Ag+ 
+Tl+ 
+Cu+ 
+Cs+ 
+Rb+ 
+NH4+ 
+K+ 
+Na+ 
+H+ 
+Li+ 
+ 
+
+ 
+I- 
+NO3- 
+Br- 
+HSO4- 
+Cl- 
+HCO3- 
+IO3- 
+SiO2- 
+OH- 
+F- 
+ 
+
+ 
+
+
+
+ 
+Rev 01/10 1.9-18 USNRC HRTD 
+
+  
+
+
+
+ 
+Rev 01/10 1.9-19 USNRC HRTD 
+
+ 
+ 
+
+Table 1.9-3 Activated Corrosion Products 
+ 
+
+Nuclide Half-life Formation Mechanism 
+
+ 
+Cr-51 
+Mn-54 
+Mn-56 
+Fe-59 
+Co-58 
+Co-60 
+Cu-64 
+Zn-65 
+W-187 
+ 
+
+ 
+27.8 days 
+312 days 
+2.58 hours 
+45 days 
+71 days 
+5.24 years 
+12 hours 
+243 days 
+24.0 hours 
+ 
+
+ 
+Cr50(n, γ)Cr51 
+
+Fe54(n, p)Mn54 
+
+Fe56(n, p)Mn56 and Mn55 (n, γ)Mn56 
+
+Fe58(n, γ)Fe59 and Co59(n,p)Fe59 
+
+Ni58(n, p)Co58 
+
+Co59(n, γ)Co60 and Ni60(n, p) Co60 
+
+Cu63(n, γ)Cu64 
+Zn64(n, γ)Zn65 
+W186(n, γ )W187 
+ 
+
+ 
+
+
+
+ 
+Rev 01/10 1.9-20 USNRC HRTD 
+
+  
+
+
+
+ 
+Rev 01/10 1.9-21 USNRC HRTD 
+
+ 
+Table 1.9-4 Fission Gases 
+
+ 
+
+Nuclide Half-life Fission Yield (%) 
+
+Sum of the six 
+noble gases 
+ 
+Xe-138 
+Kr-87 
+Kr-88 
+Kr-85m 
+Xe-135 
+Xe-133 
+ 
+Other 
+important 
+nuclides 
+ 
+Xe-135m 
+Kr-85 
+ 
+ 
+
+ 
+ 
+ 
+14.2 minutes 
+76 minutes 
+2.79 hours 
+4.4 hours 
+9.16 hours 
+5.27 days 
+ 
+ 
+ 
+ 
+ 
+15.7 minutes 
+10.76 years 
+ 
+
+ 
+ 
+ 
+6.235 
+2.367 
+3.642 
+1.332 
+6.723 
+6.776 
+ 
+ 
+ 
+ 
+ 
+0.05 
+0.27 
+ 
+
+ 
+
+
+
+ 
+Rev 01/10 1.9-22 USNRC HRTD 
+
+  
+
+
+
+ 
+Rev 01/10 1.9-23 USNRC HRTD 
+
+ 
+Table 1.9-5 Fission Gas Daughter Particles 
+
+ 
+
+Nuclide Half-life Gas Precursor 
+
+ 
+Rb-88 
+Cs-138 
+Sr-89 
+Sr-90 
+Sr-91 
+Sr-92 
+Ba-139 
+Ba-140 
+Ce-141 
+Ce-144 
+ 
+
+ 
+17.7 minutes 
+32.2 minutes 
+50.8 days 
+30 years 
+9.67 hours 
+2.69 hours 
+83.2 minutes 
+12.8 days 
+32.5 days 
+284 days 
+ 
+
+ 
+2.79 h, Kr-88 
+14.2 m, Xe-138 
+3.18 m, Kr-89 
+32.3 s, Kr-90 
+8.6 s, Kr-91 
+1.84 s, Kr-92 
+40 s, Xe-139 
+13.6 s, Xe-140 
+1.7 s, Xe-141 
+9 s, Xe-144 
+ 
+
+ 
+
+
+
+ 
+Rev 01/10 1.9-24 USNRC HRTD 
+
+  
+
+
+
+ 
+Rev 01/10 1.9-25 USNRC HRTD 
+
+Table 1.9-6 Soluble and Insoluble Fission Products 
+ 
+
+Nuclide Half-life Fission Yield (%) 
+
+ 
+Mo-99 
+Tc-99m 
+Sr-95 
+Nb-95 
+Ba-140 
+La-140 
+Cs-137 
+Sr-89 
+Sr-90 
+Ce-141 
+ 
+
+ 
+66.6 hours 
+6.0 hours 
+65.5 days 
+35.1 days 
+12.8 days 
+40.2 hours 
+30.2 years 
+50.8 days 
+28.9 years 
+32.5 days 
+ 
+
+ 
+6.136 
+5.399 
+6.503 
+6.505 
+6.300 
+6.322 
+6.228 
+4.814 
+5.935 
+5.867 
+ 
+
+ 
+  
+
+
+
+ 
+Rev 01/10 1.9-26 USNRC HRTD 
+
+
+
+ Figure 1.9-1 BWR Water Cycle 
+
+ 
+
+ 
+ 
+
+
+
+ Figure 1.9-2 Conductivity and pH of Aqueous Solution at 25ºC 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ Figure 1.9-3 Conductivity Versus Chloride Content 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ Figure 1.9-4 IGSCC relationship to Chlorides and Oxygen 
+
+ 
+  
+
+
+
+ Figure 1.9-5 Deep Bed Demineralizer 
+
+ 
+ 
+ 
+ 
+
+3 FT.
+BED
+
+DEPTH
+
+VENT
+INLET
+
+RESIN TRANSFER INLET
+
+STRAINER OR
+UNDER DRAINS
+
+OUTLET
+
+RESIN TRANSFER OUTLET
+
+SUPPORT LEG (TYPICAL)
+
+MIXED RESIN
+
+INLET DISTRIBUTOR
+
+ 
+ 
+
+
+
+ Figure 1.9-6 Filter Demineralizer Precoated Element 
+
+ 
+
+ 
+ 
+
+
+
+ Figure 1.9-7 Percent Leakage Versus Fraction of Bed Capacity Used 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ Figure 1.9-8 Fission Yield Versus Fission Product Mass Number for Uranium-235 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ Figure 1.9-9 Recoil-Type Release 
+
+NOBLE-GASES
+
+IODINES
+
+RECOIL
+
+10-6 10-5 10-4 10-3
+
+102
+
+103
+
+104
+
+105
+
+106
+
+DECAY CONSTANT (s-1)
+
+ 
+ 
+
+
+
+ Figure 1.9-10 Equilibrium Type Release From Pinhole Defect 
+
+I-131
+
+I-133
+
+I-135
+
+I-132
+
+10-6 10-5 10-4 10-3
+
+103
+
+104
+
+105
+
+106
+
+107
+Xe-133
+
+Xe-135
+
+Kr-88
+
+Kr-85m
+
+Xe-138
+
+DECAY CONSTANT (s-1)
+
+Kr-87
+
+I-134
+
+ 
+ 
+
+
+
+ Figure 1.9-11 Diffusion-Type Release 
+
+ 
+ 
+
+NOBLE-GASES
+
+IODINES
+
+10-6 10-5 10-4 10-3
+
+102
+
+103
+
+104
+
+105
+
+106
+
+DECAY CONSTANT (s-1)  
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

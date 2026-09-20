@@ -1,0 +1,1250 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+7.2 Recirculation Flow Control System  —  0518 - R304B - GE BWR_4 Technology - 7.2 Recirculation Flow Control System.
+ADAMS ML11258A343   문서일자 2011-09-23   24 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A343.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 7.2 
+ 
+
+Recirculation Flow Control System 
+ 
+. 
+
+
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-i USNRC HRTD 
+
+ 
+ 
+
+TABLE OF CONTENTS 
+
+7.2 RECIRCULATION FLOW CONTROL SYSTEM ....................................................... 1 
+
+7.2.1 Introduction ........................................................................................................ 2 
+
+7.2.2 System Description ............................................................................................ 2 
+
+7.2.3 Component Description ...................................................................................... 2 
+7.2.3.1 Recirculation Motor Generator Set .............................................................. 2 
+7.2.3.2 Oil System ................................................................................................... 5 
+7.2.3.3 Recirculation Pump Speed Control Logic .................................................... 5 
+
+7.2.4 System Features ................................................................................................ 8 
+7.2.4.1 Recirculation Pump Start ............................................................................. 8 
+7.2.4.2 Power/Flow Map .......................................................................................... 9 
+
+7.2.5 System Interfaces ............................................................................................ 11 
+
+7.2.6 Summary .......................................................................................................... 11 
+ 
+ 
+  
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-ii USNRC HRTD 
+
+LIST OF FIGURES 
+ 
+7.2-1 Simplified Recirculation Flow Control Loop 
+7.2-2 Recirculation Pump Motor Generator Set Block Diagram 
+7.2-3 Recirculation M. G. Set Fluid Coupling 
+7.2-4 Functional Diagram of Scoop Tube Action (View From Motor End) 
+7.2-5 Recirculation MG Set Oil System 
+7.2-6 Recirculation System Flow Control Network (Shown for A Loop, TYP. For B) 
+7.2-7 Recirculation Pump Motor Generator Set Starting Sequence 
+7.2-8 Power/Flow Map (Typical) 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-1 USNRC HRTD 
+
+7.2 RECIRCULATION FLOW CONTROL SYSTEM 
+ 
+Learning Objectives: 
+ 
+1. Recognize the purpose of the recirculation flow control system. 
+ 
+2. Recognize the purpose, function and operation of the following recirculation flow 
+
+control system major components: 
+a. Master controller 
+b. Dual limiter 
+c. M/A transfer station 
+d. Start signal generator 
+e. Minimum speed limiter 
+f. Operational limiter 
+g. Scoop tube 
+h. Drive motor 
+i. Fluid coupler 
+j. Generator 
+k. Recirculation pump trip breakers 
+
+ 
+3. Recognize the plant conditions which will result in the following: 
+
+a. Drive motor breaker trips 
+1) EOC/RPT 
+2) ATWS/RPT 
+3) Pump discharge valve 
+4) Pump suction valve 
+
+b. Recirculation pump trip (RPT) breakers 
+1) EOC/RPT 
+2) ATWS/RPT 
+
+c. Minimum speed limiter 
+d. Operational limiter 
+
+ 
+4. Given a power to flow map and specific plant conditions, recognize the operating 
+
+point and evaluate how it will change with the following core reactivity changes: 
+a. Recirculation/Core Flow 
+b. Control rod position 
+c. Xenon and Samarium poison concentrations 
+d. Feedwater temperature 
+
+ 
+5. Recognize how the Recirculation Flow Control system interfaces with the following 
+
+systems: 
+a. Recirculation System (Section 2.4) 
+b. Main Steam System (Section 2.5) 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-2 USNRC HRTD 
+
+c. Feedwater Control System (Section 3.3) 
+d. Condensate and Feedwater System (Section 2.6) 
+e. Reactor Vessel Instrumentation System (Section 3.1) 
+f. Reactor Building Closed Loop Cooling Water System (Section 11.3) 
+
+ 
+7.2.1 Introduction 
+ 
+The purpose of the Recirculation Flow Control (RFC) System is to control the rate of 
+recirculation system flow through the reactor core.  Controlling the flowrate allows 
+controlling reactor power over a limited range. 
+ 
+The functional classification of the RFC System is that of a power generation system. 
+ 
+7.2.2 System Description 
+ 
+The recirculation flow control system (Figure 7.2-1) consists of two motor driven variable 
+speed generator sets and the speed control logic needed to vary the generator speed.  
+The motor driven variable speed generators provide the power to drive the recirculation 
+pump motors.  Varying generator speed will vary its output frequency and voltage thus 
+varying the speed of the recirculation pump.  Varying recirculation pump speed results 
+in a change in core flow rate and core power. 
+ 
+7.2.3 Component Description 
+ 
+The major components of the recirculation flow control system are discussed in the 
+paragraphs which follow. 
+ 
+7.2.3.1 Recirculation Motor Generator Set 
+ 
+The recirculation motor generator set (Figure 7.2.2) consists of a drive motor, fluid 
+coupler, generator, and auxiliary equipment to support recirculation pump operation. 
+ 
+7.2.3.1.1 Drive Motor 
+ 
+The recirculation motor generator set drive motor is a constant speed 7000 horsepower 
+motor.  The drive motor supplies the fluid coupler with motive force through a constant 
+speed input shaft.  In addition the drive motor provides the motive force for the M/G 
+generator exciter.  The drive motor will automatically trip upon any of the following 
+conditions: 
+• Main turbine trip while operating at > 30% turbine load (EOC-RPT) 
+• 1120 psig RPV pressure or RPV water level at Level 2 (-38 inches) (ATWS-RPT) 
+• Recirculation pump discharge valve not full open (3 minute time delay for pump 
+
+startup). 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-3 USNRC HRTD 
+
+• Recirculation pump suction valve not full open 
+• Generator electrical protection lockout 
+• Drive motor breaker electrical protection lockout 
+• Undervoltage on motor power supply 4 kilovolt bus 
+• Motor generator set lube oil pressure low 
+• Motor generator set lube oil temperature high 
+ 
+7.2.3.1.2 Fluid Coupler 
+ 
+The fluid coupler (Figures 7.2-2, 7.2-3 and 7.2-4.) consists of the following: 
+• an input shaft that is connected to the impeller 
+• a runner that is connected to the output shaft 
+• a scoop tube 
+• a fluid coupler housing that encloses the fluid coupler and act as an oil reservoir 
+ 
+The fluid coupler transmits a portion of the drive motor torque to the generator shaft.  
+The amount of torque that is transmitted to the generator is determined by the coupling 
+between the drive motor and the generator.  This coupling is determined by the amount 
+of oil in the fluid coupler.  The quantity of oil in the fluid coupler is regulated by the 
+positioning of a device called a "scoop tube".  The greater the quantity of oil in the fluid 
+coupler, the greater the coupling between the drive motor and the generator.  Oil is fed 
+into the circuit continuously by the M/G oil system via drilled passage in the generator 
+shaft.  By positioning the scoop tube to remove more oil from the circuit, the generator 
+speed will be reduced due to less torque being transmitted.  The drive motor shaft 
+drives an impeller which forces oil against a runner.  The runner is attached to the 
+generator shaft.  Therefore, the scoop tube position determines the torque transmitted 
+to the generator and thus the generator and recirculation pump speed.  The scoop tube 
+locks in position (lockup) on: 
+• lube oil low pressure 
+• lube oil high temperature 
+• drive motor 4 KV bus under-voltage 
+• loss of power to the speed control loop. 
+• Manually at panel P602 
+ 
+7.2.3.1.3 Generator 
+ 
+The M/G set generator (Figure 7.2-2) is a synchronous generator driven at variable 
+speed by the fluid coupler.  Generator excitation is controlled to establish a main 
+generator output of 70 volts/hz.  During unit startup the voltage regulation circuit 
+receives field power from an external 120 vac power source.  During normal operation 
+this power comes from the output of the main generator.  In either case, the voltage 
+regulator uses input from the tachometer generator to vary the exciter field strength.  
+The exciter output is provided to the main generator field via the field breaker resulting 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-4 USNRC HRTD 
+
+in the 70 volts/hz output of the main generator.  The 70 volts/hz relationship is 
+maintained to prevent recirculation pump motor overheating damage caused by 
+excessive current flow. 
+ 
+Generator protection lockouts are listed below: 
+• Generator Neutral ground voltage high 
+• Generator overcurrent 
+• Generator instantaneous differential overcurrent 
+• Generator loss of field 
+• Exciter field undervoltage 
+• Exciter field overcurrent 
+ 
+Upon receiving a generator lockout, the drive motor breaker and the field breaker trip 
+open. 
+ 
+The main generator output is connected to the associated recirculation pump motor 
+through the Recirculation Pump Trip (RPT) breakers. (Figure 7.2-2) 
+ 
+7.2.3.1.4  Recirculation Pump Trip Breakers 
+ 
+There are 2 normally closed recirculation pump trip (RPT) breakers between the 
+generator output and the recirculation pump motor (Figure 7.2-2).  Tripping the drive 
+motor breakers has a delayed reduction in core flow caused by motor generator set 
+inertia.  The RPT breakers are tripped in the event of conditions that require a more 
+immediate reduction in core flow.  One breaker is tripped by the ‘A’ division of the EOC-
+RPT or ATWS-RPT logics while the other is tripped by the ‘B’ division. 
+ 
+The EOC-RPT circuit provides an automatic rapid trip of the recirculation pumps on a 
+main turbine trip or load rejection, if greater than 30% turbine load.  The RPT and the 
+drive motor breakers are all tripped.  The purpose of this RPT pump trip is to ensure the 
+MCPR safety limit is not violated due the pressure and power transient resulting from a 
+turbine trip/load rejection coincident with a failure of the turbine steam bypass valves. 
+ 
+The ATWS-RPT refers to a plant transient that should have resulted in a reactor scram, 
+and for some reason the scram function does not occur.  To lessen the effects of an 
+ATWS event, and quickly reduce reactor power to within SRV capacity, negative 
+reactivity must be added to the reactor core by another means.  The means chosen is to 
+trip the recirculation pumps, which rapidly adds negative reactivity due to a sudden 
+increase in steam voiding in the core area as core flow decreases.  The setpoints for 
+ATWS-RPT are reactor pressure at 1120 psig or reactor water level at Level 2 (-38").  
+Upon reaching either setpoint, the recirculation RPT breakers and motor generator set 
+drive motor breakers are tripped. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-5 USNRC HRTD 
+
+7.2.3.2 Oil System 
+ 
+Each recirculation M/G set oil system (Figure 7.2-5) consists of the following: 
+• three ac motor driven pumps 
+• one emergency dc motor driven pump 
+• an oil cooler 
+• an oil reservoir 
+ 
+The lower casing of the fluid coupler serves as the system's oil reservoir.  The oil is 
+normally pumped by two of the ac motor driven pumps through the oil cooler.  The 
+majority of the oil flows directly to the fluid coupler for use as working oil.  The 
+remainder is directed to the M/G set bearings through an oil filter.  The oil cooler is 
+cooled by reactor building closed loop cooling water. 
+ 
+Should oil pressure entering the fluid coupler decrease below 30 psig, the standby AC 
+pump will automatically start to restore pressure.  If pressure remains below 30 psig for 
+6 seconds, the M/G set drive motor breaker will trip.  The emergency dc motor driven 
+pump will start as pressure drops to 20 psig and supply oil to the fluid coupler bearings 
+only. 
+ 
+7.2.3.3 Recirculation Pump Speed Control Logic 
+ 
+Figure 7.2-6 is a simplified block diagram of the recirculation flow control logic. The 
+principle of operation is to set a desired pump speed and measure the actual speed.  
+These speed signals are compared and produce a control signal used to position the 
+scoop tube to obtain the desired pump speed.  The components performing this function 
+are discussed in the paragraphs which follow. 
+ 
+7.2.3.3.1 Master Flow Controller 
+ 
+The master flow controller provides the means of controlling both recirculation motor 
+generator sets from a single controller.  The output of the master flow controller is 
+directed to the dual limiter. 
+ 
+In the manual mode of operation, the controller output is varied from 0 to 102.5% speed 
+demand by depressing the controller open/close pushbuttons. 
+ 
+In the automatic mode of operation the Electro Hydraulic Control (EHC) system input is 
+the desired main generator load demand signal resulting in a controller output to raise 
+or lower speed demand.  Only one utility, Commonwealth Edison, is licensed to be 
+operated in the automatic mode.  All other BWR utilities operate in master manual mode 
+or individual loop control. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-6 USNRC HRTD 
+
+7.2.3.3.2 Dual Limiter 
+ 
+The output of the master controller is routed through the dual speed limiter.  This limits 
+the speed demand from the master controller to a maximum of 102.5% of rated speed 
+and a minimum of 45% speed.  The output of this dual limiter is routed to the input of 
+each manual-automatic transfer station.  The 45-102.5% speed control range is the flow 
+control range for normal plant power maneuvering of approximately 60 to 100% power 
+ 
+7.2.3.3.3 Manual-Automatic Transfer Station Controllers 
+ 
+The manual-automatic (M/A) transfer station controllers provide the means of controlling 
+their respective motor generator sets only.  Similar to the master controller, the manual 
+automatic transfer stations contain two modes of operation, manual and automatic. 
+ 
+In the automatic mode, pump speed is controlled by the output of the master controller 
+via the dual limiter.  In this mode, the output demand indication of the M/A transfer 
+station(s) will equal the output demand indication of the master controller.  The 
+automatic mode is the normal mode for routine power maneuvering between 60 and 
+100% power. 
+ 
+The manual mode of operation is typically used during plant startup and maneuvering 
+up to approximately 60% power.  In this mode pump speeds are adjusted individually 
+from 0 to 102.5% speed demand using open/close pushbuttons on the M/A transfer 
+station controllers. 
+ 
+7.2.3.3.4 Speed Limiters 
+ 
+The output of the manual-automatic transfer station controller is routed through two 
+speed limiters. 
+ 
+The first limiter (minimum speed limiter) limits recirculation pump speed to a maximum 
+of 30% if any of the following occur: 
+• the respective pump discharge valve is not full open 
+• reactor water level less than Level 3 (12.5 inches) 
+• feedwater flow is less than 20% 
+ 
+This limiter prevents overheating of the recirculation pumps with the discharge valve not 
+full open (low flow conditions).  It also prevents cavitation problems for the recirculation 
+pumps and jet pumps at low feedwater flow rates and low RPV water level (low net 
+positive suction head.)  The 20% feedwater flow runback has a 15 second time delay to 
+prevent spurious runbacks when operating near the setpoint.  Once the minimum speed 
+limiter is in effect, it must be manually reset.  The reset is performed via pushbuttons on 
+panel 602 next to the manual-automatic transfer stations. 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-7 USNRC HRTD 
+
+ 
+The second limiter (operational limiter) limits the maximum recirculation pump speed 
+demand to less than 40% when both of the following conditions are met: 
+• a low reactor water level condition at Level 4 (33.5 inches) 
+• any one of the 6 condensate and feedwater system pumps being out of service 
+ 
+This limitation ensures that continued plant operation remains within the capacity of the 
+remaining condensate and feedwater system pumps.  This limiter is bypassed 
+whenever level is normal or if all Condensate, Condensate Booster, and Reactor Feed 
+Pumps are in service.  Once the operational limiter is in effect, it must be manually 
+reset.  The reset is performed via pushbuttons on panel 602 next to the manual-
+automatic transfer stations. 
+ 
+7.2.3.3.5 Speed Control Summer 
+ 
+The speed control summer, during normal operation, compares the speed demand 
+signal to the actual generator speed.  It then develops an error signal which is sent to 
+the speed controller.  The magnitude of the error signal is limited to about 8% of the 
+control band. 
+ 
+7.2.3.3.6 Start Signal Generator 
+ 
+The start signal generator provides a signal to the error limiting network to position the 
+scoop tube properly for recirculation M/G set startup.  This signal is set for 
+approximately 80% unloaded generator speed to provide adequate breakaway torque 
+for the recirculation pump.  This signal is in control when the generator field breaker is 
+open.  It is immediately removed when the generator field breaker closes. 
+ 
+7.2.3.3.7 Speed Controller 
+ 
+The speed controller establishes and maintains a speed demand signal in accordance 
+with the error signal received from the speed control summer. 
+ 
+7.2.3.3.8 Function Generator 
+ 
+The function generator corrects the speed demand signal from the speed controller to 
+account for the system's non-linearities.  It provides a linear relationship between the 
+signal input to the master controller and recirculation flow. The function generator output 
+is sent to a signal failure detector and the scoop tube positioner through an amplifier. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-8 USNRC HRTD 
+
+7.2.3.3.9 Scoop Tube Positioner 
+ 
+The scoop tube positioner converts the electrical input signal from the function 
+generator to a mechanical scoop tube position.  The positioner compares the input 
+signal to actual scoop tube position as developed by a cam operated position 
+transmitter.  The positioner has both electrical and mechanical high speed stops.  These 
+stops limit the maximum torque transferred to the generator, thus limiting recirculation 
+pump speed. 
+ 
+7.2.3.3.10  Signal Failure Detector 
+ 
+The normal input-output signal of all of the control devices ranges from 10 to 50 
+milliamps.  Loss of signal input to the positioner is monitored by the signal failure 
+detector.  If the monitored signal decreases to 1 milliamp the scoop tube motor is locked 
+in place by an electrically operated break.  This function is referred to as a scoop tube 
+lockup. 
+ 
+Following a scoop tube lockup, the reason for the lockup must be corrected and then 
+the lockup must be manually reset.  Prior to resetting the lockup, the speed demand 
+signal must be matched to the actual scoop tube position.  This prevents a large 
+process and power change when resetting.  The operator is provided with a percent 
+speed demand indicator.  This indicates the difference in speed demand at the speed 
+controller output and generator speed 
+ 
+7.2.4 System Features 
+ 
+A short discussion of system features this system has are given in the paragraphs 
+which follow. 
+ 
+7.2.4.1 Recirculation Pump Start 
+ 
+Figure 7.2-7 describes the initial requirements and sequence of events occurring on a 
+recirculation M/G set start.  When the control switch is placed in the start position, the 
+drive motor breaker closes if all of the start permissives are satisfied.  
+ 
+Upon drive motor start, the drive motor and generator are accelerated to approximately 
+80% unloaded speed.  Note on Figure 7.2-6 that when the field breaker is open, the 
+following occur: 
+• the speed control system input to the summer is replaced by the start signal 
+
+generator 
+• feedback from the tachometer is removed. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-9 USNRC HRTD 
+
+This serves to position the scoop tube to the 80% unloaded position.  Excitation is 
+applied from the 120 VAC source to the M/G set exciter 5 seconds after the drive motor 
+breaker is closed. 
+ 
+Since the recirculation pump trip (RPT) breakers are normally closed, the pump motor is 
+directly coupled to the generator output.  Thus the recirculation pump starts when the 
+generator field breaker closes.  With the M/G set running at approximately 80% 
+unloaded speed, the field breaker closes 6 seconds after the drive motor breaker 
+closure.  The resulting generator output applies the necessary breakaway torque for the 
+recirculation pump.  Once the field breaker is closed, excitation will shift to the generator 
+output following a 26 second time delay.   
+ 
+The 15 second incomplete sequence timer allows time for the pump to rotate and 
+develop greater than 4 psid.  As soon as 4 psid is reached, the incomplete sequence 
+timer is de-energized and the timer resets.  If the pump does not generate greater than 
+4 psid in 15 seconds, the incomplete sequence timer trips the generator lockout relay.  
+The lockout relay trips both the drive motor breaker and generator field breaker.  When 
+the generator field breaker is closed, the speed control circuits are returned to normal.  
+The M/G set and pump will runback to the limiter value of 30% with the discharge valve 
+closed. 
+ 
+The final event that occurs in the startup sequence is the jogging open of the 
+recirculation pump discharge valve.  This valve is jogged open to limit the reactivity 
+transient that will occur as core flow rises with valve opening.  If the valve is not fully 
+open within three minutes, the drive motor breaker trips open.  The not full open trip is 
+to prevent pump overheating/cavitation damage resulting from excessive run times at 
+low flow conditions. 
+ 
+7.2.4.2 Power/Flow Map 
+ 
+The power/flow map (Figure 7.2-8) is a plot of percent core thermal power versus 
+percent of total core flow for various operating conditions.  The power/flow map contains 
+information on expected system performance.  Brief descriptions of the curves on a 
+typical power/flow map are given in the paragraphs which follow. 
+ 
+7.2.4.2.1 Natural Circulation Line 
+ 
+Although contrary to normal operating procedure, the natural circulation line 
+demonstrates that without forced circulation, core flow will still rise with reactor power.  
+As reactor power is increased by control rod withdrawal, core flow increases due to the 
+change in moderator density and steam formation (voids) within the core region.  The 
+colder (more dense) water in the downcomer region coupled with the less dense water 
+in the core region promotes this natural circulation core flow.  Subsequent to initial core 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-10 USNRC HRTD 
+
+operation, decay heat will continue to promote natural circulation flow long after reactor 
+shutdown. 
+ 
+7.2.4.2.2 Pump Minimum Speed Line 
+ 
+Startup operations of the plant are normally commenced with both recirculation pumps 
+running at minimum speed.  Similar to the natural circulation described above, as 
+control rods are withdrawn and power rises, the resulting thermal driving head will result 
+in a rise in core flow.  The power to flow map has curves representing both two pump 
+and single pump minimum flow. 
+ 
+7.2.4.2.3 Design Flow Control Line 
+ 
+This line is defined by the control rod withdraw pattern which results in being at 100% 
+core thermal power and 100% core flow, assuming equilibrium xenon conditions. 
+Reactor power should parallel this line for recirculation flow changes with a fixed control 
+rod pattern. 
+ 
+7.2.4.2.4 Pump Constant Speed Line 
+ 
+This line illustrates the change in core flow associated with a power reduction from 
+100% power and 100% core flow while maintaining a constant recirculation pump 
+speed. 
+ 
+7.2.4.2.5 Minimum Expected Flow Control Line 
+ 
+This line represents the flow control line for plant startup in which the recirculation pump 
+speed is increased above minimum speed as soon as the 20% feedwater interlock is 
+cleared. 
+ 
+7.2.4.2.6 Region of Instability 
+ 
+This dark shaded area of the Power/Flow Map represents a higher probability of core 
+thermal hydraulic instability.  Thermal hydraulic instability is a condition of power 
+oscillations resulting from plant operation in a low flow and high power configuration.  
+Generally, intentional operation in this area is not permitted. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-11 USNRC HRTD 
+
+7.2.5 System Interfaces 
+ 
+The interrelations this system has with other plant systems are discussed in the 
+paragraphs which follow. 
+ 
+Recirculation System (Section 2.4) 
+ 
+The recirculation flow control system regulates the speed of the recirculation pumps.  
+Pump suction and discharge valve positions are sensed for pump start permissive 
+interlocks. 
+ 
+Main Steam System (Section 2.5) 
+ 
+The Main Steam System provides the trip input signals for the EOC-RPT circuit (SVs, 
+CVs and 1st stage turbine pressure).  
+ 
+Feedwater Control System (Section 3.3) 
+ 
+The Net Positive Suction Head (NPSH) interlock (<20% total feedwater flow) is provided 
+by the Feedwater Control System. 
+ 
+Condensate and Feedwater System (Section 2.6) 
+ 
+The Condensate and Feedwater System provides the bypass for the 40% speed limiter 
+(RFPs, Condensate Booster Pumps, and Condensate Pumps). 
+ 
+Reactor Vessel Instrumentation System (Section 3.1) 
+ 
+The Reactor Vessel Instrumentation System provides the reactor vessel high pressure 
+and low-low water level ATWS-RPT signals. As well as the Level 3 and Level 4 inputs 
+into the 30% minimum speed limiter and the 40% operational limiter. 
+ 
+Reactor Building Closed Loop Cooling Water System (Section 11.3) 
+ 
+The Reactor Building Closed Loop Cooling Water (RBCLC) System provides cooling 
+water to the recirculation motor generator set lube oil system. 
+ 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 7.2-12 USNRC HRTD 
+
+7.2.6 Summary 
+ 
+Classification - Power generation system 
+ 
+Purpose - To control the rate of recirculation system flow through the reactor core, thus 
+controlling reactor power over a limited range. 
+ 
+Components - The recirculation flow control system (Figure 7.2-1) consists of two motor 
+driven variable speed generator sets and the speed control logic needed to vary the 
+generator speed. 
+ 
+System Interfaces -Recirculation System; Main Steam System; Feedwater Control 
+System; Condensate and Feedwater System; Reactor Vessel Instrumentation System; 
+Reactor Building Closed Loop Cooling Water System. 
+
+
+
+ 
+
+ Figure 7.2-1 Simplified Recirculation Flow Control Loop 
+
+ 
+ 
+ 
+
+FROM EHC
+LOGIC
+
+(OPTIONAL)
+
+AUTO MANUAL
+
+MASTER
+FLOW
+
+CONTROLLER
+
+MANUALAUTOAUTOMANUAL
+
+MANUAL-AUTOMATIC
+TRANSFER STATION
+
+(CONTROLLER)
+
+SPEED
+CONTROL
+LOGIC (A)
+
+SPEED
+CONTROL
+LOGIC (B)
+
+MOTOR FLUID
+COUPLER
+
+GEN.
+
+RECIRCULATION
+M-G SET
+
+MOTORFLUID
+COUPLER
+
+GEN.
+
+RECIRCULATION
+M-G SET
+
+MOTORMOTOR
+
+CORE
+
+RECIRCULATION
+PUMP
+
+RECIRCULATION
+PUMP
+
+ 
+ 
+
+
+
+ 
+
+ Figure 7.2-2 Recirculation Pump Motor Generator Set Block Diagram 
+
+ 
+ 
+
+
+
+ 
+
+ Figure 7.2-3 Recirculation MG Set Fluid Coupling 
+
+ 
+ 
+
+
+
+ 
+
+ Figure 7.2-4 Functional Diagram of Scoop Tube Action 
+ (View From Motor End) 
+
+ 
+ 
+
+
+
+ 
+
+ Figure 7.2-5 Recirculation MG Set Oil System 
+
+ 
+ 
+
+
+
+ 
+
+ Figure 7.2-6 Recirculation System Flow Control Network 
+ (Shown for A loop, TYP. For B) 
+
+M A
+
+M A
+
+BRAKE POSIT
+MOTOR
+
+SCOOP
+TUBE
+
+CAM
+
+FEEDBACK
+
+POSITION
+AMPLIFIER
+
+SIGNAL
+FAILURE
+
+DETECTOR
+A
+
+L
+
+FUNCTION
+GENERATOR
+
+"Y" CONTACTS
+SHOW FOR FIELD
+BREAKER CLOSED
+
+SPEED
+DEMAND
+
+INDICATOR
+
+SPEED
+CONTROLLER
+
+"Y"
+
+++
+
+-
+
+"Y"
+
+"Y"
+
+Σ
+GENERATOR
+
+SPEED
+SIGNAL
+
+(TACHOMETER)
+
+GEN. SPEED
+INDICATION (%) OPERATIONAL
+
+LIMITER
+40%
+
+Open when
+Reactor water
+level is <33.5"
+
+Open with loss
+of Condensate,
+
+Cond. Booster or
+Feed Pump
+
+Open when feedwater flow
+is <20%
+
+Open when discharge
+valve not full open.
+
+Open when Rx. water level is <12.5"
+
+START SIGNAL
+GENERATOR 80%
+
+SPEED (UNLOADED)
+
+MINIMUM
+SPEED
+
+LIMITER (30%)
+
+DUAL FUNCTION UNIT
+
+OPTIONAL
+SETTING
+
+M/A
+TRANSFER
+STATION
+
+DUAL
+LIMITER
+
+HI-102.5% OF RATED
+RECIRC PUMP SPEED
+
+LO-45% SPEED
+(OPTIONAL SETTING)
+
+TO "B" LOOP
+SPEED CONTROL
+
+MASTER
+CONTROLLER
+
+ELECTRO
+HYDRAULIC
+
+CONTROL SYSTEM
+
+Speed Control
+Summer
+
+Scoop tube positioner  
+ 
+
+
+
+ 
+
+ Figure 7.2-7 Recirculation Pump Motor Generator Set Starting Sequence 
+
+CONTROL
+SWITCH IN
+
+START POSITION
+
+GENERATOR
+LOCKOUT
+
+RELAY RESET
+
+GENERATOR
+FIELD
+
+BREAKER OPEN
+
+PUMP DISCHARGE
+VALVE FULLY
+
+CLOSED
+
+PUMP SUCTION
+VALVE FULLY
+
+OPEN
+
+MOTOR
+LOCKOUT
+
+RELAY RESET
+
+LUBE OIL
+PRESS ABOVE
+
+SET POINT
+
+ALT DR. MOTOR
+CKT BREAKER
+
+OPEN
+
+NO AUTO
+TRIPS
+
+PRESENT
+
+NO
+ELECTRICAL
+
+TRIPS PRESENT
+
+CLOSE MG
+DRIVE MOTOR
+
+BKR.
+
+SCOOP TUBE
+POSITIONED
+
+AT ~ 80%
+
+DRIVE MOTOR
+CKT BKR
+CLOSED
+
+PUMP DIFF.
+PRESS BELOW
+
+SET POINT
+
+6 SEC TIME
+DELAY
+
+GENERATOR
+FLD. LOCKOUT
+
+RELAY NOT
+TRIPPED
+
+CLOSE GEN.
+FIELD BKR.
+
+5 SEC TIME
+DELAY
+
+VOLTAGE REG.
+ENERGIZED
+
+FROM STARTUP
+SOURCE
+
+26 SEC TIME
+DELAY
+
+(SEAL IN)
+
+VOLTAGE REG.
+TRANSFERRED
+
+TO GEN. OUTPUT
+
+15 SEC TIME
+DELAY
+
+LOCKED
+ROTOR
+
+CURRENT
+
+10 SEC TIME
+DELAY
+
+START
+SEQUENCE
+
+INCOMPLETE
+
+TRIP GEN. FLD.
+BKR. GEN.
+
+LOCKOUT RELAY
+
+3 MINUTE
+TIME
+
+DELAY
+
+DISCHARGE
+VALVE NOT
+FULL OPEN Note 1
+
+Note 1; Feature optional, not
+used in all plants
+
+Note 1
+
+ 
+ 
+
+
+
+ 
+
+ Figure 7.2-8 Power/Flow Map 
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

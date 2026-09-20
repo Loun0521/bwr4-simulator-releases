@@ -1,0 +1,644 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+11.2 Reactor Building Service Water System  —  0518 - R304B - GE BWR_4 Technology - 11.2 Reactor Building Service Water System.
+ADAMS ML11258A376   문서일자 2011-09-23   13 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A376.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 11.2 
+ 
+
+Reactor Building Service Water System 
+ 
+
+
+
+
+
+ 
+Rev 09/11 11.2-i USNRC HRTD 
+
+TABLE OF CONTENTS 
+
+11.2 REACTOR BUILDING SERVICE WATER SYSTEM ............................................. 1 
+
+11.2.1 Introduction ...................................................................................................... 1 
+
+11.2.2 System Description .......................................................................................... 2 
+
+11.2.3 Component Description ................................................................................... 3 
+11.2.3.1 RBSW Pumps and Valves ........................................................................ 3 
+11.2.3.2 RBSW Strainers ........................................................................................ 3 
+
+11.2.4 System Features and Interfaces ...................................................................... 3 
+11.2.4.1 Normal Operation ..................................................................................... 3 
+11.2.4.2 Loss of Preferred Power ........................................................................... 3 
+11.2.4.3 Loss of Coolant Accident .......................................................................... 4 
+11.2.4.4 Loss of Station Air System ........................................................................ 5 
+11.2.4.5 System Interfaces ..................................................................................... 5 
+
+11.2.5 Summary ......................................................................................................... 6 
+ 
+ 
+ 
+ 
+
+LIST OF TABLES 
+ 
+11.2-1 Reactor Building Service Water System ............................................................. 7 
+ 
+ 
+  
+
+
+
+ 
+Rev 09/11 11.2-ii USNRC HRTD 
+
+LIST OF FIGURES 
+ 
+11.2-1 Reactor Building Service Water System 
+ 
+ 
+ 
+
+
+
+ 
+Rev 09/11 11.2-1 USNRC HRTD 
+
+11.2 REACTOR BUILDING SERVICE WATER SYSTEM 
+ 
+Learning Objectives: 
+ 
+1. Recognize the purposes of the Reactor Building Service Water (RBSW) system. 
+
+ 
+2. Recognize the purpose, function and operation of the following reactor building 
+
+service water system major components: 
+a. RBSW pumps 
+b. Strainers 
+c. RHR heat exchangers 
+d. RHR heat exchanger outlet valves 
+e. Diesel generator heat exchanger outlet valves 
+
+ 
+3. Recognize the following RBSW flowpaths: 
+
+a. Normal operation 
+b. Loss of coolant accident (LOCA) conditions 
+ 
+
+4. Recognize how the system responds to the following: 
+a. Loss of coolant accident (LOCA) 
+b. Loss of preferred power 
+c. Loss of service and instrument air (SIA) 
+ 
+
+5. Recognize how the Reactor Building Service Water system interfaces with the 
+following systems: 
+a. Emergency AC Power System (Section 9.2) 
+b. Service and Instrument Air System (Section 11.6) 
+c. Circulating Water System (Section 11.1) 
+d. Reactor Building Closed Loop Cooling Water System (Section 11.3) 
+e. Turbine Building Service Water System (Section 11.4) 
+f. Residual Heat Removal (RHR) System (Section 10.4) 
+
+ 
+11.2.1 Introduction 
+ 
+The purposes of the reactor building service water (RBSW) system are to: 
+• transfer heat from the reactor building components to the Long Island Sound 
+• provide an emergency source of cooling water to the reactor vessel and spent fuel 
+
+pool. 
+ 
+During normal operations the RBSW system (Figure 11.2-1) takes sea water from the 
+screenwells, pumps it through equipment coolers and heat exchangers and then returns 
+the water to Long Island Sound.  The return flow is monitored for radiation.  The RBSW 
+system provides the means to transfer heat from the reactor to the ultimate heat sink.  
+The RBSW system supplies cooling water to safety-related equipment in the reactor 
+building using two independent flow paths.  Under emergency conditions the RBSW can 
+
+
+
+ 
+Rev 09/11 11.2-2 USNRC HRTD 
+
+be used as a high capacity flooding source for the reactor or the spent fuel pool.  The 
+RBSW is classified as an engineered safety feature system. 
+ 
+The RBSW system normally provides cooling water to: 
+• Emergency diesel generators (EDGs) 
+• Reactor building closed loop cooling water (RBCLCW) heat exchangers and booster 
+
+heat exchangers 
+• Residual heat removal (RHR) heat exchangers 
+• Reactor building normal ventilation system (RBNVS) coolers and chiller condensers 
+• Reactor building standby ventilation system (RBSVS) coolers and chiller condensers 
+• Control room air conditioning (CRAC) chiller condensers 
+ 
+Under abnormal or emergency conditions the RBSW system can provide cooling water 
+to the: 
+• Reactor pressure vessel via connection to the RHR system 
+• Spent fuel pool via the spent fuel pool cooling and cleanup system 
+• Fire protection system 
+• Turbine building closed loop cooling water (TBCLCW) system 
+ 
+11.2.2 System Description 
+ 
+The RBSW system (Figure 11.2-1) is divided into two loops which supply redundant 
+safety related components.  In the event of a single active RBSW component failure, 
+one loop of safety-related equipment should continue to be cooled. 
+ 
+Four RBSW pumps take suction from the screenwell.  Each pump shares a screenwell 
+with a circulating water pump.  All four pump discharge lines combine in a common 
+header.  Two normally open divisional isolation valves (MOV-32A and B) are located in 
+the common discharge line.  Table 11.2-1 list the heat loads on the individual RBSW 
+loops. 
+ 
+The return water from each of the RBSW loads is returned to the circulating water 
+system discharge tunnel.  A radiation monitor draws a RBSW sample off of each RHR 
+heat exchanger outlet and returns the sample to the same piping.  The radiation monitor 
+will detect leakage of radioactive materials into the RBSW process stream and indicate 
+the high radiation condition in the main control room.  If RBSW system water is injected 
+directly to the reactor pressure vessel or the spent fuel pool, it will be retained in the 
+reactor building. 
+ 
+
+
+
+ 
+Rev 09/11 11.2-3 USNRC HRTD 
+
+11.2.3 Component Description 
+ 
+The major components of the Reactor Building Service Water system are described in 
+the paragraphs that follow. 
+ 
+11.2.3.1 RBSW Pumps and Valves 
+ 
+The RBSW system water pumps are vertically mounted, two stage, centrifugal pumps, 
+rated at 8600 gpm each at approximately 70 psig discharge.  The pumps are driven by 
+a 450 Hp, 4160 VAC, 3 phase, induction, electric motor. 
+ 
+Each pump discharges through a motor operated discharge valve (MOV-31A, B, C, and 
+D), which is open 25º when in the “closed” position. A bypass butterfly valve around the 
+discharge valve is normally closed. 
+ 
+11.2.3.2 RBSW Strainers 
+ 
+Each RBSW pump has its own discharge strainer.  The strainers are self cleaning, 
+electric motor driven, and automatically backwash to the trash sump. 
+ 
+11.2.4 System Features and Interfaces 
+ 
+A short discussion of system features and interfaces this system has with other plant 
+systems is given in the paragraphs which follow. 
+ 
+11.2.4.1 Normal Operation 
+ 
+The RBSW system is divided into redundant normally cross-connected loops. RBSW 
+pumps “A” and “C” and attendant piping and valves are organized into one loop. 
+Similarly RBSW pumps “B” and “D” and attendant piping and valves are organized into 
+a second loop. In normal operation only one RBSW pump in each loop is running. Each 
+RBSW loop supplies cooling water to: 
+• One RBCLCW booster heat exchanger 
+• One RBCLCW heat exchanger 
+• One RBSVS and CRAC chilled water condenser 
+• RBNVS chilled water condensers 
+ 
+Return water from the system is directed to the circulating water discharge tunnel and 
+out to the Long Island Sound. 
+ 
+11.2.4.2 Loss of Preferred Power 
+ 
+Following a loss of preferred power (LOPP), each RBSW pump can be restarted from 
+an emergency diesel generator (EDG).  RBSW pump “A” is powered from the EDG “A” 
+bus.  RBSW pump “B” is powered from the EDG “B” bus.  RBSW pumps “C” and “D” are 
+
+
+
+ 
+Rev 09/11 11.2-4 USNRC HRTD 
+
+powered from the EDG “C” bus.  To prevent EDG 103 overload when it automatically 
+repowers an RBSW pump, only one of the “C” and “D” pumps will automatically start.  A 
+control room switch will bypass the automatic starting of the selected pump. 
+ 
+On a loss of preferred power all running RBSW pumps will trip.  After the emergency 
+diesel generators have restored power to the emergency buses, the following events 
+automatically occur: 
+ 
+1. The discharge valves of any previously operating RBSW pump will shut 
+2. When the associated discharge valve is shut, each RBSW pump that has its control 
+
+switch in AUTO will start. The exception to this is that whichever of the “C” and “D” 
+RBSW pumps selected for bypass will not automatically start. The RBSW pumps 
+that automatically start will be re-energized: 
+a. 7 seconds following bus re-energization, if no LOCA exists OR 
+b. 12 seconds following bus re-energization, if a LOCA signal does exist 
+
+3. The pump discharge valve opens 20 seconds after the associated RBSW pump 
+starts. 
+
+4. Emergency diesel engine cooler outlet isolation valves (AOV-16A, B, and C) open 
+for each operating diesel engine. 
+
+5. RBSW to TBSW cross connect is isolated, if open, by shutting MOV-35A and B. 
+6. The RBNVS chilled water system is isolated (MOV-36A, B, and C close). 
+7. RHR heat exchanger service water flow is isolated if in service (MOV-34A and B 
+
+close). 
+8. Both RBCLCW heat exchanger outlet valves (MOV-37A and B) open. 
+9. RBSW splits into two redundant loops (MOV-32A and B close). 
+ 
+Following realignment of the motor operated valves to their proper LOCA/LOOP 
+position, each loop of RBSW is expected to supply the following components: 
+ 
+1. One RBCLCW heat exchanger (Automatic). 
+2. Two RBSVS and CRAC chilled water condensers (Automatic). 
+3. The cooler associated with each operating emergency diesel engine (Automatic). 
+4. One RBCLCW booster heat exchanger (only if lined up by operator). 
+5. One RHR heat exchanger (only if lined up by the operator). 
+ 
+11.2.4.3 Loss of Coolant Accident 
+ 
+Upon a receipt of a LOCA signal, the following automatic actions occur: 
+ 
+• If RBSW and TBSW are cross connected, TBSW is isolated by shutting MOV-35A 
+
+and B. 
+• The RBNVS chilled water system is isolated from RBSW (MOV-36A, B, and C 
+
+close). 
+• RBCLCW booster heat exchanger service water flow is isolated (MOV-129 A and B 
+
+close). 
+
+
+
+ 
+Rev 09/11 11.2-5 USNRC HRTD 
+
+• RHR heat exchanger service water flow is isolated (MOV-34 A and B close). 
+• Service water is admitted to both RBCLCW heat exchanger (MOV-37 A and B 
+
+open), if closed. 
+• RBSW splits into two redundant loops (MOV-32 A and B close). 
+• Each non-operating RBSW pump with its control switch in AUTO, except the 
+
+bypassed C or D RBSW pump, will start 12 seconds after the initiation of the LOCA 
+signal. 
+
+ 
+11.2.4.4 Loss of Station Air System 
+ 
+Upon loss of station air system the emergency diesel engine cooler outlet isolation 
+valves (AOV-16 A, B, and C) fail open.  With the engine coolers supplied with cooling 
+water, an additional RBSW pump may have to be started to prevent the operating 
+pumps from tripping on over current. 
+ 
+11.2.4.5 System Interfaces 
+ 
+The interfaces this system has with other plant systems are discussed in the 
+paragraphs which follow. 
+ 
+4160V Emergency Distribution System (Section 9.2) 
+ 
+The RBSW pumps and motor operated valves receive power from the Emergency 
+Power System, and the RBSW supplies cooling water to the Emergency Diesel 
+Generator Engines. 
+ 
+Service & Instrument Air System (Section 11.6) 
+ 
+The emergency diesel engine outlet valves (AOV-16A, B, and C) receive motive air from 
+the Station Air System. 
+ 
+Circulating Water System (Section 11.1) 
+ 
+The Circulating Water System shares the screenwell suction pits with the RBSW. The 
+Circulating Water System also provides a discharge path for return water of the RBSW 
+to the Long Island Sound. 
+ 
+Reactor Building Closed Loop Cooling Water (RBCLCW) System (Section 11.3) 
+ 
+The RBSW system supplies cooling water to the RBCLCW heat exchangers and 
+booster heat exchangers. 
+ 
+
+
+
+ 
+Rev 09/11 11.2-6 USNRC HRTD 
+
+Turbine Building Service Water System (TBSW) System (Section 11.5) 
+ 
+The RBSW system can be cross-connected to the TBSW system. However, under 
+emergency conditions the TBSW will be automatically isolated from the RBSW system. 
+ 
+Residual Heat Removal (RHR) System (Section 10.4) 
+ 
+The RBSW system supplies cooling water to the RHR heat exchangers. The RBSW 
+system can flood the reactor pressure vessel (RPV) by connection to the RHR system. 
+ 
+Reactor Building Normal Ventilation System (RBNVS) (Section 4.2) 
+ 
+The RBSW system provides cooling to RBNVS coolers and chillers. 
+ 
+Reactor Building Standby Ventilation System (RBSVS) (Section 4.3) 
+ 
+The RBSW system provides cooling to RBSVS coolers and chillers. when the RBSVS is 
+actuated. 
+ 
+Fuel Pool Cooling and Cleanup System (Section 11.7) 
+ 
+The RBSW provides a means to flood the spent fuel pool via connection to the fuel pool 
+cooling and cleanup system. 
+ 
+Radiation Monitoring 
+ 
+Water returning from the RBSW system is monitored for radiation. 
+ 
+11.2.5 Summary 
+ 
+The RBSW system takes sea water from the screenwells, pumps it through equipment 
+coolers and heat exchangers and then returns the water to Long Island Sound. The 
+return flow is monitored for radiation. The RBSW system provides the means to transfer 
+heat from the reactor to the ultimate heat sink. The RBSW system supplies cooling 
+water to safety-related equipment in the reactor building using two independent flow 
+paths. Under emergency conditions the RBSW can be used as a high capacity flooding 
+source for the reactor or the spent fuel pool. The RBSW is classified as an engineered 
+safety feature system. 
+  
+
+
+
+ 
+Rev 09/11 11.2-7 USNRC HRTD 
+
+ 
+ 
+
+Table 11.2-1 RBSW Load List 
+ 
+
+Reactor Building Service Water Loop "A" 
+ 
+
+ 
+• RHR A heat exchanger 
+• RBCLCW A heat exchanger 
+• RBCLCW A  booster heater exchanger 
+• Emergency diesel engine A, B, and C coolers 
+• RBSVS and CRAC chilled water system A 
+• RBNVS chilled water system 
+• Emergency water supply to the reactor vessel 
+• Emergency water supply to the spent fuel pool 
+
+ 
+
+Reactor Building Service Water Loop "B" 
+ 
+
+ 
+• RHR B heat exchanger 
+• RBCLCW B heat exchanger 
+• RBCLCW B  booster heater exchanger 
+• Emergency diesel engine A, B, and C coolers 
+• RBSVS and CRAC chilled water system B 
+• RBNVS chilled water system 
+• Emergency water supply to the reactor vessel 
+• Emergency water supply to the spent fuel pool 
+• RBSW/TBSW cross connect. 
+
+ 
+ 
+
+  
+
+
+
+ 
+Rev 09/11 11.2-8 USNRC HRTD 
+
+
+
+ 
+ Figure 11.2-1 Reactor Building Service Water System 
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

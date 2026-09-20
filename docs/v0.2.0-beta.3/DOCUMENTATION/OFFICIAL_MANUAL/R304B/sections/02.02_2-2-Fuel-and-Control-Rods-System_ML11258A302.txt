@@ -1,0 +1,1624 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+2.2 Fuel and Control Rods System  —  0518 - R304B - GE BWR_4 Technology - 2.2 Fuel and Control Rods System.
+ADAMS ML11258A302   문서일자 2011-09-23   44 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A302.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 2.2 
+ 
+
+Fuel and Control Rods System 
+ 
+
+
+
+
+
+ 
+Rev 09/11 2.2-i USNRC HRTD 
+
+ 
+TABLE OF CONTENTS 
+
+2.2 FUEL AND CONTROL RODS SYSTEM ................................................................ 1 
+
+2.2.1 Introduction .......................................................................................................... 2 
+
+2.2.2 Fuel Assembly ..................................................................................................... 3 
+2.2.2.1 Fuel Pellet ................................................................................................... 4 
+2.2.2.2 Fuel Cladding .............................................................................................. 4 
+2.2.2.3 Fuel and Water Rods................................................................................... 5 
+2.2.2.4 Upper Tie Plate ........................................................................................... 6 
+2.2.2.5 Lower Tie Plate ........................................................................................... 7 
+2.2.2.6 Fuel Spacers ............................................................................................... 7 
+2.2.2.7 Finger Springs ............................................................................................. 7 
+2.2.2.8 Fuel Channel ............................................................................................... 8 
+2.2.2.9 Fuel Assembly Orientation .......................................................................... 8 
+2.2.2.10 Zirconium ..................................................................................................... 9 
+
+2.2.3 Control Rods ....................................................................................................... 9 
+2.2.3.1 Control Rod Blade ..................................................................................... 11 
+2.2.3.2 Absorber Tubes ......................................................................................... 11 
+2.2.3.3 Control Rod Rollers ................................................................................... 12 
+2.2.3.4 Control Rod Velocity Limiter ...................................................................... 12 
+2.2.3.5 Control Rod Blade Coupling ...................................................................... 12 
+2.2.3.6 Control Rod Valve Disc ............................................................................. 13 
+2.2.3.7 Control Rod Guide Tube ............................................................................ 13 
+2.2.3.8 Control Rod Drive Housings ...................................................................... 14 
+2.2.3.9 Bottom Entry Control Rods ........................................................................ 14 
+
+2.2.4 System Features ............................................................................................... 14 
+2.2.4.1 Flow Paths ................................................................................................. 14 
+2.2.4.2 Fuel Failure Mechanisms .......................................................................... 15 
+
+2.2.5 System Interfaces .............................................................................................. 16 
+
+2.2.6 Summary ........................................................................................................... 17 
+ 
+
+
+
+ 
+Rev 09/11 2.2-ii USNRC HRTD 
+
+LIST OF FIGURES 
+ 
+2.2-1 Fuel Assembly Side View 
+2.2-2 Fuel and Channel Fastener Assemblies 
+2.2-3 Upper Fuel Rod 
+2.2-4 Fuel Rod Isotopic Locations 
+2.2-5 Top View of Fuel Cell 
+2.2-6 GE-14 Fuel Assembly Side View 
+2.2-7 Upper Tie-Plate and Bail Handle 
+2.2-8 Lower Tie Plate without Filter 
+2.2-9 Finger Springs 
+2.2-10 Interactive Channel 
+2.2-11 Lower Tie-Plate With Filter 
+2.2-12 Marathon Control Rod Construction 
+2.2-13 Marathon Control Rod Side View 
+2.2-14 Velocity Limiter in Control Rod Guide Tube 
+2.2-15 Control Rod Coupling 
+2.2-16 Fuel Cell and Control Rod Guide Tube 
+
+
+
+ 
+Rev 09/11 2.2-1 USNRC HRTD 
+
+2.2 FUEL AND CONTROL RODS SYSTEM 
+ 
+Learning Objectives: 
+ 
+1. Recognize the purposes of the following: 
+
+a. Nuclear Fuel 
+b. Control Rods 
+
+ 
+2. Recognize the function and physical arrangements of the following fuel assembly 
+
+components: 
+a. Fuel Pellets 
+b. Fuel Cladding 
+c. Fuel Rods 
+d. Partial Length Fuel Rods 
+e. Tie-Rods 
+f. Water Rods 
+g. Upper Tie Plate 
+h. Lower Tie Plate 
+i. Fuel Spacers 
+j. Finger Springs 
+k. Fuel Channel 
+
+ 
+3. Recognize the function and physical arrangements of the following control rod 
+
+components: 
+a. Control Rod Blades 
+b. Control Rod Rollers 
+c. Velocity limiter 
+d. Spud Coupler 
+e. Lock Plug 
+f. Valve Disc 
+g. Control Rod Guide Tube 
+
+ 
+4. Recognize the following flow paths, including the purpose of that flow: 
+
+a. control rod guide tube to fuel support piece 
+b. channel flow 
+c. bypass flow 
+
+ 
+5. Recognize the purpose and effect of the following fuel design considerations: 
+
+a. fuel pellet composition and construction 
+b. fuel enrichment variations 
+c. burnable poisons 
+
+ 
+6. Recognize the common failure mechanisms of fuel and the mitigating strategies 
+
+used to minimize the probability of occurring. 
+ 
+
+
+
+ 
+Rev 09/11 2.2-2 USNRC HRTD 
+
+7. Recognize the advantages for the bottom entry control rods design. 
+ 
+
+8. Recognize how nuclear fuel assemblies interface with the following systems: 
+a. Reactor Vessel System (Section 2.3) 
+b. Refueling And Vessel Servicing System (Section 11.8) 
+c. Fuel Pool Cooling and Cleanup System (Section 11.7)  
+
+ 
+9. Recognize how control rods interface with the following systems: 
+
+a. Reactor Vessel System (Section 2.1) 
+b. Control Rod Drive System (Section 2.3) 
+c. Fuel Pool Cooling and Cleanup System (Section 11.7) 
+d. Refueling And Vessel Servicing System (Section 11.8) 
+
+ 
+2.2.1 Introduction 
+ 
+The purposes of the reactor fuel assemblies include: 
+
+• Energy generation 
+• Fission Product Barrier 
+• Roller surface for control rods 
+• Distribution of water flow to the fuel assemblies and bypass regions 
+
+ 
+The purposes of the control rods include: 
+
+• reactor power control 
+• flux distribution to optimize core performance 
+• providing adequate shutdown margin to maintain the reactor sub-critical for all 
+
+plant conditions 
+• in conjunction with the Rod Worth Minimizer (RWM) limits the reactivity effects of 
+
+a dropped control rod 
+ 
+The functional classifications of the reactor fuel and the control rods are as safety 
+related equipment.  The control rod velocity limiter is an engineered safety feature. 
+ 
+Hollow Zircaloy fuel rods (Figures 2.2-1 & 2) are loaded with ceramic uranium oxide 
+pellets. Some of the pellets have been enriched with the U235 isotope of uranium.  Some 
+fuel pellets contain gadolinium as a burnable poison.  The fission process inside the fuel 
+pellets provides the energy to create the steam that powers the main turbine-generator.  
+The fuel rods act as a barrier, containing fission products. A failure of the fuel rod 
+cladding would allow fission products to be released in the reactor water, a condition 
+know as fuel damage. 
+ 
+Fuel rods are fabricated into fuel bundles (Figure 2.2-5).  Once these fuel bundles are 
+sheathed in a rigid casing called the channel, they are referred to as fuel assemblies.  
+The fuel assemblies are arranged in the reactor core to approximate a right circular 
+cylinder.  Fuel assemblies are also arranged in the reactor into control cells (Figure 2.2-
+
+
+
+ 
+Rev 09/11 2.2-3 USNRC HRTD 
+
+5).  Typically each control cell consists of a control rod and the four fuel assemblies that 
+immediately surround it. 
+ 
+The control rods consist of stainless steel absorber tubes filled with boron carbide (B4C) 
+powder.  The cruciform shaped control rod is fabricated by welding the absorber tubes 
+together (Figures 2.2-5 & 12).  Each control rod has a velocity limiter (Figure 2.2-14) to 
+reduce the acceleration of its free fall velocity.  This device limits the reactivity addition 
+rate during a rod drop accident to limit the effects on the fuel cladding.  At the bottom of 
+each control rod is a socket to couple the control rod with the CRDM.  
+ 
+2.2.2 Fuel Assembly 
+ 
+The fuel assembly product line selected for description is GE-14™. 
+ 
+A fuel assembly consists of a discrete moveable unit (Figures 2.2-1 & 2) loaded into the 
+core.  A fuel assembly is typically in service for three fuel cycles.  The first two fuel 
+cycles the fuel assembly is located to generate thermal power.  In the third cycle, fuel 
+assemblies are located in the core periphery where they produce very little power. 
+However they do serve as a neutron reflector that increases fuel efficiency and helps to 
+shield the Reactor Pressure Vessel (RPV) from an embrittling neutron flux. The 
+components forming the fuel assembly include: 
+
+• Fuel pellets enclosed in a Zircaloy cladding to form fuel rods (the fuel rods are 
+sometimes referred to as “pins”) 
+
+• Upper and lower tie-plates 
+• Fuel spacers 
+• Finger springs 
+• A channel that envelopes the fuel bundle 
+
+ 
+The top of the fuel assembly is supported laterally by the top guide.  A fuel support 
+piece at the bottom of the fuel assembly provides both vertical and lateral support.  The 
+approximately 715 lb dry weight of a fuel assembly holds the assembly in a fixed 
+position.  Individual fuel rods are about 160 inches in length. A fuel assembly has an 
+overall length of about 176 inches due to the additional length of the nose piece, lower 
+tie-plate, upper tie-plate and the bail handle. 
+ 
+The fuel assembly is designed to ensure in conjunction with other design features, that 
+fuel failure will not result in the release of radioactive materials in excess of guideline 
+values established in 10 CFR 20, 50, and 100. 
+ 
+The mechanical design process for nuclear fuel emphasizes that the fuel assembly will 
+provide substantial fission product retention capability during all potential operational 
+modes and will provide sufficient structural integrity to prevent operational impairment of 
+any reactor safety equipment. 
+ 
+
+
+
+ 
+Rev 09/11 2.2-4 USNRC HRTD 
+
+The fuel provides negative reactivity feedback sufficient to prevent fuel damage as a 
+result of any abnormal operational transient.  The reactor core is designed to ensure 
+stable reactor operation with a safe margin to thermal limits.  The fuel is also designed 
+and loaded to limit the excess reactivity of the core sufficiently to ensure that reactivity 
+control systems are capable of making the core subcritical at any time with the control 
+rod of the highest worth fully withdrawn. 
+ 
+Thermal hydraulic design of the core establishes actuation limits for the devices of the 
+nuclear safety systems so that no fuel damage occurs as a result of abnormal transients 
+and thermal limits for use in evaluating the safety margin relating the consequences of a 
+fuel barrier failure to public safety.  The design also ensures that the nuclear system is 
+stable and exhibits no inherent tendency toward divergent or limit cycle oscillations 
+which could compromise the integrity of the fuel or nuclear system process barrier. 
+ 
+2.2.2.1 Fuel Pellet 
+ 
+Typical values of U235 enrichment in fuel pellets is between 1.3 to 5 percent (Figure 2.2- 
+4). 
+ 
+To provide a practical core lifetime, fuel in excess of the initial critically concentration 
+must be loaded into the core. To allow this excess fuel loading, burnable poisons are 
+loaded in some fuel pellets to counteract the large positive reactivity contribution of fuel 
+in early core life. Burnable poisons are also loaded to properly shape the power 
+distribution. As the name implies, burnable poisons are depleted by neutron absorption 
+and they are effectively depleted early in the core lifetime. Fuel pellets are poisoned 
+using two isotopes of the element gadolinium, Gd155 and Gd157. Both isotopes have very 
+large microscopic cross-sections for neutron absorption and generate very little heat 
+during absorption.  The gadolinium is formed into a gadolinium oxide powder sometimes 
+referred to as Gadolinia. The Gadolinia is uniformly mixed with the uranium oxide when 
+the poisoned fuel pellets are formed. Up to twelve of the ninety-two fuel rods in a GE-14 
+fuel bundle are loaded with poisoned fuel pellets. 
+ 
+2.2.2.2 Fuel Cladding 
+ 
+The fuel rod cladding (Figures 2.2-1 & 2) is a hollow tube formed from Zircaloy-2 to form 
+a high integrity envelope. Zircaloy-2 has good material properties and was chosen due 
+to its superior heat transfer capacity as compared to other zirconium alloys.  The 
+cladding has an inner coating of pure zirconium to absorb the force of expanding fuel 
+pellets. The zirconium coating helps to prevent fuel failure due to pellet-clad reaction. 
+The typical cladding thickness is about 0.03 inches and each fuel rod is about 0.48 
+inches in diameter. 
+ 
+
+
+
+ 
+Rev 09/11 2.2-5 USNRC HRTD 
+
+2.2.2.3 Fuel and Water Rods 
+ 
+A GE-14 fuel bundle (Figures 2.2-1 & 2) is comprised of four types of rods: 
+
+• 70 standard fuel rods 
+• 8 fuel tie rods 
+• 14 partial length fuel rods 
+• 2 Water rods 
+
+  
+Each rod has upper and lower end plugs which are fabricated from Zircaloy-2 and then 
+welded to the ends of the fuel rod. Tie rods have threaded end plugs used to positively 
+engage both the upper and lower tie plates. The other fuel rods have unthreaded end 
+plugs which allow for a slip fitting in both the upper and lower tie plates. The fuel rods 
+are subject to elongation over prolonged exposure. The design of the upper tie plate 
+allows this elongation and expansion springs around the upper end plugs keep the fuel 
+fixed in position. 
+ 
+2.2.2.3.1  Standard Fuel Rods 
+ 
+A standard fuel rod is a small pressure vessel designed to withstand internal pressures 
+of up to 1800 psia and to operate in a BWR environment with external pressures on the 
+order of 1000 to 1100 psig.  A standard fuel rod is about 160 inches in length.  The 
+upper and lower 6 inches of the fuel rod contains natural (unenriched) uranium oxide 
+pellets.  The remainder of the fuel pellets are enriched in U235. Some of these U235 
+enriched pellets also contain gadolinium.  Each fuel rod is filled with helium at 44 psig to 
+improve the heat transfer from the fuel pellet to the cladding. 
+ 
+A free volume known as the plenum region (Figure 2.2-3) is provided in the top 10 
+inches of the fuel rod. The plenum region contains a plenum spring to axially compress 
+the stack of fuel pellets to firmly seat the pellets and minimize pellet migration.  The 
+plenum region will also contain fission products released from the fuel pellets.  
+ 
+The end plugs of a standard fuel rod have rounded Zircaloy-2 shanks that fit into the 
+upper and lower tie plates.  An Inconel expansion spring is located over the upper end 
+plug shank of each rod in the assembly.  The expansion spring keeps the fuel rod 
+seated in the lower tie plate. The spring allows axial expansion of the fuel rod while 
+maintaining a positive connection to the upper tie plate. 
+ 
+2.2.2.3.2 Tie Rods 
+ 
+Tie rods (Figures 2.2-1 & 5) hold the fuel bundle together by positively connecting to 
+both the upper and lower tie plates. The tie rods fully support the weight of the fuel 
+bundle when the fuel bundle is suspended by the bail handle. 
+ 
+Tie rods differ from the standard fuel rods only in that their lower plugs are threaded into 
+the lower tie plate and the upper end plugs are threaded and extend through the upper 
+
+
+
+ 
+Rev 09/11 2.2-6 USNRC HRTD 
+
+tie plate casting.  A stainless steel hexagonal nut threads onto the upper end plug of a 
+tie rod to hold the assembly together.  A locking tab washer locks the nuts in place.  
+Two rods along each side of the fuel bundle are tie rods. 
+ 
+In all other respects the tie rods are identical to the standard fuel rods. 
+ 
+2.2.2.3.3 Partial Length Fuel Rods 
+ 
+Partial length fuel rods (Figure 2.2-6) extend from the lower tie plate and terminate at an 
+intermediate level below the upper tie plate. The upper portion of the partial length 
+control rod is stabilized by one of the fuel spacers. This arrangement reduces the 
+amount of fuel in the upper core region. The steam environment in the upper part of an 
+operating core readily allows for the production of Pu239. The increased neutron travel 
+length above the core boiling boundary results in significant epithermal absorption by 
+U238 and consequently leads to the production of Pu239.  Pu239 is a thermal fuel much 
+like U235. The creation of Pu239 in the upper region of the core effectively adds new fuel 
+to the core and adversely affects the reactor shutdown margin at the end of a fuel cycle. 
+Limiting the fuel concentration in the upper core region mitigates that loss of shutdown 
+margin. 
+ 
+2.2.2.3.4 Water Rods 
+ 
+Two Zircaloy-2 water rods (Figures 2.2-5 & 6) are included in each fuel bundle. Water 
+rods are hollow tubes and contain no fuel pellets.  Several holes are drilled through the 
+tube wall at the top and bottom of the rod to allow coolant to flow freely throughout the 
+rod.  The outside diameter of the water rods is slightly larger than that of the standard 
+fuel rod or tie rod. 
+ 
+One of the two water rods positions the seven fuel rod spacers axially in the bundle.  
+This water rod positions seven fuel spacers using welded tabs spaced about 21 inches 
+along the rod axis.  The water rods are prevented from rotating and unlocking the 
+spacers by engagement of their square lower end plugs into square holes in the lower 
+tie plate.  The upper end plug is rounded and longer than any of the standard fuel rod 
+end plugs, which aids in confirming correct orientation of the water rods within the 
+bundle. 
+ 
+The water rods are placed in the center of the bundle to increase moderation and power 
+production in the center of the fuel bundle.  This arrangement provides a more even fuel 
+burn across the fuel bundle by minimizing the peak-to-average power density ratio.  
+Flattening the fuel profile also provides greater margins to the LHGR thermal limit. 
+ 
+2.2.2.4 Upper Tie Plate 
+ 
+The upper tie plate (Figures 2.2-1 & 7) including the bail handle is manufactured from a 
+single stainless steel casting.  It provides alignment and support for the fuel rods at the 
+
+
+
+ 
+Rev 09/11 2.2-7 USNRC HRTD 
+
+top of the fuel bundle.  The holes bored vertically through the upper tie plate position the 
+fuel rods laterally at the upper end of the fuel bundle.  The outer edge of the upper tie 
+plate has alignment bosses that provide a mating surface for the fuel channel.  The 
+upper tie plate has a post extending vertically from each corner to aid in securing the 
+fuel channel.  One of the corner posts is bored axially and threaded to accept the cap 
+screw for securing the channel fastener assembly.  A lifting handle is an integral part of 
+the upper tie plate and is used for moving and handling the fuel bundle during initial 
+core loading and subsequent refueling operations. 
+ 
+The upper tie plate also aids in verifying fuel cell configuration and proper orientation of 
+the fuel assembly within the cell. 
+ 
+2.2.2.5 Lower Tie Plate 
+ 
+The lower tie plate (Figures 2.2-1, 6 & 8) and nose piece is manufactured as a single 
+stainless steel casting. The lower tie plate positions the fuel rods laterally. The weight of 
+the fuel assembly is fully transferred from the nose piece to the fuel support piece once 
+the fuel assembly is installed in the reactor core.  The nose piece of the lower tie plate 
+fits precisely into the fuel support piece and directs coolant flow up through the fuel 
+assembly.  A hole is drilled into two sides of the lower tie plate nose piece to provide 
+about 10% of core flow to bypass the fuel channels.  This flow into the region of the core 
+between fuel assemblies is used to cool the incore nuclear instruments and the control 
+rods. The remaining 90% of flow is directed inside the channel. 
+ 
+The lower tie plate incorporates a filter to help prevent foreign material from entering the 
+fuel rod region. Abrasion damage is the major source of fuel failures. The filter and 
+lower tie plate create a large pressure drop across the fuel assembly which minimizes 
+the severity of power oscillations caused by thermal hydraulic instabilities. 
+ 
+2.2.2.6 Fuel Spacers 
+ 
+Fuel spacers(Figures 2.2-1, 2 & 6) in the fuel bundle provide positive contact support to 
+maintain the radial position of the fuel rods.  The spacers provide lateral support needed 
+to suppress fuel rod vibration and fretting wear associated with vibration.  The fuel rods 
+are held in place by springs in each of the fuel spacers.  The axial position of the 
+spacers is maintained by a connection to one of the water rods. 
+ 
+The fuel spacers are fabricated from Zircaloy-4 because of its low neutron absorption 
+characteristics.  The spacer springs are fabricated from Inconel. 
+ 
+2.2.2.7 Finger Springs 
+ 
+Finger springs (Figures 2.2-1 & 9) are incorporated at the lower end of the fuel bundle to 
+provide positive contact between the lower tie plate and the fuel channel.  This 
+
+
+
+ 
+Rev 09/11 2.2-8 USNRC HRTD 
+
+arrangement minimizes any change in channel flow over the fuel assembly lifetime. 
+Each side of the lower tie plate supports eight finger springs. 
+ 
+Fuel channel creep is a bowing of the fuel channel from flow induced internal pressure 
+and irradiation.  Fuel channel creep could lead to increased bypass flow with a 
+commensurate reduction in fuel flow.  To preclude this, finger springs are located 
+between the lower tie plate and the fuel channel.  The finger springs are held in place by 
+the lower end plugs of the fuel rods.  The springs fill the space between the bottom of 
+the channel and the lower tie plate to hold core flow relatively constant over the fuel 
+assembly lifetime.  
+ 
+2.2.2.8 Fuel Channel 
+ 
+A fuel channel (Figures 2.2-5 & 10) has several purposes: 
+
+• Flow distribution 
+• Bearing surface for the control rod blade rollers 
+• Improved fuel bundle rigidity 
+• Fuel rod protection during fuel handling 
+• Acts as a heat sink during loss of coolant accident (LOCA) conditions 
+
+ 
+The fuel channel is a Zircaloy-4 sheath of about 0.08 inches thickness. The fuel channel 
+encloses the fuel bundle.  The fuel channel provides a barrier to separate two parallel 
+flow paths.  Approximately 90% of the coolant flows within the fuel channel to remove 
+heat from the fuel rods. About 10% of the coolant flow is directed to the region between 
+fuel assemblies. 
+ 
+The fuel channel is open at the bottom and makes a sliding seal fit at the lower tie plate 
+by means of the finger springs (Figure 2.2-9).  At the top of the channel, two diagonally 
+opposite corners have welded tabs to support the weight of the channel on the raised 
+posts on the upper tie plate (Figure 2.2-2).  One of these raised posts has a threaded 
+hole and the channel is secured to the upper tie plate (fuel bundle) by using a cap screw 
+and channel fastener assembly.   
+ 
+Thickened corners (Figures 2.2-5 & 10) of the upper channel region align the fuel 
+assembly with respect to the other fuel assemblies. The thickened corners of the fuel 
+channel force the channels to contact the core top guide grid beams to maintain the fuel 
+assemblies properly aligned.  This also maintains a space sufficient for unimpeded 
+control rod movement. This style of fuel channel is sometimes referred to as an 
+interactive channel. 
+ 
+2.2.2.9 Fuel Assembly Orientation 
+ 
+The fuel assembly must be oriented properly in each fuel cell to ensure proper fuel 
+bundle power distribution is achieved as a result of enrichment loadings.  Improper fuel 
+
+
+
+ 
+Rev 09/11 2.2-9 USNRC HRTD 
+
+assembly orientation results is asymmetric power production which may affect the 
+operating margin to thermal limits.  
+ 
+Fuel assembly orientation can be verified in five ways: 
+
+• the channel fasteners, located at one corner of each fuel assembly, should be 
+adjacent to the center of the fuel cell 
+
+• the orientation boss on the fuel assembly handle should point toward the center 
+of the fuel cell and control rod 
+
+• the channel spacer buttons should be adjacent to the control rod passage area 
+and face one another 
+
+• the assembly identification numbers located on the fuel assembly handles, 
+should all be readable from the direction of the center of the fuel cell 
+
+• cell-to-cell duplication formed by bail handle geometric (square) pattern should 
+occur throughout the core 
+
+ 
+Poor water quality may impede the operators ability to verify proper fuel loading. 
+ 
+2.2.2.10 Zirconium 
+ 
+Alloys of zirconium are used for many fuel assembly components because of the low 
+neutron absorption cross section of zirconium.  The use of zirconium alloys for these 
+components aids in increasing neutron economy within the core region.  The alloys of 
+zirconium used are Zircaloy-2 and Zircaloy-4.  Zircaloy-2 was selected for the fuel rod 
+cladding material because of its excellent heat transfer properties. 
+ 
+A disadvantage of Zircaloy-2 is its relatively high susceptibility to Zircaloy-hydriding.  
+Zircaloy hydriding entails a reaction between zirconium and hydrogen that forms 
+zirconium hydride (ZrH2).  Local hydriding embrittles the cladding possibly leading to a 
+cladding perforation.  In extreme cases such as a loss of coolant accident (LOCA), 
+Zircaloy hydriding can be a catastrophic and energetic loss of cladding integrity.  The 
+helium backfill and hot out-gassing technique implemented during the manufacturing of 
+the fuel rod is very effective in eliminating hydrogenous contamination  Additional 
+improvements in quality control considerably reduce any concern regarding hydriding 
+during normal reactor operations. 
+ 
+Zircaloy-4 was selected for use in all zirconium alloy fuel assembly components with the 
+exception of the fuel rod cladding.  For these components resistance to hydriding is a 
+greater concern than heat transfer properties. 
+ 
+2.2.3 Control Rods 
+ 
+Control rods are designed for sufficiently rapid control rod insertion to avoid fuel 
+damage from any abnormal operating transient. Control rod design includes positioning 
+devices (control rod drive mechanisms), each of which: 
+
+• individually supports and positions a control rod 
+
+
+
+ 
+Rev 09/11 2.2-10 USNRC HRTD 
+
+• prevents its control rod from withdrawing as a result of a single malfunction 
+• is individually operated so that a failure in one positioning device does not affect 
+
+the operation of any other positioning device 
+• is individually controlled when rapid control rod insertion (scram) is signaled so 
+
+that failure of power sources external to the positioning device does not prevent 
+the control rods from being inserted 
+
+• is locked to its control rod to prevent undesirable separation 
+ 
+The control rods are designed so that they have sufficient mechanical strength to 
+prevent displacement of their reactivity control material. The control rods exhibit 
+sufficient strength and are designed to prevent deformation that could inhibit their 
+motion. 
+ 
+The control rod product line selected for description is GE Marathon™. 
+ 
+Control rods are used to both shape the reactor power distribution and to provide 
+reactivity control of the fuel in the core.  A typical control rod (Figures 2.2-12 & 13) 
+consists of a cruciform array of stainless steel tubes filled with the powdered form of 
+boron carbide (B4C) poison.  The B10 isotope of boron has a high microscopic cross-
+section for absorption of neutrons (3.84 x 103 barns) and acts as the control rod neutron 
+poison.  The control rods are located uniformly throughout the core and each control rod 
+is surrounded by four fuel assemblies. 
+ 
+B10 undergoes the following neutron absorption reaction: 
+ 
+
+4
+2
+
+7
+3
+
+1
+0
+
+10
+5 α+→+ LinB  
+
+ 
+Boron absorption of neutrons yields gases which may challenge poison tube integrity. 
+However, the advantage of boron is that it is an economical and low weight poison. 
+Early design boron tube control rods have been plagued by: 
+
+• bowing 
+• cracking 
+• stress corrosion cracking 
+• in extreme cases boron leaching or washout 
+
+ 
+The marathon control rod is less susceptible to these failures by utilizing a sheathless 
+design with square poison tubes welded together (Figure 2.2-12). This design allows 
+much higher internal pressures as compared to older designs. One disadvantage of the 
+boron poison is that it will have a shorter service life as compared to other available 
+poisons 
+ 
+
+
+
+ 
+Rev 09/11 2.2-11 USNRC HRTD 
+
+There are several characteristics which determine control rod lifetime.  Operational 
+lifetime is impacted by a loss of reactivity from the burnup of 5B
+
+10.  Control rods are 
+typically replaced when depletion: 
+
+• results in a 10% loss of control rod worth of any axial three foot section of the 
+blade 
+
+• and/or any blade that is expected to reach a 5B
+10 depletion greater than 34% 
+
+averaged over the upper one fourth of the blade during a fuel cycle 
+ 
+Some control rods may also contain hafnium at the top and or edges of control rod 
+blades. The advantage of hafnium is that it has five isotopes that have significant 
+thermal and epithermal microscopic cross-sections for neutron absorption. Four of those 
+isotopes are consecutive such that one hafnium nucleus may repeatedly absorb 
+neutrons. Hafnium has a negligible cross-section for fission. 
+ 
+
+180
+72
+
+1
+0
+
+179
+72
+
+1
+0
+
+178
+72
+
+1
+0
+
+177
+72 HfnHfnHfnHf →+→+→+  
+
+ 
+Using hafnium in high flux areas provides a greater control rod service lifetime and 
+avoids poison tube cracking that may occur in control rod blades comprised entirely of 
+boron powder tubes.  The hafnium design control rod blade is of the same configuration 
+as the standard blade, except that the three outer B4C tubes in each wing have been 
+replaced with solid hafnium rods.   
+ 
+Disadvantages of hafnium include high cost and weight. The use of hafnium may 
+require a redesign of the velocity limiter to keep the control rod weight at about the 
+original value. 
+ 
+2.2.3.1 Control Rod Blade 
+ 
+The marathon control rod (Figure 2.2-12) can incorporate several configurations of 
+boron and/or mixed boron and hafnium poisons. The most economical configuration 
+uses only the boron poison.  
+ 
+Each control rod has four blades formed into a cruciform shape.  Each of the four 
+blades contains 17 square stainless steel absorber tubes (Figure 2.2-11).  Each 
+absorber tube has four lobes which allow the tubes to be welded together lengthwise to 
+form wings.  The wings are then welded to the center tie rod to form the cruciform 
+member of the control rod.  This type of blade does not use a sheath. The square tubes 
+are circular inside and are loaded with either B4C or hafnium filled capsules.  The 
+capsules are placed inside the absorber tubes.  The pin and roller materials have been 
+selected to minimize transport of irradiated cobalt. 
+ 
+2.2.3.2 Absorber Tubes 
+ 
+The absorber tubes (Figures 2.2-12 & 13) are small stainless-steel tubes filled with 
+vibratory compacted boron carbide (B4C) powder. The boron carbide contains a 
+
+
+
+ 
+Rev 09/11 2.2-12 USNRC HRTD 
+
+minimum of 76.5% (by weight) boron which in turn is enriched to a minimum of 18% 
+boron-10 (5B
+
+10) by weight.  Absorber tubes are made of stainless steel having an 
+outside diameter of 0.220 inch and a wall thickness of 0.027 inch.  The tubes are sealed 
+by a plug welded into each end.  In order to prevent excessive void regions which can 
+be caused by settling of the B4C powder, stainless steel balls spaced at 16 inch 
+intervals are placed in the tube walls.  Should the boron carbide tend to compact further, 
+the steel balls will distribute the resulting voids over the entire length of the absorber 
+tube. 
+ 
+2.2.3.3 Control Rod Rollers 
+ 
+Each control rod has two sets of rollers to help ensure that the control rod will scram 
+quickly when required. Each control rod blade has a spherical roller (Figure 2.2-13) 
+located in the top end casting.  The rollers bear on the fuel channels and / or the control 
+rod guide tube during the full range of control rod motion (Figure 2.2-15). The rollers 
+provide lateral support and reduce resistance to movement.  The second set of rollers 
+are located on the velocity limiter.  The lower rollers are an integral part of the bottom 
+end casting  and contact the inner surface of the control rod drive guide tubes. 
+ 
+2.2.3.4 Control Rod Velocity Limiter 
+ 
+The control rod velocity limiter (Figures 2.2-13, 14 & 15) is an integral part of the control 
+rod's bottom end casting.  The velocity limiter is an engineered safety feature designed 
+to limit the control rod velocity in the event of a rod drop accident to less than 3.11 feet 
+per second.  This limits the rate at which reactivity addition to the core can occur.  The 
+velocity limiter is in the form of two conical elements closely mated to each other to act 
+as a large clearance piston inside the control rod guide tube. 
+ 
+The velocity limiter is provided with a streamlined profile in the scram or upward 
+(insertion) direction, thus limiting control rod velocity during dropout but not during a 
+scram.  When the control rod is scrammed, water flows over the smooth surface of the 
+upper conical element into the annulus between the guide tube and the limiter.  
+However, in the dropout direction, water is trapped by the lower conical element and 
+discharged through the annulus between the two conical sections.  Because the water 
+is jetted into the annulus, a severe turbulence is created, thereby slowing the descent of 
+the control rod assembly to less than 3.11 feet per second. 
+ 
+2.2.3.5 Control Rod Blade Coupling 
+ 
+The control rod blade coupling (Figures 2.2-13, 14 & 15) consists of a female socket 
+which is an integral part of the control rod bottom casting.  The upper end of the control 
+rod drive mechanism contains a multi-fingered male coupling spud. 
+ 
+A male lock plug which is spring loaded in a downward direction is located on the lower 
+end of the control rod's coupling release handle.  It keeps the fingers of the male 
+
+
+
+ 
+Rev 09/11 2.2-13 USNRC HRTD 
+
+coupling spud out against the inner surface of the socket and prevents the spud from 
+uncoupling once it has been coupled.  In order to couple the blade to the drive, it is only 
+necessary to raise the drive slightly.  The male coupling spud enters the socket and 
+pushes the spring loaded male lock plug up.  Once the coupling spud is in the correct 
+vertical position, the fingers expand, allowing the male lock plug to drop back down into 
+place. 
+ 
+The male lock plug is connected by a rod to the coupling release handle which allows 
+for uncoupling the blade from the drive from above the core. 
+ 
+2.2.3.6 Control Rod Valve Disc 
+ 
+The control rod valve disc is located just below the coupling release handle. When the 
+velocity limiter is seated on the rod guide tube (rod fully withdrawn) the uncoupling rod 
+in the control rod drive mechanism contacts the top of the buffer shaft and raises the 
+male lock plug about ⅛ inch to open the valve disc. The opening allows cooling flow 
+through the CRDM. In the event that CRDM accumulator pressure is at or below reactor 
+pressure, the larger area of the piston area will insert the control rod by directing over 
+piston water through the valve disc. 
+ 
+2.2.3.7 Control Rod Guide Tube 
+ 
+The control rod guide tube (Figures 2.2-14 & 16) is 11 inches in diameter and slightly 
+over 13 feet in length (Figure 2.2-15).  The top portion has four 3 inch diameter holes 
+which direct the core flow from the below core plate area to the fuel bundles through the 
+flow orifices in the fuel support pieces.  The bottom end of the guide tube is machined to 
+mate with the CRD housing and is locked in place on top of the housing via the CRD 
+thermal sleeve. 
+ 
+The guide tube performs the following functions: 
+
+• guides the lower end of the control rod during rod movement 
+• forms a cylinder around the velocity limiter portion of the control rod so it can 
+
+retard the free fall velocity under certain accident conditions 
+• supports and locates the orificed fuel support casting which in turn vertically 
+
+supports the fuel 
+• provides a portion of the controlled reactor coolant leakage between the upper 
+
+and lower plenum 
+• provides the coolant flow passage into the orificed fuel support piece 
+
+ 
+The control rod guide tube is locked in place with a bayonet type coupling between the 
+guide tube and the CRD housing.  A locking key is then inserted in the lower end of the 
+CRD housing to prevent the thermal sleeve from rotating and releasing the guide tube. 
+ 
+
+
+
+ 
+Rev 09/11 2.2-14 USNRC HRTD 
+
+2.2.3.8 Control Rod Drive Housings 
+ 
+The CRD housings are extensions of the reactor vessel for mounting of the CRD 
+mechanism (Figure 2.2-16).  CRD housings are approximately 14 feet long and provide 
+vertical and lateral support for the control rod drives.  They also transmit the weight of 
+the fuel, the fuel support pieces, and control rod guide tubes to the reactor vessel 
+bottom head. 
+ 
+The CRD housings, which are inserted from the bottom of the vessel, have flanges at 
+the bottom for bolting of the CRD mechanisms and for the permanent attachment of the 
+CRD insert and withdraw lines.  Each housing is inserted through the bottom of the 
+vessel, optically aligned through their respective core plate openings, and is welded to 
+the inside of the reactor vessel bottom head. 
+ 
+2.2.3.9 Bottom Entry Control Rods 
+ 
+Bottom entry control rods are used for several reasons: 
+
+• Less time is required during refueling outages to remove and reinstall the reactor 
+vessel head 
+
+• Control rods remain operable when the reactor vessel head is removed 
+• Internal moisture removal and steam separation can be more easily 
+
+accomplished without interference from top mounted control rods 
+• There is a large percentage of voids in the upper part of the BWR core . The 
+
+voids significantly reduce the power in the upper core. If control rods were 
+partially inserted from the top of a BWR core they would severely depress the 
+upper core flux further 
+
+• The control rods are used for axial power shaping. Specifically leaving some 
+control rods partially inserted in the lower portion of the core helps to control local 
+flux peaking and yields a more optimum fuel burnup 
+
+• Bottom entry control rods allow maximum use of water as a neutron shield for 
+control rod drive mechanism components 
+
+ 
+2.2.4 System Features 
+ 
+A short discussion of system features and interfaces this system has with other plant 
+systems is given in the paragraphs that follow. 
+ 
+2.2.4.1 Flow Paths 
+ 
+There are three significant flow paths associate with the nuclear fuel and control rods. 
+ 
+
+• control rod guide tube to fuel support piece 
+• channel flow 
+• bypass flow 
+
+ 
+
+
+
+ 
+Rev 09/11 2.2-15 USNRC HRTD 
+
+Water driven by recirculation and / or natural circulation drives coolant from the RPV 
+annular region up through the core region. Holes in the control rod guide tubes (Figure 
+2.2-16) allow coolant injection through the fuel support pieces. The fuel support pieces 
+meter the flow to the fuel channel and the core bypass region. 90% of the flow is 
+directed upward through the fuel channels. The core flow is necessary for power 
+generation and fuel cooling. 
+ 
+Two small perforations (Figures 2.2-1, 2 & 11) in the nose piece of each fuel bundle 
+allow for 10% of total flow to pass through the bypass region. The bypass region 
+includes the volume inside the core shroud that surrounds the fuel assemblies. Nuclear 
+instrumentation is distributed both axially and radially throughout the core. The bypass 
+flow in this region serves to cool the instrumentation inside the core shroud. 
+ 
+2.2.4.2 Fuel Failure Mechanisms 
+ 
+Although the rate of fuel failures has been significantly reduced as compared to the 
+pioneer days of commercial nuclear power, fuel failures still occur. Fuel failure is defined 
+as a fuel cladding failure. Significant fuel failure allows the escape of fission product 
+gases and in extreme cases has allowed coolant flow to erode solid fuel material. Four 
+major failure mechanisms are: 
+
+• Zircaloy-Hydriding 
+• Pellet-clad-interaction (PCI) 
+• Poor Water Quality 
+• Foreign material intrusion 
+
+ 
+Zircaloy-Hydriding as previously described can occur at a slow rate over core lifetime or 
+can occur rapidly in a catastrophic event.  Zircaloy hydriding is principally addressed by 
+a reduction of hydrogenous material inside the fuel rod. Improved manufacturing 
+methods have dramatically reduced internal contamination of fuel rods. 
+ 
+PCI fuel failure occurs during power operation when there is excessive localized 
+cladding strain caused by differential thermal expansion between the fuel pellet and the 
+cladding.  This type of fuel failure is evidenced by longitudinal cracks in the cladding 
+adjacent to the fuel pellet interface.  The PCI failure mechanism results when a fuel 
+pellet expands at a greater rate than the cladding during rapid increases in pellet power. 
+This can result in pellet contact with the inner cladding surface, producing an internal 
+force which deforms (or strains) the fuel cladding. 
+ 
+Some segments of the cladding may also exhibit less ductility (more brittleness) with 
+increased exposure to radiation in the reactor core.  This combination of rapid pellet 
+growth and decreased clad ductility can result in a PCI failure. 
+ 
+PCI failures are mitigated by: 
+
+• Programmatically slow power ascensions to allow fuel pellets and fuel cladding to 
+expand uniformly, thus minimizing PCI induced cladding strain 
+
+
+
+ 
+Rev 09/11 2.2-16 USNRC HRTD 
+
+• chamfered edges to reduce sharp surfaces against the cladding 
+• barrier fuel which has a soft inner coating of natural zirconium to dissipate the 
+
+local forces from fuel pellet distortion 
+ 
+Another failure mechanism is associated with poor water chemistry. Poor water quality 
+adversely affects the material properties of the Zircaloy cladding. Improved chemistry 
+standards have in large measure reduced this type of fuel damage. 
+ 
+Considering that other forms of fuel failures have been remediated, foreign material 
+intrusion is now the most significant failure mechanism. Small pieces of debris such as 
+metal shavings become caught in fuel assembly surfaces, especially where the fuel 
+spacers contact fuel rods. Iterative cycling can result in cladding erosion and eventual 
+failure. This type of failure has been addressed by the use non-line-of-sight filtration 
+(Figure 2.2-11). 
+ 
+2.2.5 System Interfaces 
+ 
+The operation of the reactor fuel is related either directly or indirectly to almost all of the 
+reactor plant systems.  Some of the systems which relate the most directly with the Fuel 
+and Control Rods System are discussed in the paragraphs that follow. 
+ 
+Reactor Pressure Vessel System (Section 2.1) 
+ 
+The reactor pressure vessel (RPV) houses the reactor core, supports and aligns the 
+fuel, and provides the water circulation flow paths to distribute coolant to the fuel. The 
+RPV provides a mounting surface and bears the weight of control rod guide tubes and 
+control rod drive mechanisms. 
+ 
+Control Rod Drive System (Section 2.3) 
+ 
+The Control Rod Drive System provides the means by which the control rods are 
+positioned within the reactor core. 
+ 
+Fuel Transfer System (Section 11.8) 
+ 
+The Fuel Transfer System transfers fuel assemblies, control rod blades and other small 
+irradiated items from the reactor vessel to the spent fuel pool. It also transfers new fuel 
+from the new fuel storage to the spent fuel pool and to the reactor pressure vessel. 
+ 
+Refueling and Vessel Servicing System (Section 11.9) 
+ 
+The Refueling and Vessel Servicing System provides the facilities and equipment for 
+handling and storing new and spent fuel, for refueling the vessel and for servicing 
+internal components of the reactor vessel. 
+ 
+
+
+
+ 
+Rev 09/11 2.2-17 USNRC HRTD 
+
+Spent Fuel Pool (Section 11.7) 
+ 
+Fuel assemblies are stored in the spent fuel when they are not installed in the core. 
+Irradiated uninstalled control rods are stored in the spent fuel pool. 
+ 
+Rod Worth Minimizer (Section 7.5) 
+ 
+The rod worth minimizer (RWM) in conjunction with the control rod velocity limiter limits 
+the severity of a dropped rod accident. 
+ 
+2.2.6 Summary 
+ 
+The functional classifications of the reactor fuel and the control rods are as safety 
+related equipment.  The control rod velocity limiter is an engineered safety feature. 
+ 
+The reactor fuel is comprised of uranium pellets (some including gadolinia) contained in 
+fuel rods. The fuel rods are organized into fuel bundles. The fuel bundles are channeled 
+and many are organized into fuel cells of four fuel assemblies and one control rod. The 
+fuel design target is to prevent any failure of the fuel rod cladding which could introduce 
+fission products into the reactor coolant. The integrity of the fuel cladding is key to 
+meeting the public exposure limits of 10CFR100. 
+ 
+The purposes of the reactor fuel include: 
+
+• Energy generation 
+• Fission Product Barrier 
+• Roller surface for control rods 
+• Distribution of water flow to the fuel assemblies and bypass regions 
+
+ 
+The control rods are formed by welding poison tubes together. The most common and 
+economical control rod design uses boron as a poison. Other options include the use of 
+hafnium at the blades edges or at the top of the control rod. The control rods are 
+coupled to control rod drive mechanisms (CRDMs) and integral rollers allow the free 
+movement of the control rod blades in and out of the core. 
+ 
+The purposes of the control rods include: 
+
+• reactor power control 
+• flux distribution to optimize core performance 
+• providing adequate shutdown margin to maintain the reactor sub-critical for all 
+
+plant conditions 
+• in conjunction with the Rod Worth Minimizer (RWM) limits the reactivity effects of 
+
+a dropped control rod 
+ 
+Control rod guide tubes support the weight of the central fuel assemblies. Water flows 
+upward through the guide tubes. 90% of that water is directed upward through the fuel 
+channel to remove heat from the fuel. 10% of the guide tube flow is dispatched through 
+
+
+
+ 
+Rev 09/11 2.2-18 USNRC HRTD 
+
+small orifices in the fuel assembly lower tie plate. The bypass flow is required to cool the 
+control rods and nuclear instrumentation. 
+ 
+
+ 
+ 
+
+
+
+ Figure 2.2-1 Fuel Assembly Side View 
+
+ 
+ 
+
+UPPER TIE PLATE
+
+LOWER
+TIE PLATE
+CASTING
+
+CHANNEL
+
+SPACER
+(TYP 7)
+
+BYPASS
+ORIFICE
+(TYP 2)
+
+LOCKING TAB WASHER
+(TYP 4)
+
+  
+
+
+
+
+
+ Figure 2.2-2 Fuel and Channel Fastener Assemblies 
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+ Figure 2.2-3 Upper Fuel Rod 
+
+ 
+
+PLENUM
+LENGTH
+
+10 IN.
+
+FUEL
+LENGTH
+150 IN.
+
+UPPER END PLUG
+(ZIRCALOY 2)
+
+FISSION GAS
+PLENUM
+
+PLENUM SPRING
+(STAINLESS STEEL)
+
+CHAMFERED
+FUEL PELLETS
+
+FUEL TUBE
+(ZIRCALOY 2)
+
+LOWER END PLUG
+(ZIRCOLOY 2)
+
+ 
+ 
+ 
+
+
+
+
+
+ Figure 2.2-4 Fuel Rod Isotopic Locations 
+
+ 
+ 
+ 
+
+A. 3.00% U235
+
+B. 2.60% U235
+
+C. 2.20% U235
+
+D. 2.00% U235
+
+E. 1.70% U235
+
+F. 1.30% U235
+
+G. 0.711% U235
+
+H. 1.70% U235, 5.0% Gd
+
+I. 1.70% U235, 4.0% Gd
+
+J. 1.70%, 2.0% Gd
+
+K. Water Rod
+
+ 
+ 
+ 
+
+
+
+
+
+ Figure 2.2-5 Top View of Fuel Cell 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+ Figure 2.2-6 GE-14 Fuel Assembly Side View 
+
+ 
+ 
+ 
+ 
+
+ 
+  
+
+
+
+ Figure 2.2-7 Upper Tie Plate and Bail Handel 
+
+ 
+
+
+
+ Figure 2.2-8 Lower Tie Plate Without Filter 
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+  
+
+
+
+ Figure 2.2-9 Finger Springs 
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+ Figure 2.2-10 Interactive Channel 
+
+ 
+ 
+ 
+ 
+ 
+
+Thick Corner
+
+Thin Side
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+ Figure 2.2-11 Lower Tie Plate With Filter 
+
+Filter
+
+Nose
+Piece
+
+ 
+
+
+
+ Figure 2.2-12 Marathon Control Rod Construction 
+
+ 
+ 
+
+LOBE
+
+ABSORBER
+CAPSULE
+
+GAP
+
+BORON
+CARBIDE
+POWDER
+
+SQUARE TYPE
+ABSORBER TUBE
+
+ABSORBER TUBE
+(BEFORE WELDING)
+
+ABSORBER TUBE
+(AFTER WELDING)
+
+HELIUM
+
+ABSORBER TUBE-TO-TUBE WELDS
+
+
+
+ Figure 2.2-13 Marathon Control Rod Side View 
+
+ 
+Handle
+
+Upper Roller
+
+Blade Fabricated From
+Welded Boron Tubes
+
+Control Rod
+Valve Disc
+
+Velocity Limiter
+
+Lower Roller
+
+Rod Coupling
+
+ 
+
+
+
+ Figure 2.2-14 Velocity Limiter in Control Rod Guide Tube 
+
+ 
+ 
+
+REACTOR VESSEL
+
+STUB TUBE
+
+CONTROL ROD DRIVE HOUSING
+
+CONTROL ROD
+DRIVE MECHANISM
+
+ROD COUPLING
+
+GUIDE TUBE
+
+VELOCITY LIMITER
+
+ORIFICED FUEL SUPPORT
+
+CORE SUPPORT PLATE
+CONTROL ROD BLADE
+
+INCORE GUIDE TUBE
+ORIFICE
+
+ 
+ 
+ 
+
+
+
+ Figure 2.2-15 Control Rod Coupling 
+
+UNLOCKING
+HANDLE
+
+CONTROL
+ROD
+
+ASSEMBLY
+
+CONTROL ROD
+VALVE DISC SEAT
+
+LOCK PLUG
+
+UNLOCKING
+TUBE
+
+INDEX
+TUBE-DRIVE
+
+VELOCITY
+LIMITER
+
+SOCKET
+
+LOCK PLUG
+RETURN SPRINGS
+
+ACTUATING SHAFT
+
+COUPLING
+SPUD
+
+ 
+ 
+
+
+
+ Figure 2.2-16 Fuel Cell and Control Rod Guide Tube 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

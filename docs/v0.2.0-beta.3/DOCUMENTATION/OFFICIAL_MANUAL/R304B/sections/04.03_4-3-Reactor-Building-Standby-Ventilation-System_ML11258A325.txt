@@ -1,0 +1,626 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+4.3 Reactor Building Standby Ventilation System  —  0518 - R304B - GE BWR_4 Technology - 4.3 Reactor Building Standby Ventilation System.
+ADAMS ML11258A325   문서일자 2011-09-23   13 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A325.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 4.3 
+ 
+
+Reactor Building Standby Ventilation System 
+ 
+
+
+
+
+
+ 
+Rev 09/11 4.3-i USNRC HRTD 
+
+TABLE OF CONTENTS 
+
+4.3 REACTOR BUILDING STANDBY VENTILATION SYSTEM .................................... 1 
+
+4.3.1 Introduction .......................................................................................................... 1 
+
+4.3.2 Component Description ....................................................................................... 2 
+4.3.2.1 Reactor Building Exhaust Fans ................................................................... 2 
+4.3.2.2 Mixing Plenum ............................................................................................. 2 
+4.3.2.3 Cooling Coils ............................................................................................... 3 
+4.3.2.4 Filter Train Booster Fans ............................................................................. 3 
+4.3.2.5 Heating Coil ................................................................................................. 3 
+4.3.2.6 Prefilter ........................................................................................................ 3 
+4.3.2.7 High Efficiency Particulate Air (HEPA) Filter ............................................... 3 
+4.3.2.8 Charcoal Filter ............................................................................................. 4 
+4.3.2.9 Downstream HEPA Filter ............................................................................. 4 
+4.3.2.10 Flow Control Dampers ................................................................................. 4 
+4.3.2.11 Area Unit Coolers ........................................................................................ 4 
+
+4.3.3 System Features and Interfaces .......................................................................... 5 
+4.3.3.1 Normal Operation ........................................................................................ 5 
+4.3.3.2 Automatic Initiation ...................................................................................... 5 
+4.3.3.3 Inspection and Testing ................................................................................ 6 
+4.3.3.4 System Interfaces ........................................................................................ 6 
+
+4.3.4 Summary ............................................................................................................. 7 
+ 
+ 
+ 
+
+LIST OF FIGURES 
+ 
+4.3-1 Reactor Building Standby Ventilation System 
+
+  
+
+
+
+
+
+ 
+Rev 09/11 4.3-1 USNRC HRTD 
+
+ 
+4.3 REACTOR BUILDING STANDBY VENTILATION SYSTEM 
+ 
+Learning Objectives: 
+ 
+1. Recognize the purposes of the Reactor Building Standby Ventilation System (RBSVS). 
+ 
+2. Recognize the purpose, function and operation of the following RBSVS major components: 
+
+a. Reactor building exhaust fans 
+b. Mixing plenum 
+c. Cooling coils 
+d. Filter train booster fans 
+e. Heating coils 
+f. Prefilter 
+g. HEPA filters 
+h. Charcoal filter 
+i. Downstream HEPA filter 
+j. Flow control dampers 
+
+ 
+3. Describe the flowpath of the RBSVS during the following: 
+
+a. Routine operations. 
+b. Accident conditions 
+
+ 
+4. Recognize the plant conditions that will cause the Reactor Building Standby Ventilation 
+
+System (RBSVS) to initiate. 
+ 
+5. Describe how the Reactor Building Standby Ventilation system interfaces with the following 
+
+systems: 
+a. Primary Containment System (Section 4.1) 
+b. Secondary Containment System (Section 4.2) 
+c. High Pressure Coolant Injection System (Section 10.1) 
+
+ 
+4.3.1 Introduction 
+ 
+The purposes of the Reactor Building Standby Ventilation System are to process 
+exhaust air from the secondary containment under accident conditions in order: 
+• to limit radiation doses to less than 10CFR100 limits, 
+• to maintain a negative pressure in the secondary containment upon loss of the 
+
+normal ventilation system, 
+• to perform secondary containment leak tests, and 
+• to purge the primary containment. 
+ 
+The functional classification of the RBSVS is that of a safety related system. Its 
+regulatory classification is that of an Engineered Safety Feature (ESF). 
+ 
+The RBSVS (Figure 4.3-1) operates independent of but in conjunction with the Reactor 
+Building Normal Ventilation System (RBNVS) described in Chapter 4.2.  The RBSVS 
+
+
+
+ 
+Rev 09/11 4.3-2 USNRC HRTD 
+
+consists of a suction duct network, two filter trains with fans, and a discharge vent.  The 
+suction duct removes air from the RBNVS exhaust duct, upstream of the secondary 
+containment air exhaust isolation valves.  It also draws air from the HPCI gland exhaust 
+line via the mixing plenum when the HPCI is running.  Each filter train contains a heater 
+to provide humidity control, and banks of particulate and charcoal filters to remove 
+particulate matter and halogens.  Both trains share a pair of booster fans which move 
+containment air through the processing system and out the elevated release point for 
+discharge.  The fans and filter trains are located inside the Reactor Building. 
+ 
+Each RBSVS train must be operable whenever: 
+• reactor coolant temperature is ≥212°F 
+• during a refueling outage when handling irradiated fuel 
+• during core alterations 
+• when operations are in progress having a potential to drain the reactor vessel. 
+ 
+Either train is rated for 100% capacity and is capable of producing and maintaining the 
+secondary containment at a pressure of -0.25 inch water. 
+ 
+4.3.2 Component Description 
+ 
+The major components of the Reactor Building Standby Ventilation System are 
+discussed in the paragraphs which follow. 
+ 
+4.3.2.1 Reactor Building Exhaust Fans 
+ 
+The three Reactor Building Exhaust Fans are each 45,000 scfm, motor driven vane 
+axial fans which are powered from the 480 VAC Emergency Busses.  They normally 
+exhaust from the Secondary Containment to the Station Ventilation Exhaust Stack. 
+ 
+During the RBSVS operation, at least one exhaust fan remains running to draw air from 
+the refueling floor downward and through the equipment hatch openings and the deck 
+grating, to the ventilation exhaust duct inlets at each floor level.  Exhaust fan discharge 
+is redirected from the stack to a mixing plenum. 
+ 
+4.3.2.2 Mixing Plenum 
+ 
+The Mixing Plenum acts as the collection point for all containment air that is picked up 
+by the Reactor Building Exhaust Fans from the exhaust ducts located on all levels of the 
+Reactor Building.  Within the plenum, all air is mixed by means of internal baffles.  The 
+majority of air leaves the mixing plenum and is directed to a ring header located above 
+the refueling floor, where it is discharged through diffusers.  Some air is removed from 
+the mixing plenum by a Filter Train Booster Fan and discharged to one of two 100% 
+capacity filter trains. 
+ 
+
+
+
+ 
+Rev 09/11 4.3-3 USNRC HRTD 
+
+4.3.2.3 Cooling Coils 
+ 
+Two 100% capacity cooling coils, located in series, cool the large volume of air in the 
+Secondary Containment.  Most of containment air entering the mixing plenum exits 
+through cooling coils to the distribution ducts located on the refueling floor.  Each 
+cooling coil is cooled by the Reactor Building Standby Ventilation System Control Room 
+Air Conditioning Chilled Water System.  The combination of cooling coils and the area 
+unit coolers help to maintain the reactor building at a negative pressure by cooling the 
+containment atmosphere. 
+ 
+4.3.2.4 Filter Train Booster Fans 
+ 
+Two Filter Train Booster Fans are each 1235 scfm, motor driven centrifugal fans that 
+are powered from 480VAC Emergency Busses.  Air is drawn from the mixing plenum 
+and discharged through a common header to the filter trains.  Only one fan and filter is 
+required for RBSVS operation. 
+ 
+Flow divides at the inlet of each filter train.  Air at 1190 scfm enters the filter train for 
+processing while 45 scfm is diverted to Reactor Building Secondary Containment via a 
+fixed orifice.  30 scfm of the 1190 scfm leaving the filter train flows backward through 
+the inactive filter train to remove decay heat in its charcoal filter.  This cooling air also 
+exits through the fixed orifice located at the standby filters inlet returning to the 
+secondary containment atmosphere. 
+ 
+4.3.2.5 Heating Coil 
+ 
+The air stream entering the filtration system is heated by an electric heater that is 
+regulated by a temperature controller to maintain prefilter influent flow at < 70 percent 
+relative humidity.  Charcoal adsorption efficiency is reduced if the relative humidity 
+exceeds 70 percent. Each heater is powered from the same Emergency AC power 
+source as its associated Filter Train Booster Fan. 
+ 
+4.3.2.6 Prefilter 
+ 
+The prefilter is located downstream of the electric heating coil.  It is constructed of a 
+replaceable, dry type, extended fiberglass media.  The prefilter is designed to remove 
+atmospheric dust and particulate matter with at least 85 percent efficiency, thereby 
+extending the life of the downstream high efficiency particulate air filters. 
+ 
+4.3.2.7 High Efficiency Particulate Air (HEPA) Filter 
+ 
+Immediately following the prefilter and upstream of the charcoal filter is HEPA filter 
+bank.  The HEPA filter is 99.97 percent efficient at removing particles 0.3 microns or 
+larger in diameter.  It removes particulate which could enter the filter train from the 
+
+
+
+ 
+Rev 09/11 4.3-4 USNRC HRTD 
+
+mixing plenum thus ensuring charcoal filter adsorber efficiency and protection from 
+fouling.  The HEPA filter bank is constructed of fiberglass media. 
+ 
+4.3.2.8 Charcoal Filter 
+ 
+Located downstream of the HEPA filter bank is the Charcoal Filter.  The charcoal 
+adsorber is impregnated with iodine and has a minimum design adsorption efficiency of 
+99.9 percent removal of elemental iodines [5 percent of which is in the form of methyl 
+iodide (CH3I) when operating at 90 percent humidity and 77ºF. 
+ 
+4.3.2.9 Downstream HEPA Filter 
+ 
+A second HEPA filter bank is downstream of the charcoal adsorber bed.  It has the 
+same design parameters as the upstream HEPA filter.  This filter provides redundancy 
+in the event of any damage to the first HEPA filter.  Also, it prevents any charcoal fines 
+originating in the charcoal adsorber from exiting the discharge plenum and being carried 
+out the elevated release point. 
+ 
+4.3.2.10 Flow Control Dampers 
+ 
+Flow control dampers MOV-34A&B modulate as necessary to maintain system design 
+exhaust flow at 1160 scfm to the elevated release point regardless of how many fans 
+and filters are in operation.  This flow rate is equivalent to the maximum design in-
+leakage created with the secondary containment internal pressure at -0.25 inch H2O in 
+combination with the external containment surface pressure created by a 30 mph wind. 
+ 
+4.3.2.11 Area Unit Coolers 
+ 
+Two redundant sets of four unit coolers each are provided in areas of high heat gain 
+such as RHR/Core Spray Area and Refueling Level Area.  These area unit coolers start 
+when the RBSVS is initiated.  Along with the coolers, the associated Temperature 
+Control Valves (TCVs) modulate as necessary to control temperature.  The unit coolers 
+are discussed in greater detail in Chapter 4.2. 
+
+
+
+ 
+Rev 09/11 4.3-5 USNRC HRTD 
+
+ 
+4.3.3 System Features and Interfaces 
+ 
+A short discussion of system features and interfaces with other plant systems is given in 
+the paragraphs which follow. 
+ 
+4.3.3.1 Normal Operation 
+ 
+During normal plant operation, the RBSVS is shutdown and in a standby mode.  It is 
+capable of being started manually or automatically.  The RBSVS can process air flow 
+from the following areas or components: 
+• Refueling Area 
+• All Reactor Building elevations (except designated Contaminated Areas) 
+• Drywell 
+• Suppression Chamber 
+• HPCI gland exhaust 
+ 
+4.3.3.2 Automatic Initiation 
+ 
+Control logic for the RBSVS automatically starts all filter trains upon receipt of an 
+accident signal.  Once started, all trains continue running until secured manually.  
+Should one train fail, the remaining train will continue to provide design flow. The 
+RBSVS automatically starts if any of the following conditions exist: 
+• Drywell pressure high (≥1.69 psig) 
+• Low Reactor Water Level (Level 2, -38 inches) 
+• Refuel area exhaust radiation high (≥35 mR/hr) 
+• Containment vent/purge exhaust duct rad high (>5.4  x 105 cpm) 
+• Reactor Building ΔP low (-0.30 inch H2O after a 30 second time delay) 
+• Loss of power to Normal 480V or 4160V AC Buses 
+• RBNVS supply or exhaust isolation valve fails closed 
+• Reactor Building Supply Air Conditioning Unit valve closes. 
+ 
+When initiated, the RBSVS performs the following functions: 
+• Isolates the Secondary Containment by closing the RBNVS exhaust isolation valves 
+
+(AOV-37A&B) and the supply isolation valves (AOV-35A&B). 
+• Trips the operating RBNVS supply fans.  (The two normally running Reactor Building 
+
+Exhaust Fans continue operating and act as recirculation fans for the entire 
+Secondary Containment volume.  One exhaust fan is not required and is soon 
+secured.) 
+
+• Closes the Primary Containment Purge/Vent Supply and Exhaust Isolation Valves, if 
+open. 
+
+• Closes the Refueling Area and Contaminated Area Exhaust Dampers. 
+• Opens the RBSVS Mixing Plenum inlet valves such that 43,765 scfm of air will be 
+
+circulated through the RBSVS cooling coils discharging to the refueling level air 
+
+
+
+ 
+Rev 09/11 4.3-6 USNRC HRTD 
+
+discharge header.  The remaining 1235 scfm is redirected to the suction of the filter 
+train booster fans. 
+
+• Filter Train Booster Fans start and their associated discharge dampers open, filter 
+train inlet dampers open, and filter train flow control dampers modulate to maintain 
+flow at 1160 scfm to the elevated release point. 
+
+• All RBSVS area unit coolers start. 
+ 
+With the RBSVS aligned and operating, the Secondary Containment is maintained at a 
+≤-0.25 inch H2O pressure by modulation of the filter train flow control dampers (MOD-
+34A&B).  The Reactor Building atmosphere is cooled as it recirculates through the 
+RBSVS Cooling Coils and the Area Unit Coolers in the RHR/Core Spray Pump rooms, 
+the refueling floor, the Motor Control Center rooms, and the LPCI MG Set rooms. 
+ 
+The RBSVS Filter Trains, in conjunction with the large amount of containment internal 
+recirculation air flow, provides holdup, mixing, and dilution of airborne radioactive 
+contaminants.  It also minimizes the release of radioactivity to the environment by 
+maintaining a negative pressure in the secondary containment and filtering the exhaust 
+air prior to release. 
+ 
+4.3.3.3 Inspection and Testing 
+ 
+The Secondary Containment Integrity verification requires that the Reactor Building be 
+intact.  This is determined by operating the RBSVS while the RBNVS is isolated, 
+adjusting the discharge air flow to 1160 scfm, and verifying reactor building pressure to 
+be greater than 0.25 inches of water gauge below the pressure outside the building. 
+ 
+The RBSVS trains and fans are arranged so that one train and its associated fan can be 
+serviced or tested while the redundant train is ready to operate.  Upon receipt of an 
+accident signal Secondary Containment isolates, the RBSVS train being tested will shut 
+down, isolate and the redundant train will start automatically. 
+ 
+4.3.3.4 System Interfaces 
+ 
+Interfaces between the RBSVS and other plant systems are discussed in the following 
+paragraphs. 
+ 
+Primary Containment System (Chapter 4.1) 
+ 
+The RBSVS can be used to purge atmosphere from either the drywell or suppression 
+chamber. 
+ 
+
+
+
+ 
+Rev 09/11 4.3-7 USNRC HRTD 
+
+Secondary Containment System (Chapter 4.2) 
+ 
+The RBSVS automatically starts and takes suction from the Secondary Containment 
+under accident conditions in order to maintain the Secondary Containment at a negative 
+pressure.  The RBSVS is also used to test for Secondary Containment integrity. 
+ 
+High Pressure Coolant Injection System (Chapter 10.1) 
+ 
+The HPCI System gland exhaust blower discharges to the RBSVS' Mixing Plenum for 
+processing and release of noncondensible gases.  The HPCI auto initiation signals 
+(≥1.69 psi Drywell Pressure or Level 2) also initiate the RBSVS.  For manual initiation of 
+HPCI the RBSVS must be manually started, also. 
+ 
+4.3.4 Summary 
+ 
+Classification - Safety related system; engineered safety feature system. 
+ 
+Purpose - To process secondary containment atmosphere prior to release under 
+accident conditions; to maintain a sub-atmospheric pressure in the secondary 
+containment relative to the environment outside the building; to provide a means for 
+purging the primary containment; to perform leak tests of the secondary containment. 
+ 
+Components - Reactor building exhaust fans; mixing plenum; booster fans; electric 
+heater; prefilter; HEPA filters; charcoal filter; flow control dampers; area unit coolers. 
+ 
+System Interfaces - Primary Containment System; Secondary Containment System; 
+Process and Area Radiation Monitoring System; High Pressure Coolant Injection 
+System. 
+
+  
+
+
+
+ 
+Rev 09/11 4.3-8 USNRC HRTD 
+
+ 
+
+
+
+ Figure 4.3-1 Reactor Building Standby Ventilation System 
+
+ 
+ 
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+
