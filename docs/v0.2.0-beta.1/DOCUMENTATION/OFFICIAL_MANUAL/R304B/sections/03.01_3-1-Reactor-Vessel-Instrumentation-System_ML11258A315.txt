@@ -1,0 +1,1329 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+3.1 Reactor Vessel Instrumentation System  —  0518 - R304B - GE BWR_4 Technology - 3.1 Reactor Vessel Instrumentation System.
+ADAMS ML11258A315   문서일자 2011-09-23   33 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A315.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 3.1 
+ 
+
+Reactor Vessel Instrumentation System 
+ 
+
+
+
+
+
+ 
+Rev 09/11 3.1-i USNRC HRTD 
+
+ 
+TABLE OF CONTENTS 
+
+3.1 REACTOR VESSEL INSTRUMENTATION SYSTEM .............................................. 1 
+
+3.1.1 Introduction .......................................................................................................... 1 
+
+3.1.2 Component Description ....................................................................................... 3 
+3.1.2.1 Reactor Vessel Water Level Instrumentation ................................................ 3 
+3.1.2.2 Reactor Vessel Level Ranges ....................................................................... 4 
+3.1.2.3 Reactor Vessel Level Functions ................................................................... 5 
+3.1.2.4 Reactor Vessel Pressure .............................................................................. 7 
+3.1.2.5 Reactor Vessel Pressure Ranges ................................................................. 8 
+3.1.2.6 Reactor Vessel Pressure Functions .............................................................. 8 
+3.1.2.7 Reactor Vessel Temperature ........................................................................ 9 
+3.1.2.8 Reactor Core Flow Rate and Differential Pressure ....................................... 9 
+3.1.2.9 Vessel Flange Seal Leak Detection ............................................................ 10 
+
+3.1.3 System Features and Interfaces ........................................................................ 10 
+3.1.3.1 Reactor Core Flow rate With One Recirculation Pump in Service .............. 10 
+3.1.3.2 Jet Pump Flow Effect on Indication ............................................................. 11 
+
+3.1.4 System Interfaces .............................................................................................. 11 
+
+3.1.5 Summary ........................................................................................................... 12 
+ 
+
+LIST OF TABLES 
+ 
+
+3.1-1 Summary of Vessel Level Trips  ......................................................................... 15 
+3.1-2 Summary of Reactor Pressure Setpoints ............................................................ 17 
+3.1-3 Narrow Range Level Interlocks ........................................................................... 19 
+3.1-4 Wide Range Level Interlocks .............................................................................. 21 
+3.1-5 Level Instrument Ranges and Calibration Conditions ......................................... 23 
+  
+
+
+
+ 
+Rev 09/11 3.1-ii USNRC HRTD 
+
+LIST OF FIGURES 
+ 
+3.1-1 Vessel Level Instrumentation Ranges 
+3.1-2 Reactor Vessel Level and Pressure Instrumentation 
+3.1-3 Vessel Temperature Monitoring 
+3.1-4 Jet Pump and Core D/P Instrumentation 
+3.1-5 Core Flow Summing Network 
+3.1-6 Reactor Vessel Head Leak Detection 
+ 
+
+
+
+ 
+Rev 09/11 3.1-1 USNRC HRTD 
+
+ 
+ 
+ 
+3.1 REACTOR VESSEL INSTRUMENTATION SYSTEM 
+ 
+Learning Objectives: 
+ 
+1. Recognize the purposes of the Reactor Vessel Instrumentation system. 
+ 
+2. Recognize the ranges and calibration conditions of the reactor vessel water level 
+
+instrumentation. 
+ 
+
+3. Recognize the parameter setpoints and resultant actions listed in tables 3.1-1 and 
+3.1-2 
+ 
+
+4. Recognize the purpose and operation of the following reactor vessel 
+instrumentation: 
+a. Reactor vessel temperature 
+b. Core flow/differential pressure 
+c. Vessel flange leak detection 
+
+ 
+5. Recognize how the Reactor Vessel Instrumentation system interfaces with the 
+
+following systems: 
+a. Reactor Vessel System (Section 2.1) 
+b. Reactor Core Isolation Cooling System (Section 2.7) 
+c. Feedwater Control System (Section 3.2) 
+d. Nuclear Steam Supply Shutoff System (Section 4.4) 
+e. Recirculation Flow Control System (Section 7.2) 
+f. Reactor Protection System (Section 7.3) 
+g. Emergency Core Cooling Systems (Chapter 10) 
+
+ 
+3.1.1 Introduction 
+ 
+The purpose of the Reactor Vessel Instrumentation System is to provide information on; 
+• reactor vessel water level 
+• reactor vessel pressure 
+• reactor vessel temperature 
+• core flow rate 
+• core differential pressure  
+• vessel flange O ring leakage 
+ 
+These parameters are monitored to allow safe plant operation and provide initiation, trip 
+and isolation signals for various safety systems.   
+ 
+
+
+
+ 
+Rev 09/11 3.1-2 USNRC HRTD 
+
+The functional classification of the Reactor Vessel Instrumentation System is that of a 
+safety related system. 
+ 
+The Reactor Vessel Instrumentation System consists of several individual subsystems 
+that monitor specific reactor parameters including: 
+• Reactor vessel water level 
+• Reactor vessel pressure 
+• Reactor vessel temperature 
+• Reactor core flow rate and differential pressure 
+• Reactor vessel flange seal leak detection 
+ 
+Reactor vessel water level is measured in the vessel downcomer annulus and displayed 
+on five different ranges.  Level is a controlling input for the Feedwater Control System 
+(FWCS).  Level also provides initiation, isolation and protection signals, to the following 
+systems; 
+• Reactor Core Isolation Cooling (RCIC) System 
+• Reactor Protection (RPS) System 
+• Nuclear Steam Supply Shutoff (NSSSS) System 
+• Recirculation Flow Control (RFC) System 
+• Emergency Core Cooling (ECCS) System (HPCI, ADS, CS and RHR) 
+ 
+Reactor vessel pressure is measured in the vessel steam space.  Reactor pressure is 
+displayed on both narrow and wide range pressure indicators.  Reactor pressure 
+provides initiation, isolation, and protection signals to: 
+• RPS  
+• NSSSS 
+• RFC System 
+• RCIC 
+• ECCS 
+ 
+Reactor Vessel shell temperature is measured by thermocouples attached to various 
+points on the RPV.  RPV shell temperatures are monitored to allow evaluation of 
+thermal stress on the reactor vessel. 
+ 
+The plant power output capability is proportional to the ability to remove heat generated 
+by the core.  Accurate core coolant flow measurements are required to evaluate core 
+thermal behavior.  Since all core flow passes through the jet pumps, total core flow is 
+measured by summing the individual jet pump flows. 
+ 
+Inner seal degradation between the vessel flange and head flange is measured by the 
+flange seal leakage detection system. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-3 USNRC HRTD 
+
+3.1.2 Component Description 
+ 
+The major components of each Reactor Vessel Instrumentation Subsystem are 
+discussed in the following paragraphs. 
+ 
+3.1.2.1 Reactor Vessel Water Level Instrumentation 
+ 
+During normal operation reactor water level is maintained approximately 17 feet above 
+the top of the active fuel (Figure 3.1-1 and Figure 3.1-2).  Maintaining an acceptable 
+water level in the reactor vessel ensures that coolant is available to dissipate core heat.  
+Operating with level in the normal band also insures that the initial conditions for the 
+plant accident analysis assumptions are valid. 
+ 
+Water level is measured in the reactor downcomer annulus.  To measure this water 
+level, two connections are made to the reactor vessel and connected to a differential 
+pressure transmitter.  One connection penetrates the reactor vessel in the steam 
+volume area.  This high pressure side penetration (reference leg) connects to a 
+condensing chamber.  This chamber is at approximately the same temperature as the 
+surrounding drywell atmosphere.  Steam entering the condensing chamber condenses 
+on the inside of the chamber.  The resulting condensation collects in the reference leg 
+which connects to one side of a level transmitter.  The reference leg maintains a 
+relatively constant height of water for comparison to the variable leg.  This height of 
+water is maintained constant as excess water, condensed in the condensing pot, spills 
+over back in to the reactor vessel. 
+ 
+The lower penetration (variable leg) enters the reactor vessel in the downcomer annulus 
+region.  This line connects to the low pressure side of the level transmitter.  Reactor 
+pressure is felt on both sides of the differential pressure detector and does not affect the 
+measurement.  Once it is filled, level in the reference leg should be constant.  This 
+allows changes in the variable leg to be reflected as changes in vessel level.  Since the 
+reference leg remains constant, changes in downcomer annulus water level produce a 
+differential pressure proportional to reactor vessel water level. 
+ 
+The level transmitter converts this differential pressure signal to an electrical signal and 
+transmits it to; 
+• control room indicators 
+• system initiation channels 
+• reactor protection system trip channels 
+• isolation system trip channels 
+• alarm trip signals 
+ 
+The instruments are calibrated to read the maximum level when there is zero differential 
+pressure sensed by the transmitter (vessel level is high).  The instruments will read 
+
+
+
+ 
+Rev 09/11 3.1-4 USNRC HRTD 
+
+minimum level when the maximum differential pressure is sensed by the transmitter 
+(vessel level is low). 
+ 
+This system of level measurement does not make corrections for changes in reactor 
+vessel or reference leg (Drywell) water temperature.  Each instrument is calibrated at 
+the vessel pressure and reference leg temperature in which the instrument will be used.   
+As changes in temperature affect the density of water, any deviation from the calibrated 
+condition will affect instrument accuracy.  Table 3.1-5 lists each instrument, the range of 
+the instrument and the calibration conditions. 
+ 
+The relative vessel heights (level above vessel bottom head) of each of the steam and 
+water penetrations are shown in Figure 3.1-1.  Ranges of level indication and level 
+functions are shown in Figure 3.1-1 and discussed in Section 3.1.3. 
+ 
+3.1.2.2 Reactor Vessel Level Ranges 
+ 
+To ensure complete and accurate coverage of reactor vessel level five separate ranges 
+of reactor vessel instrumentation are provided.  The different ranges of level indication 
+are as follows:  
+• Narrow range instrumentation,  
+• Upset range instrumentation,  
+• Wide range instrumentation,  
+• Shutdown range instrumentation,  
+• Fuel zone range instrumentation.   
+ 
+These ranges of level instrumentation are shown in Figure 3.1-1.  All ranges of level 
+instrumentation are referenced to an instrument zero.  Instrument zero is 517 inches 
+above the bottom head vessel zero.  This instrument zero is referenced to the bottom of 
+the steam dryer assembly skirt.   
+ 
+The 0" to +60" narrow range is used for indication during normal operation.  The normal 
+operating level, +37" is near the center of this range.  This range provides control inputs 
+to the Feedwater Control System (Section 3.3).  The narrow range also provides trip 
+inputs to the following; 
+• the Reactor Core Isolation Cooling System (Section 2.7) 
+• the Nuclear Steam Supply Shutoff System (Section 4.4) 
+• the Reactor Protection System (Section 7.3) 
+• the Recirculation Flow Control System (Section 7.2) 
+• the High Pressure Coolant Injection System (Section 10.1) 
+• the Automatic Depressurization System (Section 10.2). 
+ 
+The Feedwater Control System uses separate transmitters from the safety related 
+systems; transmitters are listed in tables 3.1-3 and 3.1-4.  The narrow range 
+instruments are all calibrated for hot conditions (Table 3.1-5) 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-5 USNRC HRTD 
+
+The -150" to +60" wide range provides indication in the control room for reactor 
+transients.  The wide range also provides trip inputs to the following 
+• the Reactor Core Isolation Cooling System (Section 2.7) 
+• the Nuclear Steam Supply Shutoff System (Section 4.4) 
+• the Reactor Protection System (Section 7.3) 
+• the Recirculation Flow Control System (Section 7.2) 
+• the High Pressure Coolant Injection System (Section 10.1) 
+• the Automatic Depressurization System (Section 10.2). 
+• the 4160V Emergency Distribution System (Section 9.2),  
+• the Core Spray System (Section 10.3) 
+• the Residual Heat Removal System (Section 10.4)  
+ 
+The wide range instruments are all calibrated for hot conditions (Table 3.1-5) 
+ 
+The 0" to +180" upset range measures levels above normal operating level and is used 
+on transients.  The upset range only supplies control room indication.  The upset range 
+instruments are all calibrated for hot conditions (Table 3.1-5) 
+ 
+The 0" to + 400" shutdown range measures level to the top of the vessel head and is 
+used for indication during vessel flooding.  The vessel is flooded primarily in support of 
+refueling outages. 
+The shutdown range instruments are all calibrated for cold conditions (Table 3.1-5) 
+ 
+The -308" to -108" fuel zone ranges provide indication of level inside the shroud.  This 
+range provides coverage from the top to the bottom of the fuel. The fuel zone 
+instruments are all calibrated for accident conditions (Table 3.1-5).  This is the only 
+instrument that measures actual water level inside the shroud.  These instruments are 
+inaccurate (upscale) when there is forced flow from either the RHR pumps or the 
+recirculation pumps through the jet pumps 
+ 
+3.1.2.3 Reactor Vessel Level Functions 
+ 
+The reactor vessel water level trip setpoints are commonly referred to as numbered 
+levels.  These levels and their elevation are referenced to the instrument zero.  The 
+actuation levels from the lowest to highest level are as follows;  
+• Level 8 (+56.5") 
+• Level 7 (+40.5")  
+• Level 5 (+37") 
+• Level 4 (+33.5")  
+• Level 3 (+12.5")  
+• Level 2 (-38") 
+• Level 1 (-132.5")  
+ 
+
+
+
+ 
+Rev 09/11 3.1-6 USNRC HRTD 
+
+The reactor vessel level setpoints and their respective actions are listed in Table 3.1-1.  
+The bases for the various level setpoints are discussed in the following paragraphs. 
+ 
+3.1.2.3.1 Level 8 Alarm & Trip (+56.5") 
+ 
+The following components are actuated at Level 8; 
+• Main turbine trip 
+• Reactor Feed Pump (RFP) turbine trip 
+• High Pressure Coolant Injection (HPCI) turbine trip 
+• Reactor Core Isolation Cooling (RCIC) turbine Steam Supply valve closure 
+ 
+These are tripped to protect them from carryover of moisture and subsequent damage 
+to turbine blades.  The tripping of the RFP, RCIC and HPCI turbines also prevent 
+overfilling the reactor vessel.   
+ 
+3.1.2.3.2 Level 7 Alarm (+40.5") 
+ 
+The high level alarm annunciates at the reactor vessel level at which moisture carryover 
+will start to increase while operating at full power. 
+ 
+3.1.2.3.3 Level 5 Normal Operating Level (+37") 
+ 
+The normal operating level is the setpoint at which the Feedwater Control System 
+(FWCS, Section 3.3) maintains reactor vessel water level.  Reactor vessel water level 
+should always be maintained between the high and low level alarms. 
+ 
+3.1.2.3.4 Level 4 Alarm & Trip (+33.5") 
+ 
+The low water level alarm, Level 4, is the reactor vessel level at which steam carryunder 
+begins affecting the core flow rate.  Carryunder affects the core flow rate at full power 
+due to the potential for recirculation and jet pump cavitation.  A water level decrease to 
+level 4, coincident with a RFP trip, causes the Reactor Recirculation pumps (Section 
+7.2) to runback.  This recirculation runback reduces thermal power output to within the 
+capacity of the remaining reactor feed pump. 
+ 
+3.1.2.3.5 Level 3 Alarm & Trip (+12.5") 
+ 
+The low level scram function at Level 3 occurs while the water level is above the bottom 
+of the dryer seal skirt.  This provides protection against high moisture carryunder due to 
+steam bypassing the dryer under its seal skirt.  This level selection also ensures a 
+reserve of coolant above the top of the active fuel to account for; 
+• decay heat boil off losses 
+• steam void collapse 
+• coolant losses from the reactor vessel following a loss of feedwater flow 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-7 USNRC HRTD 
+
+The Level 3 setpoint is high enough to ensure reactor vessel water level will not 
+decrease to Level 1 for most transients.  This prevents initiation of the low pressure 
+ECCS systems.  ADS uses Level 3 as a confirmation signal to ensure that level is low.  
+This confirmation signal prevents the inadvertent initiation of ADS if a level channel fails 
+low.  A decrease of reactor vessel inventory to this level also causes the actuation of the 
+NSSSS for some systems (Section 4.4).  Level 3 also initiates a recirculation pump 
+runback to 30%.  This ensures the minimum NPSH requirements are met for the 
+recirculation pumps and jet pumps. 
+ 
+3.1.2.3.6 Level 2 Alarm & Trip (-38") 
+ 
+Level 2 is low enough so that RCIC and HPCI will not initiate after a reactor scram 
+unless feedwater flow has been lost.  The setpoint accounts for the normal level 
+decrease due to steam void collapse following a scram.  The setpoint is high enough for 
+RCIC to recover reactor vessel water level, during a loss of feed flow, before reaching 
+Level 1.  The NSSSS isolations at Level 2 limit the loss of reactor coolant and the 
+release of radioactive products to the atmosphere.  NSSSS isolates selected systems in 
+the event the low level was caused by a leak in those systems.  The recirculation pumps 
+are tripped at Level 2 to insert negative reactivity by void formation.  The RPS system 
+receives a signal to open the ARI valves at Level 2.  Both the recirculation pump trip 
+and ARI insert negative reactivity in the event the reactor did not scram at Level 3.  The 
+Reactor Building Standby Ventilation system (RBSVS) receives a start signal at Level 2.  
+This ensures any leakage in to the Reactor Building is filtered before being released to 
+the atmosphere 
+ 
+3.1.2.3.7 Level 1 Alarm & Trip (-132.5") 
+ 
+Level 1 is high enough above the top of the active fuel (-158 inches) to allow the low 
+pressure ECCS systems to initiate and provide adequate core cooling. The Emergency 
+Diesel Generators are started at Level 1 in the event offsite power is lost.  A NSSSS 
+Group I isolation takes place at Level 1 to isolate potential leakage sources.  The 
+Reactor Building Service Water System isolates all nonessential loads to maximize the 
+flow available to safety related equipment. 
+ 
+3.1.2.4 Reactor Vessel Pressure 
+ 
+Reactor Vessel Pressure is measured in the vessel steam dome.  The pressure sensors 
+are attached to the reference legs of the reactor vessel level instrument piping.  
+Pressure sensor output functions include local and remote indication.  Pressure 
+switches also provide a signal to protective devices for various functions.   
+
+
+
+ 
+Rev 09/11 3.1-8 USNRC HRTD 
+
+ 
+3.1.2.5 Reactor Vessel Pressure Ranges 
+ 
+Three ranges of reactor vessel pressure are used; 
+• Wide range instruments provide indication from 0 to 1500 psig 
+• Normal range instruments provide indication from 0 to 1200 psig 
+• Narrow range instrument provides indication of 850-1050 psig 
+ 
+3.1.2.6 Reactor Vessel Pressure Functions 
+ 
+Reactor vessel pressure setpoints and their respective actions are listed in Table 3.1-2.  
+The bases for these setpoints are discussed in the following paragraphs. 
+ 
+3.1.2.6.1 ATWS Initiations (1120 psig) 
+ 
+A reactor pressure of 1120 psig trips the recirculation pumps to insert negative reactivity 
+by void formation.  The same pressure setpoint initiates Alternate Rod Insertion (ARI) to 
+shutdown the reactor.  The ARI initiation is independent of the normal RPS actuations to 
+prevent a single failure from shutting down the reactor on high pressure. 
+ 
+3.1.2.6.2 High Pressure Scram (1043 psig) 
+ 
+At 1043 psig, RPS inserts a reactor scram to prevent reactor vessel over-pressurization.  
+This scram, in conjunction with safety/relief valve operation, provides sufficient margin 
+to protect the reactor coolant pressure boundary. 
+  
+3.1.2.6.3 High Pressure Alarm (1025 psig) 
+ 
+This warns the operator that pressure is above normal operating pressure (1005 psig), 
+and approaching the reactor scram setpoint. 
+ 
+3.1.2.6.4 Emergency Core Cooling Systems Low Pressure Interlocks (465 and 
+338 psig) 
+ 
+The CS and RHR systems receive signals at these pressures to open there injection 
+valves if an initiation signal is present.  The injection valves are maintained closed prior 
+to these pressures to prevent system over-pressurization. 
+ 
+3.1.2.6.5 Recirculation Pump Discharge Valve Closure Interlock (310 psig) 
+ 
+The recirculation pump discharge valves are closed at this pressure.  This ensures that 
+RHR water flows into the reactor vessel on a recirculation suction line LOCA.  Valve 
+closure is delayed to this pressure to prevent exceeding the maximum differential 
+pressure of 200 psi across the valve. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-9 USNRC HRTD 
+
+3.1.2.6.6 Residual Heat Removal System Shutdown Cooling Interlock (125 psig) 
+ 
+The RHR Shutdown Cooling Suction Isolation valves will automatically close above 125 
+psig in the reactor vessel.  This signal protects the RHR system low pressure piping.  
+ 
+3.1.2.7 Reactor Vessel Temperature 
+ 
+The reactor vessel external metal temperature is monitored to provide temperature data 
+for various parts of the reactor vessel.  The temperature monitoring system is designed 
+to map temperature gradients during vessel heat up and cooldown.  The data is tracked 
+by recorders in the reactor building and the control room.   
+ 
+A total of 37 thermocouples are mounted on the reactor vessel, vessel top head, 
+vessel/head flange and vessel head studs.  These provide the operator with 
+temperature data to evaluate reactor vessel thermal stresses. Figure 3.1-3 shows the 
+location of the sensors.  The thermocouples are magnetically attached at all locations 
+except the vessel head studs, which use probe-type thermocouples.  Thermocouples 
+are wired to the reactor building, where 12 locations are selected for recording.  The 
+reactor vessel flange and shell immediately below the flange temperatures are recorded 
+in the control room.  The welds in this vicinity are the most limiting of the reactor vessel 
+with respect to thermal stress. 
+ 
+3.1.2.8 Reactor Core Flow Rate and Differential Pressure 
+ 
+Core flow rate is measured by determining the total jet pump flow.  All core flow, except 
+CRD cooling water, passes through the jet pumps yielding a reasonably accurate core 
+flow value. 
+ 
+Figure 3.1-4 shows the arrangement of the jet pump flow instrumentation.  Two 
+instrument arrangements are shown, one for instrumented and the other for the non-
+instrumented jet pumps.  For the non instrumented jet pumps a differential pressure 
+transmitter monitors the pressure difference between a tap on the jet pump diffuser and 
+pressure below the core plate.  The below core plate region of the vessel is common to 
+all 20 jet pumps.  The resulting differential pressure signal is representative of the jet 
+pump diffuser differential pressure.  This signal is displayed for each jet pump on panel 
+619 in the control room.  The signal is also processed by a square root extractor to 
+provide a signal representative of jet pump flow.  These individual jet pump flows are 
+summed as shown on Figure 3.1-5. 
+ 
+Each summing unit has 5 inputs, so the flows from the 10 jet pumps in each 
+recirculation loop are summed to give a jet pump loop flow.  The jet pump loop flows are 
+displayed on panel 602 in the control room.  Jet pump loop flows are summed to give a 
+
+
+
+ 
+Rev 09/11 3.1-10 USNRC HRTD 
+
+total core flow, recorded in the control room on panel 603.  The functioning of the two 
+total flow summers is discussed in Section 3.1.3. 
+ 
+The instrumented jet pumps have an additional differential pressure transmitter.  This 
+transmitter monitors the pressure difference between the upper diffuser tap and a lower 
+diffuser tap (Figure 3.1-4).  Only the instrumented jet pumps have this lower diffuser tap.  
+This differential pressure signal is processed by a square root extractor, and displayed 
+as individual jet pump flows on panel 602.  These 4 jet pump diffusers are calibrated for 
+flow prior to installation in the reactor vessel.  The calibrated jet pumps are then used 
+during startup testing to calibrate the remaining jet pumps. 
+ 
+The core differential pressure instrument is also shown on Figure 3.1-4.  A differential 
+pressure transmitter measures the difference between below core plate pressure and 
+above core plate pressure.  This signal is recorded as core differential pressure in the 
+control room on panel 603.  It should be noted that this is more correctly core plate 
+differential pressure.  It differs from actual core differential pressure by the static head of 
+water in the core bypass region. 
+ 
+3.1.2.9 Vessel Flange Seal Leak Detection 
+ 
+A connection is provided into the annulus between the two metallic o-rings used to seal 
+the reactor vessel and head flanges.  This connection permits detection of leakage from 
+inside the reactor vessel past the inner O ring seal.  The connection is piped to a 
+pressure switch located in the reactor building.  This pressure switch actuates a high 
+pressure alarm in the control room at 600 psig  
+ 
+The system is designed to allow quantifying the amount of leakage past the O ring.  If 
+inner seal ring leakage is indicated an operator opens the instrument drain valve in the 
+reactor building to depressurize the line.  The valve is then reclosed and the leakage 
+rate is determined by timing the period between the pressure alarms.  Some plants 
+have the ability to cycle the drain valve remotely from the control room.   
+ 
+3.1.3 System Features and Interfaces 
+ 
+A short discussion of system features and interfaces this system has with other plant 
+systems is given in the paragraphs which follow. 
+ 
+3.1.3.1 Reactor Core Flow rate With One Recirculation Pump in Service 
+ 
+As discussed in Section 3.1.2.4, all core flow, except CRD cooling water, passes 
+through the jet pumps.  This is true only if both or no recirculation pumps are running.  If 
+only one recirculation pump is running its jet pumps will force reverse flow through the 
+idle loop's jet pumps.  To account for this idle loop's flow the core flow summing network 
+shifts as shown in Figure 3.1-5.  If only one recirculation pump is running the logic 
+network disconnects the normal summer and connects another summer.  This summer 
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-11 USNRC HRTD 
+
+subtracts the idle loop flow from the active loop flow providing a more representative 
+indication of total core flow. 
+ 
+3.1.3.2 Jet Pump Flow Effect on Indication 
+ 
+The variable legs of the level sensors for the fuel zone range (Figure 3.1-1 and Figure 
+3.1-2) actually sense pressure at the low pressure taps of jet pumps 5 and 15.  These 
+points are subject to jet pump discharge pressure in addition to the static level of the 
+downcomer water.  This additional pressure causes these sensors to indicate a higher 
+than actual level whenever there is flow through the jet pumps.  As the recirculation 
+pumps are tripped at Level 2 there is no impact on accident level indication until the 
+LPCI injection occurs which puts flow through the jet pumps. 
+ 
+3.1.4 System Interfaces 
+ 
+A short discussion of the interfaces this system has with other plant systems is given in 
+the following paragraphs. 
+ 
+Reactor Vessel System (Section 2.1) 
+ 
+The Reactor Vessel System is the sensing point for the various Reactor Vessel 
+Instrumentation System sensors. 
+ 
+Reactor Core Isolation Cooling System (Section 2.7) 
+ 
+The RCIC System receives initiation, isolation, steam supply valve closure, and trip 
+signals from the Reactor Vessel Instrumentation System. 
+ 
+Feedwater Control System (Section 3.2) 
+ 
+The FWCS receives vessel level signals for control and display from the Reactor Vessel 
+Instrumentation System. 
+ 
+Nuclear Steam Supply Shutoff System (Section 4.4) 
+ 
+NSSSS receives vessel level and pressure isolation trip signals from the Reactor Vessel 
+Instrumentation System. 
+ 
+Recirculation Flow Control System (Section 7.2) 
+ 
+The RFCS receives level signals for pump speed runbacks from the Reactor Vessel 
+Instrumentation System.  In addition vessel level and pressure trip signals are input into 
+the ATWS Recirculation Pump trips. 
+
+
+
+ 
+Rev 09/11 3.1-12 USNRC HRTD 
+
+ 
+Reactor Protection System (Section 7.3) 
+ 
+RPS receives level and pressure trip signals for the reactor scram and ATWS ARI 
+functions from the Reactor Vessel Instrumentation System. 
+ 
+Emergency Core Cooling Systems (Chapter 10) 
+ 
+The Emergency Core Cooling Systems (ADS, CS, HPCI and LPCI) receive initiation, 
+isolation, and trip signals from the Reactor Vessel Instrumentation System. 
+ 
+ 
+3.1.5 Summary 
+ 
+The purpose of the Reactor Vessel Instrumentation System is to provide information on; 
+• reactor vessel water level 
+• reactor vessel pressure 
+• reactor vessel temperature 
+• core flow rate 
+• core differential pressure  
+• vessel flange O ring leakage 
+ 
+These parameters are monitored to allow safe plant operation and provide initiation, trip 
+and isolation signals for safety systems.  Tables 3.1.1 and 3.1.2 list the initiations and 
+isolations from this system. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-13 USNRC HRTD 
+
+TABLE 3.1-1 Summary of Vessel Level Trips 
+ 
+
+Reactor Vessel 
+Level 
+
+Actions
+
+   
+
+Level 8 (+56.5")  • Trip Main Turbine 
+• Trip Feedwater Pump Turbines 
+• Close RCIC Steam Supply Valve 
+• Trip HPCI Turbine 
+
+   
+
+Level 7 (+40.5")  • High Level Alarm 
+
+   
+
+Level 5 (+37")  • Normal Operating Level 
+
+   
+
+Level 4 (+33.5")  • Low Level Alarm 
+• Reactor Recirculation Pump Runback to 45% speed 
+
+limiter (with concurrent loss of one Condensate, 
+Condensate Booster, or Feedwater Pump) 
+
+   
+
+Level 3 (+12.5")  • Reactor Scram 
+• ADS Permissive signal for system actuation 
+• Reactor Recirculation Pump runback to 30% speed limiter
+• RHR Isolation (Shutdown Cooling Mode) (NSSSS) 
+
+   
+
+Level 2 (-38")  • Initiate RCIC 
+• Initiate HPCI 
+• Trip Reactor Recirculation Pumps (ATWS-RPT) 
+• Initiate ATWS ARI 
+• Isolate RWCU System 
+• Isolate the Containment and selected Reactor Plant 
+
+Systems via NSSSS 
+• Initiate RBSVS 
+
+   
+
+Level 1 (-132")  • Initiate RHR LPCI Mode 
+• Initiate Core Spray 
+• Start Emergency Diesel Generators 
+• Shut MSIVs 
+• ADS Actuation Logic Signal 
+• LOCA signal to Reactor Building Service Water System 
+
+ 
+
+
+
+ 
+Rev 09/11 3.1-14 USNRC HRTD 
+
+  
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-15 USNRC HRTD 
+
+TABLE 3.1-2 Summary of Reactor Pressure Setpoints 
+ 
+
+Reactor Vessel 
+Pressure 
+
+ Actions
+
+   
+
+1120 psig  • Trips Reactor Recirculation Pumps 
+(ATWS-RPT) 
+
+• Initiates ATWS ARI  
+   
+
+1043 psig  • High Pressure Reactor Scram 
+
+   
+
+1025 psig  • High Pressure Alarm 
+
+   
+
+1005  • Normal Operating Pressure 
+
+   
+
+338 psig & 
+
+465 psig 
+
+ • Permissive for injection by RHR and CS, 
+(during a LOCA) 
+
+   
+
+310 psig  • Auto Closure Recirculation Pump 
+Discharge Valves,(during a LOCA) 
+
+   
+
+125 psig  • RHR Isolation (RHR Shutdown Cooling) 
+
+ 
+
+
+
+ 
+Rev 09/11 3.1-16 USNRC HRTD 
+
+  
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-17 USNRC HRTD 
+
+ 
+TABLE 3.1-3 Narrow Range Level Interlocks 
+
+ 
+ 
+
+Level Actuation 
+Instrument 
+and Logic 
+
+Level 8 (+56.5") Main Turbine Trip 
+RFPTs Trip 
+
+LT008 A, B, C 
+2 out of 3 
+
+ High Level Trip Alarm LT008 A, B, C 
+1 out of 1 
+
+   
+
+Level 7 (+40.5") High Level Alarm LT008 A or B 
+1 out of 1 
+
+   
+
+Level 4 (+33.5") Low Level Alarm LT008 A or B 
+1 out of 1 
+
+ Reactor Recirculation Pump Runback 
+to 45% speed limiter with concurrent 
+
+loss of Condensate Pump, Condensate 
+Booster Pump or Feed Pump 
+
+LT008 A or B 
+1 out of 1 
+
+   
+
+Level 3 (+12.5") Reactor Scram LT154 A, B, C, D 
+A or C AND B or D 
+(1 out of 2 twice) 
+
+ NSSSS Isolation 
+(RHR Shutdown Cooling) 
+
+LT154 A, B, C, D 
+A and B (Inbrd) 
+C and D (Outbrd) 
+
+ ADS Permissive LT159 A, B 
+1 out of 1 
+
+ Reactor Recirculation Runback to 30% 
+speed limiter 
+
+LT008 A or B* 
+1 out of 1 
+
+ 
+*Input determined by Reactor Level Select Switch
+
+
+
+ 
+Rev 09/11 3.1-18 USNRC HRTD 
+
+  
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-19 USNRC HRTD 
+
+TABLE 3.1-4 Wide Range Level Interlocks 
+ 
+ 
+
+Level Actuation Instrument 
+and Logic 
+
+   
+
+Level 8 (+56.5") RCIC Steam Supply Valve Closes 
+(F045) 
+
+LT157 A, B 
+2 out of 2 
+
+ HPCI Trip LT157 C, D 
+2 out of 2 
+
+   
+
+Level 2 (-38") HPCI Initiation LT157 A, B, C, D 
+A and C OR 
+B and D 
+
+ RCIC Initiation LT157 A, B, C, D 
+A and C OR 
+B and D 
+
+ Recirculation Pump Trip 
+(ATWS-RPT) 
+
+LT157 A, B, C, D 
+RPT 3A   A or C  
+RPT 4A   B or D 
+
+ ARI Valves Open ARI OA   A and C 
+ARI OB   B and D 
+
+ RBSVS Initiation LT155 A, B, C, D 
+A and B OR C and D 
+
+   
+
+Level 1 (-132.5") Group 1 Isolation LT155 A, B, C, D 
+A and B OR C and D 
+
+ EDGs Start Signal LT157 A, B, C, D 
+EDGs 101, 103   A and C 
+EDGs 102, 103   B and D 
+
+ Initiate Core Spray 
+(via bus loading program) 
+
+LT157 A, B, C, D 
+EDGs 101, 103   A and C 
+EDGs 102, 103   B and D 
+
+ Initiate LPCI 
+(via bus loading program) 
+
+LT157 A, B, C, D 
+EDGs 101, 103   A and C 
+EDGs 102, 103   B and D 
+
+ Permissive Signal to ADS LT157 A, B, C, D 
+A - A and C 
+B - B and D 
+
+ LOCA Signal to Service Water LT157 A, B, C, D 
+A and C OR B and D 
+
+ 
+
+
+
+ 
+Rev 09/11 3.1-20 USNRC HRTD 
+
+
+
+ 
+
+ 
+Rev 09/11 3.1-21 USNRC HRTD 
+
+Table 3.1-5 Reactor Level Instrument Ranges and Calibration 
+Conditions 
+
+ 
+
+Level 
+Instrument 
+
+Normal Operating 
+Pressure 
+
+Normal Operating 
+Temperature 
+
+Drywell 
+Temperature 
+
+Narrow Range 
+(0" to +60") 
+
+1,035 psig 540ºF 135ºF 
+
+Wide Range 
+(-150" to +60") 
+
+1,035 psig 540ºF 135ºF 
+
+Shutdown Range 
+(0" to +400") 
+
+0 psig 120ºF 80ºF 
+
+Upset Range 
+(0" to +180") 
+
+1,035 psig 540ºF 135ºF 
+
+Fuel Zone * 
+(-108" TO -308") 
+
+0 psig 212ºF 212ºF 
+
+    
+* No Jet Pump Flow    
+
+    
+ 
+
+ 
+
+
+
+
+
+ Figure 3.1-1 Vessel Level Instrumentation Ranges 
+
+
+
+
+
+ Figure 3.1-2 Reactor Vessel Level and Pressure Instrumentation 
+
+ 
+ 
+
+ 
+
+ 
+  
+
+
+
+ Figure 3.1-3 Vessel Temperature Monitoring 
+
+Head Flange
+Vessel Flange
+
+Junction Box Junction BoxTE
+
+TE
+TE
+
+TE
+
+TE
+Typ.-1
+
+Typ.-19
+
+Typ.-3
+
+Typ.-2
+Typ.-4
+
+Located on Bottom
+Drain Line
+
+RPV
+
+019
+A-V
+
+017
+A-D
+
+Head Stud
+
+TR
+009
+
+TR
+070
+
+Drywell
+Penetration
+
+Drywell
+Wall
+
+ 
+ 
+ 
+
+
+
+ 
+
+ Figure 3.1-4 Jet Pump and Core D/P Instrumentation 
+
+ 
+ 
+
+ 
+ 
+
+
+
+ 
+
+ Figure 3.1-5 Core Flow Summing Network 
+
+ 
+ 
+
+
+
+ 
+
+ Figure 3.1-6 Reactor Vessel Head Leak Detection 
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

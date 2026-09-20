@@ -1,0 +1,674 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+7.4 Standby Liquid Control System (1208)  —  0518 - R304B - GE BWR_4 Technology - 7.4 Standby Liquid Control System (1208).
+ADAMS ML11258A346   문서일자 2011-09-23   42 쪽   종류 강의
+원본 https://www.nrc.gov/docs/ML1125/ML11258A346.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+Standby Liquid Control 
+System (SLC) 
+304B Chapter 7.4 
+
+
+
+Objectives 
+1. Identify the purposes of the Standby Liquid Control (SLC) System. 
+  
+2. Recognize the purpose, function and operation of the following major 
+
+components: 
+a. Storage Tank 
+b. SLC Pumps 
+c. Explosive (Squib) Valves 
+d. Test Tank 
+e. Vessel Injection Line 
+f. Drain Piping 
+g. Neutron Absorbing Solution 
+  
+
+3. Summarize the following flowpaths: 
+a. Chemical addition to system 
+b. System flow test 
+c. Injection into the Reactor Pressure Vessel (RPV) 
+
+
+
+Objectives 
+4. Identify the conditions that require initiation of the 
+
+Standby Liquid Control System. 
+5. Identify why some of the system lines are heat traced. 
+6. Identify the indications that can be used to verify 
+
+initiation of the Standby Liquid Control System. 
+7. Explain the positive reactivity sources considered in 
+
+the calculation of the minimum average boron 
+concentration that is required to achieve the desired 
+Shutdown Margin of - 0.05% delta K/K. 
+
+
+
+Objectives 
+8. Explain how the Standby Liquid Control (SLC) system interrelates 
+
+with the following system / components: 
+a. Reactor Pressure Vessel 
+b. Reactor Water Cleanup System (RWCU) 
+c. Reactor Vessel Instrumentation System 
+d. Emergency AC Power 
+e. Demineralized Water System 
+f. Service Air System 
+g. Core Spray System 
+h. Reactor Core Isolation Cooling (RCIC) System 
+
+ 
+
+
+
+Purposes 
+
+• The purpose of the Standby Liquid Control 
+(SLC) System is to inject enough neutron 
+absorbing poison solution into the reactor 
+vessel to shut down the reactor from full 
+power, independent of control rod motion, 
+and to maintain it in a subcritical condition 
+as the plant operators cool the plant down 
+to 70F.  
+
+    
+
+Objective 1 
+
+
+
+Purpose 
+
+• Back-up system shuts down the reactor 
+under the most reactive conditions.  
+
+• Shutting down the reactor without control 
+rod insertion in the event of an Anticipated 
+Transient Without Scram (ATWS). 
+
+• SLC initiation required in ATWS and 
+LOCA EOPs.  
+
+    
+
+Objective 1 and 4 
+
+
+
+Overview 
+
+• The SLC system delivers a borated poison 
+solution to inside the reactor vessel. 
+
+• One of two positive displacement pumps 
+will pump the poison. 
+
+• Two explosive (squib actuated) valves 
+open to complete the injection path. 
+
+Objective 1 
+
+
+
+Poison Calculation 
+
+• Sufficient poison to provide a negative 
+reactivity worth greater than the combined 
+positive reactivity effects of: 
+– All control rods fully withdrawn 
+– Collapse of all voids 
+– Doppler (fuel cooling) 
+– Complete Xenon decay 
+– Temperature (cooldown to 70F)  
+
+Objective 6.0 
+
+
+
+Poison Calculation 
+
+• Assumed borated volume includes: 
+– RHR in shutdown cooling 
+– Reactor water level at Level 8 
+–  -5%ΔK/K as an additional shutdown 
+
+margin  
+
+Objective 6.0 
+
+
+
+Objective 2 
+
+
+
+Boron Poison 
+
+• The neutron poison is the Boron isotope 
+B-10 contained in a Sodium Pentaborate 
+solution.  
+
+• B-10 occurs only as about 20% of natural 
+Boron.  
+
+• The effectiveness of the poison can be 
+enhanced by enriching the Sodium 
+Pentaborate to higher concentrations of 
+the B-10 isotope.  
+
+Objective 2 
+
+
+
+Boron Poison 
+• Sodium Pentaborate powder.  
+• Readily precipitates out of solution at low 
+
+temperatures.  
+• During addition of poison to the storage tank 
+
+– solubility is raised using a large manually operated 
+mixing heater that increases the solution temperature 
+to 150F.  
+
+– Agitation to promote more uniform mixing is applied 
+by a sparger with six branch lines that vents 
+pressurized Instrument / Service Air to the storage 
+tank.  
+
+Objective 2 
+
+
+
+Storage Tank 
+
+• Working capacity of 4,850 gallons based 
+on the old volume requirements prior to 
+the use of enriched Boron-10.  
+
+• Means for storage and mixing of the 
+neutron absorber solution.  
+
+• Makeup water is supplied by 
+Demineralized Water System.  
+
+Objective 2 & 7.a 
+
+
+
+Storage Tank 
+
+• A removable hatch at the top of the tank 
+for chemical addition and sampling.  
+
+• A vent and overflow line from the tank is 
+directed to a collection sump.  
+
+• Two immersion heaters promote 
+continuous poison solubility.  
+– Automatically cycle 80 ±10F.  
+– Powered from Emergency AC Power System.  
+
+Objective 2 & 7.a 
+
+
+
+Heat Trace 
+
+• The pipe from the storage tank to the SLC 
+pump suction is heat traced.  
+
+• Minimizes precipitated solution.  
+– Precipitated poison dilutes the poison 
+
+available for injection 
+– In severe cases may significantly clog the 
+
+pipe and pump suction reducing the pumping 
+capacity.  
+
+Objectives 2 & 3 
+
+
+
+SLC Pumps 
+
+• Two 100% capacity, triplex piston, positive 
+displacement pumps.  
+
+• Each pump has a flow rate of 41.2 gpm 
+against a back pressure of 0-1250 psi.  
+
+• Control room and local control switches. 
+– Control room switch starts one pump 
+– Local switches for testing and do not fire the 
+
+explosive (squib) actuated valves 
+
+Objective 2 & 7.c 
+
+
+
+Relief Valves & Accumulators 
+
+• There are accumulators and relief valves 
+at the discharge of each SLC pump.  
+
+• Relief valves open at very high pressure 
+(e.g. 1400 psig) to prevent damage to the 
+discharge pipe or pump.  
+
+• Accumulators reduce the vibration and 
+pipe distortion.  
+
+Objective 2,  7.e & 7.f 
+
+
+
+Explosive Valves 
+• Located between the SLC pumps and the 
+
+reactor vessel.  
+• Failure of a single squib actuated explosive 
+
+valve will not prevent the SLC system from 
+injecting.  
+
+• When the system is actuated from the main 
+control room, one pump will start and both 
+explosive valves will open.  
+
+• The use of shear plugs prevents Boron from 
+migrating to the reactor vessel.  
+
+Objective 2 & 7.d 
+
+
+
+Explosive Valves 
+
+• Squib is a small explosive connected to a 
+remote electronic trigger.  
+
+• 2 amperes or greater firing current 
+• Each explosive valve is double squib 
+
+actuated  
+• Ram shears off cap to open valve 
+
+Objective 2 & 7.d 
+
+
+
+Objective 2 & 7.d 
+
+
+
+Explosive Valves 
+
+• Normal standby condition: 
+– continuous current of about 1 milliampere 
+
+through the trigger assembly of each 
+explosive valve.  
+
+– Illuminates an electrical continuity light at the 
+603 panel  
+
+– Light indicates operability of the squib.  
+
+Objective 2 & 7.d 
+
+
+
+Test Tank 
+
+• Testing and flushing  
+• 210 gallons capacity  
+• Makeup from demineralized water system.  
+• Can only be drained to a collection drum 
+
+via the test tank drain valve.  
+– Helps to prevent Boron contamination of 
+
+treated water.  
+– Helps prevent pipe obstructions. 
+
+Objective 2 & 7.b 
+
+
+
+Injection Line 
+
+• Dual function within the reactor vessel.  
+– provides an injection path for the sodium 
+
+pentaborate solution 
+– Provides tap for vessel instrumentation. 
+
+• Two check valves in series, on each side 
+of the drywell  
+ 
+
+Objective 2 
+
+
+
+Injection Line 
+
+• Normally open manual isolation valve  
+– locked open, inside drywell 
+– position indication open/close position at 603 
+
+panel 
+• Injection line enters reactor vessel  below 
+
+the core shroud 
+• Two concentric pipes reduces thermal 
+
+shock to the reactor vessel during injection 
+
+Objective 2 
+
+
+
+Injection Line 
+• Inner pipe 
+
+– SLC injection line terminates just below the 
+core plate 
+
+– Used to sense below core plate pressure 
+• Outer pipe used to sense: 
+
+– Above core plate pressure for core ΔP 
+indication 
+
+– CRD System vessel pressure  
+– core spray line break detection.  
+
+Objective 2 
+
+
+
+Objective 2 
+
+
+
+Drain Piping 
+
+• Drain piping from  
+– pump suction cross connect line 
+– pump base plate 
+– pump discharge cross connect pipe 
+– test tank  
+
+• Piped to a 55 gallon drum.  
+• Radwaste system does not have to 
+
+process borated waste.  
+• Borate precipitation will not obstruct drains 
+
+Objective 2 
+
+
+
+Boron Poison 
+• Poison mixture is a white powder made 
+
+primarily of Borax & Boric Acid. 
+– Solution of sodium pentaborate decahydrate 
+
+• The B-10 is a very effective neutron 
+poison. B-11 is not. 
+– Poison mix has been enriched to more than 
+
+85% of B-10.  
+• The poison has a shelf life of 40 years.  
+
+Objective 2 
+
+
+
+Boron Poison 
+
+• ATWS rule 10CFR50.62 required 
+improved shutdown capability. 
+
+• Many utilities decided to enrich the Boron 
+poison instead of injecting with two SLC 
+pumps. 
+
+• Enriched poison reduced calculated core 
+damage frequency and provided twice the 
+shutdown capability required by the ATWS 
+rule. 
+
+Objective 2 
+
+
+
+Boron Poison Hazards 
+
+• Very toxic affecting the central nervous 
+system.  
+– Poisoning causes: 
+– Reduced blood circulation 
+– Persistent vomiting and Diarrhea.  
+
+• Severe poisoning causes low body 
+temperature which may result in a coma or 
+death.  
+
+• A severe rash may cover the entire body.  
+Objective 2 
+
+
+
+Normal Line-up 
+
+• SLC system normal line up in Figure 7.4-1.  
+• The SLC storage tank is maintained between the 
+
+high and low level alarm points. 
+• The required amount of poison solution and 
+
+poison concentrations maintained per TS.  
+• The storage tank and piping are maintained at 
+
+their required temperatures to prevent the 
+solution from precipitating.  
+
+Objective 2 
+
+
+
+Objective 2 
+
+
+
+Injection Mode 
+
+• Manual actuation only 
+• Select switch to the “Start Sys A” or “Start 
+
+Sys B” positions 
+• One SLC pump running with both 
+
+explosive valves open 
+
+Objective 2 
+
+
+
+Injection Mode 
+
+• Positive indications of system injection 
+include the following: 
+
+1. Pump on light for the system started 
+2. Loss of continuity light and alarm 
+3. Pump discharge pressure 
+4. Storage tank level decreasing 
+5. Reactor power decreasing 
+
+Objective 2 & 5 
+
+
+
+Test Tank & Flow Testing 
+
+• Flow rate testing locally at the pumps.  
+• Local pump start and stop switches will not 
+
+fire the squibs on the explosive valves.  
+• Testing pumps water from SLC pump to a 
+
+line connected to the pump vent. 
+• Pumped water is sent to a collecting drum 
+
+where the water is measured.  
+
+Objective 2 
+
+
+
+Actuation testing 
+
+• Actuates one of the explosive valve 
+squibs. 
+
+• Water from test tank pumped into reactor. 
+• Flow rate verified. 
+• Requires replacement of fired explosive 
+
+valve. 
+
+Objective 2 
+
+
+
+System Interfaces 
+
+• Reactor vessel 
+– Injection under core plate 
+– Pipe within pipe 
+
+ 
+
+Objective 2 
+
+
+
+System Interfaces 
+
+• Reactor water cleanup 
+– RWCU system isolates 
+– Minimizes borated volume 
+– Prevents demineralizers from lowering poison 
+
+concentration 
+ 
+
+Objective 2 
+
+
+
+Review 
+
+Objective 2 
+
+
+
+Objectives 
+1. Identify the system's purposes. 
+2. Explain how the system accomplishes its 
+
+purposes. 
+3. Explain why some of the system lines are heat 
+
+traced. 
+4. Identify the conditions that require initiation of 
+
+the Standby Liquid Control System. 
+5. Identify the indications that can be used to 
+
+verify initiation of the Standby Liquid Control 
+System. 
+
+
+
+Objectives 
+6. Describe the positive reactivity sources 
+
+considered in the calculation of the minimum 
+average boron concentration that is required 
+to achieve the desired Shutdown Margin of  
+- 0.05% delta K/K. 
+
+7. Explain the purpose and operation of the 
+major system components: 
+a. Storage tank 
+b. Test tank 
+c. Pumps 
+d. Explosive valves 
+e. Accumulators 
+f. Relief Valves 
+
+
+
+Are there any questions? 
+
+
+	Standby Liquid Control System (SLC)
+	Objectives
+	Objectives
+	Objectives
+	Purposes
+	Purpose
+	Overview
+	Poison Calculation
+	Poison Calculation
+	Slide Number 10
+	Boron Poison
+	Boron Poison
+	Storage Tank
+	Storage Tank
+	Heat Trace
+	SLC Pumps
+	Relief Valves & Accumulators
+	Explosive Valves
+	Explosive Valves
+	Slide Number 20
+	Explosive Valves
+	Test Tank
+	Injection Line
+	Injection Line
+	Injection Line
+	Slide Number 26
+	Drain Piping
+	Boron Poison
+	Boron Poison
+	Boron Poison Hazards
+	Normal Line-up
+	Slide Number 32
+	Injection Mode
+	Injection Mode
+	Test Tank & Flow Testing
+	Actuation testing
+	System Interfaces
+	System Interfaces
+	Slide Number 39
+	Objectives
+	Objectives
+	Are there any questions?
+

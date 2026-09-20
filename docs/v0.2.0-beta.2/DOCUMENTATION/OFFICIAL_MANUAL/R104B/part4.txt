@@ -1,0 +1,2967 @@
+General Electric Technololgv ManualWae&AiSytm                                                       Water & Air Systems
+
+11.0 WATER AND AIR SYSTEMS                          11.0.4 Turbine Building Service Water
+                                                             System. (Section 11.4)
+The water systems necessary for plant operational
+support are discussed in this chapter. The          The Turbine Building Service Water System
+water systems provide water supplies required       (TBSW) supplies cooling water to non-safety
+by plant processes, auxiliary cooling functions     related components located in the turbine building
+necessary to support plant equipment, and           and rejects the heat to the Long Island Sound.
+cooling functions to remove decay heat for forced
+cooldown of the reactor. The cooling water          11.0.5 Turbine Building Closed Loop Cooling
+provided may be from a variety of sources such as            Water System (Section 11.5)
+lakes, rivers, oceans, cooling towers, or cooling
+ponds.                                              The Turbine Building Closed Loop Cooling
+                                                    Water System (TBCLCW) cools selected
+11.0.1 Circulating Water System                     auxiliary balance of plant equipment located in
+         (Section 11.1)                             the turbine building and transfers that heat load to
+                                                    the Turbine Building Service Water System.
+The Circulating Water System (CWS) supplies
+cooling water to turbine condensers to reject       11.0.6 Service and Instrument Air System
+heat from the steam cycle. The system also                   (Section 11.6)
+provides for dilution and dispersion ofradioactive
+wastes released from the station.                   The Service and Instrument Air System
+                                                    provides a continuous supply of compressed air
+11.0.2 Reactor Building Service Water System        of suitable quality and pressure for instruments,
+         (Section 11.2)                             controls, and station use. The system also
+                                                    supplies air to the safety/relief valves and
+The Reactor Building Service Water System           primary containment vacuum relief valves.
+(RBSW) transfer heat from the reactor building
+components to the Long Island Sound, and
+provide an emergency source of cooling water to
+the reactor vessel and spent fuel pool.
+
+11.0.3 Reactor Building Closed Loop Cooling
+         Water System (Section 11.3)
+
+The Reactor Building Closed Loop Cooling Water
+(RBCLCW) System cools selected auxiliary
+equipment over the full range of plant operations.
+The RBCLCW System provides a closed cooling
+water loop between systems which are potentially
+radioactive and the service water system. This
+provides an additional barrier between the
+possibly contaminated systems and the service
+water discharged to the environment.
+
+USNRC TTeechnical Traaiinniinngg Centerr  1111..00-.11  1{evUlU2
+                                                        Rev 0102
+General Electric Technolov Manual.C.rc                                                   CirculatinE, Water System
+                                                                                                    n a
+
+                                          Table of Contents
+
+11.1 CIRCULATING WATER SYSTEM ............................................               1
+
+11.1.1 System Description .......................................................        1
+
+11.1.2 Component Description ....................................................        1
+
+11.1.2.1  Circulating Water Pump/Motor ....................................              1
+
+11.1.3 Norm al Operations ........................................................       1
+
+11.1.4 System Interfaces ........................................................        1
+
+11.1.4.1  Electrical Distribution System .....................................           2
+
+11.1.4.2  Service Water System ............................................              2
+
+11.1.4.3  Liquid Radwaste System ..........................................              2
+
+11.1.4.4  Service and Instrument Air System ..................................           2
+
+11.1.4.5  Chemical Feed and Sampling System ................................             2
+
+11.1.5 BWR Differences ........................................................          2
+
+11.1.6 Summary ...............................................................           2
+
+                                          List of Figures
+
+11.1-1 Circulating Water System Overview ..............................................
+
+USNRC TTeechnical Traaiinniinngg Centerr  1111..11--ii                                   Rev 0102
+                                                                                         Rev 0102
+ General Elecric Technolopv Manual                                                              Circulating Water System
+                                                                                                Cruai~WtrSse
+ 11.1 CIRCULATING WATER SYSTEM
+                                                        The rectangular discharge tunnel transforms into a
+ The purpose of the circulating water system is to      fiberglass pipe which returns the circulating water
+ provide , cobling water for, the - station 'main       to Long Island Sound.
+ condensers. Four circulating water pumps draw
+ water from Long Island Sound and discharge the         -11.1.2 Component Description
+ water to the main condensers where the water
+--removes the-heat' from the main turbine exhaust        Only the major Circulating Water System
+ steam:- The heated circulating water then passes to    *components are discussed in the paragiaphs ýwhich
+ the discharge tunnel where it is returned to Long       follow.
+ Island Sound. The system is controlled from the
+ main control room.                                      11.1.2.1 Circuliting Watei Pump/Motor
+
+ 11.1.1 System Description                               The circulating water pumps are vertical, one-stage,
+                                                         single-suction, open-impeller units. Each pump is
+ Four pumps mounted in the intake structure take         designed for total head of 34.2 ft at 143,400 gpm.
+ suction from separate screenwell bays through           Each pump is driven by a vertical, squirrel 'cage,
+ individual traveling water screens. Each pump           induction motor. Each motor is rated for 1,500 hp
+ discharges into a 78 in. concrete-encased steel pipe.   and rotates at 295 rpm. Each motor requires 3
+ The inlet lines are connected to the water boxes        phase, 60 Hz, 4,160 v power.
+ through expansion joints. Each line is monitored
+ just prior to the expansion joint by a temperature      11.1.3 Normal Operations
+ element which provides a computer point. In
+  addition to the inlet temperature indication, the      During plant Power generation at any power level,
+ circulating water pressure at each condenser water      the normal operating mode of the circulating water
+ box is monitored by a pressure transmitter which        ""system is four circulating water pumps in operation
+ provides a computer point and indication of             supplying all four quadrants of the main condenser
+  pressure in the main control room.                     unit. The vacuum priming system removes any air
+                                                         in the condenser water boxes, piping, or discharge
+                                                         tunnel.
+
+The condenser outlet water boxes, each monitored 11.1.4 System Interfaces
+
+by a pressure transmitter, which provides a ,                      ..             .
+
+computer point, connected to the discharge tunnel -: The inteifaces this system has with other -plant
+through 78 in. lines. The lines then descend under'- - systems are discuiised ifin the paragraphs which
+
+the turbine building floor where they penetrate the 'follow.
+
+turbine building wall and enter the discharge tunnel.:'        -,      " ,
+
+                                                         11.1.4.1 4160V Normal Distribution System
+
+The circulating water discharge tunnel is a 10 ft-6                (Section 9.1)     .-
+
+in. high by 12 ft wide concrete structure which runs     The electrical distribution system provides all the
+underground along the south wall of the turbine          electrical power requirements for the Circulating
+building.                                                Water System.
+
+I-USNRC Technical TTrraaiinniinngg CCeenntteerr  - - 11.1-1                          ±ev UIUh
+                                                 -- ,' 11.1-1
+                                                                                     . Rev 0102.
+. General Electric Technology Manual                                                                                Water ~v~em
+                               GenealMnualECeicrtcruclatin~ Tehnolgy
+                                                                      Purpose: The purpose of the circulating watel
+ 11.1.4.2 Service Water System (Section                               system is to provide cooling water for the station
+               11.1)                                                  main condensers
+
+ The Service Water System is physically connected                     Components: Pumps, Motors, Vacuum Priming
+ to the Circulating Water System, for normal return                   Unit
+ to the Long Island Sound.
+
+11.1.4.3  Liquid Radwaste System (Section                             System Interfaces: Electrical Distribution, Service
+          8.2)                                                        and Instrument Air System, Service Water System,
+                                                                      Process Sampling System, Plant Chemical Feed
+The Liquid Radwaste System is physically                              System, Liquid Radwaste System.
+connected to the Circulating Water System, this can
+be a means of discharging liquid radwaste to the
+Sound.
+
+11.1.4.4  Service and Instrument Air System
+          (Section 11.8)
+
+The Service and Instrument Air System provides air
+for pneumatically operated valves.
+
+11.1.4.5  Chemical Feed and Sampling
+          System (No section in manual)
+
+The Circulating Water System receives chemicals
+from the Chemical Feed System for the purpose of
+removing algae and preventing tube fouling in the
+main condensers.
+
+11.1.5 BWR Differences
+
+The design of the system described in this section is
+specific to one plant. The function of the Circulating
+Water System is performed by similar systems at all
+facilities. However the arrangement of pumps, heat
+loads, and water sources varies from plant to plant.
+
+11.1.6 Summary
+
+Classification: Power Generation System
+
+USNRC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  11.1-2        Rev 0102
+                                                        11.1-2        Rey 0102
+                                                                              1101
+
+              Long Island Sound
+
+                                                      To Diffuser
+
+Intake Canal
+
+                                                                   Discharge
+                                                                    Conduit
+
+              Figure 11.1-1 Circulation Water System
+General Electric Technology Manual                                              Reactor Building Service Water System
+
+                                                   Table of Contents
+
+11.2 Reactor Building Service Water System .......................................  1
+
+11.2.1 System Description ....................................................      1
+
+11.2.2 Component Description .................................................      1
+
+11.2.3 System Features and Interrelations ........................................  1
+
+11.2.3.1 Norm al Operations ................................................        1
+
+11.2.3.2 System Interfaces .................................................        1
+
+11.2.4 Summ ary ...........................................................         2
+
+11.2-1 ......................................      List of Tables
+11.2-1 ..........................................
+                                                                       Reactor Building Service Water Load List
+
+                                                   List of Figures
+
+                                                                            Reactor Building Service Water System
+
+USNRC Technical Traaiining Centerr                 1111..22--ii                     Rev 0102
+                                                                                    Rev 0102
+(r.g',i E1~l'Ntri Ti chnnonl Manna                    11.2.2.1i-    Reactor Buildine Service Water System
+
+11.2 Reactor Building Service Water                                   eco uliwSrieWtrSse
+                                                                  RBSW Pumps-'
+The purpose of the Reactor Building Service
+Water System (RB SW) is to transfer heat from the     The Reactor Building Service Water pumps are
+reactor building components to the Long Island        v·rtically mii6unted,'two stage',' cefitifufgal, rated
+Sound, and provide an emergency source of             at 8600 gpm @ -70 psig. The pumps are driven
+cooling water to the reactor vessel and spent fuel    by a 450 Hp, 4160 VAC, 3 phase, induction
+pool.                                                 electric motor.
+
+11.2.1 System Description                             11.2.3 System Features and Interrelations
+
+The Reactor Building Service Water System             System operation and interrelations between this
+(RBSW) is divided into two loops which supply         system and other plant systems are discussed in
+safety related components. Loads on the two loops     the'paragraphs that follow.
+are redundant to ensure that at least one set of the
+nuclear safety related components is supplied in      11.2.3.1 Normal Operations
+the event of a single service water component
+failure.                                              During non accident conditions the RBSW system
+                                                      normally has one pump per loop (A or C and B or
+Four service water pumps take suction from the        D) operating and supplying RBSW to the
+screenwell. All four pump discharge lines             following components:
+combine in a common header. Two normally open
+isolation valves are located in the common                 * ·One of two RCBCLCW booster heat
+discharge and automatically close during LOCA                  exchanger.
+or loss of emergency bus voltage conditions to
+split the RBSW system into two independent                 * One of two RBCLCW heat exchanger.
+loops.                                                     * One of four RBSVS and CRAC chilled
+
+A radiation monitor draws a RBSW sample off of                 water condensers.
+each RHR heat exchanger outlet and returns the             * RBNVS chilled water condenser.
+sample to the same piping. The radiation monitor      The warmed water from the system is directed to
+will detect inleakage of radioactive materials from   the circulating water discharge tunnel and out to
+the RHR system and be indicated in the main           the Sound.
+control room. Service water to the ultimate
+cooling connection and the spent fuel pool, if        11.2.3.2 System Interfaces
+injected, would not be returned to the discharge
+tunnel but be retained in the reactor building.       A short discussion of interfaces this system has
+                                                      with other plant systems is given in the
+11.2.2 Component Description                          paragraph which follow.
+
+The major components of the Reactor Building          4160V Emergency Distribution System
+Service Water system are described in the             (Section 9.2)
+paragraphs that follow.
+                                                      The RBSW pumps and motor operated valves
+                                                      receive power from the Emergency Power
+                                                      System, and the RBSW supplies cooling water
+                                                      to the Emergency Diesel Generator Engines.
+
+                                                      Service & Instrument Air System
+                                                      (Section 11.8)
+
+                                                      The emergency diesel engine outlet valve (AOV
+                                                       16A, B, and C) receive air for valve movement
+                                                      from the Station Air System.
+
+UUSSNNRRCC TTechnical TTraining CCeenntteerr  1111..22--11                            RevUlUh
+
+                                                                  - - i - t --Rev 0102
+General Electric Technologv Manual
+
+Circulating Water System (Section 11.1)
+
+The Circulating Water System shares the
+screenwell suction pits with the RB SW. The CWS
+also provides a discharge path for return water of
+the RBSW to the Long Island Sound.
+
+11.2.4 Summary
+
+Classification: Safety related system.
+
+Purpose:  To transfer heat from' the reactor
+          building components to the Long
+          Island Sound, and provide an
+
+          emergency source of cooling water
+          to the reactor vssel and'spent fuel
+          pool.
+
+Components: Pumps, Strainers,Pipes, and
+                  Valves
+
+System Interfaces:  Emergency Power System,
+                    Station Air System,
+                    Circulating Water System.
+
+USNRC Technicall TTrraaiinniinngg CCeenntteerr  11.2-2  Rev 0102
+                                                11.2-2  Rev 0102
+                 Table 11.2-1 RBSW Load List
+
+               Reactor Building Service Water Loop "A"
+
+"*RHR A heat exchanger
+"*RBCLCW A heat exchanger
+"*RBCLCW A booster heater exchanger
+"*Emergency diesel engine A, B, and C coolers
+"*RBSVS and CRAC chilled water system A
+"*RBNVS chilled water system
+"*Emergency water supply to the reactor vessel
+"*Emergency water supply to the spent fuel pool
+
+               Reactor Building Service Water Loop "B"
+
+"·RHR B heat exchanger
+"*RBCLCW B heat exchanger
+"*RBCLCW B booster heater exchanger
+"*Emergency diesel engine A, B, and C coolers
+"*RBSVS and CRAC chilled water system B
+"*RBNVS chilled water system
+"*Emergency water supply to the reactor vessel
+"*Emergency water supply to the spent fuel pool
+"· RBSW/TBSW cross connect.
+
+USNRC TTeechnical TTrraaiinniinngg Centerr  1111..22--33  Rev U1UZ
+                                                          Rev 0102;
+General Electric Technology Manfial                                     Buieldin" Servicep Water Q et--i
+                       Geneal EeMctnrcualReTaechtonrolav
+
+USNRC Technical TTrraaiinniinngg CCeenntteerr             1111..22--44  Rev 0102
+                                                                        Rev 0102
+    Circulating Water Discharge Tunnel
+
+                                                         U)
+
+                                                         :3I
+
+-I                                                       0n
+
+                                                         CL
+
+    Figure 11.2-1 Reactor Building Service Water System
+General Electric Technology Manual  Reactor Building Closed Loop Cooling Water System
+
+                                    Table of Contents
+
+11.3 Reactor Building Closed Loop Cooling Water System ........................  1
+
+11.3.1 System Description .................................................      1
+
+11.3.2 Component Description .............................................       1
+
+11.3.2.1 Reactor Building Closed Loop Cooling Water System Pumps/Motors ... 1
+
+11.3.2.2 Recirculation Pump Cooling Water Circulating Pumps/Motors ........ 1
+
+11.3.2.3 Reactor Building Closed Loop Cooling Water Heat Exchangers ........     1
+
+11.3.4 System Features and Interrelations .....................................  1
+
+11.3.3.1 Normal Operations ...........................................           2
+
+11.3.3.2 Loss of Preferred Power .......................................         2
+
+11.3.3.3 Loss of Coolant Accident ......................................         2
+
+11.3.3.4 Loss of Station Air ...........................................         2
+
+11.3.3.5 System Interfaces ............................................          2
+
+Emergency Power System ......................................                    2
+
+Station Air System ...........................................                   2
+
+Reactor Building Service Water System ...........................                2
+
+11.3.4 Summary .........................................................         2
+
+USNRC Technical Traaiining Centerr  1111..33--ii                                 Key UJU2
+                                                                                 Rev 0102
+General Electric Technolo Manuali                         Reactor Building Closed Loop Cooling Water System
+                                                                                                          i
+11.3 Reactor Building Closed Loop
+         Cooling Water System                            pumps take suction and supply the recirculation
+                                                         pump MIG set fluid coupling oil coolers.
+
+ The purpose of the Reactor Building Closed Loop         11.3.2 -Component Description
+ Cooling Water System (RBCLCW) is; to transfer
+ heat from the components cooled by RBCLCW to            '-Only the ·major Reactor Building Closed Loop
+ the Reactor Building Service Water System via
+ heat exchangers, provide cooling Water to reactor        Cooling Water System components are discussed
+ auxiliary equipment and other miscellaneous              in the paragraphs which follow. ' -
+ reactor building equipment during normal
+-operation-, and provide nuclear safety related          11.3.2.1  Reactor Building Closed Loop
+ systems with aredundant means of cooling during                   Cooling Water System
+                                                                   Pumps/Motors
+ an accident condition in order to accomplish'and
+ maintain a safe shutdown.                               The RBCLCW circulating water pumps are; 50 %
+
+                                                         capacity each, centrifugal pumps, rated at 1600
+
+11.3.1 System Description                                gpm flow at 165 ft. head. The motor that drives
+                                                         the pumps are; 100 Hp, 480 VAC,-3 phase, 60 Hz,
+
+The Reactor Building Closed Loop Cooling Water - induction motors.
+
+System is a redundant, closed loop .system               11.3.2.2 Recirculation Pump Cooling
+providing nuclear safety and non-nuclear safety                       Water Circulating Pumps/Motors
+related equipment with a reliable source. of
+
+  cooling water. Loads on the safety related loops       The Recirculation pump M/G set fluid coupling
+'.are redundant to ehsure that at least one half of the  cooler water- circulating pumps - are; -100%
+                                                         capacity each, centrifugal pumps, rated at 1600
+  nuclear safety' i·lited components served 'by          gpm flow at 118 ft. head. The motors that drives
+  RBCLCW ar&e'supplied in the event of a single
+  RBCLCW component failure. Loads on the non
+
+safety related loops supply auxiliary components "thepumps are; 75 Hp, 480 VAC, 3 phase, 60 Hz.
+
+that are not required to operate during accident         11.3.2.3 Reactor Building Closed Loop
+conditions.- The -two non-safety related loops
+
+automatically isolate during an accident.                          Cooling Water Heat Exchangers
+
+  Each non-safety related loop return line ties into      The RBCLCW heat exchangers are; single pass,
+  its associated safety related loop return piping.      *counter flow,*shell and tube type. Service water
+  The safety related loop returns to the inlet of an
+  RBCLCW heat exchanger. The -two -heat                   supplies the shell side at a pressure less than
+  exchangers are cross connected on both the inlet        RBCLCW system pressure. Each heat exchanger
+  and outlet sides.- The two heat exchangers              is 100% capacity.
+- -discharge to a commoni suction header supplying
+  the three RBCLCW pumps. ,                                11.3.2.5 Radiation Monitor
+
+  Between the RBCLCW heat exchangers and the              The inlet to the radiation monitor is located on the
+  common pump suction, two additional RBCLCW               common pump discharge header. the monitor is
+                                                           designed to detect the inleakage of radioactive
+
+I USNRC Technical Training Ceenntteerr     ;1.1411..33-.11                              Rev UiU.
+
+                                                                                        Rev 0102
+General Electric Technoloe,"Manual                          . B.Ruieladcintorr"Closed Loo Coo.in. Water S stem
+                                  Gnrlecc
+                                                      Service & Instrument Air System (Section
+contaminants due to the failure of a cooler served    11.8)
+by the system.
+
+11.3.3 System Features and Interrelations             The heat exchangers temperature control valves
+                                                      and the head tank makeup valve receive motive
+System operation and interrelations between this      air from the station air system.
+system and other plant systems are discussed in
+the paragraphs that follow.'                          Reactor Building Service Water System
+                                                      (Section 11.2)
+11.3.3.1 Normal Operations
+                                                      The Reactor Building Service Water System is the
+Two of the three circulating pumps take a suction     heat sink for the Reactor Building Closed Loop
+from a common suction header and discharge to a       Cooling Water System.
+common discharge header, the' third is in
+automatic, available to start immediately to          11.3.4 Summary
+replace one of the operating pumps. During
+normal system operation with two pumps running,       Classification:
+the discharge header pressure is approximately 65
+68 psig.                                              Safety Related System
+
+The two non-safety related loop s return lines tie    Purpose:
+into their respective safety related loop return
+lines. Each of the two safety related loop return     The purpose of the Reactor Building Closed Loop
+lines supplies an RBCLCW heat exchanger.              Cooling Water System (RBCLCW) is; to transfer
+                                                      heat from the components cooled by RBCLCW to
+Two head tanks connect to the common pump             the Reactor Building Service Water System via
+suction line to provide a surge volume and ensure     heat exchangers, provide cooling water to reactor
+sufficient pump NPSH is available.                    auxiliary equipment and other miscellaneous
+                                                      reactor building equipment during normal
+11.3.3.2 System Interfaces                            operation, and provide nuclear safety related
+                                                      systems with a redundant means of cooling during
+A short discussion of interfaces this system has      an accident condition in order to accomplish and
+with other plant systems is given in the paragraphs   maintain a safe shutdown.
+which follow.
+                                                      Components:
+4160V Emergency Distribution System (Section
+9.2)                                                  Pumps, heat exchangers, booster heat exchangers,
+                                                      temperature control valves, head tanks, radiation
+The RBCLCW pumps and motor operated valves            monitors, and pressure control valve.
+receive power from the Emergency Power System.
+                                                      System Interfaces:
+
+LUISSNNRRCC Technicall TTrraaiinniinngg CCeenntteerr  1111..33-.22  Rev 0102
+                                                                    Rev 0102
+      CnP lIe~ctric Technnoni Manual         Reactor Buildine Closed Loop CoolinLg Water System
+
+Emergency Power System, Station Air System,
+and Reactor Building Service Water System.
+
+USNRC Technicaall TTraining Center           1111..33--33  Key UIU
+
+                                                           Rev 0102
+General Electric Technology Manual                                              Turbine Building Service Water System
+
+                                                 Table of Contents
+
+11.4 Turbine Building Service Water System .......................................              1
+
+11.4.1 Introduction ..........................................................                  1
+
+11.4.2 System Description ....................................................                  1
+
+11.4.3 Component Description ................................................                   1
+
+11.4.3.1 TBSW Pumps ....................................................                        1
+
+11.4.3.2 TBSW Strainers ..................................................                      1
+
+11.4.4 System Features and Interrelations ........................................              1
+
+11.4.4.1 Norm al Operations ................................................                    1
+
+11.4.4.2 Loss of Power ....................................................                     1
+
+11.4.4.5 System Interfaces .................................................                    1
+
+11.4.5 Summary ............................................................                     2
+
+                                                 List of Figures
+
+11.4-1 ........................................          Turbine Building Service Water System
+
+USNRC Technicall TTrraaiinniinngg CCeenntteerr   11.4-i                             ev UIUh
+                                                 11.4-i
+                                                                                    Rev 0UU.·
+General Electric Technolov Manual                                      ' Turbine Btiiidine Service Water System
+
+11.4 Turbine Building Service Water                   @ -50 psig. The pumps are driven by a 350 Hp,
+         System                                       4160 VAC, 3 phase, induction electric motor.
+
+The purpose of the Turbine Building Service           11.4.2.2 TBSW Strainers
+Water System (TBSW) is to transfer heat from
+non-safety related components in the turbine          The TBSW pumps have two common discharge
+building to the Long Island Sound. The major          "strainer. Thestrainers' are self cleaning, electric
+components of the TBSW system are shown in            motor driven, and automaitic~ly backwash to the
+                                                      trash sump.
+figure 11.4-1.
+
+11.4.1 System Description                             11.4.3 System' Features and Interrelations
+
+The Turbine Building Service Water System             System operation and interrelations between this
+(TBSW) supplies non-safety related components         "systemand othei plant systems are discussed in
+in the turbine building. The system pumps takes       the paragraphs that follow.
+water from the screenwell. Normally two of the
+three pumps are running discharging into a            11.4.3.1 Normal Operations
+common discharge/supply header via MOV-112
+A, B, and C, each discharge valve is bypassed by      During normal operations the TBSW system has
+a normally open butterfly valve which provides        two pump operating supplying service water to the
+for system fill prior to discharge valve opening.     components cooled by the system. The third pump
+The common discharge header supplies two motor        in normally aligned to the standby mode of
+operated, self cleaning, strainers that are arranged  operation.
+in parallel.
+                                                      11.4.3.2 System Interfaces
+The TBSW supply to the TBCLCW heat
+exchangers is controlled by isolation valves on the   A short discussion of interfaces this system has
+outlet of the heat exchangers. the outlets of the     with other plant systems is given in the
+two TBCLCW heat exchangers combine in a               paragraph which follow.
+single return line containing a single normally
+open isolation valve.                                 4160V Normal Distribution System
+                                                      (Section 9.1)
+11.4.2 Component Description
+                                                      The TBSW pumps and motor operated valves
+The major components of the Turbine Building          receive power from the Normal Power System.
+Service Water system are described in the
+paragraphs that follow.                               Circulating Water System (Section 11.1)
+
+11.4.2.1 TBSW Pumps                                   The Circulating Water System shares the
+                                                      screenwell suction pits with the TBSW. The CWS
+The Turbine Building Service Water pumps are          also provides a discharge path for return water of
+vertically mounted, centrifugal, rated at 800 gpm     the TBSW to the Long Island Sound.
+
+USNRC TTeechnical Trraaiinniinngg Centerr  ·-- 1111..44.-11  -Rev 0102
+                                                             -Rev 0102
+General Electric Technolog, Manual                                         Buildin~Service Water Sv tem
+                     Geneal EMecntrucalTuTrebhinnoelgy
+
+11.4.4 Summary
+
+Classification:
+Power Generation system.
+
+Purpose:                  I
+
+To transfer heat from the turbine building
+
+components to the Long Island Sound.
+
+Components:
+Pumps, Strainers,Pipes, and Valves
+
+System Interfaces:
+Normal Power System, Circulating Water System.
+
+UUSSNNRRCC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  1111..44--22  Rev 0102
+                                                                           Rev 0102
+-1n')
+C
+m
+
+-4
+
+c
+
+w
+
+CD
+
+CD                                  Train "B"
+0)
+                                    Same as "A"
+
+(0
+
+C,<
+
+(n     Yard
+
+       Screenwell
+
+       Service Water Cross Connect
+
+                                                 0
+BWR/4 Technologv Manual                        Turbine Buildine Closed Loop Cooling Water System
+BWI Tcn  log  aulTrieBidn                                         Cllosd  io CoIn   WaeSse
+
+                                               Table of Contents
+
+11.5 Turbine Building Closed Loop Cooling Water System ...........................                      1
+
+11.5.1 Introduction .......................................................... 1
+11.5.2 System Description .................................................... 1
+11.5.3 Component Description ................................................ 1
+11.5.3.1 TBSW Pumps .................................................... 1
+11.5.3.2 TBSW Surge Tank ................................................ 1
+11.5.3.2 TBSW Pressure Control Valve ....................................... 1
+11.5.3.2 TBSW Temperature Control Valve ................................... 1
+11.5.4 System Features and Interrelations ........................................ 1
+11.5.4.1 Norm al Operations ................................................ 1
+11.5.4.2 Abnormal Operations .............................................. 1
+11.5.4.5 System Interfaces ................................................. 1
+11.5.5 Summ ary ............................................................ 2
+
+11.5-1 ...........................             List of Figures
+
+                                                     Turbine Building Closed Loop Cooling Water System
+
+USNRC Technical TTrraaiinniinngg CCeenntteerr  1111..55--ii                                 Rev 0102
+                                                                                             Rev 0102
+                                                    Turbine Building Closed Loop Cooling Water System
+BWR/4 Technolo..v ManualTu                                    B id     L  In W
+
+11.5 Turbine Building Closed Loop Cooling           provide a method for detecting and measuring
+         Water System                               leakage. Makeup water is automatically supplied
+                                                    from the demineralized water system
+The purpose ofthe Turbine Building Closed Loop
+Cooling Water System (TBCLCWS) is to transfer       ,11.5.2.3 TBCLCW Pressure Control Valve
+heat from non-safety related components in the
+turbine building, radwaste building, and service    Pressure transients caused by placing'coolers in
+building to the Turbine Building Service Water      the system in or out-of-service, are compensated
+System. The major components of the TBCLCWS         for automatically by pressure control valve.
+system are shown in figure 11.5-1.
+                                                    11.5.2.3  TBCLCW Temperature .
+11.5.1 System Description                                     Control Valve
+
+The Turbine Building Closed Loop Cooling Water      A heat exchanger bypass line containing a
+System (TBCLCWS) is a closed loop piping            automatic temperature control valve. Closed loop
+system consisting of two full-capacity centrifugal  cooling water discharge temperature is maintained
+pumps, two full-capacity heat exchangers, a surge   at a constant 95 'F by modulation of bypass flow
+tank, two motor-operated pump discharge             around the heat exchanger.
+isolation valves and automatic system temperature
+and pressure control valves. The system is shown    11.5.3 System Features and Interrelations
+in Figure 11.5-1.
+                                                    System operation and interrelations between this
+11.5.2 Component Description                        system and other plant systems are discussed in
+                                                    the paragraphs that follow.
+The major components of the Turbine Building
+Closed Loop Cooling Water system are described      11.5.4.1 Normal Operations
+in the paragraphs that follow.
+                                                    During normal operation one of the TBCLCW
+11.5.2.1 TBCLCW Pumps                               pumps is operating with the other pump in
+                                                    standby. If the operating pump should trip, the
+The TBCLCW pumps are single stage pumps,            standby pump will start, the discharge valve of the
+rated at 17.8 Kgpm @ 85 psig. The pumps are         starting pump will automatically open 10 seconds
+driven by a 1000 hp, 4.16kv, 3 phase, 60Hz,         after the standby start.
+squirrel cage induction motor.
+                                                    11.5.4.3 System Interfaces
+11.5.2.2 TBCLCW Surge Tank
+                                                    A short discussion of interfaces this system has
+A surge tank is located above the pump suction      with other plant systems is given in the paragraph
+manifold. Connected to the pump suction             which follow.
+manifold, the tank will reduce pressure surges,
+permit thermal expansion of loop water, provide
+a low pressure inlet for makeup water, ensure the
+minimum NPSH for the system pumps, and
+
+                                    1111..55--11                                    Rev O1UZ
+USNRC Technical Traaiining Centerr                                        · -. '- 'Rev 0102
+                                                                    t
+                                                                                                                                                        I-
+
+ BWR/4 Technoloev Manual.
+
+4160V Normal Distribution System
+ (Section 9.1)
+
+The TBCLCW pumps and motor operated valves
+receive power from the Normal Power System.
+
+Turbine Building Service Water
+(Section 11.4)
+
+The Turbine Building Service Water System cools
+the TBCLCW system.
+
+11.5.5 Summary
+
+Classification:
+Power Generation system.
+
+Purpose
+To transfer heat from the turbine building
+components to the Turbine Building Service
+Water system.
+
+Components:
+Pumps, Pipes, and Valves
+
+System Interfaces:.
+Normal Power System, Turbine Building Service
+Water system.
+
+1UUSSNNRRCC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  1111..55--22  Rev 0102
+                                                                            Rev 0102
+                                                                                                                                                                                                                          0102
+
+E
+
+0
+
+0
+
+               FIGURE 11.5-1 Turbine Building Closed Loop Cooling Water System
+BWR/4Technology Manual                                                          Service & Instrument Air System
+
+                                                Table of Contents
+
+11.6 SERVICE & INSTRUMENT AIR SYSTEM ..................................         1
+
+11.6.1 System Description ....................................................  1
+
+11.6.2 Component Description ................................................   1
+
+11.6.2.1 Service and Instrument Air Compressors .............................   1
+
+11.6.2.2 After Cooler ... ................................................      1
+
+11.6.2.3 Air Receivers ..................................................       1
+
+11.6.2.4 Dryer/Filter Trains ..............................................     2
+
+11.6.3 System Features ......................................................   2
+
+11.6.3.1 Normal System Operation .........................................      2
+
+11.6.3.2 Abnormal System Operation .......................................      3
+
+11.6.4 System Interfaces .....................................................  3
+
+11.6.4.1 Turbine Building Cooling Water System .............................    3
+
+11.6.4.2 Normal Auxiliary Power System ...................................      3
+
+11.6.5 Summary ............................................................     3
+
+USNRC Technicall TTrraaiinniinngg CCeenntteerr  1111..66--ii                    k(ev UIU.
+
+                                                                                Rev 0102
+.BWR/4Technolof, v Manual                                                      Service & Instrument Air System.
+B...............  Ma ua                                                        S ric....t.m   ntA r yse
+
+11.6 SERVICE & INSTRUMENT AIR                                  Instrument air services require clean, dry, and oil
+         SYSTEM.                                               free air. Prior to distribution throughout the plant,
+
+The purposes of the Service and Instrument Air                 it passes through filtration and drying equipment
+System are:                                                    to remove particulate matter, moisture and oil.
+
+                                                               -11.6.2 Component Description
+
+1. To supply compressed air throughout the                     The -major components of the Service and
+    plant for general purposes such as pneu
+    matic tools operations, cleaning, and non                  'Instrument Air -System are discussed in the
+    essential support services.
+                                                               paragraphs that follow.        .
+
+2. To supply clean compressed air to plant                     11.6.2.1        Service and Instrument Air
+    instruments, control devices, and air                                      Compressors
+    operated valves.
+
+The functional classification of -the Service and               The station air compressors are designed to supply
+Instrument Air 'System is that of- a'power                      all of the service and instrument air requirement
+generation system. Some components are safety                   for'a single' u·nit.-: -The compressors are of a
+related. '                                                      multistage, 'oil-free, centrifugal, electric motor
+                                                               -driven design and'are capable of supplying a
+
+                                                               Sminimum of 1000 scfm of air at 125 psig.
+
+11.6.1 System Description
+
+Three centrifugal air compressors are used to                  Air is drawn into the compressor through an air
+                                                               filter silencer which -removes particles from
+supply the service and instrument air requirement.             process air.
+
+"Two compressors are operated simultaneously to
+
+meet normal air requirements for both units, the               11.6.2.2 After Cooler
+
+third compressor is maintained in the standby
+
+mode.                                                ,-         Associated with each compiessor is an afterco6ler
+                                                                to cool the flow of air to 110F. The after coolers
+Aftercoolers are located in the'-air piping                    *'are air to water heat exchangers cooled by raw
+
+downstreamr'of each compressor. The aftercoolers                Wwater.
+
+reduce the temperature of the compressed air.
+
+" Each compressor is also served by an air receiver            11.6.2.3 -Air Receivers
+
+"whichprovides a reserve surge capacity to the air
+
+supply system. The receivers supply air to service             - Compressed air from the outlet of each'after
+                                                                 -cooler flows into its associated air receiver: The
+and instrument air headers.                              -  '   -'air receivers dampen pressure pulsations caused
+
+Service air is not required to be cleaned and dried,            ,by- the compressors, and, serve as' a storage
+therefore, it is supplied directly off the air receiver          volume. The storage capacity provides sufficient
+discharge piping.' Distribution headers direct the               time for the standby compressor to start and load
+air to various plant buildings where it is available             should system air pressure decrease due' to
+for general plant services.                                     "excessive usage or leakage. The air receivers are
+                                                                  designed for 150 psig.,
+
+o                                                              ,-1111..66--11                    'Key ULUL
+
+ .-UUSSNNRRCC TTeechnical Traaiinniing CCeenntteerr                                              _,RJev 0102
+BWR/4Technolozy Manual -                                             S..e..r.v..i.c. e Instrument Air S.stem
+
+11.6.2.4 Dryer/Filter Trains                                 supply and filters remove foreign particles., The
+                                                             dryers and filters are necessary components
+The Instrument Air System contains a dryer/filter            because of the materials and small clearances of
+train arrangement to provide drying and cleaning             the internal moving parts of pneumatic equipment.
+of the air prior to use in order to minimize                 Clean, dry, and oil free air is required for reliable
+malfunctions of pneumatic instruments and                    trouble free operation. The air from the
+valves. The train consists of a series arrangement           conditioning equipment is distributed throughout
+of two parallel prefilters, dual tower dryer units,          the instrument air system.
+and after filters. Only one of the parallel
+components is used at a time, which allows                   The instrument air system is subdivided by
+cleaning or changing of filters during system                building location, i.e., turbine building, auxiliary
+operation. Each air dryer consists of an                     building, fuel building, and containment building.
+interconnected set oftwo desiccant chambers. Air             The turbine building instrument air supplies
+flow is automatically alternated through each                components such as the hotwell level control
+chamber to permit the simultaneous drying of air             valves, turbine extraction steam and heater drain
+in one chamber and the drying of air desiccant in            system, various valve actuators that control
+the other chamber. Drying of the desiccant is                cooling water flow to generator hydrogen and oil
+accomplished by purging dry, air through the                 systems, condensate system demineralizer valves,
+chamber. At the outlet of the dryers are air filters         building heating and air conditioning, and the
+which function to remove dirt and other                      steam sealing system for the turbines, The
+contaminants from the process air.                           auxiliary building instrument air loads include the
+                                                             outboard main steam isolation valves and various
+11.6.3 System Features                                       other components. The containment air supply is
+                                                             used in the control rod drive hydraulic system,
+A discussion of system features is given in the              inboard main steam isolation valves, and
+following paragraphs.                                        equipment and floor drain isolation valves. The
+                                                             instrument air supply to the containment is
+11.6.3.1 Normal System Operation                             equipped with an automatic isolation valve that
+                                                             closes on a containment isolation signal. Of
+Two of the three air compressors are normally                course, when an isolation occurs, the air supply
+running with -the third compressor in a standby              header inside the containment will depressurize.
+mode. The operating compressors draw air from
+the room in which they. are located, raise the               The service air system is used to supply air to
+pressure to approximately 125 psig, and discharge            components such as the demineralizer backwash
+the air to storage receivers. Pressure switches              and precoat system and hose stations for
+located on the receivers control normal operation            pneumatic tools. Many boiling water reactor
+of the running compressors. The compressors                  plants utilize separate service air systems to meet
+load (compress air) when receiver pressure drops             this need.
+to 120 psig and unload at 130 psig.
+                                                             11.6.3.2 Abnormal System Operation
+The receivers supply air to instrument and service
+air headers. Instrument air passes through air               In the event that air consumption exceeds the
+dryers and filters prior to supplying various plant          capacity of the operating compressors, the
+components. Dryers remove moisture from the air
+
+UUSSNNRRCC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  11.6.2  Rev 0102
+                                                             11.6-2  Rev 0102
+                 B Mi                        ThI                                Service & Instrument Air System
+
+following sequence of events will occur as           Components:
+pressure continues to decrease:                      Compressors, receivers, air dryers, and filters.
+                                                     System Interfaces:
+1. The standby compressor will start.                Raw Cooling Water System, Normal Auxiliary
+                                                     Power System.
+2. The service air header will isolate.
+
+3. The reactor scrams due to loss of air to the
+    scram pilot valve air header.
+
+11.6.4 System Interfaces
+
+A short discussion of interfaces this system has
+with other plant systems is given in the paragraphs
+which follow.
+
+11.6.4.1 Turbine Building Cooling Water
+             System (Section 11.5)
+
+The Turbine Building Cooling Water System
+supplies normal cooling for the compressors and
+after coolers.
+
+11.6.4.2 Normal Auxiliary Power System
+             (Section 9.1)
+
+Power for the Control and Instrument Air System
+is from the Normal Auxiliary Power System.
+
+11.6.5 Summary
+
+Classification:
+
+Power generation system with some supplied
+components classified as safety related.
+Purpose:
+
+To provide a continuous supply of compressed air
+of suitable quality and pressure for instruments,
+controls, and station use.To supply air to the
+safety/relief valves, main steam isolation valves,
+and other safety related components.
+
+USNRC TTeechnical Traaiinniing CCeenntteerr       1111..66-.33  Rev 111U2
+                                                                Rev 0102
+BWRI4 Technolo~v Manual                                           Reactor Operations
+                                                                  RatrOeain
+12.0 REACTOR OPERATIONS
+
+Detailed written operating procedures for all
+modes of plant operation are prepared prior to the
+initial startup and critical testing period.
+Appropriate changes in these procedures are
+made during the startup test program. The
+following is a discussion of the general operating
+procedures that are used for plant startup, power
+operation, and shutdown. This information is
+presented to indicate the general method of
+operation.
+
+The order to startup the reactor for power
+operation, or to shutdown for maintenance or
+refuelng, is issued by the plant superintendent or
+assistant superintendent. The load schedule
+during power operation is issued by the load
+dispatcher's office with concurrence from the
+plant. To support these operations, the shift
+supervisor schedules the startup or shutdown of
+various systems and components as required and
+issuing the necessary orders to the control room
+personnel.
+
+The following sections describe the sequence of
+general plant operations during startup, power
+operation, and shutdown.
+
+USNRC TTeechnical TTrraaiinniinngg CCeenntteerr     1122..00--11  KY UiY
+                                                                  Rev 0198
+   BWR14 Technology Manual                                               Cold Startup Procedure
+                                                                         Cold rtur Produre
+
+   12.1: COLD STARTUP PROCEDURES The time, rod position, reactor period, and
+
+                                                          reactor water temperature are then recorded.
+
+   Prior to cold startup, prestartup check lists are      After neutron flux measurement overlap with the
+    completed on all systems required ,to support         -intermediate range monitors (IRM) has been
+    startup and power operation. Included in these        demonstrated, the source range monitor (SRM)
+   -checks are the following: operational checks of       detectors are withdrawn as required to maintain
+   -safety related systems to ensure their availability;  the count rate between 102 and 105 counts/sec.
+   nuclear steam supply and balance of plant system'
+
+   valve and switch lineups from control room
+
+   panels; and functional checks of systems such as       After the reactor is critical, a reactor period on
+   "the Neutron Monitoring Systems and Reactor            the order of about 100 seconds is established to
+
+   Manual Control System.                                 raise power to the heating range. The IRM's are
+
+                                                          ranged upward as required to maintain the proper
+
+   The shutdown cooling mode of the Residual Heat on-scale readings. The power inci#&se continues
+
+   Removal (RHR) System is secured, and the                until heating power is reached. At this point
+   recirculation pumps are started .and -run at            control rod withdrawal is governed by the heatup
+   minimum speed. The Condensate and Feedwater             rate limit (usually about 90°Flhr). The 90"F/hr
+   System is prepared to supply water to the reactor      'ýheatup rate is a procedural limit. The Technical
+   vessel. This includes bringing chemistry into
+                                                           Specification ,limit is 100°F/hr. Control rod
+
+   specification by recirculating water from the withdrawal is "constrained to an approved
+   condenser- hotwell through the condensate, sequence such that control rod positions remain
+
+   demineralizers and feedwater heaters. A vacuum symmetrical and the reactivity worth of a given
+
+   -is drawn in the main condenser to aid in the rod is minimized.
+
+   -removal of noncondensible, gases in the reactor
+
+   vessel and main steam lines.                           As ,reactor water temperature increases, the
+
+                                                          coolant expands; causing the reactor vessel level
+
+   12.1.1- Approach to Critical and                        to increase.-In order to maintain a constant level
+                                                           during heatup, water must be removed from the
+-  '  ,-; Pressurization of the-Reactor                   ,:reactor -vessel. The -Reactor -Water*Cleanup
+
+    After the. completion of the prestartup checks,,      - System (RWCU) isaligned to reject w-ater to the
+    authorization for startup must be received from        main condenser or'-to 'the' Liquid. Radwaste
+    the station management. The reactor mode switch        System. It is usually more desirable to reject the
+   - is placed in the startup position, and control rods   excess water to the condenser in order to
+    are withdrawn, using the Reactor.Manual Control-,      minimize the witer processing load on the Liquid
+    System, according to the specified sequence.           Radwaste System. This ev6lution continues until
+    When a control rod'has been withdrawn to the           rated temperature and pressure are reached.
+
+   "full out position, a coupling check is made by,
+    attempting to further withdraw the rod. If the - As temperature increases from 212"F, the
+    control rod blade is uncoupled from the control moderator in the -reactor .vessel begins to
+    "roddrive; a rod overtravel alarm is received and pressurize: At 'about 100 psig, the Reactor Core
+
+   corrective measures must be taken. Control rod. 'Isolation Cooling (RCIC) System and the High
+   -withdrawal continues until criticality is achieved. Pressure Coolant Injection (HPCI) System, low
+
+                                                          -1122..11--11      --  Rev U19
+      USNRC Techniccaall TTrraaiinniinngg CCeenntteerr                   --S.... ... ... ... . Rev 0198
+steam pressure isolation is reset, and the steam     As the operator now increases load on the
+lines to auxiliary steam loads such as Reactor       generator by using the load selector to open the
+Feedwater Pump (RFP) turbines and Steam Jet          control valves, the bypass valves automatically
+Air Ejectors (SJAE's) are warmed.                    close to maintain a constant reactor pressure.
+                                                     This is all accomplished using the EHC System.
+As pressure approaches 150 psig, the Electro
+Hydraulic Control (EHC) System pressure              Once all bypass valves are closed, a further
+regulator would start to open bypass valve           increase on the load selector performs a setpoint
+number 1. To avoid bypassing steam and to            adjustment only, and the load selector is set to the
+allow plant pressurization, the pressure setpoint    expected power level. Further increase in
+is increased to 920 psig.                            generator load is now performed by increasing
+                                                     reactor power by control rod withdrawal, either
+At about 350 psig a reactor feed pump is started     in the individual or gang modes.
+and placed in service. At about 450 psig, steam
+to the SJAEs is shifted from auxiliary steam         As control rods are withdrawn, reactor power
+supply to reactor steam. Also at this time, the      and pressure increase. As reactor pressure
+main turbine is reset and prepared for starting.     increases, steam throttle pressure also increases
+                                                     which causes the EHC System to open the
+As pressure reaches 920 psig, the bypass valves      control valves more, increasing turbine and hence
+begin to open to control reactor pressure at the     generator power.
+EHC System pressure setpoint. Control rods are
+withdrawn to increase power, which results in        12.1.3 Increase of Power to Rated
+further opening of the bypass valves. When
+power reaches 5% to 12%, the reactor mode            Because of fuel warranty requirements, control
+switch is shifted to the "RUN" mode, and the         rod withdrawal is used to increase power to
+IRMs are fully withdrawn. Control rods are           approximately 60%. When approximately 60%
+withdrawn until 3 to 5 bypass valves are open,       power is reached, the control rods have been
+representing sufficient steam flow to roll the main  withdrawn to what is called a 100% rod pattern.
+turbine and provide minimum loading following        This rod pattern, in turn, yields 100% reactor
+synchronization to the grid. At about this time,     power when recirculation flow is increased to
+the Feedwater Control Systemv is, placed in          100%.
+automatic, and RWCU System reject flow is
+discontinued.                                        The power increase from 60% to 100% is
+                                                     accomplished by increasing recirculation flow.
+12.1.2  Startup and Synchronization of               The Recirculation Flow Control System is
+        the Generator                                aligned with the individual loop contrtolers in
+                                                     master manual control. Recirculation flow is
+A turbine acceleration rate is chosen, depending     then increased to near 100% with the master flow
+upon. various turbine temperatures, and the          controller.
+turbine is rolled to synchronous speed. The
+generator is then, synchronized to the               During the increase to rated power, additional
+transmission system, and the generator load          support equipment is started as necessary; i.e.,
+break switch is closed.                              condensate, condensate booster and reactor feed
+                                                     pumps; condensate demineralizers, etc.
+
+USNRC Technical Training Center                      12.1-2  Rev 0198
+BWR/4 Technology Manual                                           . Power Operations
+BWR/4 Technology Manual                                              Power Operations
+
+12.2 POWER OPERATION                                 During initial power operation, the operating
+                                                     curve or power/ flow map is established relating
+After the generator is synchronized to the           reactor power to recirculation flow. The first
+transmission grid and producing a substantial        point of the curve is full flow and rated power.
+output, reactor power output is changed to meet      ,When a rod pattern is established for this point,
+the grid system requirements by adjustment of,       recirculation flow is reduced in steps, at that rod
+control rod position, manual adjustment of           pattern, and the relationship of flow to power is
+reactor recirculation flow, or a combination of      plotted for steady state conditions. Other curves
+these two methods.                                   are established at lower power ratings and other
+                                                     rod patterns as desired. During operation, reactor
+12.2.1 Control Rod Adjustment                        power may be changed by flow control
+                                                     adjustment, rod positioning, or a combination of
+Withdrawing a control rod reduces neutron            the two, while adhering to established operating
+absorption and adds core reactivity. Reactor         curves.
+power then increases until the increased steam
+formation just balances the change in reactivity     Although control rod movement is not required
+caused by the rod withdrawal. The increase in        when the load is changed by recirculation flow
+boiling rate tends to raise reactor pressure,        adjustment, the long term reactivity effects of fuel
+causing the EHC System pressure regulator to         burnup can be compensated for by control rod
+open the turbine control valves sufficiently to      adjustment.
+maintain a programmed throttle pressure. When a
+control rod is inserted, the reverse effect occurs.  Operating personnel are engaged in many
+                                                     activities during normal power operation. The
+12.2.2 Recirculation Flow Control                    following list includes some of the most typical
+                                                     activities:
+Reactor power output can be varied over a power
+range of approximately 35% of rated power, by             I. Routine data taking and writing of
+adjustment of reactor recirculation flow, which               operational logs.
+maintains a near uniform power distribution.
+Reactor power change is accomplished by using             2. Routine system instrument and valve
+the negative void coefficient. An increase in                 tests.
+recirculation flow temporarily reduces the volume
+of steam in the core by raising the boiling               3. Special periodic operational tests.
+boundary. This addition of reactivity to the core         4. Manipulation of control rods and
+causes reactor power level to increase. The
+increased steam generation rate then returns the              recirculation flow to maintain a balanced
+steam volume in the core to approximately its                 flux distribution, accommodate major
+original value, and a new constant power level is             changes in load demand, and secure
+established. When recirculation flow is reduced,              optimum plant performance.
+reactor power is reduced in a similar manner.             5. Evaluation of abnormal conditions as
+                                                               annunciated and indicated, and taking
+                                                              required action to minimize potentially
+                                                               dangerous effects on equipment and
+                                                               systems.
+
+USNRC TTeechnical TTrraaiinniinngg CCeenntteerr  ·t 1122..22--11   Rev U1Y5
+
+                                                                  . Jev 0198·
+BWR/4 Technologyv Manual                                    B  T  M
+
+    6. Sampling of process'steam and water.
+    7. Surveillance.of plant equipment for
+
+        proper operation, including making of
+        necessary adjustments and minor repairs.
+    8. Confining radioactive contamination to
+        the smallest possible area, and preventing
+        contamination of personnel areas.
+
+USNRC Technical Training Center                     12.2-2     Rev 0198
+                                                                Normal Shutdown from Power
+
+BWRI4 Technology Manual                                         Nra htonfo  oe
+
+12.3 NORMAL SHUTDOWN FROM                         The reactor shutdown is essentially complete.
+         POWER                                    Some plant shutdowns may require flooding of
+                                                  the reactor vessel. This is normally done using a
+A plant shutdown is accomplished by essentially   condensate pump and would be necessary if the
+reversing the steps described in Sections 12.1    plant was going into refueling operations.
+and 12.2, cold startup and power operation.
+
+Preparation for plant shutdown involves testing
+of turbine oil systems, flushing of the Residual
+Heat Removal System (shutdown cooling
+piping), and other equipment checks.
+
+Reactor power is reduced from 100% to
+approximately 60% by using the Recirculation
+Flow Control System. This requires adjusting the
+master flow controller to reduce recirculation
+pump speed to minimum.
+
+Control rods are now inserted in reverse of the
+withdrawal sequence to obtain a reactor power of
+approximately 10%. At this time, the IRM
+detectors are inserted, and the reactor mode
+switch is transferred to the startup position.
+
+Generator load is reduced to a minimum, and the
+turbine generator is separated from the
+transmission system. Turbine steam flow is
+picked up automatically by the bypass valves.
+Control rod insertion continues until all rods
+reach the-full in position. Reactor cooldown is
+commenced by withdrawing steam from the
+
+reactor via the bypass valves and maintaining
+vessel inventory using a reactor feed pump. A
+cooldown rate of 90"F/hr. is established.
+
+When reactor pressure has been reduced to
+approximately 50 psig, the shutdown cooling
+mode of the RHR System is initiated and is used
+to cool the nuclear system down to a temperature
+of 150'F.
+
+USNRC TTeechnical TTrraaiinniinngg CCeenntteerr   1122..33--11              iev 1,1,0
+
+                                                                            R~ev 0 I.8
+BWR/4 Technology ManualBW                                                     ° BWR Differences
+                                                                                        Difrns
+
+13.0 BWR DIFFERENCES                                   The BWR/5 and BWR/6 product lines control
+
+This chapter is provided to give the student some      core flow by changing the dual speed
+insight into major differences between the
+,various BWR product lines..                           recirculation pumps from one discreet speed to
+
+13.0.1 -Reactor Vessels                                another and by throttling a variable position flow
+
+The reactor vessel consists of the reactor pressure    control valve located on the discharge side of
+vessel, the components that support and contain
+the core, and the components that provide flow         each pump. The Recirculation Flow Control
+paths and separation for steam and water. The
+major differences between reactor vessels of all       SSystem for all product lines allows individual or
+product lines are based upon design
+considerations pertaining to required coolant flow     .ganged control of each flow control device. The
+paths, ability to flood the core following a loss of
+coolant accident, and emergency core cooling           BWR/5 and BWR/6 product lines -have an
+system penetrations.
+                                                       additional controller, flux controller, that uses the
+13.0.2 Recirculation and Recirculation
+             Flow Control                              ,Average Power Range Monitoring System as an
+
+All BWRs use forced circulation of coolant and         input to maintain a desired power level using core
+each BWR Recirculation System supports this
+concept. The way that forced circulation is            flow.               .  "
+achieved involves differences in the basic design.
+The BWR/2 design has no jet pumps inside the           13.0.3              Reactor Isolation Pressure -and
+reactor vessel but has five external recirculation                         Inventory Control
+loops to provide the required flow. The BWR/3
+through BWR/6 designs do have jet pumps                 In the event the reactor becomes isolated from its
+internal to the reactor vessel and have only two        normal heat sink, some component or system
+external recirculation loops. The jet pumps used        must 'control -reactor vessel pressure and
+in the BWR/5 and BWR/6 product lines use a              inventory. -,All BWR plants have safety relief
+five nozzle design which is more efficient than         valves (SRVs) -to *provide overpressure
+the single nozzel design used in the BWR/3 and          protection, and hence control reactor pressure.
+BWR/4 product lines.                                    Some BWR facilities have a system which can
+                                                        control pressure without requiring the use of
+In the BWR/2, BWR/3 and BWRI4 product lines             SRVs. All, BWR facilities have a -means of
+core flow is controlled by changing speed of the       -providing high pressure makeup water-to the
+variable speed recirculation pumps located in          -reactor vessel to compensate for inventory loss
+each recirculation loop.                                via the pressure control method.
+
+                                                          In the case of the BWR/2 product line and certain
+                                                          plants of the BWR/3 product line, both isolation
+                                                          functions are carried out by a single system called
+                                                          the Isolation Condenser System. The Isolation
+                                                       -,.,Condenser System draws off, reactor steam,
+                                                       -- condenses the steam in a condenser, and returns
+                                                       ,7-the.,resultant .condensate to a Recirculation
+                                                         'System-suction line: By conserving inventory,
+                                                         -this system :eliminates the need for additional
+
+                                                         'sources of high pressure makeup- - .
+
+,;UUSSNNRRC Techniccaall Trraaiinniinngg CCeenntteerr  --, " 1133..00--11     Rev 0198
+                                                                              Rev 0198
+BWR/4 Technology Manual                                                                                    BWR Differences
+BWRJ4 Technology Manual                                                                                    BWR Differences
+
+All BWRs of other product lines use SRVs for                  The BWR/3 product line high pressure ECCS
+pressure control and the Reactor Core Isolation               consists of either a Feedwater Coolant Injection
+Cooling (RCIC) System to provide high pressure                (FWCI). System or a High Pressure Coolant
+makeup water to the reactor vessel. Additionally,             Injection System (HPCI), and ADS. The
+some later model BWR/4 product line plants, all               BWR/3 low pressure ECCS consists of two Low
+BWR/5 and BWR/6 product line plants have                      Pressure Coolant Injection (LPCI) System loops
+another option available. The steam condensing                (either as a separate system or as part of the RHR
+mode of the Residual Heat Removal (RHR)                       System), and two Core Spray System loops.
+System can be used for reactor pressure control.
+In this mode, reactor steanfpressure is reduced
+and then condensed in the RHR heat exchangers.
+Since the resultant condensate can be directed to
+the RCIC pump suction, both systems can be
+used together to provide an inventory conserving
+closed loop operation.
+
+13.0.4 Residual Heat Removal
+
+All BWR facilities have either one large system
+capable of several operational modes or a
+collection of separate systems to carry out basic
+heat removal functions. The earlier product line
+plants have individual systenis, while the later
+product line plants use an integrated RHR
+System. For example, BWR/2 and early BWR/3
+facilities have a separate Shutdown Cooling
+System and use the Control Rod Drive System
+for the head spray function while later product
+line plants use various modes of the RHR
+System to accomplish the same functions.
+
+13.0.5 Emergency Core Cooling
+             Systems
+
+The ECCS package provided for a particular
+product line is dependent primarily on the vintage
+of the plant All BWR product lines have high
+pressure and low pressure ECCSs. The BWR/2
+product line high pressure ECCS consists of the
+Isolation Condenser System and the Automatic
+Depressurization System (ADS). Low pressure
+ECCS consists of a Core Spray System.
+
+UUSSNNRRCC. TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  1133..00--22  Rev 0198
+                                                                            Rev 0198
+              BWR/4 Technology Manual
+                         Appendix A
+
+                    Glossary Of Terms
+
+This Glossary of Terms is taken in part from NUREG-0770,
+    "Glossary of Terms: Nuclear Power and Radiation."
+BWR/4 Technology Manual                                                                                                              Appendix A
+BWRI4 Technolo2v Manual                                                                                                              Appendix A
+
+                                    GLOSSARY OF TERMS*
+
+                                     (FOR B OILING WATER REACTORS)
+
+ TERM                                                                 DEFINITION
+-;absorber tubes
+                                                                      The tubes that form the control rods contain natural boron in the form of
+                                                                      B4C. The n a a reaction produces Li7 and He4.
+
+access lock                                                           A lock that preserveý the containment's pressure integrity while triansfer
+accident analysis                                                     ring equipment or personnel through the containment
+
+                                                                  I.  A standard approach to ensurethe license applicant has analyzed both
+                                                                      expected and unexpected transients and accidents, that conservative
+active failure                                                        values are applied in the analysis,and that the plant design has incorpo
+active fuel length                                                    rated anadequate margin of safety. The accident analysis seciion of the
+adsorption                                                            FSAR shall include the analysis of several transients and accidents.
+airborne radioactive                                                  These analyzed incidents are placed in four categories or conditions of
+                                                                      operation; normal operations, faults 'of moderate frequency, infrequent
+                                                                      faults, and limiting faults:
+
+                                                                      A malfunction, excluding passive failures, of a component which relies
+                                                                      on mechanical movement to complete its intended function on demand.
+
+                                                                      End-to-end dimension of fuel material within a fuel element.
+
+                                                                      Retention of materials by adhesion to the surface of another.
+
+                                                                      Any radioactive material dispersed in the air in the materiallfbim of
+
+                                                                      -dsts,fumes, mists, vapors, or gases.     .-
+
+alpha radiation (c·)                                                  A positively charged particle emitted by certain radioactive materials. It
+
+                                                                      ,., is composed of.two neutrons andtwo protons, hence is identical with
+
+:.,' . (" ,the nucleus of a helium atom.,-t is the least penetrating of the three
+
+                      "·- " . common types of radiation (alpha, beta, gamma) emitted by radioactive
+
+                                                                      , ,material. -Itis stopped by a sheet of paper. It is not dangerous to plants,
+
+                                                                      animals, or man, unless the emitting substance has entered the body.
+
+*These are the more commonly used terms. This list is not intended to be all inclusive.
+
+·,USNRC Technical Training Center                                     A-1  '                                 -                       Rev 0198·
+BWR/4 Technology Manual                                           Apýpendix A
+BWRI4 Techno1oy Manual                                            Appendix A
+
+average planar linear    The average value of the linear heat generation rate of all the fuel
+heat generation rate     rods at any given horizontal plane along a fuel bundle.
+(APLHGR)
+
+axial peaking            The ratio of the heat flux at the axial location of interest to the heat
+factor (APF)             flux average over the active length of the fuel (assembly or rod) of
+                         interest.
+
+axial power shape        The relative heat flux along an axial line. In each core region, the axial
+                         shap6 can be determined by a TIP traverse or by fitting a curve through
+                         a set of LPRM values. Knowledge and control of axial shape through
+                         out the core is aided by maintaining symmetry in the rod pattern and a
+                         similar axial shape in all radial regions.
+
+base loaded              A term describing a power plant which is maintained at constant load. A
+                         base-loaded plant is the opposite of a load-following plant.
+
+beta radiation (B)       An elementary particle emitted from a nucleus during active decay, with
+                         a'single electrical charge and a mass equal to 1/1837 that of a proton. A
+                         negatively charged beta particle is identical to an electron. A positively
+                         charged beta particle is called a positron. Beta radiation may cause skin
+                         bums, and beta-emitters are harmful if they enter the body. Beta parti
+
+                         cles are easily stopped by a thin sheet of metal.
+
+biological shield        A mass of absorbing material placed around a reactor or radioactive
+black and white          source to reduce the radiation to a level that is safe for human beings.
+rod pattern
+                         One in which each rod is either fully inserted (black) or fully
+                         withdrawn (white) and no rods are partially withdrawn (gray).
+
+boiling                  The process in which vapor forms within a continuous liquid phase.
+                         Typically, tiny bubbles of vapor which grow and detach are formed at
+                         the heat-transfer surface. This is nucleate boiling which may be
+                         subcooled or saturated. Subcooled boiling occurs when the bulk liquid
+                         temperature is below saturation; and only the liquid film at the heat
+                         transfer surface is at saturation. Film boiling occurs when a continuous
+                         film of vapor blankets the heat transfer surface. The transition from
+                         subcooled to saturated nucleate boiling is continuous; the transition to
+                         film boiling is relatively sharp.
+
+boiling length (LB)      The linear distance from the onset of bulk boiling to the transition
+                         boiling point.
+
+USNRC Technical Training Center USNRTCechnicaTAl r-2ainingCenter  KY uiy
+
+                                                                  Rev u1.98
+IBWR/4 Technolo~v Manual                                                                                                                                                                                    I ý-- Appendix A
+                                                                                                                                                                                                                     Apni
+
+boiling water reactor     A power reactor in which water, used as both coolant and moderator, is
+burnable poison
+capacity factor           allowed to boil in the core. The resulting steam can be separated from
+carryover "
+carryunder                the water and fed either directly or through a heat exchanger to a turbine
+
+cavitation                generator.                                                                                                                                                                     -
+Scerenkov radiatiorni
+                          A neutron absorber or poison (such as gadolinium) that, when purpose
+                          ly,incorporated in the fuel or fuel clad- ding of a nuclear reactor, gradu
+                          ally-"bums up"(is changed into nonabsorbing material) under neutron
+                          irradiation. This process compensates for the loss of reactivity that
+                          occurs when fuel is consumed and fission- product poisons accumulate,
+                          and keeps the overall characteristics of the reactor nearly constant.
+
+                          The ratio of the average power load of an electric power plant to its rated
+                          capacity. Sometimes called "plant factor."
+
+                          The weight-fraction of liquid water carried as droplets with the steam as
+                          it leaves the reactor. Water droplets cause erosion in the turbine and
+                          carry activated corrosion products and fission products into the turbine,
+                          potentially causing maintenance problems. Carryover to the turbine is
+
+                          typically kept below 0.1 wt%.
+
+                          .The weight-fraction of steam bubbles entrained in the recirculating
+
+                          *reactor water, i.e., not separated out and sent to the turbine. The
+
+                          'entrained steam reduces the subcooling at the reactor inlet and thus
+
+                          increases the local and exit steam qualities of the fuel assemblies and
+
+                          core average voids. :It may also aggravate or cause recirculation or jet
+
+                          pump cavitation. Carryunder is principally a drag on plant efficiency,
+
+                          whereas carryover is a hazard to the turbine.                                                                                                                                        -
+
+                          Bubble formation and collapse at a low-pressure point in a flowing
+                          -stream. Bubbles will form where the local pressure fallsbelow the
+                          vapor pressure of the liquid and will then be transported with the liquid,
+                          and collapse where the pressure is above the vapor pressure. This is a
+                          common potential problem with large pumps when operated at "off
+
+                          standard" conditions.
+
+                          Light emitted when charged particles pass through a transparent material
+
+                          -at a velocity greater than that of light in that material. It can be seen, for
+
+                          example, as a blue glow in the water around the fuel elements of pool
+
+                          - reactors. P. A. Cerenkov is the Russian scientist who first explained the
+
+                          origin of this light. -·,                                                                                                                                                   .
+
+                                                                                                                                                                                           -·_o.....        ·     -r  ..  frl flD
+
+"*USNRC Technical Training Center                                                                                                                                                                                 Rev 0198
+BWR/4' Technology Manual                                                               Appendix A
+
+coast down                  The stretch out of a cycle by holding a constant control rod pattern and
+                            permitting the reactor power level to decrease gradually as the core
+                            reactivity decreases.
+
+contamination, radioactive  Deposition of radioactive material in any place where it is not desired,
+                            particularly where its presence may be harmful.
+
+control rod withdrawal      The order in which control rods are scheduled to be withdrawn. The
+sequence                     sequence begins with all rods inserted and is, or can be, extended to
+                            withdrawal of all rods.
+control rod worth
+                            The reactivity worth of a single control rod in a finite reactor core under
+
+                            a defined set of conditions.
+
+cooldown                    The cooling of a reactor after it has been shut down.
+
+core flow                   That coolant going through the core. See "jet pump flow."
+
+critical                    Capable of sustaining a chain reaction at a constant level. Prompt critical
+                            is being capable of sustaining chain reaction without the aid of delayed
+                            neutrons.
+
+critical power (CP)         The fuel bundle power, above which, the nucleate boiling process
+                            breaks down at some point within the bundle and transition boiling
+                            commences. It is characterized by abrupt, unstable variations in heat
+                            transfer surface temperature, and is a function of inlet enthalpy, bundle
+                            steam quality, boiling length, etc.
+
+critical power ratio (CPR)  'The ratio of critical power to bundle operating power-, used as a figure of
+                            merit to evaluate BWR core thermal performance.
+
+criticality                 The state of a nuclear reactor when it is sustaining a chain reaction.
+
+daughter                    A nuclide formed by the radioactive decay of another nuclide, called in
+                            this context the parent.
+
+decal heat                  The heat produced by the decay of radioactive nuclides. Decay heat is
+                            released in a reactor following shutdown, first from fissions caused by
+                            delayed' neutrons and heat capacity of core components and, over a
+                            longer period, by the radioactive decay of fission products in the reac
+                            tor. This requires provision for cooling a reactor for long periods of
+                            time following shutdown.
+
+USNRC Technical Training Center  A-4                                                   Rev 0198
+SBWR/4 Technology Manual                                                      -Appendix A
+                                                                              -Appendix A
+ 'BWRI4 Technology Manual
+
+decontamination            The removal of radioactive contaminants from surfaces or equipment, as
+                           by cleaning and washing with chemicals.
+
+derate                     Any administrative action which limits the reactor power to a value less
+                           than the nameplate rating. Derating can be used for cycle stretch-out. It
+                           may or may not involve a physical limitation in plant capability.
+
+detergent waste filter     The detergent waste filter removes lint and other particulate matter
+                           from the radioactive decontamination drains. The filter is equipped
+                           with inlet and outlet connections in addition to vent and drain connec
+                           tions.
+
+doppler effect             An increase in neutron absorption by a material as a result of an increase
+                           in its temperature. The Doppler effect of the fertile material in a reactor
+                           is an important factor for achieving safety in large thermal and fast
+                           reactors because of the decrease in reactivity with temperature.
+
+doppler (fuel temperature  The change in the core reactivity level for a unit change in the fuel
+coefficient),              temperature. The change results from the broadening effects of
+                           temperature on the neutron absorption resonance.
+
+doubling time              The time for the neutron flux level to double.
+
+driving flow,              Driving flow (sometimes called recirculation flow) measurements are
+                           commonly made of the DP across the pump(s) or venturi. This is the
+                           flow through the recirculation pumps.
+
+dryer/separator canal      The dryer and separator canal provide underwater access between the
+                           dryer-separator storage pool and the reactor well.
+
+dryer/separator            The pool is located on the refueling floor and provides storage and
+storage pool               servicing facilities -for ,the dryer, and separator when they have been
+                           removed from the reactor vessel.
+
+drywell                    The containment vessel enclosing the reactor and recirculation system
+                           and forming part of the primary pressure suppression system.,
+
+                           r,                                      ' '  .,'t
+
+USNRC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  :4 AA--55             icev UiY
+
+                                                                              Rev, 01985
+BWR/4 Technology Manual                                         Appendix A
+BWRI4 Technology Manual                                         Appendix A
+
+electrical capacity factor  The ratio of electrical energy produced in a given time interval to the
+                            electrical energy that would have been produced in that same interval if
+                            the turbine-generator were to operate continuously as its maximum
+                            rating. Note that the thermal capacity factor and the electrical capacity
+                            factor would, in general, be different and that the thermal capacity factor
+                            is the term that is more generally useful in any problem involving fuel
+                            exposure.
+
+elevation head              Pressure exerted by a column of fluid which is proportional to the
+                            density and height of the column. (The difference in elevation head of
+                            the boiling fuel channels and a subcooled annular region provides the
+                            pressure driving head of natural circulation reactors.)
+
+enrichment                  A process by which the relative abundances of the isotopes of a given
+                            element are altered, thus producing a form of the element that has been
+                            enriched in one particular isotope.
+
+enthalpy                    Internal energy plus mechanical equivalent of heat energy contained by a
+                            unit mass of fluid.
+
+excess reactivity           More reactivity than that needed to achieve criticality. Excess reactivity
+exclusion area              is built into a reactor (by using extra fuel) in order to compensate for
+                            fuel burnup and the accumulation of fission-product poisons during
+                            operations.
+
+                            An area immediately surrounding a nuclear reactor where human habita
+
+                            tion is prohibited to ensure safety in the event of an accident.
+
+exit quality                Quality existing at the effluent end of a fuel channel or of the entire core.
+
+fast fission                Fission resulting from the collision of a nucleus and a high-energy
+                            neutron. Some nuclei, such as those of U-238, fission only by fast
+                            neutrons.
+
+fertile                     Capable of being transformed into a fissionable substance by capture of
+                            a neutron. Fertile material, not itself fissionable by thermal neutrons,
+                            can be converted into a fissile material by irradiation in the reactor.
+                            Common examples are U-238, Th-232 and Pu-240. When these fertile
+                            materials capture neutrons, they are partially converted into fissile Pu
+                            239, U-233 and Pu-241, respectively.
+
+film boiling                See "boiling"
+
+USNRC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  AA-.66  Rev 0198
+                                                                Rev 0198
+·BWR/4 Technoloav Manual              ý Appendix A
+
+filter/demineralizer       Removes chlorides, sulfides, oxides, etc. from radwaste effluent using
+                           Powdex resins or other suitable filtration material.
+
+fission fragments          The two nuclei that are formed by the fission of a nucleus. Also referred
+                           to as primary fission products. ,-They have medium atomic weights and
+                           are radioactive.
+
+fission gas                J Those fission products which exist in the gaseous state at normal
+              .. --          temperatures and pressures.
+
+fission, nuclear           The division of a heavynucleus into two approximately equal parts.
+                           For the heaviest nuclei the reaction is highly exothermic, the release of
+                           energy being about 210 MeV per fission. A well-known example is the
+                           spontaneous fission of U-238. Other examples are the fissions of U
+                           233 and Pu-239 after neutron capture.
+
+fission poisons'           Fission fragments that readily absorb neutrons; for example, Xe-135,
+                           which has an absorption cross section of 3.5 million barns for slow
+                           neutrons.
+
+fission-product poisoning  The absorption or capture of neutrons by fission products in a reactor,
+                           thereby decreasing its reactivity.
+
+fission products           TMhe nuclei (fission fragments) formed by the fission of heavy elements,
+                           plus the nuclides formed by the fission fragments' radioactive decay.
+                           Some of the fission products are, or become, strong neutron absorb
+                           ers.
+
+fissionable                Capable of being fissioned by the capture of a particle, such as a neutron
+                           or photon. The most common fissionable materials are U-235, Pu-239,
+                           and U-233. '.
+
+flux; neutron flux           A ineasure of the intensity' of neutron radiation. It is the number of"
+(see also "heat flux")       neutrons passing through 1 square centimeter of a given. target in 1
+                             -second. Expressed as fiv, where' n = the number of neutrons -per
+forced circulation           "cubiccentimeter and v = their velocity in centimeters per second.
+                "-           Forced circulation is induced partially by rotating and partially by jet
+                           "; pumps. Thegross coreflow and the individual fuel a'ss" . w. r
+fuel assembly                weak functions of power.
+
+                             A fuel assembly is a"bundle" of fuel rods held in a rigid rectangular
+                             array by tie-plates at the top 'and bottom, supported at intermediate levels
+                             with spacers, and ei closed bya fuel channel.
+
+USNRC Technical Training Center  A-7  -.R.. ev 0198
+BWR/4 Technology Manual                                           Appendix A
+BWRI4 Technology Manual                                           Appendix A
+
+fuel bundle sampler      The device for obtaining water or gas samples from a fuel bundle in the
+                         shutdowfi reactor or in the storage pool. (Also called the "sipper.")
+
+fuel storage pool        A pool that provides storage and servicing facilities for activated fuel
+                         elements.
+
+fuel time-constant       The specific heat of the UO-2, combined with its thermal conductivity,
+                         yields a fuel temperature time-constant of a few seconds. The time
+                         constant is the time required for the temperature to change by a fraction
+                         li/e of the steady-state temperature differences associated with two flux
+                         levels if the flux level change is made as a step. This few-second fuel
+                         time constant is a very important characteristic of all U0 2 fueled reac
+                         tors.
+
+gamma radiation (y)      High-energy, short-wavelength, electromagnetic radiation.Gamma
+                         radiation frequently accompanies alpha and beta emissions and always
+half-life                accompanies fission. Gamma rays are very penetrating and are best
+                         stopped or shielded against by dense materials, such as lead or deplet
+heat flux                ed uranium. The rays are similar to X rays, but usually are more
+hertz (Hz)               energetic, and are nuclear in origin.
+hot
+hot spot                 The time in which half the atoms of a particular radioactive substance
+                         disintegrate to another nuclear form. Each radionuclide has a unique
+important to safety      half-life. Measured half-lives vary from millionths of a second to
+                         billions of years.
+
+                         Rate of heat flow across a boundary (usually cladding surface), ex
+                         pressed in Btu/hr-ft or watts/cm2 .
+
+                         Unit of frequency, equal to one cycle per second.
+
+                         A slang term meaning highly radioactive.
+
+                         A surface area of higher-than-average radioactivity. Also a part of a fuel
+                         element surface that has one of the highest heat fluxes in the core.
+
+                         Those structures, systems, and components that provide reasonable
+                         assurance that the facility can be operated without undue risk to the
+                         health and safety of the public. Encompasses the broad class of plant
+                         features that contribute in an important way to the safe operation and
+                         protection of the public in all phases and aspects of facility operations.
+                         Includes Safety Grade or Safety-Related as a subset.
+
+USNRC Technical Training Center USNRTCechnicaTlrAa-.i8ninCgenter  Rev U19
+                                                                  Rev 0198
+_ BWR/4 Technology Manual                                                                                                  Appendix A
+    BWRI4 Technoloev Manual                                                                                                Appendix A
+
+instrument channel                                                      An arrangement of sensor and associated components used to evaluate
+                                                                        plant variables and produce discrete outputs used in logics. A channel
+                                                                        terminates and loses its identity where individual channel outputs are
+                                                                        combined in logics....
+
+integrated neutron flux                                                 Flux multiplied by time; -usually expressed as-.nvt, where n = the
+                                                                        number of neutrons per cubic centimeterv = their velocity in centime
+                                                                        ters per second, and t = time in seconds.
+
+interlock                                                               A device usually electrical and/or mechanical, to prevent activation of a
+
+                   -  ,control                                          until a preliminary condition has been met, or prevent hazardous
+
+                                                                        operations. Its purpose usually is safety.      I  -
+
+ion exchange                                                            A chemical process involving the reversible interchange of various ions
+                                                                        between a solution and solid material, usually a plastic or resin. The
+                                                                        process is used to separate and purify chemicals, such as fission prod
+                                                                        ucts and rare earths, in solutions.
+
+ionization                                                              The process of creating ions by adding or subtracting one or more
+                                                                        electrons to or from atoms or molecules. High temperatures, electrical
+                                                                    ¾'  discharges, or nuclear radiation can cause ionization.
+
+irradiation                                                             Exposure to radiation, as in a nuclear reactor.
+
+isolated condition                                                      Normal isolation of the reactor from the main condenser, including the
+                                                                        closure of the main steam line isolation valves.
+
+jet pump flow                                                           The same (except for the relatively insignificant control rod drive flow)
+leakage, neutron
+                                                                        as total core flow. The driving flow, or recirculation flow, mixes with
+
+                                                                        suction flow in the throat and diffuser of the jet pump before entering
+
+                                                                        the core.         -  ,
+
+                                                                        The loss of neutrons from a reactor core by outward diffusion. When
+
+                                                                        there is a reflector, leakage refers to net loss of neutrons that leave the
+
+                                                                        core and are not reflected back into it. Leakage lowers the neutron level
+
+                                                                        in a reactor.  ,
+
+leakage flow                                                               -Coolant flow that is diverted to other regions of the reactor outside the
+                                                                        -,- fuel channels to remove-heat from control rods, sources and fission
+
+                                                                            chambers. About 10% of the total core flow is leakage flow, removing
+                                                                            about 3% of the heat generated in the core.
+
+USNRC Technical Training Center                                                        SA-9                         I)     Rev- 0198
+BWR/4 Technology Manual                                                                  Appendix A
+
+          BWI ecnl-yMna                                                                    Appndx
+
+limiting conditions      Specify the minimum acceptable levels of system performance
+for operation (LCO)      necessary to ensure safe startup and operation of the facility. When the
+                         conditions 'are met the plant can be operated safely and abnormal situa
+                         tions can be safely controlled.
+
+limiting safety system   Instrumentation settings which initiate automatic protective action
+setting (LSSS)           at a level such that the safety limits will not be exceeded. The region
+                         between the safety limit and these settings represents margin with
+                         normal operation lying below these settings.
+
+linear heat generation   The heat generation system rate per unit length of a fuel rod.
+rate (LHGR)              Common units are kW/ft
+
+load following           A term describing a power plant whose power is raised and lowered to
+                         meet the day-to-day demands of its' electrical grid. A load-following
+                         plants the opposite of a base-loaded plant.
+
+local peaking factor     Ratio of the maximum-to-average fuel rod power within a fuel assem
+                         bly.
+
+local power              The power generation in an arbitrary unit of volume, usually a small
+                         length of a fuel assembly called a node. It is the integral of the heat flux
+                         over the heat transfer area in the unit of volume or length, plus an
+                         increment for the heat deposited in the water by thermalization of neu
+                         trons and absorption of gamma energy where applicable.
+
+logic                    That array of components which combines individual bistable output
+
+                         signals to produce decision outputs.
+
+maximum average planar   The maximum in-core value of average planar linear heat gemeration rate.
+linear heat generation
+rate (MAPLHGR)
+
+megawatt-day per ton     A unit for expressing the burnup of fuel in a reactor; specifically,
+                         the number of megawatt-days of heat per metric ton.
+
+minimum critical power   The-smallest critical power ratio existing anywhere in
+ratio (MCPR)             the core. This expression is used in place of such terms as "minimum
+                         burnout ratio" and "minimum burnout margin." The control room
+                         problem is to determine the magnitude, and the location in the core, of
+                         the MCPR. Nomograms, worksheets, and procedures are provided so
+                         that the MCPR value can be determined for the operating condition that
+                         exists. An on-line computer may be used to determine this important
+
+USNRC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  AA--b10                          Rev 0196
+                                                                                         Rev 0196
+I BWR/4 Technology Manual        . App~endix A
+  BWRI4 TechnoIoEy Manual          Appendix A
+
+                           value. Ordinarily, it is sufficient to determine the MCPR Vialuie following
+                           any change in operating conditions, or at intervals of once per shift of
+                           base load operation.
+
+moderator                  A material used in a reactor to slow down high-velocity neutrons and
+                           increase the likelihood of further fission. Moderators commonly include
+                           ordinary water, heavy water and graphite. Liquid moderators can also
+                           serve as the coolant. Neutrons lose energy by scattering collisions with
+                           nuclei of the moderator. A good moderator has high scattering cross
+                           section and low atomic weight
+
+moderator temperateUre     The change in the core reactivity level per a unit change in the
+coefficient                moderator temperature. The moderator temperature c6efficient of
+                           reactivity is the composite of three principal effects. These are: (1) the
+                           temperature effect in k-*, (2) the temperature effect on core neutron
+                           leakage, and (3) the temperature effect on the control rod system worth.
+                           The latter is a large negative effect. The composite coefficient becomes
+                           less negative with fuel depletion, reaching the least negative value at the
+                           end of each fuel cycle.
+
+moderator void.,           The change in the core reactivity level per a unit change in the
+coefficient                moderator void content. The moderator void coefficient of reactivity is a
+                           composite of the same three effects as in the temperature coefficient, but
+                           refers only to in-channel changes in moderator density, i.e., voids. As
+
+                           in the temperature coefficient, the void coefficient becomes less negative
+                           with fuel depletion.
+
+multiplication factor      The effective multiplication constant (Keff) is the ratio of the number of
+                           neutrons present in a reactor at a given time to the number present one
+natural circulation        finite neutron lifetime earlier. The "excess reactivity" is KIff-1 which
+natural uranium            can'be likened to the "interest rate per neutron lifetime," and excess of
+                           1% means that the neutron population (capital) will increase by a factor
+                           "of1.01 in d one neutron lifetime. A reactor is said to be subcritical if
+                           Keff<l, critical if Keff-l, and supercritical if Kff>l.
+
+                            lThe coolant (usually water) in a reactor is circulated without pumping;
+                           that is, -by natural convection resulting from the different densities of
+                           relative cold and heated portions.:
+
+                           Uranium as found innature, containing 0.7% U-235, 99.3% U-238,
+
+                           and a trace of U-234.
+
+net positive suction       The pressure head, in feet of fluid, acting to suppress cavitation
+
+USNRC Technical Training Center  -Rev'0196
+BWR/4 Technology Manual                                                         A nr·prtrli'r A
+                                 BWRI4Technlo~y Manua                           An~ril
+
+head (NPSH)            at the elevation of interest. It is the excess of the static head over the
+                       saturation pressure corresponding to the fluid temperature. The NPSH
+                       can be increased by greater submergence of the pump below the fluid
+                       surface and/or by greater subcooling of the suction fluid.
+
+neutron flux           See "flux."
+
+neutron leakage        See "leakage."
+
+noble gases            Radioactive (nonreactive) elements, such as argon, xenon, and krypton
+                       released in the fission process.
+
+nuclear fission        See "fission, Nuclear."
+
+nucleate boiling       See "boiling."
+
+nv                     Neutron flux, units of neutrons per second per square centimeter.
+
+offgas                 The accumulation of air through in-leakage around the BWR turbine, the
+                       fission gases present in the steam and the hydrogen and oxygen from
+                       disassociation of water; and exhausted through the steam jet air ejectors
+                       or mechanical vacuum pumps.
+
+passive failure        A breech of a fluid pressure boundary or blockage of a process flow
+peaking factor, total  path.
+                       The ratio of the maximum fuel rod surface heat flux in any assembly to
+                       the core average fuel rod surface heat flux.
+
+plant factor           See "capacity factor."
+
+period                 The time required for one cycle of a regularly repeated series of events.
+                       In a nuclear reactor, it is the time required for the power level to change
+                       by the factor of 2.718, which is known as e (the base of natural loga
+                       rithms).
+
+poison                 Any material of high absorption cross section that absorbs neutrons
+                       unproductively and hence removes them from the fission chain reaction
+                       in a reactor and decreases its reactivity. It may be in the form of poison
+                       curtains or an accumulation of material resulting from operation, espe
+                       cially fission products of high-neutron-absorption cross section.
+
+power                  Power is the rate of heat production, transfer or flow.
+
+UUSSNNRRCC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  AA--1122           Rev 0196
+                                                                                Rev 0196
+BWR/4 Technology Manual                                                      ·, Appendix A
+BWRJ4 Technology Manual                                                           Appendix A
+
+                         Fission power or (neutron power) refers to the rate of the basic fission
+                         process,'and this responds essentially instantaneously to a neutron flux
+                         change. Fission power can be determined only by calibrated nuclear
+                         instrumentation during a fast transient.
+
+                         Heat flux power refers to the rate of transfer of the heat from the fuel to
+                         the coolant.- In any neutron flux transient, the rate of heat transfer lags
+                         behind the fission power generation rate because of the few second time
+                         constant of the U02 fuel. Since heat flux cannot be measured directly,
+                         transient values must be calculated from other measurements.
+
+                         Reactor power is determined by a coolant heat-balance under steady
+                         state conditions by measuring pressure, or temperatures, and coolant
+                         flows to determine enthalpys and heat removal and addition rates. The
+                         calibration of primary nuclear instrumentation and the basic plant heat
+                         production records depend directly on the heat-balance data.
+
+power density            The rate of heat generated per unit volume of a reactor core.
+
+quality, steam           .The percentage of weight of water that is in the vapor phase. In fluid
+                          flow; steam quality refers to the weight-fraction of steam in the two
+                          phase flowing mixture of steam, and liquid in the channel passing the
+                          point of interest. Thus, in a fuel assembly the quality increases from
+                          zero (below the elevation where boiling begins) to the maximum or exit
+                          value at the top of the assembly. Steam quality is the important property
+                          when considering the thermal properties of the fluid.
+
+"radialpeaking factor ((RPF) - The ratio of the fuel assembly power or heat flux in a particular assem
+                                    bly to the power or heat flux of the core average fuel assembly.
+
+radiation            The emission and propagation of energy through matter or space by
+                     means of electromagnetic disturbances that display both wave like and
+                    -particle like behavior. The term radiation; such radiation is commonly
+                   . classified according to frequency, as Hertzian, infrared, visible (light),
+                     "ultraviolet,X-ray, and gamma-ray: By extension, corpuscular emis
+                 '2 sions,' such as alpha andbeta radiation, or rays of mixed or unknown
+                     type,'are classified as cosmic radiation. Nuclear radiation is that emitted
+                "-' ' from-atomic nuclei in various nuclear reactions, including alpha, beta,
+                     and gamma radiation and neutrons.
+
+"reactivity              'A measure of the departure of a nuclear reactor from criticality. It is
+                         -aboutequal to the effective multiplication factor minus one and is thus
+                         precisely zero at criticality. If there is excess reactivity (positive reactivi-
+
+·-UUSSNNRRCC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  - - AA--1133             *Rev 0196
+                                                                                        .Rev - 0196
+BWR/4 Technology Manual                                    Appendix A
+BWRI4 Technology Manual                                    Appendix A
+
+                         ty), the reactor is supercritical and its power will rise. Negative
+                         reactivity (subcriticality) will result in a decreasing power level.
+
+recirculation flow       See "driving flow."
+refueling                The removal and addition of fuel assemblies to the core; however, the
+                         term is often extended to include any and all additions, rearrangements,
+                         or removals of core components which affect reactivity.
+
+refueling platform       The platform that moves over the reactor pool and the fuel storage pool
+                         to carry operators, refueling tools, and fuel.
+
+refueling outage         Includes all of the planned operations associated with a normal refueling
+                         except those tests in which the reactor is taken out of and returned to the
+roentgen equivalent      shutdown (more than one rod subcritical) condition. The following
+man (rem)                operations are included in refueling: planned physical movement of
+                         core components (fuel, control rods, etc.), refueling test operations
+                         (except criticality and shutdown margin tests), and planned mainte
+                         nance.
+
+                         A measure of the dose of any ionizing radiation to body tissues in
+                         terms of its estimated biological effect. A dose of 1 rad of X, gamma or
+                         B radiation is equivalent to 1 rem.
+
+safety-grade             This term is not explicitly used in regulations. It is equivalent to "Safety
+                         Related", and is a subset of "Important to Safety".
+
+safety limits            Limits below which the reasonable maintenance of the integrity of the
+                         cladding and primary systems are assured. Operation beyond such a
+                         limit may not in itself result in serious consequences, but indicate an
+                         operational deficiency subject to regulatory review.
+
+safety related           Those structures, systems, or components designed to remain functional
+                         for the Safe Shutdown Earthquake necessary to assure required safety
+                         functions. i.e: (1) The integrity of the reactor coolant system pressure
+                         boundary (2) The capability to shutdown the reactor and maintain it in a
+                         safe shutdown condition, or (3) The capability to prevent or mitigate the
+                         consequences of accidents which could result in potential off-site
+                         exposures comparable to the guidelines in 10 CFR 100 Appendix A.
+
+saturation               Refers to the enthalpy or temperature of a liquid at which the vapor
+                         pressure equals the local pressure. At saturation, further additions of
+                         heat cause some of the liquid to change to vapor, that is, boiling occurs.
+
+USNRC TTeechnical TTrraaiinniinngg CCeenntteerr  AA--1144  Rev 0196
+                                                           Rev 0196
+BWR/4 Technology Manual                                                   - . -Appendix A
+
+scram                           -The sudden shutdown of a nuclear reactor by ýrapid insertion of the
+                                 control rods. Emergencies or deviations from normal reactor operation
+                          -- cause the reactor operator or automatic control equipment to scram the
+                                 reactor.-.
+
+secondary containment     This is attained when the reactor building is closed and the following
+integrity                 conditions are met: At least one door at each access opening is closed.
+                          The Standby Gas Treatment System is operable. All reactor building
+                          ventilation system automatic isolation valves are operable or are secured
+
+                          in the closed position:. .
+
+ separator/dryer          J.. The pool is located in the refueling floor and provides storage
+'storage pool                   ;and servicing facilities for the separator and dryer when they are re
+                                 moved from the reactor vessel.
+
+   service platform          The platform placed over the reactor at the level of the vessel flange to
+                          , permit operators to~work on the core. Normally, this platform rests on a
+
+                             seal surface protector.- .
+
+   shutdown margin        The amount of reactivity by which the reactor is subcritical. Mathemati
+                          cally, 1-KIf (for Keff <1). The value specified normally assumes that
+                          the strongest control rod is stuck in the fully withdrawn condition.
+
+   single failure             - An occurrence which results in the loss of capability of a component to
+      .' '-· ,-.
+                  .-      -. - perform its intended safety function when called upon. Multiple failures
+                                   resulting from a single occurrence are-to be considered a single failure.
+          S-
+                             - "Fluid process systems are considered to be designed against an assumed
+                                   single failure if neither a single active nor a single passive failure results
+                                   in a loss of the safety function to the nuclear unit.
+
+   sipper. - -            See "fuel bundle sampler.".,
+
+   spent (depleted) fuel  Nuclear reactor fuel that has been irradiated to the extent that it can no
+
+                  ·       - ,c ;, longer effectively sustain a chain reaction.Fuel becomes spent when its
+
+                          - :.."fissionable isotopes have been partially consumed and fission - product
+
+.         ...             . ,riarin hnvp nr riimnintPht in it
+
+   stack                  The chimney used todisperse the offgas from reactor operation.
+
+   -  -   *
+
+UUSNRC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  "ý, AA--1155  -  Rev 0196
+                                                                          · R-(ev 0196
+BWR/4 Technology Manual                                     Appendix A
+BWRI4 Technology Manual                                     Appendix A
+
+storage and handling.    Fuel storage and handling facilities and procedures are designed to
+facilities, fuel         ensure that an unintentional criticality cannot occur. Any proposed
+                         change in equipment, geometry, or procedure involving either new or
+                         exposed fuel must be rigorously examined for a change in criticality
+                         risk.
+
+subcooled boiling        See "boiling."
+
+subcooling               The difference between the saturation enthalpy and the actual enthalpy of
+                         water in the liquid phase. Common units are Btu/lb, cal/gm, and OF.
+
+suction flow             Suction flow is a mixture of subcooled feedwater and saturated water
+                         discarded by the steam separators and dryers above the jet pump suction
+                         inlet. This suction flow is drawn into the jet pump by the venturi effect
+                         of the driving flow.
+
+superheating             A heating of a vapor, particularly saturated (wet) steam, to a temperature
+                         higher than the boiling point at the existing pressure. This is done in
+                         power plants to improve efficiency and to reduce condensation in the
+                         turbines.
+
+temperature coefficient  The change in reactor reactivity (per degree of temperature)
+of reactivity            occurring when the operating temperature changes. The coefficient is
+                         positive when an increase in temperature increases the reactivity and
+                         negative when an increase in temperature decreases reactivity. Negative
+                         temperature coefficients help to prevent power excursions. See"Doppler
+                         (Fuel Temperature) Coefficient" and "Moderator Temperature Co
+                         efficient."
+
+thermal efficiency       The ratio of the electric power produced by a power plant to the amount
+                         of heat produced by the fuel; a measure of the efficiency with which the
+                         plant converts thermal energy to electrical energy.
+
+thermal (slow) neutron   A neutron in thermal equilibrium with its surrounding medium. Ther
+                         mal neutrons are those that haive' been slowed down by a moderator to
+                         an average speed of about 2200 meters per second (at room tempera
+                         ture) from the much higher initial speeds they had when expelled by
+                         fission. 'This velocity is similar to that of gas molecules at ordinary
+                         temperatures.
+
+trip system              An arrangement of instrument channel trip signals and auxiliary equip
+                         ment required to initiate action to accomplish a protective trip function.
+
+USNRC Techniccaall TTrraaiinniinngg CCeenntteerr  AA--1166  Rev 0196
+                                                            Rev 0196
+TIWTU4 Technolopv Manual                                     Appendix A
+                                                             Apni
+
+tripped (technical        The change of state of a bistable device which represents the change
+specifications)           from a normal condition. A trip signal, which results from a trip, is
+                          generated in the channels of a trip system and produces subsequent trips
+                          and trip signals through the system as directed by the logic.
+
+two-phase pressure        The DP produced by the flow of a mixture of liquid and vapor
+drop                      through a resistive path. The DP for a given mass flow rate is
+                          dependent on the weight fraction of the mass flow that is steam.
+
+velocity limiter          An integral part of the control rod designed to limit the free-fall velocity
+                          of the control rod in water.
+
+void coefficient          The change in reactivity resulting from a percentage change in void
+                          fraction.
+
+void fraction             Fraction of the volume of the coolant stream (moderator) that is in the
+                          vapor phase. Void fraction is an important property when considering
+                          nuclear properties such as reactivity, moderation, etc.
+
+USNRC Teechniccaall TTrraaiinniinngg CCeenntteerr  AA--1177  iev ujyD
+
+                                                             R~ev 0196
+                     BWR/4 Technology Manual
+                               Appendix C
+
+                   List Of Common Abbreviations
+
+This Collection of Abbreviations is taken in part from NUREG-0544/Rev 3
+                    "NRC Collection of Abbreviations."
+                                        Appendix C
+
+          LIST OF COMMON ABBREVIATIONS
+          (FOR BOILING WATER REACTORS)
+
+A             TERM
+ac        Alternating current
+A/C       Air conditioning
+ACU       Analog comparator unit
+ACC       Accumulator
+A/D       Analog to digital
+          Automatic depressurization system
+ADS       Air handling unit
+AHU       Alarm initiated display
+AID       Automatic load following
+ALF       Air operator
+AO        Axial peaking factor
+APF       Average planar linear heat generation rate
+APLHGR    Average power range monitor
+APRM      Area radiation monitor
+ARM       Auxiliary select module
+ASM       Anticipated transient without scram
+ATWS      Anticipated transient without scram recirculation pump trip
+ATWS-RPT
+          Bottom of active fuel
+B         Beginning of cycle
+BAF       Beginning of life
+BOC       Balance of plant
+BOL       Bypass valve
+BOP       Backup overspeed trip
+BPV       Boiling water reactor
+BUOT
+BWR       Core average exit quality
+          Circuit breaker
+C         Containment combustible gas control
+CAEQ      Closed cooling water or Condenser circulating water
+CB        Cooldown
+CCGC      Combined intermediate valve
+ CCW      Core maximum fraction of limiting power density
+ CID       Core maximum peaking factor
+ CIV       Counts per minute
+ CMFLPD
+ CMPF
+ cpm
+
+USNRC Technical Training Center  C-1                                           A~l,fl Q
+                                                                       eDvb· ·WJ·
+BWR/4 Technology Manual                                                   Appendix C
+
+         EOC-RPT         End of cycle recirculation pump trip     system
+         EOF             Emergency operations facility'
+         E/P             Electrical/pneumatic
+         EPR             Electric pressure regulator.
+         ERF             Emergency response facility
+         ERFIS           Emergency response facility information
+         ESF             Engineered safety feature
+         ETS             Emergency trip system
+         ETV             Electric trip valve
+
+         F               Fuel building
+         FB              Feedwater corrosion product monitor
+         FCPM
+         FCU             Fan coil unit
+         FCV
+         F/D             Flow control valve
+         FLC             Filter/demineralizer
+         FPCC
+         FS              Fuel loading chamber
+         FSCRD
+         FT              Fuel pool cooling and cleanup
+         FWCI                                  I
+         FWCS            Flow switch
+         FWCV
+         FWOL            Fast scram control rod drive
+
+         G               Flow transmitter
+         GAF             Feedwater coolant injection (BWR/2, BWR/3)
+         GEXL
+         GM              Feedwater control system
+         gpm
+         GSLO            Feedwater control valve
+
+                         Fuel warranty operating limits
+
+                         Gain adjustment factor
+                         General Electric critical quality (X,)-boiling length (LB) correlation
+
+                         Geiger-Mueller ''
+                         Gallons per minute','
+                         Gland seal leak off
+
+H                        Heat actuated device
+HAD                      Hydraulic control unit
+HCU                      High efficiency particulate air
+HEPA
+                         Hydrogen ignition-system:
+HIS                      Hydraulic operator
+HO                       High pressure
+HP                       High pressure coolant injection
+HPCI                     High pressure core spray (BWR/5, BWR/6)
+HPCS                     High power seipoint.'-
+HPSP
+
+USNRC Technical Training Center                C-3                        SRev 0198
+BWR/4. Technology  Manual                                                Appendix C
+BWRI4. Technology  Manual                                                Appendix C
+
+         HPSU              Hydraulic power supply unit                     Rev 0198
+         HPU               Hydraulic power unit                             Rev 0198
+         HIU               Heat-up
+         HVAC              Heating, ventilation, and air conditioning
+         HX                Heat exchanger
+
+I                          Isolation condenser (BWR/2, BWR/3)
+IC                         Input/output
+I/O                        Current/pneumatic
+I/P                        Intermediate range monitor
+IRM                        Intercept valve
+IV
+                           Kilovolts
+K                          Kilowatts
+kV
+kW                         Load break switch
+                           Log count rate
+L                          Leak detection
+LBS                        Light emitting diode
+LCR                        Low frequency motor generator (BWR/5, BWR/6)
+LD                         Linear heat generation rate
+LED                        Level indicator
+LFMG                       Level indicating controller
+LHGR                       Level indicating switch
+LI                         Level indicating transmitting switch
+LIC                        Loss of coolant accident
+LIS                        Loss of preferred power
+LITS                       Low pressure
+LOCA                       Low power alarm point
+LOPP                       Low pressure coolant injection
+LP                         Low pressure core spray (BWR/5, BWR/6)
+LPAP                       Local peaking factor
+LPCI                       Local power range monitor
+LPCS                       Low power setpoint
+LPF                        Liquid radwaste or Load reject
+LPRM                       Level switch
+LPSP                       Level transmitter
+LR                         Low temperature noble gas process
+LS                         Logic unit
+LT                         Linear variable differential transformer
+LTNGP
+LU
+LVDT
+
+USNRC Technical Training Center USNRTCechnicaTlrainiCCnC-g-44enter
+BWR/4 Technology  Manual                                                             -Appendix C
+BWRI4 Technology  Manual                                                             Appendix C
+
+         LVT              Linear velocity transformer
+         LWR              Light water reactor - '
+
+M                         Manual/automatic
+"M/A
+MAPLHGR                   Maximum average planar linear heat generation rate
+MAT
+MCC                       Main auxiliary transformer
+MCPR
+MFLCPR                    Motor control center
+MG
+MILV                      Minimum critical power ratio
+MO
+MOV                       Maximum fraction of limiting critical power ratio
+MPR
+MS                        Motor generator
+MSIV
+MSIV-LCS                  Mechanical lockout valve
+MSL
+MSOP                      Motor operator
+MSR
+MSSV                      Motor operated valve
+MSV
+MTH                       Mechanical pressure regulator (BWR/2, BWR/3)
+MITP
+MTPV                      Main steam
+MTSV
+NMT                       Main steam isolation valve
+NTIV
+                          Main steam line isolation valve leakage control system
+MWe
+MWt                       Main steam line,-;
+
+                          Main shaft oil pump
+
+                          Moisture separator reheater
+
+                          Main steam shutoff valve                                   ,
+
+                          Mean square voltage
+
+                          Manual trip handle
+
+                          Mechanical trip piston
+
+                          Mechanical trip pilot valve
+
+                          Mechanical trip solenoid valve
+
+                          Master test unit
+
+                          Mechanical trip valve'
+
+                          Megawatt electric
+
+                          Megawatt thermal
+
+N                         Normal auxiliary ac power
+NAACP
+NCC                       Nuclenet control console (BWR/6)
+NDL
+NDTI                      Nuclear data link
+NMS
+NPSH                      Nil ductility transition temperature
+NRHX
+NSPS                      Neutron monitoring system
+NSS
+NSSS                      Net positive suction head
+
+                          Nonregenerative heat exchanger
+
+                          Nuclear safety protection system (BWR/5, BWR/6)
+
+                          Nuclear steam system                                    "
+
+                          Nuclear steam supply system.
+
+USNRC Techniccaall TTrraaiinniinngg CCeenntteerr  CC--55        -                       1{ev IJ19
+                                                                              -, -Rev 01198
+BWR/4 Technology Manual                                                                                   Avvendix C
+
+         NSSSS           Nuclear steam supply shutoff system (BWR/5, BWR/6)
+         nv              Neutron flux
+
+        0                Operator control module
+         OCM             On demand
+         OD              One dimensional core transient model
+         ODYN            Offgas
+         OG              Optical isolator
+         0I              Operational support center
+         OSC             Overspeed trip
+         OST             Oil trip solenoid valve
+         OSTV            Onset of transition boiling
+         OTB
+                         Pushbutton
+        P                Process computer or Primary containment
+         P/B             Pellet cladding interaction
+         PC              Pre-conditioning interim operating management recommendation
+         PCI             Primary containment isolation system
+         PCIOMR          Peak cladding temperature
+         PCIS            Pressure control valve
+         PCT             Power generation control complex (BWR/6)
+         PCV             Pressure indicator
+         PGCC            Pressure indicating switch
+         PI              Power load unbalance
+         PIS             Performance monitoring system (BWR/6)
+        PLU              Power panel
+        PMS              Parts per billion
+        PP               Parts per million
+        ppb              Process radiation monitor
+        ppm              Pressure switch
+        PRM              Pressure transmitter
+        PS
+        PT               Rod action control system
+                         Reserve auxiliary transformer
+        R                Remote analog unit
+        RACS             Reactor building closed cooling water
+        RAT              Reactor building equipment drain tank
+        RAU              Rod block monitor
+        RBCCW            Reactor core isolation cooling
+        RBEDT            Rod control and information system
+        RBM
+        RCIC
+        RCIS
+
+USNRC Technical Training Center  C-6  Rev 0198
+.BWR/4 Technology  Manual                                            ., ...       Appendix C
+BWRI4 Technology   Manual                                                         Appendix C
+                                                                              -'
+         RDA
+         RDM               Rod drop accident                         BWR/5)
+         RDU               Rod display module,
+         RECHAR            Remote digital unit,
+         RFC               Recomber charcoal adsorber
+         RFP               Recirculation flow control
+         RFPT              Reactor feed pump
+         RGDS              Reactor feed pump turbine
+         RHR               Rod gang drive system (BWR/6)
+         RHRSW             Residual heat removal
+         RHX               Residual heat removal service water
+         RIS               Regenerative heat exchanger
+         RM                Rod interface system.
+         RMCS              Radiation monitoring
+         RMS               Reactor manual control system
+         RPC               Remote manual switch
+         RPF               Rod pattern controller
+         RPIS              Radial peaking factor
+          rpm              Rod position information system
+         RPS               Revolutions per minute
+         RPT               Reactor protection system
+         RPV               Recirculation pump trip
+         RSCS              Reactor pressure vessel
+          RSS              Rod sequence control system (BWR/4,
+         RTD               Remote shutdown system
+          RVDT             Resistance temperature detector
+          RWB              Rotary variable differential transformer
+          RWCU             Rod withdraw block
+          RWM              Reactor water cleanup
+          RX               Rod worth minimizer
+                           Reactor
+
+S                          Standby ac power system
+SACPS                      Static bypass switch
+SBS                        Steam condensing mode
+SCM                        Silicon control rectifier
+SCR                        Shutdown -- j,'
+S/D
+SDC                        Shutdown cooling
+SDM                        Shutdown margin
+SDIV                       Scram discharge instrument volume
+SDV                        Scram discharge volume
+SGTS                       Standby gas treatment system
+SIA                        Service and instrument air ,',t
+
+USNRC TTeechnical TTrraaiinniinngg CCeenntteerr  CC--77                           Rev 0195
+
+                                                                                  Rev 0198
+BWR/4 Technology  Manual                                                     Appendix C
+BWRI4 Technology  Manual                                                     Appendix C
+
+         SIP              Standby information panel
+         SJAE             Steam jet air ejector
+        SLC               Standby liquid control
+        SLF               Steam line flow
+        SLP               Steam line pressure
+        SP                Suppression pool
+        SPC               Suppression pool cooling
+        SPDS              Safety parameter display system
+        SPE               Steam packing exhauster
+        SPMS              Suppression pool makeup system
+        SRM               Source range monitor
+        SRV               Safety/relief valve
+        SSE               Steam seal evaporator or Safe shutdown earthquake
+        SSR               Steam seal regulator
+        SSW               Station service water
+        SSWS              Standby service water system
+        S/U               Startup
+        SUS               Secondary unit substation
+        SV                Stop valve
+
+T                         Top of active fuel
+TAF                       Turbine building closed cooling water
+TBCCW                     Temperature control valve
+TCV                       Time delay
+TD                        Turbine generator
+TG                        Turning gear oil pump
+TGOP                      Turbine gland sealing system
+TGSS                      Traversing incore probe
+TIP                       Turbine lube oil
+TLO                       Total peaking factor
+TPF                       Technical support center
+TSC
+
+U                         Ultimate heat sink
+UHS                       Uninteruptible power supply
+UPS
+
+V
+
+Vac                       Volts alternating current
+
+Vdc                       Volts direct current
+
+USNRC Teechnical TTrraaiinniinngg CCeenntteerr  CC--8s                       Rev 0198
+                                                                             Rev 0198
+General Electric Technolopv Manual
+
+                      BWR TECHNOLOGY COURSE (R104B) FOR
+                                          BWR/4 DESIGN
+
+                                    PURPOSE AND OBJECTIVE SHEETS
+
+"PURPOSE" SECTION:
+This section of each sheet gives the system purposes as appropriate.
+"OBJECTIVES" SECTION:
+This section of each sheet gives the specific lesson objectives for each subject listed in the course outline
+schedule. These objectives define the material to be covered in the lesson and the level of knowledge
+the student should be able to exhibit upon completion of the instructor's presentation and self-study by
+the student.
+
+UUSSNNRRCC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  PP&&OO--11  Rev 0102
+                                                                         Rev 0102
+General Electric Technology Manual                          Purpose & Obiectives
+
+                                         BWR Introduction
+
+Purpose:
+
+To economically generate electrical power through the use of the direct cycle boiling water reactor
+(BWR) system design.
+
+This design includes the nuclear fuel and internal structures within the reactor pressure vessel, systems
+associated with a basic steam cycle, normal auxiliary systems to accommodate the operational
+requirements of the plant, engineered safety systems to accommodate the safeguard requirements of the
+plant, and the necessary instrumentation and controls to accommodate operator control of the plant.
+
+Lesson objectives:
+
+1. State the three BWR reactivity coefficients and their relative magnitudes.
+
+2. Explain the basic steam cycle as applied to BWR systems.
+
+3. State which BWR control systems are used for the following important functions:
+    a. Control of reactor power
+    b. Control of reactor pressure (normal situations)
+    c. Control of reactor water level
+
+4. State the type of containment package which is provided and explain the following terms:
+    a. Drywell
+    b. Suppression pool
+    c. Containment
+
+5. List the four emergency core cooling systems and state which are high pressure systems and
+    which are low pressure systems.
+
+USNRC Technicall TTrraaiinniinngg CCeenntteerr  PP&&OO-.33  Rev 0102
+                                                            Rev 0102
+General Electric Technology Manual                                             Purpose & Objectives
+
+                                                  Reactor Vessel System (2.1)
+
+Purposes:
+
+1. To house and support the reactor core.
+
+2. To provide water circulation to the reactor core to remove generated heat.
+
+3. To separate the water and steam produced in the reactor core and deliver dry steam to the main
+    steam system.
+
+4. To provide an internal, refloodable volume to assure core cooling capability following a loss of
+    coolant accident (LOCA).
+
+Lesson objectives:
+
+1. State the system purposes.
+
+2. Describe how the system accomplishes its purpose.
+
+3. Describe the internal components and their arrangement that provide the 2/3 core coverage
+    capability following a loss of coolant accident (LOCA).
+
+USNRC Techniccaall TTrraaiinniinngg CCeenntteerr  PP&&OO--55                   Rev 0102
+                                                                               Rev 0102
+General Electric Technolo~y_ Manual                                              Purpose & Obiectives
+
+                                              Fuel (2.2)
+
+Purpose:
+To generate energy from a nuclear fission reaction to provide heat for steam generation.
+Lesson objectives:
+1. State the system's purpose.
+2. Describe the physical arrangement of:
+
+    a. The fuel assemblies in the reactor vessel.
+    b. A fuel rod and its internal components.
+3. Explain why burnable poison is added to BWR fuel.
+
+                                              Control Rods (2.2)
+
+Purposes:
+
+1. To control reactor power level.
+2. To control reactor power distribution.
+3. To provide emergency shutdown capability.
+
+Lesson objectives:
+
+1. State the system's purposes.
+2. Describe the physical arrangement of the control rods in the reactor vessel.
+3. State the purpose of the following major system components:
+
+a. Absorber rods
+b. Coupling assembly
+c. Control rod velocity limiter
+
+USNRC Technical Trraaiinniinngg CCeenntteerr  PP&&OO--77                                  Rev 0102
+                                                                                          Rev 0102
+General Electric Technolov Manual                                    Purpose & Obiectives
+                                                                                          i
+                               Control Rod Drive (CRD) System (2.3)
+Purposes:
+To position control rods to:
+
+    a. Change reactor power.
+    b. Rapidly shutdown the reactor.
+Lesson objectives:
+1. State the system's purposes.
+2. Describe how the system accomplishes its purpose.
+
+USNRC Technical TTraining CCeenntteerr  PP&&OO.-99                   Rev U1U2
+                                                                     Rev 01012
+General Electric Technoloe" Manual                                                Purpose & Objectives
+
+                                                      Recirculation System (2.4)
+
+Purpose:
+1. To provide forced circulation of water through the reactor core, permitting higher reactor power
+
+    than with natural circulation.
+2. To change reactor power.
+Lesson objectives:
+1. State the system's purposes.
+2. Describe how the system accomplishes its purpose.
+
+UUSSNNRRCC Techniccaall Trraaiinniinngg CCeenntteerr  PP&&OO-.1111                Rev 0102
+                                                                                  Rev 0102
+General Electric Technolog, Manual                                       Purpose & Objectives
+
+                                                Main Steam System (2.5)
+
+Purposes:
+
+1. To direct steam from the reactor vessel to the main turbine and other steam loads.
+
+2. To provide overpressure protection for the reactor coolant system.
+
+Lesson objectives:
+
+1. State the system's purposes.
+2. Describe how the system accomplishes its purpose.
+
+USNRC Technicall TTrraaiinniinngg CCeenntteerr  PP&&OO--1133                           Rev 0102
+                                                                                       Rev 0102
+General Electric Technology Manual                             Purpose & Objectives
+
+                    Condensate and Feedwater System (2.6)
+
+Purposes:
+
+1. To condense steam and collect drains in the main condenser
+
+2. To purify, preheat, and pump water from the main condenser to the reactor vessel.
+
+Lesson objectives:
+
+1. State the system's purposes.
+
+2. Describe how the system accomplishes its purpose.
+
+USNRC TTeechnical TTrraaiinniinngg Centerr  PP&&O0--1155                              Rev 0102
+                                                                                      Rev 0102
+General Electric Technology Manual                                    Purpose & Objectives
+
+Reactor Core Isolation Cooling (RCIC) System (2.7)
+
+Purposes:
+To provide makeup water to the reactor vessel for core cooling when:
+ 1. The main steam lines are isolated.
+2. The condensate and feedwater system is not available.
+Lesson Objectives:
+ 1. State the system's purpose.
+2. Describe how the system accomplishes its purpose.
+
+USNRC Technical Trraaiinniinngg CCeenntteerr  PP&&OO--1177            Rev 01112
+                                                                      Rev 0102
+General Electric Technology Manual                                    Purpose & Objectives
+
+           REACTOR WATER CLEANUP (RWCU) SYSTEM (2.8)
+
+Purposes:
+
+1. To maintain reactor water quality by filtration and ion exchange.
+
+2. To provide a path for removal of reactor coolant when required.
+
+Lesson Objectives:
+
+1. State the system's purposes.
+
+2. Describe how the system accomplishes its purpose.
+
+USNRC TTeechnical Traaiinniing CCeenntteerr  PP&&O0-4199              Rev 0102
+                                                                      Rev 0102
+General Electric Technology Manual                                    Purpose & Objectives
+
+Reactor Vessel Instrumentation System (3.1)
+
+Purpose:
+
+To provide sufficient information concerning reactor vessel water level,reactor vessel pressure,
+reactor vessel temperature, and core flow rate, to allow safe plant operation.
+
+Objectives:
+1. Know the parameters monitored.
+2. Describe how the system accomplishes its purpose.
+
+USNRC TTeecchhnniiccaall TTrraaiinniinngg CCeenntteerr  PP&&OO--2211  Rev 0102
+                                                                      Rev 0102
+General Electric Technology Manual                                Purpose & Objectives
+
+                    Electro Hydraulic Control (EHC) System (3.2)
+
+Purposes:
+
+1. To provide normal reactor pressure control by controlling steam flow consistent with reactor
+    power.
+
+2. To provide the ability to roll and synchronize the turbine generator and conduct a plant
+    cooldown.
+
+Lesson Objectives:
+
+1. State the system's purposes.
+
+2. Describe how the system accomplishes its purpose.
+
+USNRC TTeechnical TTrraaiinniinngg CCeenntteerr  PP&&OO-.2233                                Rev UIIU2
+                                                                                             Rev 0102
+General Electric Technology Manual                         Purpose & Objectives
+
+                    Feedwater Control System (FWCS) (3.3)
+
+Purpose:
+
+To control the rate of feedwater flow to the reactor vessel to maintain the proper vessel water level.
+
+Lesson Objectives:
+
+1. State the system's purpose.
+
+2. List the parameters used by the system.
+
+3. Describe how the system accomplishes its purpose.
+
+USNRC Technical Training Center             P&O-25         Rev 0102
+General Electric Technology Manual                                Purpose & Objectives
+
+                                   Containment Systems (4.0-4.4)
+Purposes:
+
+1. To contain fission products such that radiation dose limits are not exceeded.
+2. To provide a source of water for emergency core cooling systems and the Reactor Core
+
+    Isolation Cooling System.
+3. To provide a heat sink for certain safety related equipment.
+
+Lesson Objectives:
+
+1. State the system's purposes.
+2. Describe how the system accomplishes its purpose.
+3. Explain what constitutes the primary containment boundary and the secondary containment
+
+    boundary.
+
+USNRC TTeechnical Traaiinniinngg CCeenntteerr  PP&&O0-.2277                              Rev 0102
+                                                                                         Rev 0102
+                                                             Put'ose & Objectives
+
+Neutron Monitoring System (NMS) (5.0)
+
+Purposes:
+
+ 1. To monitor reactor core neutron flux and provide indication during shutdown, startup, heatup,
+    and power operation.
+
+2. To provide trip signals to the reactor protection system to prevent fuel damage due to excessive
+    power.
+
+Lesson Objectives:
+
+1. State the system's purposes.
+2. Describe how the system accomplishes its purpose.
+
+USNRC Technical TTrraaiinniinngg CCeenntteerr  PP&&OO--2299  Rev 0102
+                                                             Rev 0102
+General Electric Technolozv Manual                           Purmose & Objectives
+GeEeaeti  Tcn  "~vMna
+                                                             Pups &becie
+
+               Reactor Manual Control System (RMC) (7.1)
+
+Purposes:
+
+1. To provide control signals to the control rod drive system for normal control rod movement.
+2. To prevent control rod movement during potentially unsafe conditions.
+
+Lesson Objectives:
+
+1. State the system's purposes.
+2. Describe how the system accomplishes its purpose.
+
+USNRC Technical TTrraaiinniinngg CCeenntteerr  PP&&OO--3311  Rev 0102
+                                                             Rev 0102
+General Electric Technoov Manualse..Objecti.e                           PurpDose & Obiectives
+
+                         Recirculation Flow Control (RFC) System (7.2)
+
+Purpose:
+
+To control the rate of recirculation system flow, allowing control of reactor power over a limited
+range.
+
+Lesson Objectives:
+
+1. State the system's purpose.
+2. Describe how the system accomplishes its purpose.
+
+USNRC Technical Trraaiinniinngg CCeenntteerr  PP&&O0--3333              1{ev U1U.L
+                                                                        Rev 0102
+.........  e.t............v  Manu l                                  Purpose & Ohiectives
+                                                                     Pur..se.            O  ti
+                              Reactor Protection System (RPS) (7.3)
+
+Purpose:
+
+To initiate a reactor scram to:
+     1. Preserve the integrity of the fuel cladding.
+    2. Preserve the integrity of the reactor coolant system.
+    3. Minimize the energy which must be absorbed following a loss of coolant accident.
+
+Lesson Objectives:
+
+1. State the system's purposes.
+2. Describe how the system accomplishes its purpose.
+
+USNRC TTechnical Trraaiinniinngg Centerr  PP&&OO--3355                                      i{ev UIUL
+
+                                                                                            RE(ev 0102
+                                                               Purmose & Objectives
+
+                    Standby Liquid Control (SLC) System (7.4)
+
+Purpose:
+
+To shutdown the reactor by chemical poisoning in the event of failure of the control rod drive
+system.
+
+Lesson Objectives:
+
+1. State the system's purpose.
+2. Describe how the system accomplishes its purpose.
+
+USNRC Technicall Traaiinniing Centerr  PP&&OO--3377            KY UiU
+                                                               Rev 0102
+General Electric Technology Manual                            Purpose & Objectives
+
+Emergency Core Cooling Systems (ECCS) (10.0-10.4)
+
+Purpose:
+1. To provide core cooling under loss of coolant accident conditions to limit fuel cladding damage.
+
+2. The High Pressure Coolant Injection System back up the Reactor Core Isolation Cooling System.
+
+Lesson Objectives:
+1. State the system's purpose.
+2. List the systems which comprise the ECCS.
+3. Describe how the system accomplishes its purpose.
+4. List the automatic initiation signals for ECCS system.
+
+USNRC Technicall TTrraaiinniinngg CCeenntteerr  PP&&O0--3399  Rev 011)2
+                                                              Rev 0102
+General Electric Technology Manual                       Purpose & Objectives
+
+           Residual Heat Removal (RHR) System - Other Modes (10.4)
+
+Purposes:
+
+1. Containment spray mode:
+
+    To reduce primary containment pressure and temperature following a loss of coolant accident
+    (LOCA).
+
+2. Suppression pool cooling mode:
+
+To remove heat from the suppression pool.
+
+3. Shutdown cooling and head spray mode:
+
+a. To remove decay heat from the reactor core following a reactor shutdown.
+b. To remove residual heat from upper reactor vessel internals during a cooldown.
+
+4. Steam condensing mode:
+    To provide a means of reactor pressure control when the main condenser is not available.
+
+5. Standby coolant supply:
+
+To provide a means of flooding the primary containment.
+
+Lesson Objectives:
+
+1. State the purpose of each system mode of operation.
+2. Describe how the system accomplishes its purpose.
+
+USNRC Technicall TTrraaiinniinngg Centerr  PP&&OO°-4411                                       Rev UIU2
+                                                                                              Rev 0102
+

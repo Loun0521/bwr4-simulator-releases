@@ -1,0 +1,906 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+9.1 Normal AC Power Systems  —  0518 - R304B - GE BWR_4 Technology - 9.1 Normal AC Power Systems.
+ADAMS ML11258A357   문서일자 2011-09-23   19 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A357.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 9.1 
+ 
+
+Normal AC Power Systems 
+ 
+
+
+
+
+
+ 
+Rev 09/11 9.1-i USNRC HRTD 
+
+ 
+ 
+
+TABLE OF CONTENTS 
+ 
+
+9.1 NORMAL AC POWER SYSTEMS ........................................................................... 1 
+9.1.1 System Introduction ........................................................................................... 1 
+9.1.2 System Description ............................................................................................ 1 
+9.1.3 Component Description ...................................................................................... 2 
+
+9.1.3.1 Unit Generator and Auxiliaries ..................................................................... 2 
+9.1.3.2 Generator Output Breakers ......................................................................... 3 
+9.1.3.3 Main Transformers ...................................................................................... 4 
+9.1.3.4 Normal Station Service Transformers.......................................................... 4 
+9.1.3.5 Reserve Station Service Transformers ........................................................ 5 
+9.1.3.6 Station Gas Turbine..................................................................................... 5 
+9.1.3.7 4160V Normal Power AC Busses ................................................................ 5 
+9.1.3.8 Normal 480V Distribution ............................................................................. 5 
+9.1.3.9 Generator Bus Duct Cooling System ........................................................... 6 
+
+9.1.4 System Features and Interfaces ........................................................................ 7 
+9.1.4.1 Normal Operation ........................................................................................ 7 
+9.1.4.2 System Interfaces ........................................................................................ 7 
+
+9.1.5 Summary ............................................................................................................ 7 
+ 
+ 
+
+ 
+LIST OF TABLES 
+
+ 
+9.1-1 Normal 4160VAC Bus Loads  ............................................................................... 9 
+
+
+
+ 
+Rev 09/11 9.1-ii USNRC HRTD 
+
+LIST OF FIGURES 
+ 
+9.1-1 Main One Line Diagram 
+9.1-2 Normal Power Distribution 
+9.1-3 Plant Power Distribution 
+ 
+
+
+
+ 
+Rev 09/11 9.1-1 USNRC HRTD 
+
+9.1 Normal AC Power Systems 
+ 
+Learning objectives: 
+ 
+1. Recognize the purposes of the Normal AC Power system. 
+  
+2. Recognize the purpose of the following Normal AC Power system major 
+
+components: 
+a. Unit Generator and Auxiliaries 
+b. Generator Output breakers 
+c. Main Transformers (MT) 
+d. Normal Station Supply Transformer (NSST) 
+e. Reserve Station Supply Transformer (RSST) 
+f. Gas Turbine 
+g. 4160v Buses 
+h. 480v Distribution system 
+i. Generator Bus Duct Cooling System 
+ 
+
+3. Recognize how power is distributed to the Normal buses from the: 
+a. Normal Station Supply Transformer (NSST) 
+b. Reserve Station Supply Transformer (RSST) 
+c. Gas Turbine 
+
+ 
+4. Recognize how the Normal AC Power system interfaces with the following systems: 
+
+a. DC Power System (Section 9.4) 
+b. Emergency AC Power System (Section 9.2) 
+
+ 
+9.1.1 System Introduction 
+ 
+The purpose of the Normal AC Power (NP) system is to provide adequate power to unit 
+auxiliary loads for normal operation of the plant.  Two physically independent off site 
+power supplies are provided to safety related loads supplied from the emergency buses.  
+These two physically independent power supplies are from the 138KV and the 69KV 
+offsite transmission systems. 
+ 
+9.1.2 System Description 
+ 
+The Normal AC Power system includes the following; 
+• a Normal Station Service Transformer (NSST) 
+• a Reserve Station Service Transformer (RSST) 
+• a Main Transformer (MT) 
+• 4160V buses 
+• a 480V distribution system 
+ 
+Both of the station service transformers are step-down transformers.  The NSST steps 
+138KV down to 4160V and the RSST steps 69KV down to 4160V.  Each of the step-
+down transformers has two secondary windings.   
+
+
+
+ 
+Rev 09/11 9.1-2 USNRC HRTD 
+
+ 
+The NSST normally supplies buses 1A and 11.  The RSST normally supplies buses 1B 
+and 12.  Each of the transformers serves as a backup supply for the other.  Loads 
+associated with the four 4160V buses are listed in Table 9.1-1. 
+ 
+The Main Transformer (MT) is a step-up (24KV to 138KV) transformer.  The main 
+transformer takes the output of the station turbine generator and supplies it to the NSST 
+and the grid. 
+ 
+Each of the 4160V buses supplies a 4160V to 480V step-down transformers for the 
+480V distribution system. 
+ 
+9.1.3 Component Description 
+ 
+The major components of the Normal AC Power System are shown in Figure 9.1-1 and 
+9.1-2 are discussed in the following paragraphs. 
+ 
+9.1.3.1 Unit Generator and Auxiliaries 
+ 
+The purpose of the unit generator is to transfer the mechanical energy from the main 
+turbine into electrical energy. The rotating shaft of the main turbine is coupled to the unit 
+generator's rotor.  The rotor supplies the rotating magnetic field necessary to produce 
+electricity from the generator. 
+ 
+The unit generator design ratings are as follows; 
+• 1800 rpm 
+• 820 MWe, 
+• 978MVA 
+• 60 Hz 
+• 24KV. 
+ 
+The output from generator is three phase AC power supplied to the grid and station 
+loads.  Each phase output is routed through a specially constructed conductor which in 
+turn is encased in a cooling duct.  The generator bus duct cooling system discussed in 
+section 9.1.3.9. 
+ 
+The unit generator has auxiliary support systems which are required for its operation.  
+These support systems are discussed in the following paragraphs. 
+ 
+9.1.3.1.1   Generator Gas System 
+ 
+The generator rotor windings and casing are cooled by the circulation of hydrogen gas 
+within the generator.  This gas is maintained at approximately 60 psig and greater than 
+90% purity.  Hydrogen is used because it provides relatively low windage losses and 
+good thermal conductivity.  Hydrogen removes heat at approximately seven times the 
+
+
+
+ 
+Rev 09/11 9.1-3 USNRC HRTD 
+
+rate of air while using less power to circulate the hydrogen gas.  Pressurizing the 
+hydrogen gas to 60 psig increases its heat removal capacity.  The high purity 
+requirements minimize the possibility of a hydrogen gas fire or explosion.  The gas is 
+cooled by four hydrogen coolers .  These in turn are cooled by the turbine building 
+closed loop cooling water system.   
+ 
+9.1.3.1.2  Generator Hydrogen Seal Oil System 
+ 
+A hydrogen seal oil system is used to prevent the hydrogen gas from escaping the 
+generator.  Cool, clean oil from the turbine lubricating oil system is supplied to the 
+hydrogen seal oil system storage tank.   The hydrogen seal oil system pumps then 
+supply oil to the generator seals at 8 psig above generator gas pressure.  The oil from 
+the seals flows back to the turbine lube oil system for cooling and cleaning. 
+ 
+9.1.3.1.3  Generator Stator Cooling System 
+ 
+High purity, low conductivity water is used to cool the generator stator bars and the 
+exciter rectifiers.  Water is used because it has a high heat capacity and low viscosity.  
+The electrical conductivity of water is kept to a minimum.  The water is continually 
+filtered to reduce particles which could cause electrical shorting in the stator.  By 
+maintaining conductivity less than 0.5 μmho/cm the stator bars are not shorted out by 
+the water.  The stator cooling system heat exchangers are cooled by the turbine 
+building closed loop cooling water system. 
+ 
+9.1.3.1.4  Generator Alterex Exciter System 
+ 
+The main generator excitation system is a GE Alterex system.  This system uses an 
+auxiliary AC generator (alternator-exciter) as its power source.  This is required as the 
+unit generator excitation power requirements are relatively large (1860KW and 500V).  
+The alternator-exciter is driven by a direct coupling to the main generator rotor.  It is a 
+three phase, 60 Hz, 4 pole, air cooled machine with it's output connected to a group of 
+static rectifiers.  The static rectifies change the AC from the exciter to DC for application 
+to generator rotor. The rectified DC output is applied to the generator rotor field 
+windings via collector slip rings and brushes. 
+ 
+ 
+9.1.3.2 Generator Output Breakers  
+ 
+The main generator is supplied with two parallel generator output breakers.  The 
+generator output circuit breakers are installed between the main turbine and the grid.  In 
+the open position, the generator output breakers isolate the main transformer and 
+generator from the grid.  Off site power from the grid is provided to the normal AC power 
+system via the NSST.   
+ 
+
+
+
+ 
+Rev 09/11 9.1-4 USNRC HRTD 
+
+In the closed position, the generator is connected to the main transformer and provides 
+power to the grid and normal AC power system.  The generator output breakers are 
+high volume, double throw, oil filled circuit breakers.  The oil provides a high resistance 
+medium between high voltage terminal points in the open position.  The purpose of the 
+generator output breakers is to protect the unit generator and main transformer from 
+electrical faults.  A list of the protective trips provided by the generator output breakers 
+is listed in Table 9.1-2. 
+ 
+The generator output breakers are used to synchronize the generator to the 138KV AC 
+grid.  They are controlled from the generator section (MCB01-R) of the main control 
+board in the control room.  Either generator output breaker may be used to synchronize 
+the generator to the grid.  The generator output breaker to be used is selected by the 
+synchronizing selector switch.  This switch connects the generator and the grid to a 
+synchroscope and voltmeters.  When the first generator output breaker is synchronized 
+(voltages and frequency matched) the operator closes the breaker.  The second breaker 
+may then be closed after selecting it with the synchroscope.  The generator and grid are 
+already in synchronization because the first generator output breakers is closed. 
+ 
+9.1.3.3 Main Transformers 
+ 
+There are two Main Transformers each consisting of three single phase, forced oil and 
+air cooled transformers.  Leads from the unit generator are connected to the primary 
+windings of the Main Transformers.  The high voltage grid leads are connected to the 
+secondary windings.  The Main Transformers serve as step-up (24KV/138KV) 
+transformers when the generator output breakers are closed. 
+ 
+9.1.3.4 Normal Station Service Transformers 
+ 
+The Normal Station Service Transformers (NSSTs) are step-down (138KV/4160V) three 
+phase transformers.  The NSST supplies the following: 
+• preferred power to nonsafety related 4160V system buses 1A and 11 
+• preferred power to 4160V emergency AC system buses 101, 102, and 103  
+• backup power to the 4160V AC system buses 1B and 12 
+ 
+The primary winding is supplied by a 138KV connection to either the unit generator or 
+the grid.  The NSST has two secondary windings.  Two windings are used for voltage 
+transient separation while starting the Reactor Recirculation MG Set Drive Motors.  The 
+NSST is the normal preferred power source for two of the four 4160V normal AC power 
+buses and all of the 4160V emergency power system buses.   
+ 
+The NSST is a nitrogen blanketed, oil/air cooled transformer.  The NSST is supplied 
+with redundant protective relaying schemes.  This relaying isolates the transformer 
+electrical connections in the event of an electrical fault condition.   
+ 
+
+
+
+ 
+Rev 09/11 9.1-5 USNRC HRTD 
+
+If the supply breakers from the RSST to the 4160V buses trip an automatic transfer to 
+the NSST will occur.  This auto transfer will not occur if there is a bus fault 
+ 
+9.1.3.5 Reserve Station Service Transformers 
+ 
+The Reserve Station Service Transformers (RSSTs) are step-down (69KV/4160V) three 
+phase transformers.  The primary winding is supplied by a 69KV connection to the grid.  
+The RSST normally supplies the following; 
+•  preferred power to nonsafety related 4160V system buses 1B and 12 
+• back up preferred power to 4160V emergency AC power system buses 101, 102, 
+
+and 103  
+• backup power to the 4160V system buses 1A and 11 
+ 
+If the supply breakers from the RSST to the 4160V buses trip an automatic transfer to 
+the NSST will occur.  This auto transfer will not occur if there is a bus fault 
+ 
+The RSST is also a nitrogen blanketed, oil/air cooled transformer.  The RSST has 
+redundant protective relaying schemes to isolate the transformer in the event of an 
+electrical fault condition.   
+ 
+ 
+9.1.3.6 Station Gas Turbine 
+ 
+The gas turbine acts as a reserve power supply for the 69KV distribution network and 
+can be aligned directly to the RSST.  The gas turbine is not located on site. It is not 
+designed to be switched into the 69KV distribution network in the loaded condition.  The 
+gas turbine is controlled by a grid load dispatcher, not by the station operators. 
+ 
+The gas turbine was designed as a safeguard against a total loss of site power (station 
+blackout).  The addition of a third source of power to the normal AC power system 
+makes a station blackout a very low probability. 
+ 
+9.1.3.7 4160V Normal Power AC Busses 
+ 
+There are four 4160V normal power system buses (1A, 1B, 11, and 12).  The normal 
+power supply to buses 1A and 11 is the NSST.  The normal supply to buses 1B and 12 
+is the RSST.  Buses 1A and 1B normally supply large motors only.  Buses 11 and 12 
+normally supply smaller loads.  Typical loads supplied by the 4160V system buses are 
+listed in Table 9.1-1.  The normal supply breakers to the 4160V buses are 2000 amp 
+fast acting breakers.  The backup supply breakers have a 1200 amp capability. 
+ 
+9.1.3.8 Normal 480V Distribution 
+ 
+The 480V normal AC power system consists of eight metal clad switchgear buses.  
+These are combined through a bus tie breaker into four double ended buses.  The 480V 
+
+
+
+ 
+Rev 09/11 9.1-6 USNRC HRTD 
+
+system buses are fed by 4160V normal AC power system buses 11 and 12.  Control 
+power for the 480V switchgear is supplied by 125VDC.  A one line drawing is presented 
+in figure 9.1-2. 
+ 
+Power to the 480V loads is provided by Secondary Unit Substations (SUS).  A SUS 
+consists of 
+• a primary section for the connection to the 4160V circuit 
+• a three phase transformer section from 4160V to 480V 
+• a secondary section for the connection for 480V motors, power panels, and Motor 
+
+Control Centers (MCCs).  
+ 
+The transformers have a primary winding voltage of 4160V and a secondary winding 
+voltage at 480V.  The transformers have automatically controlled forced oil and air 
+cooling systems.  The SUS circuit breakers are normally electrically opened and closed.  
+Manual operation is possible with control switches mounted on each SUS section.  
+Each 480V normal bus and MCC can be energized from the opposite divisions 480V 
+bus.  A bus tie breaker is closed if the normal power supply is or will become 
+unavailable. 
+ 
+The 480V motor control centers supply power to the following 
+• small motors 
+• motor operated valves 
+• 120V lighting distribution panels 
+• 120V power panels 
+• battery chargers for the non safety 125V DC batteries 
+ 
+Each MCC has various sized motor starters contained in cubicles on the motor control 
+center.  The starter contacts open and close electrically to start or stop loads.  The MCC 
+provides instantaneous protection for motors and time delay over current protection for 
+feeds to power panels. 
+ 
+9.1.3.9 Generator Bus Duct Cooling System 
+ 
+The generator bus duct cooling system consists of one fan and its supporting 
+equipment.  Air is discharged from the fan and passes through the generator bus ducts 
+to remove heat.  The air is then passed through an air/water heat exchanger and then 
+returned to the fan.  Cooling water is supplied by the turbine building closed loop cooling 
+water system. The bus duct cooling system must be in operation to support generator 
+outputs of greater than 45% load. 
+ 
+
+
+
+ 
+Rev 09/11 9.1-7 USNRC HRTD 
+
+9.1.4 System Features and Interfaces 
+ 
+A short discussion of system operation and interfaces between this system and other 
+plant systems is given in the following paragraphs. 
+ 
+9.1.4.1 Normal Operation 
+ 
+Under normal operating conditions, the normal power system supplies AC power to the 
+equipment required for normal plant operation.  The turbine generator supplies power to 
+the 138KV grid through the main transformer.  The NSST receives power from the 
+138KV grid.  The RSST receives power from the 69KV grid and could receive power 
+from an assigned gas turbine.  The RSST and NSST step the voltage down for use on 
+the normal and emergency AC power system 4160V buses.  The voltage on the normal 
+and emergency system 4160V buses is stepped down by the 4160V switch gear to 
+480V.  This 480V power is supplied to eight normal AC system and three emergency 
+power system 480V buses. 
+ 
+9.1.4.2 System Interfaces 
+ 
+The normal AC power system interfaces with virtually every plant system.  Table 9.1-1 
+provides a listing of some of the more important loads supplied by the system.  Other 
+important interfaces are discussed in the following paragraphs. 
+ 
+DC Power System (Section 9.4) 
+ 
+The DC Power System supplies control power to the high and medium voltage AC 
+switchgears and circuit breakers. 
+ 
+Emergency AC Power System (Section 9.2) 
+ 
+The Emergency AC Power System is normally energized by the normal AC power 
+System. 
+ 
+9.1.5 Summary 
+ 
+The normal AC power system provides power to unit auxiliary loads needed for normal 
+operation of the plant.  Two physically independent off site power supplies are provided 
+from the grid to the emergency bus safety related loads.  The two physically 
+independent power supplies are from the 138KV and the 69KV grid.  The NSST and 
+RSST both serve normal and backup preferred power functions.  The gas turbine 
+provides an additional source of offsite power to the system. 
+ 
+The normal AC power system has a quick transfer function which transfers loads from 
+normal preferred power to backup preferred power.   
+ 
+
+
+
+ 
+Rev 09/11 9.1-8 USNRC HRTD 
+
+  
+
+
+
+ 
+Rev 09/11 9.1-9 USNRC HRTD 
+
+Table 9.1-1 
+Normal 4160VAC Bus Loads 
+
+ 
+
+ 
+Bus 1A 
+ 
+"A" Reactor Recirculation MG Set Drive Motor 
+"A" Circulating Water Pump 
+"A" Condensate Booster Pump 
+ 
+ 
+Bus 11 
+ 
+"A" Turbine Building Service Water Pump 
+"A" and "B" Screen Wash Pumps 
+"A" Air Compressor 
+"C" Circulating Water Pump 
+4160/480 Transformers 
+ 
+ 
+Bus 1B 
+ 
+"B" Reactor Recirculation MG Set 
+"B" Circulating Water Pump 
+"B" Condensate Booster Pump 
+ 
+ 
+Bus 12 
+ 
+Motor driven Fire Pump 
+"B" Condensate Pump 
+"B" and "C" Air Compressors 
+"D" Circulating Water Pump 
+4160/480 Transformers 
+ 
+
+ 
+  
+
+
+
+ 
+Rev 09/11 9.1-10 USNRC HRTD 
+
+  
+
+
+
+ 
+Rev 09/11 9.1-11 USNRC HRTD 
+
+Table 9.1-2 
+Main Generator Trips 
+
+ 
+ 
+
+ 
+• Generator Volts per Hertz High, 110% of rated for 45 seconds. 
+• Generator Stator Cooling Runbacktrip if reduction of load due to loss of 
+
+stator cooling does not occur within the required time. 
+• Generator Loss of Excitation, Loss of 58% (Instantaneous) and Loss of 33% 
+
+(60 cycles). 
+• Generator Neutral Ground 
+• Generator Potential Ground 
+• Generator Negative Sequence (Phase Differential Current 12% for 4.1 
+
+minutes) 
+• Main Transformer Primary Phase Differential 
+• Main Transformer Secondary Phase Differential 
+• Main Transformer Overcurrent 
+• Main Transformer High Side Neutral Ground 
+• Main Transformer Fault Pressure 
+• Auxiliary Transformer Primary Differential  
+• Auxiliary Transformer Secondary Differential 
+• Auxiliary Transformer Overcurrent 
+• Auxiliary Transformer Neutral Ground 
+• Generator Under Frequency 
+ 
+
+ 
+  
+
+
+
+ 
+Rev 09/11 9.1-12 USNRC HRTD 
+
+ 
+ 
+
+
+
+ Figure 9.1-1 Main One Line Diagram 
+
+69 kV
+to
+
+13.8 kV
+
+Gas
+Turbine
+
+Generator
+(GT-001)
+13.8kV
+
+Res
+
+Reserve Sta.
+Ser. Trans.
+
+(RSST)
+
+Normal Sta.
+Serv. Trans.
+
+(NSST)
+
+1A Main
+Transformer
+
+1B Main
+Transformer
+
+To Wildwood
+69 kV Sub. Sta.
+
+Generator Output
+Breakers
+
+
+
+ Figure 9.1-2 Normal Power Distribution 
+
+ 
+ 
+
+
+
+ Figure 9.1-3 Plant Power Distribution 
+
+B RHR pump
+
+B CS pump
+
+B RBSW pump
+
+B CRD pump
+
+Main
+Generator
+
+Gas
+Turbines (2)
+
+138 Kv / 4.1Kv
+Reserve Station
+
+Service Transformer
+69 Kv / 4.1 Kv
+
+Gen. Bkrs138 Kv
+
+Bus 1A
+
+A Recirc. MG set
+
+A CW Pump
+
+A CB Pump
+
+Bus 1B
+
+B Recirc. MG set
+
+B CW Pump
+
+B CB Pump
+
+12A
+
+11A
+
+12B
+
+11B
+
+12D
+
+11D
+
+12C
+
+11C
+
+C CW Pump
+A Cond pump
+A Air comp.
+A TBSW pump
+A SW Booster pump
+B SW Booster pump
+
+D CW Pump
+
+C Air comp.
+B Air comp.
+
+B Cond pump
+Fire Pump
+
+Bus 11
+
+Bus 12
+
+EDG A
+3500 KW
+
+EDG B
+3500 KW
+
+EDG C
+3500 KW
+
+Bus 101 Bus 102 Bus 103
+
+A RHR pump
+
+A CS pump
+
+A RBSW pump
+
+A CRD pump
+
+C RHR pump
+
+D RHR pump
+C RBSW pump
+D RBSW pump
+
+4160 V / 480 V
+
+4160 V / 480 V
+
+Shown in normal full
+power lineup
+
+69 KV
+Off Site GridOff Site Grid
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

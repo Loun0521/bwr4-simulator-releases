@@ -1,0 +1,1097 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+5.4 Average Power Range Monitoring System  —  0518 - R304B - GE BWR_4 Technology - 5.4 Average Power Range Monitoring System.
+ADAMS ML11258A335   문서일자 2011-09-23   19 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A335.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 5.4 
+ 
+
+Average Power Range Monitoring System 
+ 
+
+
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-i USNRC HRTD 
+
+TABLE OF CONTENTS 
+
+5.4 AVERAGE POWER RANGE MONITORING SYSTEM ............................................ 1 
+
+5.4.1 Introduction .......................................................................................................... 1 
+
+5.4.2 Component Description ....................................................................................... 2 
+5.4.2.1 LPRM Inputs ................................................................................................. 2 
+5.4.2.3 Count Circuit ................................................................................................. 3 
+5.4.2.2 Averaging Circuit .......................................................................................... 3 
+5.4.2.4 Slope and Bias Circuit .................................................................................. 3 
+5.4.2.5 Trip Units ...................................................................................................... 4 
+
+5.4.3 System Features and Interfaces .......................................................................... 6 
+
+5.4.4 Summary ............................................................................................................. 7 
+ 
+ 
+ 
+
+LIST OF TABLES 
+ 
+
+5.4-1 APRM INTERLOCKS AND TRIPS  ...................................................................... 7  
+ 
+ 
+  
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-ii USNRC HRTD 
+
+LIST OF FIGURES 
+ 
+5.4-1 APRM Simplified Block Diagram 
+5.4-2 LPRM Detector Assignments to APRMs 
+5.4-3 APRM Chanel Block Diagram 
+5.4-4 APRM Trip Levels 
+5.4-5 APRM Functional and Test Switches 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-1 USNRC HRTD 
+
+5.4 AVERAGE POWER RANGE MONITORING SYSTEM 
+ 
+Learning Objectives: 
+ 
+1. Recognize the purposes of the Average Power Range Monitor (APRM) system. 
+ 
+2. Recognize the purpose, function, and operation of the following system components: 
+
+a. LPRM inputs 
+b. count circuit 
+c. averaging circuit 
+d. slope and bias circuit 
+e. APRM recorder 
+f. trip units 
+g. APRM bypass switch 
+h. flow unit 
+i. flow unit bypass switch 
+ 
+
+3. Recognize the plant response to the following APRM signals, when the trips are 
+bypassed and the reason for the trips: 
+a. Upscale High Neutron Trip 
+b. Upscale High Thermal Trip 
+c. Upscale High Alarm 
+d. Downscale 
+e. Inoperable APRM 
+f. Flow bias not normal 
+
+ 
+4. Recognize how local power range monitor (LPRM) detectors are assigned to the 
+
+APRMs. 
+ 
+5. Recognize how the Average Power Range Monitor system interfaces with the 
+
+following systems: 
+a. Reactor Manual Control System (Section 7.1) 
+b. Recirculation System (Section 2.4) 
+c. Local Power Range Monitoring System (Section 5.3) 
+d. Reactor Protection System (Section 7.3) 
+e. Rod Block Monitoring System (Section 5.5) 
+f. Intermediate Range Monitor System (Section 5.2) 
+
+ 
+5.4.1 Introduction 
+ 
+The APRM system has two purposes. One purpose is to monitor the core thermal 
+power level. The other purpose is to provide reactor scram and control rod block signals 
+to preserve the fuel cladding integrity. 
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-2 USNRC HRTD 
+
+ 
+The functional classification of the APRM system is that of a safety related system. 
+ 
+The APRM system (Figure 5.4-1) consists of six channels designated A through F. Each 
+APRM channel averages the inputs from up to 17 LPRMs and provides an output 
+signal. Because the LPRMs assigned to specific APRM channels (Figure 5.4-2) are 
+located in diverse axial and radial locations throughout the reactor core, each APRM 
+channel produces a signal proportional to the average neutron flux of the entire core.  
+ 
+The Recirculation System (Section 2.4) loop flow monitoring equipment provides APRM 
+system trip units with a signal proportional to the total recirculation driving flow. Total 
+recirculation driving flow consists of the sum of the recirculation pump (driving) flow in 
+both recirculation loops. 
+ 
+The APRM System provides continuous indication of average reactor power from 0% to 
+125% of rated reactor thermal power. It also provides interlock signals to the Reactor 
+Manual Control System (Section 7.1) for blocking control rod withdrawal at power and 
+flow conditions below the reactor scram setpoint. This is done to avoid unnecessary 
+reactor scrams. The APRM system also generates trip signals for the Reactor 
+Protection System (RPS), (Section 7.3) to scram the reactor in time to prevent fuel 
+damage. 
+ 
+5.4.2 Component Description 
+ 
+The major components of the APRM System are illustrated in Figure  5.4-3 and 
+discussed in the paragraphs which follow. 
+ 
+5.4.2.1 LPRM Inputs 
+ 
+APRM channels A, C and E each have inputs from 17 LPRM inputs and APRM 
+channels B, D and F each receive 14 LPRM inputs. As indicated in Figure 5.4-2, each 
+APRM channel receives inputs from LPRM detector levels A, B, C, and D from multiple 
+LPRM strings throughout the reactor core.  
+ 
+For example, APRM channel B receives inputs from: 
+• the A level LPRM detectors at locations 12-37, 44-37, 28-21 
+• the B level LPRM detectors at locations 36-45, 20-29, 36-13 
+• the C level LPRM detectors at locations 28-37, 12-21, 44-21, and 28-05, and 
+• the D level LPRM detectors at locations 20-45, 04-29, 20-13, and 36-29.  
+ 
+The LPRM assignments to the remaining APRM channels are equally diverse axially 
+and radially. As a result, the response by the six APRM channels is fairly uniform to all 
+reactivity changes. The APRM response is least uniform for control rod movements 
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-3 USNRC HRTD 
+
+because the magnitude of change is largest for LPRM strings nearest the moved control 
+rod(s). The use of symmetrical control rod patterns constrains the non-uniformity. 
+ 
+5.4.2.3 Count Circuit 
+ 
+A minimum number of LPRM input signals are required to provide an adequate 
+averaged representation of core power. An APRM channel cannot reliably monitor core 
+power level if it receives information from too few LPRM detectors. The count circuit 
+(Figures 5.4-1 and 5.4-3) determines the number of operable LPRM signals to a given 
+APRM. The count circuit receives an input from each LPRM detector assigned to the 
+APRM channel if the LPRM detector’s mode switch is in the Operate position. The count 
+circuit uses this logic because at the low end of the APRM channel monitoring range, 
+many of the individual LPRM readings can be zero or close to it.  
+ 
+If the number of LPRM inputs is less than 11, the count circuit generates a trip signal to 
+the reactor protection system and the reactor manual control system that the APRM 
+channel is inoperable. 
+ 
+5.4.2.2 Averaging Circuit 
+ 
+This circuit (Figures 5.4-1 and 5.4-3) averages only those LPRM signals that are 
+operational. The output from the averaging circuit for each APRM channel is routed to 
+the process computer and to control room recorders. The output from the averaging 
+circuit for the reference APRM channel is provided to the applicable rod block monitor 
+(RBM) channel. 
+ 
+Periodically, the outputs from the averaging circuits are manually adjusted to match the 
+percent of rated core thermal power as determined by a heat balance calculation. The 
+APRM channels thus indicate core power level continuously between periodic heat 
+balance calculations.  
+ 
+5.4.2.4 Slope and Bias Circuit 
+ 
+This circuit (Figures 5.4-1 and 5.4-3) adjusts APRM control rod block and reactor scram 
+trip setpoints based on total recirculation flow when the reactor mode switch is in Run. 
+Total recirculation flow is the summation of both recirculation loop flows which 
+determines the ability to remove heat from the reactor core.  
+ 
+As indicated on Figure 5.4-4, the APRM flow-biased control rod block trip setting varies 
+from 42% to 108% as total recirculation loop flow increases. The slope and bias circuit 
+sums inputs from both recirculation loops to determine the percent of rated recirculation 
+loop flow (W term). The flow-biased control rod block trip setting is calculated using the 
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-4 USNRC HRTD 
+
+equation 0.66W + 42%. The APRM flow-biased reactor scram setting varies from 51% 
+to 113.5% using the equation 0.66W + 51%. 
+ 
+The 0.66 factor was derived during reactor startup testing. This testing demonstrated 
+that a 10 percent change in total recirculation loop flow caused a 6.6 percent change in 
+reactor power level . Consequently, reactor power changes made via recirculation flow 
+rate adjustments maintain the margins to the flow-biased control rod block and reactor 
+scram settings. The flow-biased control rod block trip setting is clamped at a maximum 
+of 108%. The flow-biased reactor scram setting is clamped at 113.5%. This prevents an 
+excessive recirculation flow increase from causing fuel damage. 
+ 
+5.4.2.5 Trip Units 
+ 
+The APRM trip units are shown in Figures 5.4-1 and 5.4-3 and are listed in Table 5.4-1. 
+ 
+Any single APRM channel sending a control rod block signal to the reactor manual 
+control system will result in a rod withdraw block signal being applied. 
+ 
+Any single APRM channel sending a reactor scram signal to the reactor protection 
+system will result in a half scram.  APRM channels A, C, and E input to RPS channel A 
+while APRM channels B, D, and F input to RPS channel B.  It takes a scram signal from 
+APRM channel A, C or E along with a scram signal from APRM channel B, D or F to 
+cause RPS to generate a full scram signal. 
+ 
+5.4.2.5.1 APRM High-High Trip (also called the APRM Upscale and Neutron 
+Trip) 
+ 
+The setpoint for this trip depends on the reactor mode switch position.  In Run mode, 
+this trip setpoint is fixed at 118 percent.  When the reactor mode switch is not in Run, 
+this trip setpoint is 15 percent.  Exceeding the applicable setpoint generates a reactor 
+scram signal to the reactor protection system. 
+ 
+5.4.2.5.2 APRM High-High Thermal Trip (also called the APRM Flow-Biased 
+Trip) 
+ 
+This trip is only applicable when the reactor mode switch is in Run.  The trip setpoint 
+varies depending on total recirculation loop flow (W) based on the equation 0.66W + 
+51%.  This trip setpoint has a maximum setting of 113.5 percent. As shown in Figure 
+5.4-1, the APRM high-high thermal trip features a time delay.  It takes approximately 6 
+seconds for heat generated within a fuel pellet to transfer from the pellet, the gap 
+between the pellet and the fuel cladding, and the cladding to the coolant.  Rather than 
+merely delaying the signal by 6 seconds, the APRM system averages the values over 
+the 6 second period.  This method filters out high magnitude, short duration spikes that 
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-5 USNRC HRTD 
+
+are protected by the fixed neutron trip.  Exceeding the setpoint generates a reactor 
+scram signal to the reactor protection system. 
+ 
+The APRM high-high thermal trip backs up the high-high trip for many reactor 
+transients.  It is primarily installed to handle slower transients initiating from less than 
+100 percent reactor power levels. For example, the reactor is operating at 50 percent 
+recirculation flow and 67 percent power when a loss of feedwater heating occurs.  The 
+positive reactivity added by the decreasing feedwater temperature will cause the reactor 
+power level to rise.  Without operator intervention, the APRM high-high thermal scram 
+will terminate the transient when the reactor power level reaches 84 percent (0.66 x 
+50% + 51%).  This mitigates this transient sooner than the high-high scram at 118 
+percent. 
+ 
+5.4.2.5.3 APRM High Trip (also called the APRM Upscale Alarm Trip) 
+ 
+The setpoint for this trip depends on the reactor mode switch position. In Run mode, this 
+trip setpoint varies depending on total recirculation loop flow (W) based on the equation 
+0.66 x W + 42 with a maximum setting of 108 percent. When the reactor mode switch is 
+not in Run, this trip setpoint is 12 percent. Exceeding the applicable setpoint generates 
+a control rod withdraw block signal to the reactor manual control system.  
+ 
+5.4.2.5.4 APRM Downscale Trip 
+ 
+This trip is only applicable when the reactor mode switch is in Run. This trip setpoint is 
+fixed at 3 percent. Exceeding the setpoint generates a control rod withdraw block signal 
+to the reactor manual control system. Exceeding the setpoint also sends a reactor 
+scram signal to the reactor protection system. This signal will cause a scram only if the 
+companion intermediate range monitor (IRM) is high-high or inoperable. 
+ 
+5.4.2.5.5 APRM Inoperable 
+ 
+This trip occurs when: 
+• the count circuit reports fewer than 11 operable LPRMs for an APRM channel 
+• the APRM mode switch is not in Operate 
+• the APRM module is unplugged 
+• the APRM flow unit mode switch is not in Operate 
+ 
+The inoperable trip signal goes to both the reactor manual control system and the 
+reactor protection system for a control rod block and reactor scram respectively. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-6 USNRC HRTD 
+
+5.4.2.5.6 APRM Flow Bias Not Normal Trip 
+ 
+Each recirculation loop sends four flow signals to the APRM system. Each APRM Flow 
+Converter sums one of the recirculation loop A flow signals and one of the recirculation 
+loop B flow signals. Thus, even if only one recirculation pump is running, the APRM 
+Flow Converters should compute essentially identical total recirculation loop flows.  
+Within the APRM cabinets are four APRM Flow Converters.  Two of these flow 
+converters supply a flow signal to the A, C and E APRM flow-biased trip circuits via a 
+low value auctioneer (i.e., low value gate).  The other two flow converters provide the 
+input to the B, D and F APRM flow-biased trip circuits. 
+ 
+A rod block occurs when the two APRM Flow Converters within the same trip channel 
+calculate a flow mismatch of more than 10 percent or a total flow of 108 percent.  
+ 
+5.4.3 System Features and Interfaces 
+ 
+A discussion of interfaces the APRM system has with other plant systems is given in the 
+following sections. 
+ 
+Local Power Range Monitoring System (Section 5.3) 
+ 
+The LPRM detectors provide the radial and axial flux distribution to the APRM system 
+used to determine percent core average thermal power. 
+ 
+Reactor Protection System (Section 7.3) 
+ 
+The APRM system provides reactor scram signals to the reactor protection system. 
+ 
+Rod Block Monitoring System (Section 5.5) 
+ 
+The rod block monitoring system uses selected APRM channel output signals for a 
+reference core thermal power. 
+ 
+Reactor Manual Control System (Section 7.1) 
+ 
+The APRM system provides control rod withdrawal block signals to the reactor manual 
+control system. 
+ 
+Recirculation System (Section 2.4) 
+ 
+The recirculation system provides recirculation loop flow signals to the APRM system 
+for flow-biased rod block and scram settings when the reactor mode switch is in the Run 
+mode. 
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-7 USNRC HRTD 
+
+ 
+5.4.4 Summary 
+ 
+Purpose - To monitor the core thermal power level. To provide scram and control rod 
+block trip signals to preserve the fuel cladding integrity. 
+ 
+Components - LPRM inputs; count circuit; averaging circuit; slope and bias circuit; trip 
+units. Six APRM channels average the inputs from up to 17 LPRM detectors to output 
+the reactor power level. 
+ 
+System Interfaces - Local Power Range Monitoring System; Rod Block Monitoring 
+System; Reactor Protection System; Reactor Manual Control System; Recirculation 
+System. 
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-8 USNRC HRTD 
+
+  
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-9 USNRC HRTD 
+
+ 
+TABLE 5.4-1  APRM INTERLOCKS AND TRIPS 
+
+ 
+ 
+
+ALARM OR TRIP(1) SETPOINT APRM 
+CHASSIS 
+
+INDICATION 
+
+Panel 603 
+INDICATION 
+
+ANNUN-
+CIATOR 
+
+ACTION  AUTO BYPASS 
+
+APRM UPSCALE 
+Neutron Trip 
+
+<118% 
+--------------- 
+
+ 
+<15% 
+
+Neutron 
+UPSCL 
+(Red) 
+(A-F) 
+
+UPSC Trip 
+(A-F) 
+
+APRM 
+UPSC      
+
+or INOP 
+Scram 
+
+Mode switch not in 
+RUN 
+
+--------------------------- 
+Mode switch in RUN 
+
+APRM UPSCALE 
+Thermal Power Trip 
+
+<0.66WD+51%   
+(113.5% max) 
+
+Thermal      
+UPSCL  
+
+(Red)(A-F) 
+
+UPSC Trip     
+or INOP 
+
+(A-F) 
+
+APRM 
+UPSC  or 
+
+INOP 
+Scram 
+
+Mode switch not  in 
+RUN 
+
+APRM UPSCALE  Alarm 
+
+<0.66w+42% 
+(108% max) 
+--------------- 
+
+ 
+<12% 
+
+APRM 
+UPSC 
+
+(Amber)       
+(A-F) 
+
+UPSC       
+Alarm 
+(A-F) 
+
+APRM 
+UPSCL   
+Alarm 
+
+Rod Block 
+
+Mode switch not in 
+RUN 
+
+--------------------------- 
+Mode switch in RUN 
+
+APRM  DNSC >3% 
+
+APRM 
+DNSC 
+
+(Amber) (A-
+F) 
+
+DNSCL 
+APRM 
+DNSC 
+
+Rod Block 
+& 
+
+Scram in 
+RUN if its 
+associated 
+
+IRM is 
+upscale 
+
+Mode switch not in 
+RUN 
+
+APRM INOP -2  
+UPSC Trip 
+
+or INOP 
+
+APRM 
+UPSC 
+
+or INOP 
+(A-F) 
+
+Scram and 
+Rod Block 
+
+ 
+
+APRM Flow Bias Not 
+Normal 
+
+108% 
+or 
+
+△Flow 10% 
+   Rod Block  
+
+APRM Bypass (3) 
+Bypass 
+
+(White Light) 
+(A-F) 
+
+Bypass 
+(A-F) 
+
+   
+
+ 
+ 
+1. All trips automatically reset when the trip condition is cleared.  
+ Trip indicators on the APRM chassis must be manually reset.  
+ 
+2. Produced by: 
+ (1) <11 operable LPRM inputs 
+ (2) APRM mode switch not in operate 
+ (3) Module unplugged 
+ (4) Flow unit mode switch not in operate 
+ 
+3. Bypassed by corresponding bypass selector switch. 
+
+  
+
+
+
+ 
+
+ 
+Rev 09/11 5.4-10 USNRC HRTD 
+
+
+
+ 
+
+ Figure 5.4-1 APRM Simplified Block Diagram 
+
+ 
+ 
+
+
+
+ 
+
+ Figure 5.4-2 LPRM Detector Assignments for Division One APRMs 
+
+ 
+
+02
+
+04
+
+06
+
+08
+
+10
+
+12
+
+14
+
+16
+
+18
+
+20
+
+22
+
+24
+
+26
+
+28
+
+30
+
+32
+
+34
+
+36
+
+38
+
+40
+
+42
+
+44
+
+46
+
+48
+
+50
+
+52
+
+01 03 05 07 09 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49 51
+
+Quadrant 1 Quadrant 2
+
+Quadrant 3 Quadrant 4
+
+Physical location of LPRM
+
+Detector A Detector B
+
+Detector C Detector D
+
+A
+
+E
+
+CF
+
+B D
+
+E
+
+A C
+
+C E
+
+A
+
+D F
+
+B
+
+A
+
+C E
+
+B
+
+D F
+
+EC
+
+A
+
+E
+
+A C
+
+E
+
+A C
+
+E
+
+A C
+
+F
+
+B D
+
+A C
+
+E
+
+B
+
+F
+
+D F
+
+B D
+
+D F
+
+B
+
+A
+
+C E
+
+B
+
+D F
+
+C E
+
+A
+
+D F
+
+B
+
+A
+
+C E
+
+A C
+
+E
+
+B
+
+F
+
+D F
+
+B D
+
+A C
+
+E
+
+B
+
+F
+
+D
+
+EC
+
+A
+
+D F
+
+B
+
+A
+
+C E
+
+B
+
+FD
+
+C E
+
+A
+
+Note: Those not labeled are assigned to LPRM Groups
+
+Example: LPRM string 20-05 has its A level detector assigned to APRM
+channel E, its B level detector assigned to an LPRM group, its C level
+detector assigned to APRM channel A, and its D level detector assigned
+to APRM channel C.
+
+ 
+ 
+
+
+
+ 
+
+ Figure 5.4-3 APRM Block Diagram 
+
+ 
+ 
+
+
+
+ 
+
+ Figure 5.4-4 APRM Trip Levels 
+
+ 
+
+Percent Rated Recirculation Loop Flow
+
+APRM Scram other than Run Mode 15%
+
+APRM Rod Block other than Run Mode 12%
+
+APRM Rod Block in Run Mode 0.66W + 42%
+
+APRM Scram in Run Mode 118%
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+80
+
+90
+
+100
+
+110
+
+120
+
+10 20 30 40 50 60 70 80 90 100 110
+
+APRM Scram in Run Mode 0.66W + 51%
+(Thermal Power)
+
+113.5% Clamped
+
+108% Clamped
+
+ 
+
+
+
+ 
+
+ Figure 5.4-5 APRM Functional and Test Switches 
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

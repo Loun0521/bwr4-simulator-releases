@@ -1,0 +1,831 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+2.7 Reactor Core Isolation Cooling System  —  0518 - R304B - GE BWR_4 Technology - 2.7 Reactor Core Isolation Cooling System.
+ADAMS ML11258A311   문서일자 2011-09-23   17 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A311.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 2.7 
+ 
+
+Reactor Core Isolation Cooling System 
+ 
+
+
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-i USNRC HRTD 
+
+ 
+ 
+
+ TABLE OF CONTENTS 
+ 
+
+2.7 REACTOR CORE ISOLATION COOLING SYSTEM ............................................... 1 
+
+2.7.1 Introduction ........................................................................................................ 2 
+
+2.7.2 System Description ............................................................................................ 2 
+
+2.7.3 Component Description ...................................................................................... 2 
+2.7.3.1 Steam Supply Isolation Valves .................................................................... 3 
+2.7.3.2 Steam to Turbine Valve ............................................................................... 3 
+2.7.3.3 Turbine Trip Throttle Valve .......................................................................... 3 
+2.7.3.4 Turbine Governor Valve .............................................................................. 3 
+2.7.3.5 RCIC Turbine .............................................................................................. 4 
+2.7.3.6 RCIC Turbine Auxiliaries ............................................................................. 4 
+2.7.3.7 RCIC Turbine Exhaust Path ........................................................................ 5 
+2.7.3.8 RCIC Pump Suction Path ............................................................................ 5 
+2.7.3.9 RCIC Pump ................................................................................................. 6 
+2.7.3.10 RCIC Pump Discharge Path ........................................................................ 6 
+2.7.3.11 RCIC Valve Controls ................................................................................... 6 
+
+2.7.4 System Features and Interfaces ........................................................................ 7 
+2.7.4.1 RCIC Flow Controller................................................................................... 7 
+2.7.4.2 RCIC Automatic Initiation ............................................................................ 7 
+2.7.4.3 Test Features .............................................................................................. 7 
+2.7.4.4 Automatic Isolation ...................................................................................... 8 
+2.7.4.5 Automatic Turbine Trips .............................................................................. 8 
+2.7.4.6 System Interfaces ........................................................................................ 9 
+
+2.7.5 Summary .......................................................................................................... 10 
+ 
+ 
+  
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-ii USNRC HRTD 
+
+LIST OF FIGURES 
+ 
+
+ 
+2.7-1 RCIC System 
+2.7-2 RCIC Turbine Trip and Throttle Valve 
+2.7-3 RCIC Turbine Control Diagram 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-1 USNRC HRTD 
+
+ 
+2.7 REACTOR CORE ISOLATION COOLING SYSTEM 
+ 
+Learning Objectives: 
+ 
+1. Identify the purpose of the Reactor Core Isolation Cooling (RCIC) system. 
+ 
+2. Recognize the purpose, function and operation of the following RCIC system major 
+
+components: 
+a. Steam Supply Isolation Valves 
+b. Steam to Turbine Valve 
+c. Turbine Trip and Throttle valve 
+d. Turbine Governor valve 
+e. Turbine 
+f. Oil System 
+g. Line Fill system 
+h. Suppression Pool Suction Valve 
+i. Condensate Storage Tank Suction Valve 
+j. Pump  
+k. Discharge Valve 
+l. Full Flow Test Valve 
+m. Flow Controller 
+n. Barometric Condenser and Receiver 
+o. Minimum flow valve 
+p. Cooling isolation valve 
+
+ 
+3. Recognize the following flowpaths of the RCIC system: 
+
+a. Steam Supply and Exhaust 
+b. Injection Flow 
+c. Test Flow 
+d. Line Fill 
+e. Pressure Control mode of operation 
+f. Minimum flow 
+g. Cooling flow 
+
+ 
+4. Recognize the plant parameters which will cause the following: 
+
+a. Automatic Initiation 
+b. Automatic Isolation 
+c. Automatic Turbine Trip 
+d. Suction Path Transfer 
+
+ 
+5. Recognize the system’s normal standby alignment and how the system will respond 
+
+following:  
+a. RCIC Initiation 
+b. RCIC Isolation 
+c. High reactor vessel level (Level 8) 
+d. Loss of all AC power 
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-2 USNRC HRTD 
+
+ 
+6. Describe how the RCIC system interfaces with the following systems: 
+
+a. Main Steam System (Section 2.5 
+b. Condensate and Feedwater System (Section 2.6) 
+c. High Pressure Coolant Injection System (Section 10.1) 
+d. Nuclear Steam Supply Shutoff System (Section 4.4)  
+e. Primary Containment System (Section 4.1) 
+
+ 
+2.7.1 Introduction 
+ 
+The purpose of the Reactor Core Isolation Cooling (RCIC) System is to provide makeup 
+water to the reactor vessel for core cooling.  RCIC performs this function when the main 
+steam lines are isolated or the condensate and feedwater system is not available.  The 
+RCIC system is capable of maintaining vessel inventory 15 minutes after reactor 
+shutdown.  The RCIC system is lined up such that it can initiate with a complete loss of 
+AC power.  All valves required to support initiation are either DC powered or open in the 
+standby lineup.   
+ 
+The functional classification of the RCIC System is that of a safety related system.  Its 
+regulatory classification is an engineered safety feature (ESF) system.  RCIC 
+functionally backed up by the High Pressure Coolant Injection (HPCI) System (Section 
+10.1). 
+ 
+2.7.2 System Description 
+ 
+The RCIC System (Figure 2.7-1) utilizes a steam turbine driven pump for delivering 
+water to the reactor vessel.  Steam from main steam line "A", upstream of the main 
+steam isolation valve (MSIV) drives the RCIC turbine.  The steam from the RCIC turbine 
+exhausts to the suppression pool. 
+ 
+The RCIC System is normally aligned with its suction from the condensate storage tank.  
+The alternate RCIC suction source is from the suppression pool.  The RCIC pump 
+discharge is routed to the reactor vessel via the 'A' feedwater line.  Additional discharge 
+flow paths are provided for the following: 
+• the condensate storage tank for system testing 
+• the suppression pool for pump minimum flow pump protection 
+• the suppression pool to receive non-condensable gases from the barometric 
+
+condenser.  
+ 
+Following a reactor scram from power operation, fission product decay continues to 
+produce heat (decay heat).  The RCIC System can be manually initiated by the operator 
+or it initiates automatically at Level 2 (-38").  The steam to turbine valve will close at 
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-3 USNRC HRTD 
+
+Level 8 (+56.5").  The system can cycle between Level 2 and Level 8 without operator 
+action. 
+ 
+2.7.3 Component Description 
+ 
+The components which make up the RCIC System are discussed in the following 
+paragraphs. 
+ 
+2.7.3.1 Steam Supply Isolation Valves 
+ 
+The steam supply to the RCIC turbine (Figure 2.7-1) taps off the 'A' main steam line on 
+the reactor side of the inboard MSIV.  There are two Steam Supply Isolation valves in 
+the RCIC system each with an associated warm up isolation valve.  The steam warm up 
+isolation valves (MOV 47 and MOV 48) are open to maintain the steam lines ready for 
+RCIC initiation.  The Inboard steam isolation valve (MOV 41) is A.C. powered and 
+maintained open in the standby line up.  The Outboard steam supply isolation valve 
+(MOV 42) is DC powered and closed in the standby line up.  Both of the steam supply 
+isolation valves will open if there is a RCIC initiation signal.  All four of the RCIC steam 
+line valves will close if there is a RCIC isolation signal 
+ 
+2.7.3.2 Steam to Turbine Valve 
+ 
+The steam to turbine valve (MOV 43) is normally closed to isolate steam to the RCIC 
+turbine in the standby condition.  The valve is DC powered and will automatically open 
+on a RCIC automatic initiation at Level 2 (-38").  The turbine steam supply valve will 
+automatically close on a Level 8 (+56.5"). 
+ 
+2.7.3.3   Turbine Trip and Throttle Valve 
+ 
+The turbine trip and throttle valve (MOV 44) (Figure 2.7-2), is located just upstream of 
+the governor valve.  The trip and throttle valve provides for rapid turbine tripping under 
+various conditions.  This valve is open in the standby condition.  It can be used to 
+throttle steam flow to the RCIC turbine if the governor valve fails open.  
+ 
+When the RCIC turbine receives an electrical trip signal it releases a latch on the 
+traveling nut.  The closing spring then forces the traveling nut and valve stem down to 
+the closed position.  After an electrical trip the motor must be first closed, to re-latch the 
+trip portion of the valve, and then re-opened.   
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-4 USNRC HRTD 
+
+ 
+Opening the motor lifts the valve stem since the traveling nut is prevented from moving 
+downward by the trip mechanism latch.  The mechanical trip releases the same latch, 
+but is independent of the electrical trip mechanism.  A mechanical over speed trip must 
+be reset at the RCIC turbine by manually latching the trip portion of the valve.   
+ 
+2.7.3.4 Turbine Governor Valve 
+ 
+The governor valve is controlled by an electro hydraulic system.  The valve is opened 
+by spring force and closed by RCIC turbine governor control oil pressure.  The turbine 
+speed is controlled by the control oil pressure, which is opposed by the spring force.  
+The RCIC flow control circuit (Section 2.7.4.1) determines what the valve position 
+should be. 
+ 
+2.7.3.5 RCIC Turbine 
+ 
+The RCIC turbine is designed to rapidly accelerate from standby to the full load 
+condition within 30 seconds.  The RCIC turbine is a horizontally mounted radial re-entry, 
+non-condensing Terry turbine.  The RCIC turbine is designed to operate with a steam 
+supply pressure ranging from 150 to 1135 psig.  The RCIC turbine exhausts to the 
+suppression pool under water. 
+ 
+2.7.3.6 RCIC Turbine Auxiliaries 
+ 
+The RCIC turbine auxiliaries consist of: 
+• the oil system 
+• the barometric condenser system 
+• the line fill system 
+ 
+These systems are described briefly in the following paragraphs. 
+ 
+2.7.3.6.1 RCIC Oil System 
+ 
+Lubricating oil is supplied to the RCIC turbine and pump bearings.  RCIC control oil is 
+supplied to the governor valve.  A small gear pump is driven by the RCIC turbine worm 
+gear.  As the oil pump is driven off the RCIC turbine, oil pressure varies with turbine 
+speed.  The RCIC governor valve limits minimum turbine speed to 1000 rpm to maintain 
+a minimum oil pressure.  At normal operating speeds a spring loaded pressure 
+regulating valve recirculates any excess oil to the oil pump suction.  This regulating 
+valve limits the system oil pressure to approximately 15 psig. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-5 USNRC HRTD 
+
+2.7.3.6.2 RCIC Barometric Condenser System 
+ 
+The barometric condenser system is supplied with the turbine.  The barometric 
+condenser system prevents leakage from the turbine shaft seals and exhaust casing 
+drain.  The system includes a barometric condenser, a vacuum pump, and a 
+condensate pump.  The system may be manually started or it will automatically start 
+with the RCIC System. 
+ 
+Steam leakage is collected in the barometric condenser from: 
+• the turbine gland seals 
+• the turbine trip throttle valve and governor valve stems 
+• the turbine exhaust drainage 
+ 
+The steam collected is condensed by spraying water from the RCIC pump discharge 
+through the lube oil cooler and a pressure regulating valve.  Liquid from the spray and 
+condensed steam is collected in the barometric condenser.  This liquid is pumped back 
+to the suction of the RCIC pump by a 125 VDC powered condensate pump.   
+The condensate pump will cycle on high and low level signals when the RCIC turbine is 
+running.  When RCIC is in standby, two air operated valves drain the barometric 
+condenser to clean radwaste.  These air operated valves also cycle on high and low 
+level to drain the barometric condenser.  A 125 VDC powered vacuum pump removes 
+non condensibles from the barometric condenser.  These non-condensibles are 
+discharged to the suppression pool.  A valve in the vacuum pump discharge line will 
+open if the barometric condenser vacuum is excessive.  This valve opens to direct non-
+condensibles back to the condenser, removing the excess vacuum. 
+ 
+2.7.3.6.3 RCIC Line Fill System 
+ 
+The RCIC system is designed to inject into the reactor vessel within 30 seconds of 
+initiation.  The line fill pump takes suction from the condensate storage tank (CST) 
+suction line and discharges at 40 psig to the RCIC discharge line.  Maintaining the 
+piping full minimizes the RCIC injection time and prevents piping voids that could cause 
+a water hammer. 
+ 
+2.7.3.7 RCIC Turbine Exhaust Path 
+ 
+The RCIC turbine exhaust line routes steam from the RCIC turbine to the suppression 
+pool below the normal water level.  After RCIC operation, steam in the RCIC exhaust 
+line condenses, drawing a vacuum in this line.  Vacuum breakers installed on the 
+exhaust line prevent having this vacuum draw suppression pool water into the line.  The 
+exhaust line may be isolated by a manual valve. 
+ 
+The exhaust line is protected from over pressure by a RCIC turbine trip on high exhaust 
+pressure.  The high exhaust pressure trip is backed up by a set of mechanical rupture 
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-6 USNRC HRTD 
+
+diaphragms.  These rupture diaphragms will relieve pressure to the RCIC room.  The 
+inboard rupture diaphragm constantly sees RCIC turbine exhaust pressure.  The 
+outboard rupture diaphragm will only see exhaust pressure if the inboard one fails.  The 
+space between the rupture diaphragms has pressure switches which initiate a RCIC 
+isolation if the inboard rupture disc fails. 
+ 
+2.7.3.8 RCIC Pump Suction Path 
+ 
+The RCIC system can take suction from the CST or the suppression pool.  The normal 
+suction is from a 6 inch line off of the 16 inch common HPCI System suction from the 
+CST.  This CST suction line is lower than other system suction lines to ensure a 
+reserved volume of water for HPCI and RCIC. 
+ 
+The suppression pool suction is from a 6 inch pipe that includes a stainless steel suction 
+strainer.  The strainer is located above the suppression pool bottom to minimize 
+plugging. 
+ 
+The suction will swap from the CST to the suppression pool if the CST level becomes 
+low. 
+ 
+2.7.3.9 RCIC Pump 
+ 
+The RCIC pump is a turbine driven, horizontal, multi-stage, centrifugal pump.  It is 
+designed to deliver 425 gpm.  25 gpm is circulated through the turbine auxiliaries 
+leaving 400 gpm to discharge into the reactor vessel.  This flow rate is equal to the boil 
+off rate from the reactor 15 minutes after shutdown.  The pump minimum NPSH 
+requirement is achieved by locating the pump lower than either suction source of water. 
+ 
+2.7.3.10 RCIC Pump Discharge Path 
+ 
+The RCIC pump discharges flowpath includes: 
+• a system flow element 
+• 2 discharge valves 
+ 
+From there, RCIC injects into the 'A' feedwater line.  This allows the feedwater spargers 
+to distribute flow inside the reactor vessel.   
+ 
+The cooling water line for turbine auxiliaries and the pump minimum flow line to the 
+suppression pool tap off before the flow element.  A full flow test line (shared by the 
+HPCI System) taps off just downstream of the first discharge valve. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-7 USNRC HRTD 
+
+2.7.3.11 RCIC Valve Controls 
+ 
+The major RCIC System valves respond to automatic inputs from the RCIC initiation, 
+automatic isolation or turbine trip circuits.  In addition they may be remotely operated 
+from the control room or remote shutdown panel. 
+ 
+Except for the inboard steam line isolation valve, power for valve operations is from 125 
+VDC.  The inboard steam line isolation valve uses emergency 480 VAC bus power and 
+is normally open. This allows the RCIC system to operate if all AC power is lost to the 
+station. 
+ 
+2.7.4 System Features and Interfaces 
+ 
+A short discussion of system features and interfaces this system has with other plant 
+systems is given in the following paragraphs. 
+ 
+2.7.4.1 RCIC Flow Controller 
+ 
+The RCIC System utilizes a flow controller (Figure 2.7-3) to automatically or manually 
+control system flow.  Selection of either the automatic or manual mode is performed by 
+the control room operator.  In the automatic mode (normal position), the controller 
+compares actual RCIC System flow with the desired flow.  Any deviation is converted 
+into a hydraulic signal that positions the governor valve to balance the two flow signals.  
+In the manual mode the operator controls RCIC system flow by adjusting the flow 
+controller manual potentiometer. 
+ 
+2.7.4.2 RCIC Automatic Initiation 
+ 
+The RCIC System is automatically started if reactor vessel water level decreases to 
+Level 2 (-38").  The initiation logic uses a one-out-of-two taken twice configuration.  The 
+initiation logic is also actuated by an arm and depress pushbutton in the control room on 
+Panel 602. 
+ 
+When the initiation signal is received, several actions occur automatically: 
+ 
+• The system's outboard steam isolation valve will open. 
+• The turbine steam supply to turbine valve will open. 
+• The RCIC pump minimum flow valve opens on low system flow with a high pump 
+
+discharge pressure.  (When system flow is above the setpoint the minimum flow 
+valve will close.) 
+
+• The inboard RCIC pump discharge valve to reactor opens and stays open until the 
+turbine trips or the turbine steam supply valve closes. 
+
+• The RCIC test valve will close if open. 
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-8 USNRC HRTD 
+
+• The normally open outboard RCIC pump discharge valve receives an open signal. 
+• The normally open CST suction valve receives an open signal. 
+• The barometric condenser's vacuum pump starts. 
+• The barometric condenser's condensate pump will cycle on high/low level. 
+ 
+The steam line drain valves to the main condenser and the condensate pump drain 
+valves to CRW close when the steam supply to turbine valve is fully open. 
+ 
+As turbine speed increases the oil pump builds up oil pressure and the flow control 
+system throttles the turbine governor valve.  Pump flow and discharge pressure will 
+increase until a flow of 400 gpm is achieved.  
+ 
+Once initiated, the RCIC System remains in operation until an automatic isolation, 
+turbine trip, or Level 8 signal is received.  The RCIC system may also be manually 
+shutdown by the operator. 
+ 
+2.7.4.3 Test Features 
+ 
+Pump operability and flow tests manually start the system and pump back to the CST 
+via the test bypass to the CST (MOV-37).  System design flow and pressure conditions 
+are achieved by adjusting MOV-37 and the flow controller. 
+ 
+2.7.4.4 Automatic Isolation 
+ 
+The steam supply line to the RCIC turbine is part of the nuclear system process barrier.  
+The Nuclear Steam Supply Shutoff System provides automatic isolation signals to 
+isolate the RCIC System.  The isolation of the RCIC System when a leak is detected 
+minimizes the release of radioactive material.   
+ 
+The RCIC System will automatically isolate from any one of the following: 
+ 
+• RCIC steam supply pressure low (57 psig) 
+• RCIC steam line high differential pressure (291" H2O with a 3 second time delay) 
+• RCIC steam line space temperature high (193ºF) 
+• High pressure between the turbine exhaust rupture diaphragms (10 psig) 
+• Manual (if the system has initiated on Level 2 or manually ) 
+ 
+Once an isolation signal is generated, the following automatic actions occur: 
+ 
+• The inboard and outboard steam supply isolation valves and warm up isolation 
+
+valves close. 
+• The RCIC turbine trips. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-9 USNRC HRTD 
+
+All the isolation signals must be manually reset. 
+ 
+2.7.4.5 Automatic Turbine Trips 
+ 
+High reactor vessel water level +56.5" (Level 8) will close the turbine steam supply 
+valve but not the trip throttle valve.  This allows for an automatic restart of RCIC if the 
+reactor level decreases to -38" (Level 2) again. 
+ 
+The RCIC turbine is automatically tripped (shutdown), by closing the turbine trip throttle 
+valve, to protect the physical integrity of the RCIC System.   
+ 
+If any of the following conditions are detected, the RCIC turbine will automatically trip: 
+ 
+• Turbine over speed 
+
+o Electrical trip (110%) 
+o Mechanical trip (125%). 
+
+• Pump suction pressure low (15" Hg vacuum) 
+• Turbine exhaust pressure high (50 psig). 
+• Any isolation signal. 
+• Manual. 
+ 
+The minimum flow valve to the suppression pool also receives a close signal when the 
+turbine trips.  The mechanical over speed trip must be manually reset at the turbine.  An 
+isolation trip will not clear until the isolation logic has been manually reset.  All the other 
+trip signals automatically reset.  Once the trip logic has been reset, the operator must 
+manually reset the turbine trip throttle valve. 
+ 
+2.7.4.6 System Interfaces 
+ 
+A short discussion of interfaces this system has with other plant systems is given in the 
+following paragraphs. 
+ 
+Condensate Storage Tank 
+ 
+The CST is the normal suction source for the RCIC System.  The CST is also used for 
+full flow testing of the RCIC System. 
+ 
+Main Steam System, (Section 2.5) 
+ 
+The Main Steam System provides the RCIC System with steam from the 'A' main steam 
+line. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 2.7-10 USNRC HRTD 
+
+Condensate Feedwater System, (Section 2.6) 
+ 
+The RCIC System uses the 'A' feedwater line to inject water into the reactor vessel.  
+Additionally steam supply piping condensate collects in a drain pot and flows to the 
+main condenser through a drain trap. 
+ 
+Suppression Pool 
+ 
+The suppression pool is the alternate source of water for the RCIC pump and it 
+condenses the turbine exhaust steam.  The RCIC pump minimum flow water is also 
+routed to the suppression pool. 
+ 
+High Pressure Coolant Injection System, (Section 10.1) 
+ 
+The HPCI System backs up the RCIC System by supplying high pressure makeup to 
+the reactor under isolation conditions.  Additionally, RCIC and HPCI share a CST 
+suction line and a CST test return line. 
+ 
+Nuclear Steam Supply Shutoff System (Section 4.4) 
+ 
+The NSSSS provides signals to isolate the RCIC Steam supply isolation valves. In 
+addition NSSSS provides the signal that closes the RCIC Turbine Exhaust Vacuum 
+Breaker isolation valve on high drywell pressure concurrent with low RCIC steam line 
+pressure. 
+ 
+2.7.5 Summary 
+ 
+The purpose of the Reactor Core Isolation Cooling (RCIC) System is to provide makeup 
+water to the reactor vessel for core cooling.  RCIC performs this function when the main 
+steam lines are isolated or the condensate and feedwater system is not available.  The 
+RCIC system is capable of maintaining vessel inventory 15 minutes after a reactor 
+shutdown.  The RCIC system is lined up such that it can initiate with a complete loss of 
+AC power.   RCIC will automatically cycles between Level 2 and Level 8. 
+ 
+
+
+
+ 
+
+ Figure 2.7-1 RCIC System 
+
+ 
+ 
+
+
+
+ 
+
+ Figure 2.7-2 RCIC Turbine Trip and Throttle Valve 
+
+ 
+
+ 
+  
+
+
+
+ 
+
+ Figure 2.7-3 Turbine Control Diagram 
+
+ 
+ 
+ 
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

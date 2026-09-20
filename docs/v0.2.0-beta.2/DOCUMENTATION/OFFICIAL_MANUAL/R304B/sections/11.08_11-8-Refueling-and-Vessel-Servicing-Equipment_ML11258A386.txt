@@ -1,0 +1,655 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+11.8 Refueling and Vessel Servicing Equipment  —  0518 - R304B - GE BWR_4 Technology - 11.8 Refueling and Vessel Servicing Equipment.
+ADAMS ML11258A386   문서일자 2011-09-23   13 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A386.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 11.8 
+ 
+
+Refuel and Vessel Servicing Equipment 
+ 
+
+
+
+
+
+ 
+
+ 
+Rev 09/11 11.8-i USNRC HRTD 
+
+ 
+ 
+
+TABLE OF CONTENTS 
+
+11.8 REFUELING AND VESSEL SERVICING EQUIPMENT ....................................... 1 
+
+11.8.1 Introduction ...................................................................................................... 1 
+
+11.8.2 System Description .......................................................................................... 1 
+
+11.8.3 Component Description ................................................................................... 2 
+11.8.3.1 Fuel Servicing Subsystem ........................................................................ 2 
+11.8.3.2 Fuel Handling and Storage Subsystem .................................................... 3 
+11.8.3.3 Vessel Servicing Subsystem..................................................................... 4 
+
+11.8.4 System Features and Interfaces ...................................................................... 6 
+11.8.4.1 Fuel Movement ......................................................................................... 6 
+11.8.4.2 Fuel Sipping .............................................................................................. 7 
+11.8.4.3 Control Rod Removal ............................................................................... 7 
+11.8.4.4 Control Rod Drive Mechanism Removal ................................................... 7 
+11.8.4.5 System Interfaces ..................................................................................... 7 
+
+11.8.5 Summary ......................................................................................................... 8 
+ 
+  
+
+
+
+ 
+
+ 
+Rev 09/11 11.8-ii USNRC HRTD 
+
+LIST OF FIGURES 
+
+ 
+11.8-1 Typical Refueling Floor Arrangement 
+ 
+
+
+
+ 
+Rev 09/11 11.8-1 USNRC HRTD 
+
+11.8 REFUELING AND VESSEL SERVICING EQUIPMENT 
+ 
+Learning Objectives: 
+ 
+1. Recognize the purposes of the Refueling and Vessel Servicing system. 
+ 
+2. Recognize the purpose, function and operation of the following major components: 
+
+a. spent fuel pool 
+b. new fuel storage vault 
+c. refueling platform 
+d. reactor building overhead crane 
+e. fuel preparation machines 
+f. jib cranes 
+g. new fuel inspection stand 
+
+ 
+3. Recognize the design features of the new fuel storage vault and spent fuel pool that 
+
+prevent criticality. 
+ 
+4. Recognize how the Refueling and Vessel Servicing system interfaces with the 
+
+following systems: 
+a. Reactor Manual Control System (Section 7.1) 
+b. Fuel Pool Cooling and Cleanup System (Section 11.7) 
+
+ 
+11.8.1 Introduction 
+ 
+The purposes of the Refueling and Vessel Servicing System are to: 
+• provide the facilities for the handling and storage of new and spent fuel 
+• provide the equipment used for vessel refueling 
+• provide the equipment used for the servicing of vessel internal components 
+ 
+The functional classification of the Refueling and Vessel Servicing System is that of a 
+power generation system. 
+ 
+11.8.2 System Description 
+ 
+The Refueling and Vessel Servicing System consists of three subsystems:  
+• the Fuel Servicing Subsystem  
+• the Fuel Handling and Storage Subsystem 
+• the Vessel Servicing Subsystem. 
+ 
+The Fuel Servicing Subsystem includes the equipment necessary for receiving, 
+inspection, channeling, and sampling of the fuel assemblies. 
+ 
+The Fuel Handling and Storage Subsystem provides the equipment necessary to 
+receive, prepare, and install new fuel.  In addition it provides the equipment necessary 
+
+
+
+ 
+Rev 09/11 11.8-2 USNRC HRTD 
+
+for removing, preparing, and shipping spent fuel.  This subsystem also provides the 
+storage facilities for new fuel, spent fuel, and other irradiated vessel components. 
+ 
+The Vessel Servicing Subsystem provides the equipment necessary to remove, store, 
+inspect, and install reactor vessel internal and external components.  The reactor vessel 
+is serviced from the refueling floor and from the under vessel area. 
+ 
+11.8.3 Component Description 
+ 
+The major components of the Refueling and Vessel Servicing System are discussed in 
+the following paragraphs. 
+ 
+11.8.3.1 Fuel Servicing Subsystem 
+ 
+The Fuel Servicing Subsystem includes the equipment necessary for the inspection, 
+and channeling of the fuel assemblies. 
+ 
+The new fuel arrives at the site packed in special shipping containers that contain two 
+fuel bundles.  The fuel bundles are both enclosed in a steel container.  The steel 
+container provides support for the entire length of the bundles.  The containers are lifted 
+the refueling floor using the reactor building overhead (polar) crane.  At that time the 
+individual fuel bundles are removed from the containers and inserted into the new fuel 
+inspection stand. 
+ 
+The new fuel inspection stand consists of an upper and a lower platform, each with 
+safety guard rails.  The stand holds two fuel bundles mounted on rotatable bearing 
+surfaces.  The rotating bearing surfaces are equipped with hand operated, locking 
+devices to hold the bundles in the desired quadrant positions during inspection.  Clamp 
+plates on the top of the stand hold the bundles in place in the inspection stand. 
+ 
+In use, the new fuel inspection stand accommodates two inspectors, one on each 
+platform.  The fuel bundle inspection consists first of a visual check of the bundle for 
+fingerprints, grease, dust, etc.  Any such marks are removed using commercial grade 
+cleaners and lint free rags.  The visual inspection also ensures that there are no dents, 
+cracks, or other physical damage to the fuel bundle.  Other inspection checks include 
+fuel rod seating, spacer checks, tie rod nut locking checks and rod clearance checks. 
+ 
+Preparation of the fuel bundles for loading in the reactor core requires the installation of 
+channels on the new fuel bundles.  These may be new channels or ones previously 
+used on other fuel bundles.  The fuel channel is installed at one of the following points: 
+• at the factory by the manufacturer 
+• during the fuel inspection process at the plant 
+• when it is placed in the spent fuel pool fuel preparation machine 
+ 
+
+
+
+ 
+Rev 09/11 11.8-3 USNRC HRTD 
+
+Installation of irradiated previously used channels is always performed underwater in 
+the spent fuel pool fuel preparation machines. 
+ 
+The fuel preparation machine is used both for stripping reusable channels from the 
+spent fuel bundles and for rechanneling the new fuel.  The machine is also used with a 
+fuel inspection fixture to provide an underwater inspection capability.  Two fuel 
+preparation machines are mounted on a wall of the spent fuel pool. 
+ 
+A channel storage rack is provided to hold up to 20 fuel channels for use during fuel 
+bundle preparation.  The channel storage rack is located in the spent fuel pool and 
+centered between the two fuel preparation machines. 
+ 
+Jib cranes, consisting of a motor driven swing boom monorail and a motor driven trolley 
+are mounted along the edge of the spent fuel pool.  Use of the jib crane leaves the 
+refueling platform free to perform general fuel shuffling operations.  Jib cranes are 
+capable of moving fuel or other components that weigh no more than 1000 pounds.  
+Different grapples are designed for the different servicing tasks.  Various grapples can 
+carry fuel bundles, control rods, fuel support pieces or other objects associated with 
+refueling. 
+ 
+11.8.3.2 Fuel Handling and Storage Subsystem 
+ 
+From the inspection stand the new fuel is placed in either a new fuel storage vault or 
+into the spent fuel pool.  The new fuel storage vault has storage racks that can store 
+240 new fuel assemblies.  The spent fuel pool has storage racks sufficient to store up to 
+2,176 new or spent fuel bundles. 
+   
+The arrangement of the fuel assemblies in the new fuel storage vault ensures that Keff 
+will not exceed 0.95.  In the dry (normal) condition, Keff is maintained <0.95 because of 
+under moderation.  In the flooded condition, the geometry of the fuel storage array 
+ensures that Keff will remain <0.95.  In both cases subcriticality does not depend upon 
+the presence of any neutron absorbing materials.   
+ 
+The spent fuel pool is designed to maintain Keff <0.95 when flooded with un-borated 
+water.  The spent fuel pool racks are designed to maintain the spent fuel in a geometry 
+that precludes the possibility of criticality.  The spent fuel pool is designed so that no 
+single failure of structures or equipment will cause either of the following: 
+• inability to maintain irradiated fuel submerged in water 
+• the ability to re-establish normal fuel pool water level 
+ 
+In order to limit the possibility of pool leakage, the pool is lined with stainless steel.  In 
+addition to providing a high degree of integrity, the lining is designed to withstand abuse 
+that might occur when equipment is moved about.  No inlets, outlets, or drains are 
+provided that might permit the pool to be drained below a safe shielding level.  Lines 
+
+
+
+ 
+Rev 09/11 11.8-4 USNRC HRTD 
+
+extending below this level are equipped with siphon breakers, check valves, or other 
+devices that prevent inadvertent pool drainage. 
+ 
+When the new fuel is to be used in the reactor, the reactor building overhead crane 
+removes the fuel bundles from the new fuel storage vault.  The fuel is then placed in the 
+fuel preparation machine.  The new fuel is then placed in the spent fuel pool storage 
+racks by the refueling platform. 
+ 
+The refueling platform is the principal means of transporting fuel assemblies between 
+the reactor and the spent fuel pool.  The refueling platform supports a refueling grapple, 
+a frame mounted hoist and a monorail hoist.  It provides the operators with a work 
+surface for almost all vessel servicing operations.  The platform travels on a track 
+extending along each side of the dryer /separator storage pit, the reactor and the spent 
+fuel pool.  The platform design permits travel over the safety railings placed around the 
+pools.   
+ 
+The refueling grapple is suspended from a trolley system that can traverse the width of 
+the platform.  The trolley includes the operator’s cab which contains all the controls for 
+the following: 
+• the refueling platform 
+• the trolley 
+• the refueling grapple 
+• the frame mounted hoist. 
+ 
+The refueling grapple is a telescopic, stainless steel structure with an air operated 
+grapple mounted on the end of the mast.  The mast consists of a fixed section and three 
+telescopic sections having a triangular shape.  The main hoist raises or lowers the 
+stainless steel mast.  This allows operation of the grapple between 8 feet and 56 feet 
+below the top of the platform tracks.  The 8 foot upper travel limit ensures adequate 
+shielding between the fuel on the grapple and the refueling platform.  The grapple is 
+designed such that it cannot be opened when lifting a fuel bundle. 
+ 
+11.8.3.3 Vessel Servicing Subsystem 
+ 
+The Vessel Servicing Subsystem provides the equipment necessary to remove, store, 
+inspect, and install various reactor vessel components.  The reactor vessel is serviced 
+from the both the refueling floor and the under vessel area.   
+ 
+There are three floodable volumes on the refueling floor, the spent fuel pool, the reactor 
+cavity and the dryer/separator storage pool.  Dry laydown areas are provided on the 
+refuel floor for the following 
+• the drywell head 
+• the vessel head 
+• the vessel head insulation. 
+ 
+
+
+
+ 
+Rev 09/11 11.8-5 USNRC HRTD 
+
+The reactor building overhead crane (polar crane) is a bridge type crane spanning the 
+interior of the reactor building.  Its services include handling the drywell head, vessel 
+head, steam dryer, and steam separator during refueling.  The crane has a 125 ton 
+capacity with a 35 ton auxiliary hoist. 
+ 
+In order to perform the required reactor servicing, the reactor is shut down according to 
+prescribed procedures.  During the cooldown the reactor pressure vessel is vented and 
+filled to above the flange level to promote cooling.  The shield blocks are removed from 
+above the drywell head region after the reactor is shutdown. 
+ 
+Immediately after vessel cooldown the drywell head is removed.  The unbolted drywell 
+head is lifted by the reactor building overhead crane to its refuel floor storage space. 
+ 
+All interfering piping, instrumentation, and vessel head insulation are removed from the 
+reactor vessel head.  The vessel head strongback and carousel is then positioned on 
+the reactor vessel head by the overhead crane.  The strongback attaches to the vessel 
+head at four points via lifting eyes on the vessel head.  The four connecting points have 
+a leveling adjustment to ensure the head is level prior to lifting. 
+ 
+The head stud tensioners are used to remove and reassemble the reactor vessel head 
+retaining nuts.  The assembly includes eight stud tensioners in a carousel suspended 
+from the head strongback.  The carousel structure has a circular, rail mounted, 1 ton, 
+power hoist for each tensioner.  This permits working on eight studs at each operation.  
+ 
+After the retaining nuts are removed, the vessel head is lifted to its storage location on 
+the refueling floor.  The six vessel studs in line with the fuel transfer gate through the 
+reactor cavity wall are removed from the vessel.  These studs are removed to provide a 
+path for fuel movement from the reactor cavity to the spent fuel pool. 
+ 
+Access to the fuel assemblies requires the removal of the steam dryer and separator.  
+The steam dryer is removed using the dryer separator strongback and stored in the 
+dryer pool.  The shroud head steam separator assembly can now be removed after the 
+shroud head bolts are loosened using the shroud head bolt wrench.  The shroud head 
+separator assembly is removed using the dryer and separator strongback.  This is then 
+stored in the separator pool.  Since the shroud head is expected to be highly 
+radioactive, the separator assembly is usually transferred under water.  Once access to 
+the fuel is possible; the refueling platform is moved into place to commence fuel 
+movement. 
+ 
+The reactor vessel service platform is a motor driven structural steel assembly designed 
+to provide close access to the vessel internals.  The platform rides on a self contained 
+rail which also serves as its lifting strongback.  This rail attaches to and is supported by 
+the reactor vessel flange.  Located on the service platform is a jib crane, a work well, 
+and several smaller openings through which various vessel internal components are 
+
+
+
+ 
+Rev 09/11 11.8-6 USNRC HRTD 
+
+serviced.  The vessel internals are serviced with the aid of assorted long handled tools 
+and accessories. 
+ 
+The primary function of the under reactor vessel servicing equipment is to remove and 
+install control rod drives, control rod guide tubes, and neutron detectors. 
+ 
+The equipment handling platform is located below the reactor pressure vessel.  The 
+platform is capable of rotating forward and reverse for 360 degrees with access to the 
+following: 
+• control rod drives 
+• source range monitor (SRM) drives  
+• intermediate range monitor (IRM) drives 
+• electrical connections for the incore detector assemblies (SRM, IRM and LPRM) 
+• transverse incore probe (TIP) tubing and connectors. 
+ 
+The control rod drive handling equipment is pneumatically powered and designed to 
+remove and install the control rod drives.  This equipment is used in conjunction with the 
+equipment handling platform. 
+ 
+11.8.4 System Features and Interfaces 
+ 
+A short discussion of the system features and the interfaces this system has with other 
+plant systems is given in the following paragraphs. 
+ 
+11.8.4.1 Fuel Movement  
+ 
+To move fuel, the fuel grapple is aligned over a fuel assembly in the reactor.  The mast 
+is then lowered and attached to the fuel bundle bail handle.  The fuel bundle is then 
+raised out of the core to the 8 foot upper travel limit.  The trolley and bridge are lined up 
+to move through the refueling slot in the reactor well wall to the spent fuel storage pool.  
+In the spent fuel; pool the bridge and trolley are aligned over a position in the storage 
+rack.  The fuel bundle is then lowered into the rack and then the fuel grapple is released 
+from the fuel bundle bail handle.  The new fuel is then moved from the spent fuel pool 
+storage pool to the reactor vessel in the same manner.  Some fuel moves are required 
+from one vessel location to another in order to align fuel per the cycle design.  These 
+fuel moves will take a bundle from one in core location and place it in another in core 
+location.  The same process is followed for this these in core movements, but he fuel is 
+lowered into a new core location instead of the spent fuel pool location. 
+ 
+Spent fuel can be removed from the spent fuel pool and transferred off site or to on site 
+dry fuel storage pads.  A special shipping cask or transfer cask is needed for these 
+evolutions.   
+ 
+
+
+
+ 
+Rev 09/11 11.8-7 USNRC HRTD 
+
+11.8.4.2 Fuel Sipping  
+ 
+During reactor operation, the offgas radiation level is monitored.  If a rise in offgas 
+activity has been noted the leaking fuel bundle is localized by inserting control rods.  
+The reactor core is sampled (sipped) during shutdown to locate any leaking fuel 
+assemblies.  Fuel sipping can be done either in the core with a special sipping head 
+attachment on the main grapple or in the spent fuel pool with a fuel sipping container.  
+Both methods stop water circulation through the bundle and allow fission products to 
+concentrate if a bundle is defective.  If a defective bundle is found, it is transferred to the 
+fuel storage pool and stored in a defective fuel container. 
+ 
+11.8.4.3 Control Rod Removal  
+ 
+A control rod is removed from its cell by first removing two diametrically opposite fuel 
+assemblies and then inserting a blade guide in their place.  This is followed by the 
+removal of the remaining two fuel assemblies.  The control rod is then withdrawn from 
+the core.  Then the blade guides and the fuel support casting are removed. 
+ 
+It is possible to disconnect a control rod from its control rod drive from the open vessel 
+or from the under side of the vessel.  When the control rod is uncoupled from inside the 
+vessel, the control rod latch tool is used.  When uncoupling from the under the vessel a 
+disconnecting mechanism that is part of the control rod drive and an uncoupling tool are 
+used.  The rods are generally uncoupled from the above the vessel due to high radiation 
+levels in the under vessel area.  Once the control blade is uncoupled, it is removed to 
+the control rod storage rack in the spent fuel pool. 
+ 
+11.8.4.4 Control Rod Drive Mechanism Removal 
+ 
+When the reactor is shut down, cooled down, and depressurized, the control rod to be 
+removed is fully withdrawn and uncoupled from its drive.  The uncoupled control rod 
+velocity limiter provides the barrier between the reactor vessel and the under vessel 
+area.  The position indication probe and CRD housings supports are then removed from 
+the mechanism.  The handling platform is rotated so that the centerline of the platform 
+opening aligns with the CRD being removed.  The CRDM is then unbolted from the 
+flange and lowered into the transfer cart.  The CRD transfer cart is then moved into the 
+reactor building for transport to a CRD storage and repair room. 
+ 
+11.8.4.5 System Interfaces 
+ 
+Fuel Pool Cooling and Cleanup (FPCC) System (Section 11.7) 
+ 
+The Fuel Pool Cooling and Cleanup (FPCC) System removes decay heat from the fuel 
+assemblies and maintains clarity and purity of the pool water.   
+ 
+
+
+
+ 
+Rev 09/11 11.8-8 USNRC HRTD 
+
+Reactor Manual Control System (Section 7.1) 
+ 
+The Reactor Manual Control System provides rod withdrawal blocks and interlocks 
+when the Refueling platform is in use.  The detailed description of these rod withdrawal 
+blocks is given in table 7.1-1 in Section 7.1. 
+ 
+11.8.5 Summary 
+ 
+The purposes of the Refueling and Vessel Servicing System are to: 
+• provide the facilities for the handling and storage of new and spent fuel 
+• provide the equipment used for vessel refueling 
+• provide the equipment used for the servicing of vessel internal components 
+ 
+
+
+
+ Figure 11.8-1 Typical Refueling Floor Arrangement 
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

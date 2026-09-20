@@ -1,7 +1,7 @@
 # BWR-4 Simulator — 공식 베타 배포
 
-이 저장소는 BWR-4 Simulator의 **실행 배포본만** 제공한다. 시뮬레이터 원본
-소스 코드는 비공개 저장소에서 관리하며 여기에 포함하지 않는다.
+이 저장소는 BWR-4 Simulator의 **공식 실행 배포본과 사용자 문서**를 제공한다.
+시뮬레이터 원본 소스 코드는 여기에 포함하지 않는다.
 
 ## 받는 곳
 
@@ -16,10 +16,23 @@
 | Ubuntu 22.04+ 호환 Linux, Intel·AMD 64비트 | `Linux-x64.tar.gz` |
 | Ubuntu 24.04+ 호환 Linux, ARM64 | `Linux-arm64.tar.gz` |
 
-압축 파일과 같은 이름의 `.sha256` 파일로 무결성을 확인할 수 있다. 압축을
-완전히 푼 뒤 포함된 `START_HERE.md`부터 읽어 줘. GitHub가 자동으로 표시하는
-`Source code (zip)`과 `Source code (tar.gz)`에는 이 README와 라이선스만 있고,
-시뮬레이터 실행 파일이나 소스 코드는 없다.
+압축 파일과 같은 이름의 `.sha256` 파일로 무결성을 확인할 수 있다. `beta.2`
+이후에는 압축을 완전히 푼 뒤 `OPEN_DOCUMENTATION.html`을 열면 기본 브라우저가
+버전이 고정된 GitHub 초보자 안내를 연다.
+
+## GitHub에서 문서 읽기
+
+파일을 내려받지 않고 다음 문서를 GitHub 화면에서 바로 읽을 수 있다.
+
+| 버전 | 초보자 안내 | 물리 | 검증 | 공식 매뉴얼 자료 |
+|---|---|---|---|---|
+| `v0.2.0-beta.2` | [처음 시작하기](docs/v0.2.0-beta.2/START_HERE.md) | [물리 모델](docs/v0.2.0-beta.2/DOCUMENTATION/PHYSICS.md) | [검증 보고서](docs/v0.2.0-beta.2/DOCUMENTATION/VERIFICATION.md) | [공식 매뉴얼 색인](docs/v0.2.0-beta.2/DOCUMENTATION/OFFICIAL_MANUAL/INDEX.md) |
+| `v0.2.0-beta.1` | [처음 시작하기](docs/v0.2.0-beta.1/START_HERE.md) | [물리 모델](docs/v0.2.0-beta.1/DOCUMENTATION/PHYSICS.md) | [검증 보고서](docs/v0.2.0-beta.1/DOCUMENTATION/VERIFICATION.md) | [공식 매뉴얼 색인](docs/v0.2.0-beta.1/DOCUMENTATION/OFFICIAL_MANUAL/INDEX.md) |
+
+GitHub가 릴리스에 자동으로 표시하는 `Source code (zip)`과 `Source code (tar.gz)`는
+이 배포 저장소의 README·라이선스·공개 문서를 묶은 파일이다. 시뮬레이터 실행
+파일이나 Python 원본 소스는 들어 있지 않다. 실행하려면 위 표의 운영체제별
+배포 파일을 받아야 한다.
 
 ## 사용 조건
 
@@ -30,4 +43,3 @@
 
 이 프로그램은 교육용 베타다. 실제 발전소 운전, 운전원 자격, 안전해석, 인허가
 판단, 비상계획, 공학 판단이나 실제 설비 절차에 사용하면 안 된다.
-

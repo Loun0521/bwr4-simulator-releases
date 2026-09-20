@@ -1,0 +1,277 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+5.6 Traversing Incore Probe System (1209)  —  0518 - R304B - GE BWR_4 Technology - 5.6 Traversing Incore Probe System (1209).
+ADAMS ML11258A338   문서일자 2011-09-23   20 쪽   종류 강의
+원본 https://www.nrc.gov/docs/ML1125/ML11258A338.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+Traversing Incore Probe 
+System (TIP) 
+304B Chapter 5.6 
+
+
+
+Objectives 
+
+1. Identify the purpose of the TIP system. 
+2.Recognize the purpose, function and 
+
+operation of major system components: 
+a) TIP detectors 
+b) storage locations 
+c) drive mechanisms 
+d) ball and shear valves 
+e) indexing mechanisms 
+f) TIP purge system 
+
+
+
+Objectives (continued) 
+
+3.Explain the system’s interfaces with: 
+a) Local Power Range Monitoring (LPRM) System 
+b) Process Computer System 
+c) Service and Instrument Air System 
+d) Nuclear Steam Supply Shutoff System (NSSSS) 
+e) Containment Inerting System 
+
+
+
+Purpose 
+
+ The purpose of the TIP system is: 
+ 
+
+o To provide a means of obtaining the 
+axial and radial neutron flux distribution 
+within the reactor core. 
+
+    
+
+Objective 1 
+
+
+
+Overview 
+
+. 
+
+Schematic 
+for one TIP 
+machine 
+(typical of 4 
+total 
+machines) 
+
+
+
+TIP Detectors 
+
+Objective 2a 
+
+Each of the four TIP detectors consists 
+of a fission chamber with characteristics 
+similar to an LPRM detector connected 
+to a triaxial cable about 140’ long. 
+ 
+
+A TIP detector is driven to the top (core 
+top) of a dry guide tube containing an 
+LPRM string of 4 detectors. During its 
+withdrawal, the TIP detector provides 
+axial neutron flux level information to the 
+process computer and/or chart recorder. 
+ 
+
+All four TIP detectors can scan the 
+central LPRM string (28-29) along with 
+one quadrant of other LPRM strings. 
+
+
+
+TIP Trace 
+
+Core 
+Bottom 
+
+Core 
+Top 
+
+LPRM Detector Locations 
+
+
+
+Storage Locations 
+
+. 
+
+Schematic 
+for one TIP 
+machine 
+(typical of 4 
+total 
+machines) 
+
+Objective 2b 
+
+
+
+Drive Mechanisms 
+
+. 
+
+Schematic 
+for one TIP 
+machine 
+(typical of 4 
+total 
+machines) 
+
+Objective 2c 
+
+
+
+Drive Control Units 
+
+. 
+
+Schematic for one TIP 
+machine (typical of 4 total 
+machines) 
+
+
+
+Ball and Shear Valves 
+
+. 
+
+Schematic 
+for one TIP 
+machine 
+(typical of 4 
+total 
+machines) 
+
+Objective 2d 
+
+
+
+Shear Valves 
+
+. 
+
+Objective 2d 
+
+Schematic for one TIP 
+machine (typical of 4 total 
+machines) 
+
+
+
+Valve Control Monitor 
+
+. 
+
+Schematic for one valve 
+control monitor panel 
+(typical of 2 panels) 
+
+
+
+Indexing Mechanisms 
+
+Objective 2e 
+
+Schematic 
+for one TIP 
+machine 
+(typical of 4 
+total 
+machines) 
+
+
+
+TIP Purge System 
+
+. 
+
+Schematic 
+for one TIP 
+machine 
+(typical of 4 
+total 
+machines) 
+
+Objective 2f 
+
+
+
+System Interfaces 
+
+Objective 3 
+
+
+
+LPRM Calibration 
+
+Core 
+Bottom 
+
+Core 
+Top 
+
+
+
+Review Objectives 
+
+1. Identify the system's purpose. 
+2.Recognize the purpose, function and 
+
+operation of major system components: 
+a) TIP detectors 
+b) storage locations 
+c) drive mechanisms 
+d) ball and shear valves 
+e) indexing mechanisms 
+f) TIP purge system 
+
+
+
+Review Objectives (continued) 
+
+3.Explain the system’s interfaces with: 
+a) local power range monitoring system 
+b) process computer system 
+c) Service and instrument air system 
+d) nuclear steam supply shutoff system 
+e) containment inerting system 
+
+
+
+Are there any questions? 
+
+
+	Traversing Incore Probe System (TIP)
+	Objectives
+	Objectives (continued)
+	Purpose
+	Overview
+	TIP Detectors
+	TIP Trace
+	Storage Locations
+	Drive Mechanisms
+	Drive Control Units
+	Ball and Shear Valves
+	Shear Valves
+	Valve Control Monitor
+	Indexing Mechanisms
+	TIP Purge System
+	System Interfaces
+	LPRM Calibration
+	Review Objectives
+	Review Objectives (continued)
+	Are there any questions?
+

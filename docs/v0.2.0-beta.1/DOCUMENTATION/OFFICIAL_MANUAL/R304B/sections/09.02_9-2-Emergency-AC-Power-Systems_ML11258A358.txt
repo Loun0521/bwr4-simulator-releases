@@ -1,0 +1,1169 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+9.2 Emergency AC Power Systems  —  0518 - R304B - GE BWR_4 Technology - 9.2 Emergency AC Power Systems.
+ADAMS ML11258A358   문서일자 2011-09-23   21 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A358.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 9.2 
+ 
+
+Emergency AC Power Systems 
+ 
+
+
+
+
+
+ 
+Rev 09/11 9.2-i USNRC HRTD 
+
+ 
+ 
+
+TABLE OF CONTENTS 
+
+ 
+
+9.2 EMERGENCY AC POWER SYSTEMS .................................................................. 1 
+
+9.2.1 Introduction ................................................................................................ 1 
+
+9.2.2 System Descriptions .................................................................................. 1 
+
+9.2.3 Component Description .............................................................................. 2 
+9.2.3.1 4160V EP System Switchgear ............................................................... 2 
+9.2.3.2 Emergency Diesel Generators (EDGs) ............................................... 3 
+9.2.3.3 480V EP System Switchgear ................................................................. 4 
+
+9.2.4 System Features and Interfaces ................................................................ 5 
+9.2.4.1 Normal Operation ...................................................................................... 5 
+9.2.4.2 Loss of Offsite Power (LOOP) ............................................................... 5 
+9.2.4.3 Loss of Coolant Accident (LOCA) without a (LOOP) ...................... 6 
+9.2.4.4 LOCA with a LOOP ................................................................................... 6 
+9.2.4.5 Testing........................................................................................................... 6 
+9.2.4.6 EDG Automatic Initiation Logic .............................................................. 7 
+9.2.4.7 System Interfaces ...................................................................................... 7 
+
+9.2.5 Summary .................................................................................................... 7 
+ 
+ 
+ 
+
+LIST OF TABLES 
+ 
+9.2-1 4160V EP System Loads  ................................................................................... 9 
+9.2-2 LOCA Starting Sequence  ................................................................................. 10 
+ 
+ 
+  
+
+
+
+  
+Rev 09/11 9.2-ii USNRC HRTD 
+
+LIST OF FIGURES 
+ 
+9.2-1 Main Line Plant Distribution 
+9.2.2 Emergency AC Power System 
+9.2-3 Diesel Starting Air 
+9.2-4 Diesel Fuel Oil System 
+9.2-5 Generator Cooling Water 
+9.2-6 Diesel Generator Lube Oil System 
+ 
+
+
+
+ 
+
+Rev 09/11 9.2-1 USNRC HRTD 
+
+9.2 EMERGENCY AC POWER SYSTEMS 
+ 
+1. Recognize the purposes of the Emergency AC Power system. 
+ 
+2. Recognize the purpose of the following Emergency Power system major 
+
+components: 
+a. Emergency Diesel Generators (EDG) 
+b. Normal Station Supply Transformer (NSST) 
+c. Reserve Station Supply Transformer (RSST) 
+ 
+
+3. Recognize how power is distributed to the Emergency buses from the: 
+a. Emergency Diesel Generators (EDG) 
+b. Normal Station Supply Transformer (NSST) 
+c. Reserve Station Supply Transformer (RSST) 
+
+ 
+4. Recognize the plant conditions that would result in the following: 
+
+a. EDG automatic start 
+b. Automatic bus transfer from the NSST to the RSST 
+c. EDG automatic loading  
+
+ 
+5. Recognize how the Emergency Power system interfaces with the following 
+
+systems/components: 
+a. Normal AC Power System (Section 9.1) 
+b. 120 VAC Power System (Section 9.3) 
+c. DC Power System (Section 9.4) 
+d. Reactor Building Service Water System (Section 11.2) 
+
+ 
+9.2.1 Introduction 
+ 
+The purpose of the Emergency AC Power (EP) system is to provide a reliable source of 
+AC power to the loads required for safe shutdown and cooldown of the plant.   
+ 
+The preferred sources of power to the EP system are the Normal Station Supply 
+Transformer (NSST) and the Reserve Station Supply Transformer (RSST). Onsite 
+Emergency Diesel Generators (EDGs) provide emergency power in the event that 
+offsite power has been lost.   
+ 
+The EP system is one of the engineered safety features (ESF) of the facility, and as 
+such is safety related (IEEE class 1E). The ESF equipment is divided into three 
+electrical divisions.  Any two of these divisions are capable of bringing the reactor to a 
+safe, cold shutdown, condition in the event of a Loss of Coolant Accident (LOCA).  A 
+one line drawing of the EP system is presented in Figure 9.2-2. 
+ 
+9.2.2 System Descriptions 
+ 
+The EP system has three electrically and physically independent 4160V divisional 
+buses referred to as the orange, red, and blue buses.  Each division is provided with 
+
+
+
+ 
+Rev 09/11 9.2-2 USNRC HRTD 
+
+separate onsite emergency sources, electrical buses, distribution cables, controls, and 
+relays.  Each division has three power supplies: 
+• The normal power supply to each of the EP system 4160V divisional buses is the 
+
+NSST.   
+• The RSST provides a backup source of normal power to the three divisional buses.   
+• The EDG provides an emergency power source in the event of a Loss of Off-site 
+
+Power (LOOP).    
+ 
+The primary distribution voltage is 4160V. The secondary distribution voltage level is 
+480V, with lighting and other small loads at 120V.  The primary distribution voltage 
+supplies large pump motors and the ESF 480V transformers and distribution centers.  
+Typical loads connected to the 4160V EP buses are listed in Table 9.2-1. 
+ 
+The three independent buses of the system are electrically and physically independent.  
+This ensures that no single electrical or mechanical failure will cause a loss of power to 
+more than one divisional bus.  In the event of a LOOP, the EP switchgears are 
+automatically connected to the EDGs in time for a safe reactor shutdown.  In the event 
+of a LOCA the EDGs start, but do not tie to the buses unless the off site power supplies 
+are subsequently lost. 
+ 
+9.2.3 Component Description 
+ 
+The major components of the EP system are shown in Figure 9.2-2 and are discussed 
+in the paragraphs that follow. 
+ 
+9.2.3.1 4160V EP System Switchgear 
+ 
+The EP system consists of three separate and independent 4160V divisional buses 
+designated as follows: 
+• Red - 101 bus 
+• Blue - 102 bus 
+• Orange - 103 bus 
+ 
+There are no bus ties between the three divisions at any voltage level. They are 
+physically and electrically independent so a failure of one bus will not effect the 
+remaining two buses. 
+
+ 
+Each EP division can receive power from one of three power sources:   
+• the normal preferred source supplied through the NSST 
+• the normal reserve source supplied through the RSST 
+• the emergency source supplied from an EDG.   
+ 
+Each of the three EP divisions has the capability to automatically switch from its normal 
+preferred source to either the reserve or emergency source.  
+ 
+
+
+
+ 
+Rev 09/11 9.2-3 USNRC HRTD 
+
+Each of the 4160V EP system switchgear contains the following components: 
+• switching and interrupting devices 
+• the breaker enclosures  
+• a bus bar and interconnecting wiring 
+• instruments and protective relays  
+ 
+The protective relaying functions of the switchgear include overcurrent and bus ground 
+fault functions. The exterior of the switchgear has local control switches and indications.  
+All of the 4160V EP system switchgear buses are located in the safety related auxiliary 
+building.   
+ 
+9.2.3.2 Emergency Diesel Generators (EDGs) 
+ 
+The EDGs supply emergency power to the 4160V EP system buses.  Each diesel 
+engine has the following characteristics: 
+• four stroke 
+• eight cylinder 
+• turbocharged 
+• water cooled 
+• fuel injected 
+ 
+
+Each engine is directly coupled to an air cooled generator with the following ratings: 
+• 4160 VAC 
+• 3 phase 
+• 60 Hz 
+• 3500 KW 
+
+ 
+The time required for the EDGs to reach rated voltage and frequency is less than 10 
+seconds.  Each EDG requires the following auxiliary support systems to ensure reliable 
+operation: 
+• air start system 
+• fuel oil system 
+• cooling water system 
+• lubricating oil system 
+ 
+Each EDG is provided with two full capacity air starting systems to furnish starting air for 
+the EDG, Figure 9.2-3.  The air starting systems include two air storage tanks, each 
+capable of storing air for five normal starts of the engine.  Each system includes an air 
+compressor capable of recharging either air storage tank.  The starting air systems are 
+fully redundant, a failure of one will not impact the other. 
+ 
+Each EDG has a fuel oil system which includes components for the storage, transfer, 
+and supply of fuel oil to the diesel, Figure 9.2-4.  A fuel oil storage tank supplies 
+sufficient capacity to operate the EDG for 7 days at maximum load demand. 
+
+
+
+ 
+Rev 09/11 9.2-4 USNRC HRTD 
+
+ 
+Each EDG has a cooling water system that dissipates heat generated by the diesel 
+engine and lube oil cooler, Figure 9.2-5.  Engine heat is absorbed by cooling water and 
+transferred to the Reactor Building Service Water System (RBSWS) in the jacket water 
+heat exchanger.  The cooling system is heated when the EDG is not in use.  Heating 
+this system maintains the diesel engine temperature elevated minimizing mechanical 
+wear from rapid EDG starts. 
+ 
+Each EDG has a lubrication system to supply lube oil to the diesel engine and generator 
+bearing surfaces, Figure 9.2-6.  The lubrication system is heated when the EDG is not 
+in use.  Heating this system maintains the diesel engine internal temperature elevated 
+minimizing mechanical wear from rapidly starting the EDG. 
+ 
+The EDGs have trips to protect the diesel engine and generator against the following 
+conditions during normal operations: 
+• generator reverse power 
+• loss of excitation 
+• overcurrent 
+• generator differential overcurrent 
+• lube oil pressure low 
+• lube oil temperature high 
+• turbo oil pressure low 
+• jacket water temperature high 
+• crankcase pressure high 
+• overspeed 
+ 
+The EDGs bypass most trips during Emergency operation.  The following conditions 
+cause an EDG trip during Emergency operations: 
+• overcurrent 
+• generator differential overcurrent 
+• overspeed 
+ 
+The maximum protection is provided during routine EDG operation.  There are fewer 
+active trip signals in emergency operation to maximize EDG availability. This added 
+availability supports a safe shutdown and cooldown of the reactor during accident 
+conditions.  The trips that are retained during emergency operation are major faults that 
+will cause immediate damage to the EDG.   
+ 
+9.2.3.3 480V EP System Switchgear 
+ 
+The 4160V/480V step-down arrangement discussed in the NP system is nearly identical 
+to the arrangement used in the EP system. 
+ 
+A 4160V to 480V three phase transformer supplies a 480V metal-enclosed switchgear 
+on a common bus.  The loads served consist of motors between 100 and 250 hp 
+
+
+
+ 
+Rev 09/11 9.2-5 USNRC HRTD 
+
+connected to the 480Vswitchgear and distribution centers.  The 480V breakers function 
+as both protective and switching devices for the safety related loads.  The protective 
+functions for the 480V EP system include bus ground fault and overcurrent protection. 
+ 
+The 480V EP system buses supply three battery chargers which charge 125VDC 
+battery buses A1, B1, and C1.  Battery bus operation is covered in chapter 9.4. 
+ 
+9.2.4 System Features and Interfaces 
+ 
+A short discussion of this systems features and interfaces with other plant systems is 
+given in the following paragraphs. 
+ 
+9.2.4.1 Normal Operation 
+ 
+During normal plant operation the preferred source of power to the EP system is offsite 
+power supplied through the NSST, Figure 9.2.2.  Backup off site power is supplied by 
+the RSST.  Each of the transformers is capable of supplying the EP system by itself.  
+Off site power is supplied from 138KV or 69KV substations through the NSST or RSST 
+to the three 4160V EP divisions, Figure 9.2.1.  Power from the 4160V EP system buses 
+is stepped down to the 480V EP system.   
+ 
+The 480V EP system buses supply motor control centers, secondary unit substations, 
+and battery chargers. 
+ 
+9.2.4.2 Loss of Offsite Power (LOOP) 
+ 
+This logic discussion assumes a loss of all off site power to the station.   
+ 
+Upon a loss of the normal source of power to the emergency buses, the undervoltage 
+logic first checks the RSST source.  If the RSST is available, a fast transfer to that 
+source is made within 5 cycles of the bus undervoltage.  This does not interrupt power 
+to the bus and no loads are shed.  This function is only available from the NSST to the 
+RSST and does not work in reverse. 
+ 
+If any of the 4160V EP bus undervoltage conditions exists for greater than 2 seconds all 
+the EDGs start.  Also at 2 seconds signal a slow transfer to the RSST is initiated.  This 
+slow transfer causes the following actions: 
+• loads on the 4160V EP buses are shed except for the CRD pump 
+• all of the 480V EP buses are shed 
+• the NSST supply breaker to the 4160V EP system bus is tripped. 
+• the RSST supply breaker is connected to the bus  
+ 
+
+
+
+ 
+Rev 09/11 9.2-6 USNRC HRTD 
+
+If the RSST does not restore bus voltage within 5 seconds of the original undervoltage 
+signal the following actions occur: 
+• the NSST and RSST supply breakers to the 4160V EP system bus are tripped. 
+• when the EDG reaches rated speed and voltage it's supply breaker connects to the 
+
+bus 
+• after seven seconds the RBSWS pump associated with that bus will start 
+ 
+The 4160V EP system buses must be manually realigned following an automatic 
+transfer of power sources.  This is accomplished by electrically paralleling the two 
+power sources.  The EP buses have an automatic synchronization protection logic.  The 
+EDG must be within 20 degrees of synchronization to the normal source before it's 
+supply breaker will close.  When both power sources are synchronized, the breaker of 
+the incoming power source is closed by the operator.   
+ 
+9.2.4.3 Loss of Coolant Accident (LOCA) without a Loss of Offsite Power (LOOP) 
+ 
+A LOCA uses the same basic bus shedding sequence as the bus undervoltage (LOOP).  
+The loads required to support LOCA conditions are different, Table 9.2-2, shows the 
+loads and the connection timing sequence.  Along with the major loads, essential 
+lighting and instrumentation are automatically reconnected to their buses.   
+ 
+All three EDGs start immediately upon receiving the LOCA signal.  The EDGs will 
+continue to run unloaded when a LOCA signal is present.  The NSST or RSST will 
+continue to supply the buses unless there is a LOOP.  Loads that have not been 
+sequenced to the EP system buses can not be reconnected.  To reconnect these loads 
+the LOCA signal must be cleared or bypassed by the station Emergency Operating 
+Procedures (EOPs).   
+ 
+9.2.4.4 LOCA with a LOOP 
+ 
+For a LOCA simultaneously with a LOOP, the EP system buses shed loads in the same 
+manner describe in the LOOP.  All three EDGs immediately start and are connected to 
+their respective 4160V EP buses.  The emergency loads are automatically connected to 
+the EP buses in the sequence shown in Table 9.2-2.  When the LOCA signal has been 
+cleared or bypassed by the EOP's, other loads can be manually reconnected to the 
+buses. 
+ 
+9.2.4.5 Testing 
+ 
+Periodic operability tests are performed on each of the EDGs.  The test EDG is started 
+and brought to rated speed and voltage.  The EDG is then synchronized with a 
+preferred source and loaded for test purposes.   
+ 
+
+
+
+ 
+Rev 09/11 9.2-7 USNRC HRTD 
+
+9.2.4.6 EDG Automatic Initiation Logic 
+ 
+The EDG automatic initiation logic actuates under the following conditions: 
+• undervoltage on any one of the 4160V EP system bus 
+• reactor vessel water level low (Level 1) 
+• drywell pressure high (1.69 psig) 
+• divisional Core Spray or Residual Heat Removal manual initiation 
+ 
+The EDG will idle unloaded or if there is an undervoltage signal present it will 
+automatically connects to its 4160V bus.  The EDG will continue to operate until the 
+automatic start signal has been removed and it is manually shutdown.  The EDG can 
+also be tripped by actuation of any of the active protective devices. 
+ 
+9.2.4.7 System Interfaces 
+ 
+The emergency buses supply normal and emergency power to many plant systems.  
+Table 9.2-1 lists the major 4160v loads supplied by the system. 
+ 
+Normal AC Power System (Section 9.1) 
+ 
+The NP system energizes the emergency buses during normal operation and is the 
+preferred source of power.  Power is normally supplied through the NSST but can be 
+supplied from the RSST. 
+ 
+120V Power System (Section 9.3) 
+ 
+The emergency power system provides emergency power to the 120V power system for 
+lighting and small safety related loads. 
+ 
+DC Power System (Section 9.4) 
+ 
+Control power for EP system circuit breakers, diesel generator field flash and other 
+components is provided by the DC Power system.  The DC Power system batteries are 
+charged by battery chargers powered from the 480V EP system buses. 
+ 
+Reactor Building Service Water System (Section 11.2) 
+ 
+The RBSWS supplies divisional cooling water to the diesel generators when they are 
+operating. 
+ 
+9.2.5 Summary 
+ 
+The Emergency AC Power (EP) system provides a reliable source of AC power to loads 
+required for the safe shutdown and cooldown of the plant.  The preferred source of 
+power to the EP system is the NSST.  The backup source of power is the RSST.  Onsite 
+
+
+
+ 
+Rev 09/11 9.2-8 USNRC HRTD 
+
+EDGs provide emergency power in the event of a LOOP.  EP system distribution 
+equipment is divided into three physically and electrically independent electrical 
+divisions.  Any two of these divisions are capable of bringing the reactor to a safe, cold 
+shutdown, condition in the event of a LOCA or LOOP.  The EDGs will start on a LOCA 
+or a LOOP signal, but only tie to the bus in an undervoltage condition.  The EP system 
+is an engineered safety feature at the facility, as such is safety related (IEEE class 1E). 
+  
+
+
+
+ 
+Rev 09/11 9.2-9 USNRC HRTD 
+
+ 
+Table 9.2-1 
+
+4160V EP System Loads 
+ 
+ 
+
+Bus 101 - Red Division 
+ 
+
+Residual Heat Removal (RHR) pump "A" 
+Core Spray (CS) pump "A" 
+Reactor Building Service Water (RBSW) pump "A" 
+Control Rod Drive (CRD) pump "A" 
+480V Emergency Bus Transformer and loads 
+ 
+
+ 
+Bus 102 - Blue Division 
+
+ 
+RHR pump "B" 
+CS pump "B" 
+RBSW pump "B" 
+CRD pump "B" 
+480V Emergency Bus Transformer and loads 
+ 
+
+ 
+Bus 103 - Orange Division 
+
+ 
+RHR pumps "C" and "D" 
+RBSW pumps "C" and "D" 
+480V Emergency Bus Transformer and loads 
+ 
+
+ 
+
+
+
+ 
+Rev 09/11 9.2-10 USNRC HRTD 
+
+  
+
+
+
+ 
+Rev 09/11 9.2-11 USNRC HRTD 
+
+ 
+ 
+
+Table 9.2-2 
+LOCA Starting Sequence 
+
+ 
+ 
+
+Time Following Closure of the EDG Output Breaker 
+ 
+
+ 
+0  seconds CRD Pumps 
+2  seconds RHR pumps (A, B, and C) start 
+7  seconds CS pumps (A and B) start and RHR pump D starts 
+12 seconds RBSW pumps (A, B, and C or D) start 
+12 seconds Reactor Building chillers (3A, 3B, 4A, and 4B) start 
+15 seconds 480V AC EP system buses tie to the bus 
+
+ 
+ 
+  
+
+
+
+ Figure 9.2-1 Main Line Plant Distribution 
+
+ 
+ 
+ 
+
+ 
+ 
+  
+
+
+
+ Figure 9.2-2 Plant Emergency Distribution 
+
+To NSST To RSST
+
+NC NO
+
+4.16 KV
+Bus 11
+
+T-011A
+NC NO NC
+
+4.16 KV
+Bus 12
+
+NO NC
+
+NC
+
+NC
+
+NC
+
+NO
+
+NO
+
+NO
+
+NC
+
+NC
+
+NC
+
+480 V
+
+480 V
+
+480 V
+
+480 V
+
+Bus 11A
+
+Bus 11B
+
+Bus 11C
+
+Bus 11D
+
+480 V
+
+480 V
+
+480 V
+
+480 V
+
+Bus 12A
+
+Bus 12B
+
+Bus 12C
+
+Bus 12D
+
+T-011B
+
+T-011C
+
+T-011D
+
+T-012A
+
+T-012B
+
+T-012C
+
+T-012D
+
+4160 - 480 V 4160 - 480 V
+
+NO NC NO NCNC
+
+4.16 KV 4.16 KV 4.16 KV
+Emer. Bus 101
+
+(Red Bus)
+
+Emer. Bus 103
+
+(Orange Bus)
+
+Emer. Bus 102
+
+(Blue Bus)
+
+NO
+
+4160-
+480 V
+
+4160-
+480 V
+
+4160-
+480 V
+
+T-101 T-103 T-102
+
+G
+102
+
+G
+103
+
+G
+101
+
+480 V Emer. Bus 112
+(Blue Bus)
+
+480 V Emer. Bus 113
+(Orange Bus)
+
+480 V Emer. Bus 111
+(Red Bus)  
+
+ 
+ 
+
+
+
+ Figure 9.2-3 DG Air Start system 
+
+AIR
+INTAKES
+
+EXHAUST
+SILENCER
+
+INTAKE
+SILENCERS
+
+DIESEL ENGINE
+
+FUEL
+CONTROL
+RACKS
+
+DIESEL
+START
+
+AIR TANK
+
+REGULATOR
+
+INTER-
+COOLERS
+
+TURBO-
+CHARGERS
+
+S
+S S
+
+F F F F
+
+SHUTDOWN
+SIGNAL
+
+COOLING WATER
+
+AIR
+COMPRESSOR
+
+AFTER
+COOLER
+
+COOLING WATER
+
+F
+
+F
+
+AIR
+DRYER
+
+AIR
+DRYER
+
+AFTER
+COOLER
+
+AIR
+COMPRESSOR
+
+NOTES:
+
+F
+
+F
+
+= Filter
+
+= Solenoid Operator
+
+AIR
+TANK
+
+100 CU. FT.
+640 PSIG
+NOMINAL
+
+AIR
+TANK
+
+100 CU. FT.
+640 PSIG
+NOMINAL
+
+S
+
+F
+
+FF
+
+ 
+ 
+
+
+
+ Figure 9.2-4 Diesel Fuel Oil System 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+
+
+
+ Figure 9.2-5 DG Cooling Water System 
+
+ 
+
+JACKET WATER
+HEAT EXCH.
+
+TO D/G
+LUBE OIL
+COOLERReactor Building Service Water
+
+INTERCOOLER
+HEAT EXCHANGER
+
+INTERCOOLER
+AUXILIARY
+
+PUMP
+
+TCV
+
+INTERCOOLER
+PUMP
+
+D/G SHAFT
+
+FROM INTERCOOLER
+
+JACKET WATER
+EXPANSION TANK
+
+FROM VENTS: INTERCOOLER
+: INJECTION
+
+NOZZLE
+COOLING
+
+VENT
+
+MAKEUP
+WATER
+
+TO AIR INTERCOOLER
+
+D/G
+SHAFT
+
+JACKET WATER
+PUMP
+
+JACKET
+WATER
+HEATER
+
+JACKET
+WATER
+
+AUXILIARY
+PUMP
+
+(ELECTRICALLY
+DRIVEN)
+
+TCV
+
+INTERCOOLER
+HEATER
+
+ 
+ 
+
+
+
+ Figure 9.2-6 DG Lube Oil system 
+
+LUBE OIL
+MAKEUP
+
+VENT
+
+LUBE OIL
+AUX. TANK
+
+MAIN LUBE OIL
+
+STRAINER
+
+INJECTION TIMING ROCKERS
+
+CRANKCASE
+OIL
+FILL
+
+ENGINE DRIVEN
+ROCKER LUBE
+
+PUMP
+
+SUMP
+
+ROCKER
+RESERVOR INTERNAL LUBE
+
+PASSAGES
+
+SUMP LEVEL
+CONTROLLEDS
+
+OIL
+SEPARATOR
+
+ATMOS
+
+VENT
+
+MOTOR
+DRIVEN
+PRE-LUBE
+PUMP
+
+D/G SHAFT
+
+CRANKCASE
+GAS
+
+EJECTOR
+
+LUBE OIL
+HEATER
+
+KEEPWARM
+OIL PUMP
+(MOTOR
+DRIVEN)
+
+VENTLINE
+
+LUBE
+OIL
+
+FILTER
+
+BYPASS
+
+TCV
+
+RETURNLUBE OIL
+COOLER
+
+Reactor Building
+Service Water System
+
+ENGINE DRIVEN
+LUBE OIL PUMP
+
+D/G
+SHAFT
+
+F
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+

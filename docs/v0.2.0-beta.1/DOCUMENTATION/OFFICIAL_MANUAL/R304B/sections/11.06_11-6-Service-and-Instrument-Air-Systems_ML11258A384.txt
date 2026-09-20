@@ -1,0 +1,564 @@
+==============================================================================
+NRC HRTD  General Electric BWR/4 Technology Manual (R-304B)
+11.6 Service and Instrument Air Systems  —  0518 - R304B - GE BWR_4 Technology - 11.6 Service and Instrument Air Systems.
+ADAMS ML11258A384   문서일자 2011-09-23   13 쪽   종류 본문
+원본 https://www.nrc.gov/docs/ML1125/ML11258A384.pdf
+이 파일은 manual/fetch_r304b.py 가 ADAMS 검색 API 에서 받은
+NRC 추출 텍스트다. 손으로 고치지 않는다 — 다시 받으면 덮어쓴다.
+==============================================================================
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+General Electric Systems Technology Manual 
+ 
+
+Chapter 11.6 
+ 
+
+Service and Instrument Air Systems 
+ 
+
+
+
+
+
+ 
+
+ 
+Rev 09/11 11-6-i USNRC HRTD 
+
+TABLE OF CONTENTS 
+
+11.6 SERVICE AND INSTRUMENT AIR SYSTEM ........................................................ 1 
+
+11.6.1 Introduction ........................................................................................................ 1 
+
+11.6.2 System Description ............................................................................................ 1 
+
+11.6.3 Component Description ..................................................................................... 2 
+11.6.3.1 Air Compressors ........................................................................................ 2 
+11.6.3.2 Air Receivers ............................................................................................. 3 
+11.6.3.3 Instrument Air Dryer .................................................................................. 3 
+11.6.3.4 Service Air Header Isolation Valve (AOV-010) .......................................... 3 
+
+11.6.4 System Features and Interfaces ........................................................................ 3 
+11.6.4.1 System Operation ...................................................................................... 4 
+11.6.4.2 System Interfaces ...................................................................................... 4 
+
+11.6.5  Summary ........................................................................................................... 5 
+ 
+ 
+ 
+
+LIST OF TABLES 
+ 
+11.6-1 Service and Instrument Air System Design Loads ................................................ 7 
+ 
+  
+
+
+
+ 
+
+ 
+Rev 09/11 11-6-ii USNRC HRTD 
+
+ 
+LIST OF FIGURES 
+
+ 
+11.6-1 Service and Instrument Air System 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 11-6-1 USNRC HRTD 
+
+ 
+11.6 SERVICE AND INSTRUMENT AIR SYSTEM 
+ 
+Learning Objectives: 
+ 
+1. Recognize the purpose of the Service and Instrument Air System. 
+ 
+2. Recognize the purpose, function and operation of the following major components: 
+
+a. air compressors 
+b. air receivers 
+c. instrument air dryer 
+d. service air header isolation valve  
+
+ 
+3. Recognize the normal flow path of the service and instrument air system. 
+
+ 
+4. Recognize the response of the following components to a loss of instrument air: 
+
+a. Main steam isolation valves 
+b. Minimum flow valves for pumps in the condensate and feedwater system 
+c. Control rods 
+d. Feedwater heater extraction steam and drain valves 
+
+ 
+5. Recognize how the Service and Instrument Air system interfaces with the following 
+
+systems: 
+a. Turbine Building Closed Loop Cooling Water System (Section 11.5) 
+b. Primary Containment System (Section 4.1) 
+
+ 
+11.6.1 Introduction 
+ 
+The purpose of the service and instrument air system is to provide a continuous supply 
+of compressed air of suitable quality and pressure for instruments, controls, and station 
+use.  Representative loads are listed in Table 11.6-1. 
+ 
+The functional classification of the service and instrument air system is that of a power 
+generation system, although some components are safety related. 
+ 
+11.6.2 System Description 
+ 
+Three centrifugal air compressors, one continuously operating with two normally in 
+standby, maintain approximately 125 psig pressure.  If system air header pressure 
+drops, one of the standby air compressors automatically starts. If the air header 
+pressure continues to drop, the second standby air compressor automatically starts. 
+ 
+A connection off the common header opens when system pressure exceeds 95 psig to 
+supply clean, oil-free service air to components throughout the plant.  Should system 
+
+
+
+ 
+
+ 
+Rev 09/11 11-6-2 USNRC HRTD 
+
+pressure drop below 95 psig, an automatic isolation valve closes to shed these service 
+air loads to preserve supply for the instrument air loads. The service air header also 
+supplies breathing air stations. 
+ 
+In parallel with the service air connection, an instrument air dryer removes moisture 
+from the process flow. The instrument air system then supplies clean, dry, oil-free air for 
+components throughout the plant.  
+ 
+The instrument air system, using nitrogen supplied from the primary containment 
+inerting system, supplies pneumatically controlled components, such as the safety relief 
+valves and inboard main steam isolation valves, inside the drywell. 
+ 
+11.6.3 Component Description 
+ 
+The major components of the service and instrument air system are described in the 
+following sections and shown in Figure 11.6-1. 
+ 
+11.6.3.1 Air Compressors 
+ 
+Each of the three motor-driven, centrifugal, three-stage, water-cooled, oil-lubricated air 
+compressors is rated at 1,353 standard cubic feet per minute (scfm) flow at 125 psig.  
+The air compressors are located in the turbine building.  An inlet filter/silencer removes 
+particles and routes the air through a baffle to reduce noise. 
+ 
+Air leaves the first stage compressor at 20 psig and 280ºF and enters an intercooler 
+where it is cooled to 105ºF by the Turbine Building Closed Loop Cooling Water 
+(TBCLCW) System. 
+ 
+Air leaves the second stage compressor at 60 psig and 280ºF and enters another 
+intercooler where it is cooled to 105ºF by the TBCLCW system. 
+ 
+Air leaves the third stage compressor at 125 psig and 283ºF and enters an after-cooler 
+where it is cooled to 97ºF by the TBCLCW system.  Moisture separators are connected 
+to the after-cooler outlets to remove condensation from the compressed air flow. 
+ 
+Each third stage compressor has a discharge pressure control valve that automatically 
+opens at approximately 125 psig to prevent over pressurizing the system.  The 
+discharge pressure control valve automatically closes at approximately 119 psig to 
+restore system pressure. 
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 11.6-3 USNRC HRTD 
+
+An air compressor will automatically trip on any of the following conditions: 
+• High temperature (125ºF) at the outlet of intercooler No. 1 
+• High temperature (125ºF) at the outlet of intercooler No. 2 
+• Low lube oil pressure (20 psig) 
+• High lube oil temperature (140ºF) 
+• High vibration (0.32 to 0.48 inches per second) 
+• Under voltage (70 percent of normal) 
+ 
+11.6.3.2 Air Receivers 
+ 
+The exhaust from each air compressor is collected in an air receiver.  Each air receiver 
+is a carbon steel tank 72 inches in diameter and 192 inches long for a storage volume of 
+400 cubic feet.  Each tank has a safety relief valve for protection against overpressure.  
+A level switch and solenoid drain valve automatically drains water from the tank. 
+ 
+11.6.3.3 Instrument Air Dryer 
+ 
+The instrument air dryer is designed to provide 450 scfm of clean, dry air at 125 psig.  
+The instrument air dryer has two tower-type dryer chambers each filled with 285 pounds 
+of silica gel.  Each unit is equipped with a 15 kilowatt internal heater.  The process flow 
+passes through one of the dryer chambers.  The second chamber is off-line with its 
+heater energized to reactivate the desiccant.  Controls automatically swap between 
+chambers every four hours. 
+ 
+Two 110 percent capacity pre-filters are installed in parallel upstream of the instrument 
+air dryer.  The filter cartridges are designed to remove water droplets and particles sized 
+one micron and larger. 
+ 
+Two 100 percent capacity after filters are installed in parallel downstream of the 
+instrument air dryer.  The filter cartridges are designed to remove water droplets and 
+particles sized one micron and larger. 
+ 
+11.6.3.4 Service Air Header Isolation Valve (AOV-010) 
+ 
+The service air header isolation valve (AOV-010 on Figure 11-6-1) opens when 
+instrument air header pressure is above 95 psig and closes when instrument air header 
+pressure drops below 95 psig.  This valve opens to supply service air loads only when 
+adequate instrument air supply is available. 
+ 
+11.6.4 System Features and Interfaces 
+ 
+System operation and interrelations between this system and other plant systems are 
+discussed in the following paragraphs. 
+
+
+
+ 
+
+ 
+Rev 09/11 11-6-4 USNRC HRTD 
+
+ 
+11.6.4.1 System Operation 
+ 
+During normal operation, one of the three air compressors is operating continuously.  
+The running air compressor cycles between unload (3rd stage compressor discharge 
+pressure control valve venting flow) and load phases (discharge pressure control valve 
+closed). 
+ 
+One of the two standby air compressors is selected as the primary backup with the 
+other being the secondary backup.  If the air header pressure drops to 110 psig, the 
+primary backup air compressor automatically starts.  If the air header pressure drops to 
+105 psig, the secondary backup air compressor starts.  If the air header pressure drops 
+to 95 psig, the service air header isolation valve (AOV-010) automatically closes. 
+ 
+Once started either manually or automatically, an air compressor remains running until 
+manually shut off or tripped by one of the conditions discussed in Section 11.6.3.1. 
+ 
+The instrument air system uses nitrogen supplied by the primary containment inerting 
+system to provide pneumatic control of certain components, like the safety relief valves 
+and the inboard main steam isolation valves.  This arrangement prevents instrument air 
+system leaks inside the drywell from increasing the oxygen concentration of the inerted 
+atmosphere for protection against hydrogen ignitions in event of an accident. 
+ 
+The service and instrument air system is not required to operate to mitigate any design 
+bases accident.  If the service and instrument air system stops operating, the fail-safe 
+mode of air-operated valves, such as the scram inlet and outlet valves in the control rod 
+drive system and the outboard main steam isolation valves in the main steam system, 
+will eventually lead to an automatic reactor scram as air header pressure decays. 
+ 
+11.6.4.2 System Interfaces 
+ 
+The service and instrument air system interfaces with various other plant systems as 
+described in the following paragraphs. 
+ 
+Turbine Building Closed Loop Cooling Water System (Section 11.5)  
+ 
+The turbine building closed loop cooling water system supplies the service and 
+instrument air system with cooling water for compressor intercoolers and after-cooler. 
+ 
+Primary Containment Inerting System (Section 4.1) 
+ 
+The primary containment inerting system can supply nitrogen to the portion of the 
+instrument air system that supplies components within the drywell.  
+ 
+
+
+
+ 
+
+ 
+Rev 09/11 11.6-5 USNRC HRTD 
+
+11.6.5 Summary 
+ 
+Classification - Power generation system 
+ 
+Purpose - To provide a continuous supply of compressed air of suitable quality and 
+pressure for instruments, controls, and station use. 
+ 
+Components – Air compressors, air receivers, instrument air dryer, and service air 
+header isolation valve 
+ 
+System Interrelations – Turbine Building Closed Loop Cooling Water System, Primary 
+Containment Inerting System 
+
+
+
+ 
+
+ 
+Rev 09/11 11-6-6 USNRC HRTD 
+
+
+
+ 
+
+ 
+Rev 09/11 11.6-7 USNRC HRTD 
+
+TABLE 11.6-1  Service and Instrument Air System Design Loads 
+ 
+ 
+ 
+
+Continuous Loads Design Flow, scfm 
+Make-up demineralizer 5 
+Condensate demineralizers 5 
+Extraction steam non-return valves 30 
+Control rod drive system scram inlet and outlet valves 1.1 
+Balance of plant (instrument air) 300 
+Balance of plant (service air) 300 
+Outboard main steam isolation valve 30 
+Screenwell Differential Bubblers 0.5 
+Standby liquid control tank level instrument <2.0 scfh 
+  
+
+Intermittent Demands  
+Make-up demineralizer 148 (20 minutes) 
+Condensate demineralizer 300 (25 minutes) 
+Radwaste filters (2) 900 each (60 minutes) 
+Reactor water cleanup filter demineralizer 126 (20 minutes) 
+Tank sparging 227 (60 minutes) 
+  
+
+Startup and Shutdown Loads  
+Fuel preparation machine 180 
+Main steam isolation valves 4,000 (3 seconds) 
+Extraction steam valves 2,254 
+Head stud tension assembly 80 (12 minutes) 
+ 
+ 
+
+
+
+
+
+ 
+
+ Figure 11.6-1  Service and Instrument Air System 
+
+ 
+
+
+
+<<
+  /ASCII85EncodePages false
+  /AllowTransparency false
+  /AutoPositionEPSFiles true
+  /AutoRotatePages /PageByPage
+  /Binding /Left
+  /CalGrayProfile (None)
+  /CalRGBProfile (sRGB IEC61966-2.1)
+  /CalCMYKProfile (U.S. Web Coated \050SWOP\051 v2)
+  /sRGBProfile (sRGB IEC61966-2.1)
+  /CannotEmbedFontPolicy /Warning
+  /CompatibilityLevel 1.4
+  /CompressObjects /Tags
+  /CompressPages true
+  /ConvertImagesToIndexed true
+  /PassThroughJPEGImages true
+  /CreateJDFFile false
+  /CreateJobTicket true
+  /DefaultRenderingIntent /Default
+  /DetectBlends true
+  /DetectCurves 0.1000
+  /ColorConversionStrategy /UseDeviceIndependentColor
+  /DoThumbnails false
+  /EmbedAllFonts true
+  /EmbedOpenType false
+  /ParseICCProfilesInComments true
+  /EmbedJobOptions true
+  /DSCReportingLevel 0
+  /EmitDSCWarnings false
+  /EndPage -1
+  /ImageMemory 1048576
+  /LockDistillerParams false
+  /MaxSubsetPct 100
+  /Optimize true
+  /OPM 1
+  /ParseDSCComments true
+  /ParseDSCCommentsForDocInfo true
+  /PreserveCopyPage true
+  /PreserveDICMYKValues true
+  /PreserveEPSInfo true
+  /PreserveFlatness true
+  /PreserveHalftoneInfo false
+  /PreserveOPIComments true
+  /PreserveOverprintSettings true
+  /StartPage 1
+  /SubsetFonts true
+  /TransferFunctionInfo /Preserve
+  /UCRandBGInfo /Preserve
+  /UsePrologue false
+  /ColorSettingsFile ()
+  /AlwaysEmbed [ true
+  ]
+  /NeverEmbed [ true
+  ]
+  /AntiAliasColorImages false
+  /CropColorImages true
+  /ColorImageMinResolution 150
+  /ColorImageMinResolutionPolicy /OK
+  /DownsampleColorImages false
+  /ColorImageDownsampleType /Bicubic
+  /ColorImageResolution 150
+  /ColorImageDepth 8
+  /ColorImageMinDownsampleDepth 1
+  /ColorImageDownsampleThreshold 1.50000
+  /EncodeColorImages true
+  /ColorImageFilter /FlateEncode
+  /AutoFilterColorImages false
+  /ColorImageAutoFilterStrategy /JPEG
+  /ColorACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /ColorImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000ColorACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000ColorImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasGrayImages false
+  /CropGrayImages true
+  /GrayImageMinResolution 150
+  /GrayImageMinResolutionPolicy /OK
+  /DownsampleGrayImages false
+  /GrayImageDownsampleType /Bicubic
+  /GrayImageResolution 150
+  /GrayImageDepth 8
+  /GrayImageMinDownsampleDepth 2
+  /GrayImageDownsampleThreshold 1.50000
+  /EncodeGrayImages true
+  /GrayImageFilter /FlateEncode
+  /AutoFilterGrayImages false
+  /GrayImageAutoFilterStrategy /JPEG
+  /GrayACSImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /GrayImageDict <<
+    /QFactor 0.76
+    /HSamples [2 1 1 2] /VSamples [2 1 1 2]
+  >>
+  /JPEG2000GrayACSImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /JPEG2000GrayImageDict <<
+    /TileWidth 256
+    /TileHeight 256
+    /Quality 15
+  >>
+  /AntiAliasMonoImages false
+  /CropMonoImages true
+  /MonoImageMinResolution 1200
+  /MonoImageMinResolutionPolicy /OK
+  /DownsampleMonoImages false
+  /MonoImageDownsampleType /Bicubic
+  /MonoImageResolution 1200
+  /MonoImageDepth -1
+  /MonoImageDownsampleThreshold 1.50000
+  /EncodeMonoImages false
+  /MonoImageFilter /CCITTFaxEncode
+  /MonoImageDict <<
+    /K -1
+  >>
+  /AllowPSXObjects false
+  /CheckCompliance [
+    /None
+  ]
+  /PDFX1aCheck false
+  /PDFX3Check false
+  /PDFXCompliantPDFOnly false
+  /PDFXNoTrimBoxError true
+  /PDFXTrimBoxToMediaBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXSetBleedBoxToMediaBox true
+  /PDFXBleedBoxToTrimBoxOffset [
+    0.00000
+    0.00000
+    0.00000
+    0.00000
+  ]
+  /PDFXOutputIntentProfile (None)
+  /PDFXOutputConditionIdentifier ()
+  /PDFXOutputCondition ()
+  /PDFXRegistryName ()
+  /PDFXTrapped /False
+
+  /Description <<
+    /CHS <FEFF4f7f75288fd94e9b8bbe5b9a521b5efa7684002000410064006f006200650020005000440046002065876863900275284e8e55464e1a65876863768467e5770b548c62535370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c676562535f00521b5efa768400200050004400460020658768633002>
+    /CHT <FEFF4f7f752890194e9b8a2d7f6e5efa7acb7684002000410064006f006200650020005000440046002065874ef69069752865bc666e901a554652d965874ef6768467e5770b548c52175370300260a853ef4ee54f7f75280020004100630072006f0062006100740020548c002000410064006f00620065002000520065006100640065007200200035002e003000204ee553ca66f49ad87248672c4f86958b555f5df25efa7acb76840020005000440046002065874ef63002>
+    /DAN <FEFF004200720075006700200069006e0064007300740069006c006c0069006e006700650072006e0065002000740069006c0020006100740020006f007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400650072002c0020006400650072002000650067006e006500720020007300690067002000740069006c00200064006500740061006c006a006500720065007400200073006b00e60072006d007600690073006e0069006e00670020006f00670020007500640073006b007200690076006e0069006e006700200061006600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020004400650020006f007000720065007400740065006400650020005000440046002d0064006f006b0075006d0065006e0074006500720020006b0061006e002000e50062006e00650073002000690020004100630072006f00620061007400200065006c006c006500720020004100630072006f006200610074002000520065006100640065007200200035002e00300020006f00670020006e0079006500720065002e>
+    /DEU <FEFF00560065007200770065006e00640065006e0020005300690065002000640069006500730065002000450069006e007300740065006c006c0075006e00670065006e0020007a0075006d002000450072007300740065006c006c0065006e00200076006f006e002000410064006f006200650020005000440046002d0044006f006b0075006d0065006e00740065006e002c00200075006d002000650069006e00650020007a0075007600650072006c00e40073007300690067006500200041006e007a006500690067006500200075006e00640020004100750073006700610062006500200076006f006e00200047006500730063006800e40066007400730064006f006b0075006d0065006e00740065006e0020007a0075002000650072007a00690065006c0065006e002e00200044006900650020005000440046002d0044006f006b0075006d0065006e007400650020006b00f6006e006e0065006e0020006d006900740020004100630072006f00620061007400200075006e0064002000520065006100640065007200200035002e003000200075006e00640020006800f600680065007200200067006500f600660066006e00650074002000770065007200640065006e002e>
+    /ESP <FEFF005500740069006c0069006300650020006500730074006100200063006f006e0066006900670075007200610063006900f3006e0020007000610072006100200063007200650061007200200064006f00630075006d0065006e0074006f0073002000640065002000410064006f00620065002000500044004600200061006400650063007500610064006f007300200070006100720061002000760069007300750061006c0069007a00610063006900f3006e0020006500200069006d0070007200650073006900f3006e00200064006500200063006f006e006600690061006e007a006100200064006500200064006f00630075006d0065006e0074006f007300200063006f006d00650072006300690061006c00650073002e002000530065002000700075006500640065006e00200061006200720069007200200064006f00630075006d0065006e0074006f00730020005000440046002000630072006500610064006f007300200063006f006e0020004100630072006f006200610074002c002000410064006f00620065002000520065006100640065007200200035002e003000200079002000760065007200730069006f006e0065007300200070006f00730074006500720069006f007200650073002e>
+    /FRA <FEFF005500740069006c006900730065007a00200063006500730020006f007000740069006f006e00730020006100660069006e00200064006500200063007200e900650072002000640065007300200064006f00630075006d0065006e00740073002000410064006f006200650020005000440046002000700072006f00660065007300730069006f006e006e0065006c007300200066006900610062006c0065007300200070006f007500720020006c0061002000760069007300750061006c00690073006100740069006f006e0020006500740020006c00270069006d007000720065007300730069006f006e002e0020004c0065007300200064006f00630075006d0065006e00740073002000500044004600200063007200e900e90073002000700065007500760065006e0074002000ea0074007200650020006f007500760065007200740073002000640061006e00730020004100630072006f006200610074002c002000610069006e00730069002000710075002700410064006f00620065002000520065006100640065007200200035002e0030002000650074002000760065007200730069006f006e007300200075006c007400e90072006900650075007200650073002e>
+    /ITA (Utilizzare queste impostazioni per creare documenti Adobe PDF adatti per visualizzare e stampare documenti aziendali in modo affidabile. I documenti PDF creati possono essere aperti con Acrobat e Adobe Reader 5.0 e versioni successive.)
+    /JPN <FEFF30d330b830cd30b9658766f8306e8868793a304a3088307353705237306b90693057305f002000410064006f0062006500200050004400460020658766f8306e4f5c6210306b4f7f75283057307e305930023053306e8a2d5b9a30674f5c62103055308c305f0020005000440046002030d530a130a430eb306f3001004100630072006f0062006100740020304a30883073002000410064006f00620065002000520065006100640065007200200035002e003000204ee5964d3067958b304f30533068304c3067304d307e305930023053306e8a2d5b9a3067306f30d530a930f330c8306e57cb30818fbc307f3092884c3044307e30593002>
+    /KOR <FEFFc7740020c124c815c7440020c0acc6a9d558c5ec0020be44c988b2c8c2a40020bb38c11cb97c0020c548c815c801c73cb85c0020bcf4ace00020c778c1c4d558b2940020b3700020ac00c7a50020c801d569d55c002000410064006f0062006500200050004400460020bb38c11cb97c0020c791c131d569b2c8b2e4002e0020c774b807ac8c0020c791c131b41c00200050004400460020bb38c11cb2940020004100630072006f0062006100740020bc0f002000410064006f00620065002000520065006100640065007200200035002e00300020c774c0c1c5d0c11c0020c5f40020c2180020c788c2b5b2c8b2e4002e>
+    /NLD (Gebruik deze instellingen om Adobe PDF-documenten te maken waarmee zakelijke documenten betrouwbaar kunnen worden weergegeven en afgedrukt. De gemaakte PDF-documenten kunnen worden geopend met Acrobat en Adobe Reader 5.0 en hoger.)
+    /NOR <FEFF004200720075006b00200064006900730073006500200069006e006e007300740069006c006c0069006e00670065006e0065002000740069006c002000e50020006f0070007000720065007400740065002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e00740065007200200073006f006d002000650072002000650067006e0065007400200066006f00720020007000e5006c006900740065006c006900670020007600690073006e0069006e00670020006f00670020007500740073006b007200690066007400200061007600200066006f0072007200650074006e0069006e006700730064006f006b0075006d0065006e007400650072002e0020005000440046002d0064006f006b0075006d0065006e00740065006e00650020006b0061006e002000e50070006e00650073002000690020004100630072006f00620061007400200065006c006c00650072002000410064006f00620065002000520065006100640065007200200035002e003000200065006c006c00650072002e>
+    /PTB <FEFF005500740069006c0069007a006500200065007300730061007300200063006f006e00660069006700750072006100e700f50065007300200064006500200066006f0072006d00610020006100200063007200690061007200200064006f00630075006d0065006e0074006f0073002000410064006f00620065002000500044004600200061006400650071007500610064006f00730020007000610072006100200061002000760069007300750061006c0069007a006100e700e3006f002000650020006100200069006d0070007200650073007300e3006f00200063006f006e0066006900e1007600650069007300200064006500200064006f00630075006d0065006e0074006f007300200063006f006d0065007200630069006100690073002e0020004f007300200064006f00630075006d0065006e0074006f00730020005000440046002000630072006900610064006f007300200070006f00640065006d0020007300650072002000610062006500720074006f007300200063006f006d0020006f0020004100630072006f006200610074002000650020006f002000410064006f00620065002000520065006100640065007200200035002e0030002000650020007600650072007300f50065007300200070006f00730074006500720069006f007200650073002e>
+    /SUO <FEFF004b00e40079007400e40020006e00e40069007400e4002000610073006500740075006b007300690061002c0020006b0075006e0020006c0075006f0074002000410064006f0062006500200050004400460020002d0064006f006b0075006d0065006e007400740065006a0061002c0020006a006f0074006b006100200073006f0070006900760061007400200079007200690074007900730061007300690061006b00690072006a006f006a0065006e0020006c0075006f00740065007400740061007600610061006e0020006e00e400790074007400e4006d0069007300650065006e0020006a0061002000740075006c006f007300740061006d0069007300650065006e002e0020004c0075006f0064007500740020005000440046002d0064006f006b0075006d0065006e00740069007400200076006f0069006400610061006e0020006100760061007400610020004100630072006f0062006100740069006c006c00610020006a0061002000410064006f00620065002000520065006100640065007200200035002e0030003a006c006c00610020006a006100200075007500640065006d006d0069006c006c0061002e>
+    /SVE <FEFF0041006e007600e4006e00640020006400650020006800e4007200200069006e0073007400e4006c006c006e0069006e006700610072006e00610020006f006d002000640075002000760069006c006c00200073006b006100700061002000410064006f006200650020005000440046002d0064006f006b0075006d0065006e007400200073006f006d00200070006100730073006100720020006600f60072002000740069006c006c006600f60072006c00690074006c006900670020007600690073006e0069006e00670020006f006300680020007500740073006b007200690066007400650072002000610076002000610066006600e4007200730064006f006b0075006d0065006e0074002e002000200053006b006100700061006400650020005000440046002d0064006f006b0075006d0065006e00740020006b0061006e002000f600700070006e00610073002000690020004100630072006f0062006100740020006f00630068002000410064006f00620065002000520065006100640065007200200035002e00300020006f00630068002000730065006e006100720065002e>
+    /ENU (Use these settings to create Adobe PDF documents suitable for reliable viewing and printing of business documents.  Created PDF documents can be opened with Acrobat and Adobe Reader 5.0 and later.)
+  >>
+>> setdistillerparams
+<<
+  /HWResolution [300 300]
+  /PageSize [612.000 792.000]
+>> setpagedevice
+
+
