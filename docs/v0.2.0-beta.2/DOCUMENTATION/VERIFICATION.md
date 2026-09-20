@@ -5474,6 +5474,90 @@ profile, numeric reports, NMS full startup, or 30-day stress. Physics, plant-sys
 and panel layout are byte-identical to the already verified private source snapshot; this
 change adds repository-role documents, licensing, archive policy tests, and CI only.
 
+### 13.41 GitHub-rendered release documentation and v0.2.0-beta.2 (2026-09-20)
+
+The beta.1 bundles copied Markdown user documents into every native archive. On a tester
+machine where `.md` was associated with Claude, opening the documentation launched that
+local application rather than presenting an ordinary beginner-facing document. The
+binary distribution repository now tracks the curated documentation under versioned
+GitHub paths. Both `docs/v0.2.0-beta.1` and `docs/v0.2.0-beta.2` contain 110 files: five
+Markdown entry/reference documents, 104 official-manual text extracts, and one TSV index.
+The required beginner guide, physics reference, verification report, R-104B parts, and
+R-304B index are present. Internal change histories, plans, test reports, collection
+scripts, and reading notes are not published as files. A stale public-index link to the
+excluded `READING_NOTES.md` was removed.
+
+Public distribution commit `54c24ea` adds the two documentation trees and a README table
+linking directly to the GitHub-rendered beginner, physics, verification, and official
+manual pages. The existing beta.1 release description was edited to provide immutable
+commit-pinned links to those pages; its already published native archives and checksums
+were not changed.
+
+The native bundle contract changes in beta.2 are:
+
+- no copied `START_HERE.md` or `DOCUMENTATION/` tree;
+- one `OPEN_DOCUMENTATION.html` file whose meta refresh and ordinary anchor both point to
+  `bwr4-simulator-releases/blob/v<version>/docs/v<version>/START_HERE.md`;
+- the project terms renamed from `LICENSE.md` to plain-text `LICENSE.txt`; and
+- the required third-party notices retained as `THIRD_PARTY_LICENSES/*.txt`.
+
+The version was advanced to `0.2.0-beta.2` instead of replacing beta.1 assets under the
+same filenames and invalidating already published checksums. Local checks were:
+
+```text
+python -m unittest tests.release_contracts -v
+11 tests, 0.292 s, exit 0
+
+python -m py_compile packaging/release_docs.py packaging/build_beta.py \
+  tests/release_contracts.py core/version.py
+exit 0
+
+git diff --check
+exit 0
+```
+
+The added contract constructs the bundle documentation target in a temporary directory,
+asserts that its only file is `OPEN_DOCUMENTATION.html`, rejects any generated `.md`,
+checks the exact beta.2 tag URL, and verifies that the native builder copies
+`LICENSE.txt` rather than `LICENSE.md`.
+
+Not run for this packaging-only change: integration, the six-case GUI profile, numeric
+reports, NMS full startup, or 30-day stress. Plant physics, systems, and panel layout did
+not change.
+
+GitHub Actions run
+[`35514861446`](https://github.com/Loun0521/bwr4-simulator/actions/runs/35514861446)
+completed successfully for source commit `79e84b92fa75a5376af522f6eda122305656daf2`.
+Fast verification passed in 2 min 17 s. All five native build jobs and their packaged
+smoke tests passed: Windows x64 (23 s build/smoke), Linux x64 (42 s), Linux arm64
+(30 s), macOS x64 (39 s), and macOS arm64 (25 s). The release job was intentionally
+skipped because this was a manually dispatched verification run.
+
+The five downloaded archives were inspected without relying only on the build jobs.
+Every `.sha256` sidecar matched its archive, every platform executable was present,
+`OPEN_DOCUMENTATION.html` occurred exactly once, and both its meta refresh and normal
+link contain the exact immutable documentation target:
+
+```text
+https://github.com/Loun0521/bwr4-simulator-releases/blob/v0.2.0-beta.2/docs/v0.2.0-beta.2/START_HERE.md
+```
+
+| archive | bytes | SHA-256 |
+|---|---:|---|
+| Linux arm64 | 54,439,764 | `47f8f79737979ae93dd5dc7e9aa5fd4f09b5e6f8f8e15feb0859eced02e411d3` |
+| Linux x64 | 56,238,162 | `d8b616ed889c3a7bfadeac1dadfd215aebfe5109c3bfc52b6666c2dda94e2aed` |
+| macOS arm64 | 18,298,319 | `aec5d43c1318595d1e1ee6776829339b02628e92f946cb693290bf722d5c1731` |
+| macOS x64 | 19,759,383 | `abf34e417c5d0286c17511a6bd89a3a9c07d8b8d56027957c46e9f85114c546e` |
+| Windows x64 | 26,419,872 | `419e4474a1ccc7dd51fdfd495e6da2fe2fba82641e1fb4543d2329b2362da915` |
+
+Each archive has zero user-facing Markdown files and no copied `START_HERE.md` or
+`DOCUMENTATION/` tree. Each PyInstaller runtime contains nine NumPy license originals
+under `numpy-*.dist-info/licenses/**/LICENSE.md`; these are mandatory third-party license
+materials, not simulator documentation exposed to the user. The root `LICENSE.txt` and
+all five curated third-party text notices (`PYTHON`, `NUMPY`, `PYINSTALLER`, `TCL`, and
+`TK`) are present. The inspected artifacts are published as the public prerelease
+[`v0.2.0-beta.2`](https://github.com/Loun0521/bwr4-simulator-releases/releases/tag/v0.2.0-beta.2).
+
 ## 14. Completeness audit — what the model does not contain at all
 
 Dated 2026-09-18. §9 lists gaps *within* systems the model has; this section
